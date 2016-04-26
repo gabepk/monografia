@@ -1,0 +1,9 @@
+\select@language {brazil}
+\beamer@sectionintoc {1}{Justificativa}{3}{0}{1}
+\beamer@sectionintoc {2}{Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{4}{0}{2}
+\beamer@sectionintoc {3}{Problema e Hip\IeC {\'o}teses}{9}{0}{3}
+\beamer@sectionintoc {4}{Objetivos}{11}{0}{4}
+\beamer@sectionintoc {5}{Metodologia}{12}{0}{5}
+\beamer@sectionintoc {6}{Refer\IeC {\^e}ncias}{14}{0}{6}
+\beamer@endinputifotherversion {3.24pt}
+\select@language {american}
