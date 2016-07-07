@@ -17,11 +17,11 @@
 \contentsline {subsection}{\numberline {2.1.2}RNA}{6}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}S\IeC {\'\i }ntese de Prote\IeC {\'\i }na}{7}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Prote\IeC {\'\i }na}{7}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}C\IeC {\'o}digo Gen\IeC {\'e}tico}{8}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}C\IeC {\'o}digo Gen\IeC {\'e}tico}{9}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Transcri\IeC {\c c}\IeC {\~a}o e tradu\IeC {\c c}\IeC {\~a}o}{9}{subsection.2.2.3}
-\contentsline {section}{\numberline {2.3}Bioinform\IeC {\'a}tica}{10}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Sequenciamento}{10}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Desafio das \IeC {\^o}micas}{10}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.3}Bioinform\IeC {\'a}tica}{9}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Sequenciamento}{9}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Desafio das \IeC {\^o}micas}{9}{subsection.2.3.2}
 \contentsline {chapter}{\numberline {3}Redes Metab\IeC {\'o}licas}{11}{chapter.3}
 \contentsline {chapter}{\numberline {4}Banco de Dados NoSQL}{12}{chapter.4}
 \contentsline {chapter}{\numberline {5}Resultados}{13}{chapter.5}

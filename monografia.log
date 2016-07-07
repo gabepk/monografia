@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.10)  26 JUN 2016 19:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.10)  7 JUL 2016 01:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -976,6 +976,12 @@ Package babel Warning: You haven't loaded the language english yet
 (babel)                I'll proceed, but expect unexpected results.
 (babel)                Reported on input line 204.
 
+
+Overfull \hbox (25.43826pt too wide) in paragraph at lines 206--208
+\T1/cmr/bx/n/12 Keywords: \T1/cmr/m/n/12 Molec-u-lar Bi-ol-ogy, Bioin-for-mat-i
+cs, Metabolic Net-works, Non-Relational Database,
+ []
+
 [4
 
 
@@ -1001,12 +1007,17 @@ Package babel Warning: You haven't loaded the language english yet
 (./capitulos/capitulo1.tex
 Cap\'{\i }tulo 1.
 
-Overfull \hbox (109.8593pt too wide) in paragraph at lines 39--40
-[][]
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
@@ -1014,7 +1025,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
 
 ]
-Overfull \vbox (24.99898pt too high) has occurred while \output is active []
+Overfull \vbox (0.41592pt too high) has occurred while \output is active []
 
 
 [2] <./figuras/JamesWatsonAndFrancisCrick.jpg, id=251, 1204.5pt x 722.7pt>
@@ -1022,22 +1033,22 @@ File: ./figuras/JamesWatsonAndFrancisCrick.jpg Graphic file (type jpg)
 
 <use ./figuras/JamesWatsonAndFrancisCrick.jpg>
 Package pdftex.def Info: ./figuras/JamesWatsonAndFrancisCrick.jpg used on input
- line 57.
+ line 61.
 (pdftex.def)             Requested size: 481.79147pt x 289.07487pt.
 
-Overfull \hbox (26.54736pt too wide) in paragraph at lines 57--58
+Overfull \hbox (26.54736pt too wide) in paragraph at lines 61--62
  [][] 
  []
 
 [3 <./figuras/JamesWatsonAndFrancisCrick.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 100.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 104.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 100.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 104.
 )
 (./capitulos/capitulo2.tex [4]
 Cap\'{\i }tulo 2.
@@ -1045,15 +1056,39 @@ Cap\'{\i }tulo 2.
 LaTeX Warning: Reference `acidosNucleicos' on page 5 undefined on input line 3.
 
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
 <./figuras/nucleotideo.png, id=263, 52.998pt x 31.317pt>
 File: ./figuras/nucleotideo.png Graphic file (type png)
 
 <use ./figuras/nucleotideo.png>
 Package pdftex.def Info: ./figuras/nucleotideo.png used on input line 18.
 (pdftex.def)             Requested size: 182.09486pt x 107.62845pt.
- [5
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+[5
 
  <./figuras/nucleotideo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
 <./figuras/dnaEstrutura.jpg, id=280, 150.8034pt x 139.4811pt>
 File: ./figuras/dnaEstrutura.jpg Graphic file (type jpg)
 
@@ -1064,7 +1099,31 @@ Package pdftex.def Info: ./figuras/dnaEstrutura.jpg used on input line 37.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6] [7 <./figuras/dnaEstrutura.jpg>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--50
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+[7 <./figuras/dnaEstrutura.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
 <./figuras/EstruturasDaProteina.pdf, id=297, 289.08pt x 409.53pt>
 File: ./figuras/EstruturasDaProteina.pdf Graphic file (type pdf)
 
@@ -1073,12 +1132,22 @@ Package pdftex.def Info: ./figuras/EstruturasDaProteina.pdf used on input line
 70.
 (pdftex.def)             Requested size: 227.62206pt x 322.46283pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+[8 <./figuras/EstruturasDaProteina.pdf>]
 Overfull \hbox (10.52632pt too wide) in paragraph at lines 79--80
 \T1/cmr/bx/n/12 DISSO. http://www.sobiologia.com.br/conteudos/Corpo/Celula3.php
 \T1/cmr/m/n/12 . Um gene,
  []
 
-[8 <./figuras/EstruturasDaProteina.pdf>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
@@ -1093,7 +1162,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
-[9]) (./capitulos/capitulo3.tex [10]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./capitulos/capitulo3.tex [9] [10]
 Cap\'{\i }tulo 3.
 ) (./capitulos/capitulo4.tex [11
 
@@ -1168,7 +1240,7 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
 Package rerunfilecheck Info: File `monografia.out' has not changed.
 (rerunfilecheck)             Checksum: 870C96A89890F9B69F9B0818127B708C;2000.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
-(rerunfilecheck)             Checksum: 7900C983BBEE9383C0F35EBA06B3478A;686.
+(rerunfilecheck)             Checksum: DDB83C8E2B4757348FE6B0398DF52A8D;686.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1184,13 +1256,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 227.
  )
 (\end occurred when \iffalse on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 18195 strings out of 493304
- 324205 string characters out of 6139870
- 411516 words of memory out of 5000000
- 21185 multiletter control sequences out of 15000+600000
+ 18121 strings out of 493304
+ 322874 string characters out of 6139870
+ 413898 words of memory out of 5000000
+ 21111 multiletter control sequences out of 15000+600000
  15846 words of font info for 36 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 56i,16n,92p,1162b,741s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,16n,92p,1165b,741s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts
 /enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
@@ -1206,7 +1278,7 @@ onts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm
 </usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fo
 nts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-
 super/sftt1200.pfb>
-Output written on monografia.pdf (27 pages, 831085 bytes).
+Output written on monografia.pdf (27 pages, 833389 bytes).
 PDF statistics:
  1276 PDF objects out of 1440 (max. 8388607)
  1020 compressed objects within 11 object streams
