@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.10)  7 JUL 2016 01:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.11.10)  7 JUL 2016 16:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -910,7 +910,7 @@ LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <20> not available
 LaTeX Font Warning: Font shape `T1/ua1/bx/n' in size <20> not available
 (Font)              size <20.74> substituted on input line 188.
 
-<positivo_cor.pdf, id=135, 119.44624pt x 60.225pt>
+<positivo_cor.pdf, id=119, 119.44624pt x 60.225pt>
 File: positivo_cor.pdf Graphic file (type pdf)
  <use positivo_cor.pdf>
 Package pdftex.def Info: positivo_cor.pdf used on input line 188.
@@ -991,7 +991,13 @@ cs, Metabolic Net-works, Non-Relational Database,
 
  [5
 
-] (./monografia.lof)
+] (./monografia.lof
+Overfull \hbox (12.09177pt too wide) in paragraph at lines 10--10
+ [][] [][][]\T1/cmr/m/n/12 Adaptado de : http://www.stepbystep.com/difference-b
+etween-transcription- 
+ []
+
+)
 \tf@lof=\write6
 \openout6 = `monografia.lof'.
 
@@ -1003,8 +1009,7 @@ cs, Metabolic Net-works, Non-Relational Database,
 
  [7
 
-]
-(./capitulos/capitulo1.tex
+] (./capitulos/capitulo1.tex
 Cap\'{\i }tulo 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
@@ -1017,62 +1022,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
 [1
 
 
-]
-Overfull \vbox (0.41592pt too high) has occurred while \output is active []
-
-
-[2] <./figuras/JamesWatsonAndFrancisCrick.jpg, id=251, 1204.5pt x 722.7pt>
+] <./figuras/JamesWatsonAndFrancisCrick.jpg, id=231, 1204.5pt x 722.7pt>
 File: ./figuras/JamesWatsonAndFrancisCrick.jpg Graphic file (type jpg)
 
 <use ./figuras/JamesWatsonAndFrancisCrick.jpg>
 Package pdftex.def Info: ./figuras/JamesWatsonAndFrancisCrick.jpg used on input
- line 61.
+ line 16.
 (pdftex.def)             Requested size: 481.79147pt x 289.07487pt.
 
-Overfull \hbox (26.54736pt too wide) in paragraph at lines 61--62
+Overfull \hbox (26.54736pt too wide) in paragraph at lines 16--17
  [][] 
  []
 
-[3 <./figuras/JamesWatsonAndFrancisCrick.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 104.
 
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+[2 <./figuras/JamesWatsonAndFrancisCrick.jpg>]
+Overfull \vbox (0.4pt too high) has occurred while \output is active []
+
+ [3]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 89.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 104.
-)
-(./capitulos/capitulo2.tex [4]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 89.
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+[4]) (./capitulos/capitulo2.tex [5]
 Cap\'{\i }tulo 2.
 
-LaTeX Warning: Reference `acidosNucleicos' on page 5 undefined on input line 3.
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-<./figuras/nucleotideo.png, id=263, 52.998pt x 31.317pt>
+<./figuras/nucleotideo.png, id=254, 52.998pt x 31.317pt>
 File: ./figuras/nucleotideo.png Graphic file (type png)
 
 <use ./figuras/nucleotideo.png>
 Package pdftex.def Info: ./figuras/nucleotideo.png used on input line 18.
-(pdftex.def)             Requested size: 182.09486pt x 107.62845pt.
+(pdftex.def)             Requested size: 227.62206pt x 134.53809pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-[5
+[6
 
  <./figuras/nucleotideo.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
@@ -1089,7 +1107,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
-<./figuras/dnaEstrutura.jpg, id=280, 150.8034pt x 139.4811pt>
+<./figuras/dnaEstrutura.jpg, id=270, 150.8034pt x 139.4811pt>
 File: ./figuras/dnaEstrutura.jpg Graphic file (type jpg)
 
 <use ./figuras/dnaEstrutura.jpg>
@@ -1104,90 +1122,131 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
  []
 
+[7]
+
+LaTeX Warning: Reference `transcricaoTraducaoSintese' on page 8 undefined on in
+put line 49.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 48--50
 
  []
 
-[6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 61--63
 
  []
 
-
+[8 <./figuras/dnaEstrutura.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-[7 <./figuras/dnaEstrutura.jpg>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
-<./figuras/EstruturasDaProteina.pdf, id=297, 289.08pt x 409.53pt>
+<./figuras/EstruturasDaProteina.pdf, id=288, 289.08pt x 409.53pt>
 File: ./figuras/EstruturasDaProteina.pdf Graphic file (type pdf)
 
 <use ./figuras/EstruturasDaProteina.pdf>
 Package pdftex.def Info: ./figuras/EstruturasDaProteina.pdf used on input line 
 70.
-(pdftex.def)             Requested size: 227.62206pt x 322.46283pt.
+(pdftex.def)             Requested size: 273.14923pt x 386.9829pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-[8 <./figuras/EstruturasDaProteina.pdf>]
-Overfull \hbox (10.52632pt too wide) in paragraph at lines 79--80
-\T1/cmr/bx/n/12 DISSO. http://www.sobiologia.com.br/conteudos/Corpo/Celula3.php
-\T1/cmr/m/n/12 . Um gene,
- []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 79--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 86--91
 
  []
 
+[10 <./figuras/EstruturasDaProteina.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./capitulos/capitulo3.tex [9] [10]
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+
+ []
+
+<./figuras/transcricaoEtraducao.jpeg, id=1155, 345.08925pt x 433.62pt>
+File: ./figuras/transcricaoEtraducao.jpeg Graphic file (type jpg)
+
+<use ./figuras/transcricaoEtraducao.jpeg>
+Package pdftex.def Info: ./figuras/transcricaoEtraducao.jpeg used on input line
+ 205.
+(pdftex.def)             Requested size: 455.24411pt x 572.0758pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13]) (./capitulos/capitulo3.tex [14] [15 <./figuras/transcricaoEtraducao.jpeg>
+]
 Cap\'{\i }tulo 3.
-) (./capitulos/capitulo4.tex [11
+) (./capitulos/capitulo4.tex [16
 
 ]
 Cap\'{\i }tulo 4.
-) (./capitulos/capitulo5.tex [12
+) (./capitulos/capitulo5.tex [17
 
 ]
 Cap\'{\i }tulo 5.
-) (./capitulos/capitulo6.tex [13
+) (./capitulos/capitulo6.tex [18
 
 ]
 Cap\'{\i }tulo 6.
-) (./capitulos/capitulo7.tex [14
+) (./capitulos/capitulo7.tex [19
 
 ]
 Cap\'{\i }tulo 7.
-) (./capitulos/capitulo8.tex [15
+) (./capitulos/capitulo8.tex [20
 
 ]
 Cap\'{\i }tulo 8.
-) [16
+) [21
 
 ] (./monografia.bbl (./monografia.brf)
 \tf@brf=\write8
@@ -1229,7 +1288,7 @@ Underfull \hbox (badness 7759) in paragraph at lines 20--20
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 227.
- [17
+ [22
 
 
 ]
@@ -1238,9 +1297,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 227.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
 Package rerunfilecheck Info: File `monografia.out' has not changed.
-(rerunfilecheck)             Checksum: 870C96A89890F9B69F9B0818127B708C;2000.
+(rerunfilecheck)             Checksum: 47D832FBDF1018748DFBA6D295FC111B;1703.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
-(rerunfilecheck)             Checksum: DDB83C8E2B4757348FE6B0398DF52A8D;686.
+(rerunfilecheck)             Checksum: 0BB75DD90BE029126080CB25867A3028;741.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1256,13 +1315,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 227.
  )
 (\end occurred when \iffalse on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 18121 strings out of 493304
- 322874 string characters out of 6139870
- 413898 words of memory out of 5000000
- 21111 multiletter control sequences out of 15000+600000
+ 18151 strings out of 493304
+ 323472 string characters out of 6139870
+ 422114 words of memory out of 5000000
+ 21136 multiletter control sequences out of 15000+600000
  15846 words of font info for 36 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 56i,16n,92p,1165b,741s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,16n,92p,1651b,741s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts
 /enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
@@ -1278,10 +1337,10 @@ onts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm
 </usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fo
 nts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-
 super/sftt1200.pfb>
-Output written on monografia.pdf (27 pages, 833389 bytes).
+Output written on monografia.pdf (32 pages, 1030101 bytes).
 PDF statistics:
- 1276 PDF objects out of 1440 (max. 8388607)
- 1020 compressed objects within 11 object streams
- 75 named destinations out of 1000 (max. 500000)
- 294 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1289 PDF objects out of 1440 (max. 8388607)
+ 1027 compressed objects within 11 object streams
+ 78 named destinations out of 1000 (max. 500000)
+ 267 words of extra memory for PDF output out of 10000 (max. 10000000)
 
