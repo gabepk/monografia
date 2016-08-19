@@ -46,7 +46,7 @@
 Por fim, o RNA é formado por apenas uma hélice tridimensional. \\
 
 \indent Existem três tipos de RNAs presentes no citoplasma - espaço entre a membrama plasmática e o núcleo da célula. 
-Cada um possui funções específicas que serão detalhadas na seção \ref{transcricaoTraducaoSintese}. Em suma, O RNA mensageiro (mRNA) é responsável pela transferência de informação do DNA para o RNA ribossômico (rRNA), que por sua vez irá desanexar a proteína do RNA transportador (tRNA) combinando-o com o rRNA, executando assim, a síntese de proteína. \\
+Cada um possui funções específicas que serão detalhadas na seção \ref{sinteseDeProteina:transcricaoTraducaoSintese}. Em suma, O RNA mensageiro (mRNA) é responsável pela transferência de informação do DNA para o RNA ribossômico (rRNA), que por sua vez irá desanexar a proteína do RNA transportador (tRNA) combinando-o com o rRNA, executando assim, a síntese de proteína. \\
 
 
 
@@ -76,12 +76,9 @@ Se fizerem parte do no grupo de proteínas fibrosas, como o colágeno, irão com
 
 \indent No núcleo de cada célula eucariota, ou no citoplasma das células procariotas, estão localizados as moléculas de DNA, chamadas individualmente por \textbf{cromossomo}. O número de cromossomos em cada célula varia por espécie. No caso dos chimpanzés, o núcleo das células possui 48 cromossomos e no caso dos seres humanos, 46. Note que não existe relação entre o grau evolutivo das espécies e o número de cromossomos nas células. \\ 
 
-\indent Um cromossomo pode ser representado por vários trechos contíguos de DNA, sendo que cada trecho é chamado de \textbf{gene}, ou locus - local fixo no cromossomo. Portanto, pode-se afirmar que o cromossomo é um conjunto (ou lista) de genes. No caso dos seres humanos, o número de genes em cada célula gira em torno de 22 mil,
-% Fonte: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2898077/
- e o genoma humano possui em média 3 bilhões de pares de bases. Poderíamo inferir, então, que a média de pares de bases por gene é de $\frac{3.000.000.000}{22.000} \simeq 136.000$, porém este cálculo é muito generalizado e equivocado, uma vez que os genes possuem tamanhos diferentes, onde o maior possui 250 milhões de pares, enquanto o menor possui apenas 50 milhões, no caso dos seres humanos. % Fonte: http://www.objetivo.br/noticias.asp?id=3692}
-  Um gene, por sua vez, pode ser representado por vários trechos de três pares de base, sendo que cada trecho é chamado de \textbf{códon}. \\
+\indent Um cromossomo pode ser representado por vários trechos contíguos de DNA, sendo que cada trecho é chamado de \textbf{gene}, ou locus - local fixo no cromossomo. Portanto, pode-se afirmar que o cromossomo é um conjunto (ou lista) de genes. No caso dos seres humanos, o número de genes em cada célula gira em torno de 22 mil \cite{pertea2010}, e o genoma humano possui em média 3 bilhões de pares de bases. Poderíamo inferir, então, que a média de pares de bases por gene é de $\frac{3.000.000.000}{22.000} \simeq 136.000$, porém este cálculo é muito generalizado e equivocado, uma vez que os genes possuem tamanhos diferentes, onde o maior possui 250 milhões de pares, enquanto o menor possui apenas 50 milhões, no caso dos seres humanos \cite{nussbaum08}. Um gene, por sua vez, pode ser representado por vários trechos de três pares de base, sendo que cada trecho é chamado de \textbf{códon}. \\
 
-\indent Normalmente cada proteína é formada a partir de um gene particular. Mais especificamente, cada aminoácido da proteína é formado a partir de um códon do gene. Entretanto, existem 64 códon possíveis ($4_{ParesDeBase} ^3$) mas somente 20 aminoácidos a serem codificados. Nesse sentido, é comum haver mais de um códon correspondendo à um aminoácio. Além disso, 3 destes códons são responsáveis por indicar o final de uma proteína. O mRNA é encarregado de transportar a informação da sequência correta para construção de proteína, em forma de sequência de códons. A tabela \ref{tabelaCodigoGenetico} que apresenta a correspondência entre códons e aminoácios é chamada de \textbf{código genético} \cite{setubal97}, e a tabela \ref{tabelaAminoacidos} apresenta o código genético codificado em letras do alfabeto utilizado atualmente para comparação entre proteínas. Note que as bases nitrogenadas são do RNA, e não do DNA, pois é a molécula do primeiro que faz a conexão entre DNA e a proteína, num processo que será explicado na próxima subseção. \textbf{BUSCAR FONTE DISSO} \\
+\indent Normalmente cada proteína é formada a partir de um gene particular. Mais especificamente, cada aminoácido da proteína é formado a partir de um códon do gene. Entretanto, existem 64 códon possíveis ($4_{ParesDeBase} ^3$) mas somente 20 aminoácidos a serem codificados. Nesse sentido, é comum haver mais de um códon correspondendo à um aminoácio. Além disso, 3 destes códons são responsáveis por indicar o final de uma proteína. O mRNA é encarregado de transportar a informação da sequência correta para construção de proteína, em forma de sequência de códons. A tabela \ref{tabelaCodigoGenetico} que apresenta a correspondência entre códons e aminoácios é chamada de código genético \cite{setubal97}, e a tabela \ref{tabelaAminoacidos} apresenta o código genético codificado em letras do alfabeto utilizado atualmente para comparação entre proteínas. Note que as bases nitrogenadas são do RNA, e não do DNA, pois é a molécula do primeiro que faz a conexão entre DNA e a proteína, num processo que será explicado na subseção \ref{sinteseDeProteina:transcricaoTraducaoSintese}. \\
 
 \indent A partir destas tabelas, podemos montar o seguinte exemplo: Suponha que a palvra GENETICA seja uma proteína. Então existe uma configuração de aminoácidos que forma essa proteína, e ela pode ter a forma: \\ 
 \indent GENETICA $\leftarrow$ Glicina - Glutamano - Metionina - Glutamano \\
@@ -129,8 +126,6 @@ Se fizerem parte do no grupo de proteínas fibrosas, como o colágeno, irão com
 \end{table}
 
 
-
-
 \begin{table}[h!] 
 \centering
 %\captionsetup{labelsep=space,justification=justified,singlelinecheck=off}
@@ -168,15 +163,16 @@ Se fizerem parte do no grupo de proteínas fibrosas, como o colágeno, irão com
 
 %CÓPIA DO SETUBAL. MUDAR DEPOIS !!!!!!!!
 
-%% -----------------------------------------------------------------
-%% -----------------------------------------------------------------
-%% -----------------------------------------------------------------
+% PROCARIÓTAS
 
-\indent Finalmente, agora será descrita a forma como as informações contidas no DNA resulta em proteínas. Um mecanismo de célula reconhece o início de um gene ou aglomerado de genes graças ao \textit{promotor}. O promotor é uma região antes de cada gene no DNA que serve como uma indicação para o mecanismo celular que é um gene está a frente. O códon AUG (que é codificado para metionina) também indica o início de um gene. Tendo reconhecido o início de um gene ou \textit{cluster} de genes, uma cópia do gene é feita sobre uma molécula de RNA. Este RNA resultante é o RNA mensageiro, ou mRNA, e terá exatamente a mesma sequência que uma das cadeias do gene, mas substituindo U por T. Este processo é chamado de \textbf{transcrição}. O mRNA, então, será utilizado em estruturas celulares chamados ribossomas para a fabricação de uma proteína. \\
+\indent Para finalizar esta seção, serão descritos os processos de transcrição, tradução e síntese de proteína. O início de cada gene é reconhecido ou em uma região chamada de \textit{promotor} ou, alternativamente, pelo códon AUG. A partir de então, uma cópia deste gene, ou \textit{clusters} de genes, é feita sobre uma molécula de mRNA que, por consequência, obterá a mesma sequência que uma das cadeias do gene, porém trocando os U's por Ts, através deste processo chamado de \textbf{transcrição}. A cadeia que se assemelha ao produto mRNA é chamado de cadeia codificadora (lida de 5' para 3'), enquanto a cadeia oposta é chamada de cadeia de molde (lida de 3' para 5'). Para denotar a orientação de cada cadeia codificadora, os termos \textit{upstream} e \textit{downstream} são utilizados. Observe que o promotor é o \textit{upstream} do gene, pois reconhece seu início. \\
 
-\indent Uma vez que o RNA é de cadeia simples e DNA é de cadeia dupla, o mRNA produzido é idêntico em sequência à apenas uma das cadeias do gene, sendo complementar à outra cadeia - lembrando que T é substituído por U no RNA. A vertente que se parece com o produto mRNA é chamado de anti-sentido ou cadeia codificadora, e o outro é o sentido ou anticodificação ou cadeia de molde. A cadeia de molde é aquele que é transcrita, pois o mRNA é composto por ligações de ribonucleotidos complementares a esta vertente. O processo sempre contrói moléculas de mRNA da extremidade 5' até a 3', ao passo que a cadeia de molde é lida de 3' para 5 '. Note também que a cadeia de molde não é sempre a mesma; Por exemplo, a cadeia de molde para um determinado gene A pode ser uma das fitas, e a cadeia de molde para outro gene B pode ser a outra fita. Para um dado gene, a célula é capaz de reconhecer os correspondentes moldes de cadeia graças ao promotor. Mesmo que o complemento reverso do promotor aparece na outra cadeia, ele não é um promotor e por isso não irá ser reconhecido como tal. Uma consequência importante deste fato é que os genes do mesmo cromossomo tem uma orientação com relação ao outro: Dado dois genes, se eles aparecem na mesma vertente eles têm a mesma orientação; caso contrário, eles têm orientação oposta. Finalmente, note que os termos \textit{upstream} e \textit{downstream} são usados para indicar as posições do DNA em referência à orientação da cadeia codificadora, com o promotor sendo o \textit{upstream} do gene. \\
 
-\indent A transcrição descrita é válida para os organismos classificados como procariontes. Estes organismos têm o seu DNA livre na célula, pois não há uma membrana nuclear. Exemplos de procariontes são bactérias e algas azuis. Todos os outros organismos, categorizados como eucariotas têm um núcleo separado do resto da célula por uma membrana nuclear, e o seu DNA é mantido no interior do núcleo. Nestes organismos a transcrição genética é mais complexa. Muitos genes eucarióticos são compostos por partes alternadas dos chamados \textit{introns} e \textit{exons}. Após a transcrição, os \textit{introns} são unidos fora do mRNA. Isto significa que os \textit{introns} são partes de um gene que não são utilizados na síntese de proteínas. Depois que os \textit{introns} são unidos, o mRNA encurtado (contendo cópias apenas dos \textit{exons} e de regiões reguladoras nas extremidades), deixa o núcleo, uma vez que os ribossomos estão fora. \\
+
+
+
+
+\indent  Muitos genes eucarióticos são compostos por partes alternadas dos chamados \textit{introns} e \textit{exons}. Após a transcrição, os \textit{introns} são unidos fora do mRNA. Isto significa que os \textit{introns} são partes de um gene que não são utilizados na síntese de proteínas. Depois que os \textit{introns} são unidos, o mRNA encurtado (contendo cópias apenas dos \textit{exons} e de regiões reguladoras nas extremidades), deixa o núcleo, uma vez que os ribossomos estão fora. \\
 
 \indent Devido ao fenômeno de \textit{introns/exons}, serão usados nomes diferentes para se referir ao gene como um todo encontrado no cromossomo e a sequência de \textit{splicing}, \textit{exons} unidos. O primeiro é chamado de DNA genômico e o segundo de DNA complementar ou DNAc. Os cientistas podem fabricar DNAc sem saber o seu homólogo genômico. Eles primeiro capturam o mRNA fora do núcleo no seu caminho para os ribossomos. Em seguida, num processo denominado \textbf{transcrição reversa}, que produzem moléculas de DNA utilizando o mRNA como um molde. Uma vez que o mRNA contém apenas os \textit{exons}, esta é também a composição do DNA produzido. Assim, eles podem obter cDNA sem sequer olhar para os cromossomos. Ambos transcrição e transcrição reversa são processos complexos que necessitam a ajuda de enzimas. Transcriptase e transcriptase reversa são os enzimas que catalisam a estes processos na célula. Há também um fenômeno chamado de \textit{splicing} alternativo. Isto ocorre quando o mesmo DNA genômico pode dar origem a duas ou mais moléculas de mRNA diferentes, escolhendo os \textit{introns} e \textit{exons} de maneiras diferentes. Eles em geral produzem proteínas diferentes. \\
 
@@ -203,7 +199,7 @@ Se fizerem parte do no grupo de proteínas fibrosas, como o colágeno, irão com
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.9\textwidth]{transcricaoEtraducao.jpeg}
-    \caption{Adaptado de : http://www.stepbystep.com/difference-between-transcription-and-translation-in-dna-103278/ }
+    \caption{Adaptado de : \cite{proteinSyntesis}}
     \label{fig:transcricaoEtraducao}
 \end{figure}
 

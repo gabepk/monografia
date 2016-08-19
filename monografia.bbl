@@ -1,4 +1,7 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{proteinSyntesis}
+Protein syntesis steps.
 
 \bibitem{profangela11}
 Proteínas.
@@ -10,6 +13,46 @@ Protein structure, 2009.
 \newblock
   \url{http://www.particlesciences.com/news/technical-briefs/2009/protein-structure.html},
   visitado em 2016-01-02.
+
+\bibitem{eclipseDoc}
+Eclipse Foundation, Inc., 102 Centrepointe Drive, Ottawa, Ontario,.
+\newblock {\em Eclipse documentation - Current Release}, 4.6 edition, 2016.
+\newblock
+  \url{http://help.eclipse.org/neon/index.jsp?topic=\%2Forg.eclipse.platform.doc.isv\%2Fguide\%2Fint_eclipse.htm},
+  visitado em 2016-07-01.
+
+\bibitem{oracle14}
+Ian Evans Kim Haase William~Markito Eric~Jendrock, Ricardo Cervera-Navarro.
+\newblock {\em Java Platform, Enterprise Edition The Java EE Tutorial, Release
+  7}.
+\newblock Oracle, 2014.
+\newblock \url{https://docs.oracle.com/javaee/7/tutorial}, visitado em
+  2016-08-19.
+
+\bibitem{chuan11}
+Chua Hock-Chuan.
+\newblock Java web database applications, 2011.
+\newblock
+  \url{https://www.ntu.edu.sg/home/ehchua/programming/java/JavaWebDBApp.html},
+  visitado em 2016-08-19.
+
+\bibitem{lacroixCTS08}
+Vincent Lacroix, Ludovic Cottret, Patricia Thébault, and Marie-France Sagot.
+\newblock An introduction to metabolic networks and their structural analysis.
+\newblock {\em IEEE/ACM Trans. Comput. Biology Bioinform.}, 5(4):594--617,
+  2008.
+
+\bibitem{nussbaum08}
+R.~Nussbaum.
+\newblock {\em Genética Médica}.
+\newblock Elsevier Editora Ltda., 2008.
+
+\bibitem{pertea2010}
+Mihaela Pertea and Steven~L. Salzberg.
+\newblock Between a chicken and a grape: estimating the number of human genes.
+\newblock {\em Genome Biology}, 11(5):1--7, 2010.
+\newblock \url{http://dx.doi.org/10.1186/gb-2010-11-5-206}, visitado em
+  2016-04-04.
 
 \bibitem{dnadiscovery08}
 Leslie~A. Pray.

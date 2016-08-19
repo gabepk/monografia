@@ -1,6 +1,7 @@
 \backcite {dnadiscovery08}{{vi}{(document)}{Doc-Start}}
 \backcite {dnadiscovery08}{{vi}{(document)}{Doc-Start}}
 \backcite {drug09}{{vi}{(document)}{Doc-Start}}
+\backcite {proteinSyntesis}{{vi}{(document)}{Doc-Start}}
 \backcite {dnadiscovery08}{{6}{2.1}{figure.caption.9}}
 \backcite {setubal97}{{7}{2.1}{figure.caption.9}}
 \backcite {setubal97}{{7}{2.1.1}{subsection.2.1.1}}
@@ -9,6 +10,13 @@
 \backcite {profangela11}{{9}{2.2.1}{subsection.2.2.1}}
 \backcite {setubal97}{{9}{2.2.1}{subsection.2.2.1}}
 \backcite {drug09}{{9}{2.2.1}{subsection.2.2.1}}
+\backcite {pertea2010}{{9}{2.2.2}{subsection.2.2.2}}
+\backcite {nussbaum08}{{9}{2.2.2}{subsection.2.2.2}}
 \backcite {drug09}{{10}{2.3}{figure.caption.11}}
 \backcite {setubal97}{{10}{2.2.2}{subsection.2.2.2}}
 \backcite {setubal97}{{13}{2.2.3}{subsection.2.2.3}}
+\backcite {proteinSyntesis}{{15}{2.4}{figure.caption.14}}
+\backcite {lacroixCTS08}{{17}{3}{chapter.3}}
+\backcite {eclipseDoc}{{19}{5.1}{section.5.1}}
+\backcite {oracle14}{{20}{5.1}{lstnumber.-1.11}}
+\backcite {chuan11}{{20}{5.1}{lstnumber.-1.11}}
