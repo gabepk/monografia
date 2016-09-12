@@ -3,61 +3,48 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: monografia.aux
 The style file: plain.bst
 Database file #1: monografia.bib
-You're missing a field name---line 66 of file monografia.bib
- :  
- :  %year = {},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "violinist12"
 Warning--to sort, need author or key in drug09
-Warning--to sort, need author or key in proteinSyntesis
 Warning--to sort, need author or key in profangela11
-Too many commas in name 1 of "Eric Jendrock, Ricardo Cervera-Navarro, Ian Evans, Kim Haase, William Markito" for entry oracle14
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Eric Jendrock, Ricardo Cervera-Navarro, Ian Evans, Kim Haase, William Markito" for entry oracle14
-while executing---line 1049 of file plain.bst
-Too many commas in name 1 of "Eric Jendrock, Ricardo Cervera-Navarro, Ian Evans, Kim Haase, William Markito" for entry oracle14
-while executing---line 1090 of file plain.bst
-Too many commas in name 1 of "Eric Jendrock, Ricardo Cervera-Navarro, Ian Evans, Kim Haase, William Markito" for entry oracle14
-while executing---line 1090 of file plain.bst
-You've used 11 entries,
+You've used 14 entries,
             2118 wiz_defined-function locations,
-            561 strings with 5925 characters,
-and the built_in function-call counts, 2436 in all, are:
-= -- 232
-> -- 81
+            584 strings with 6281 characters,
+and the built_in function-call counts, 3380 in all, are:
+= -- 328
+> -- 113
 < -- 0
-+ -- 36
-- -- 24
-* -- 124
-:= -- 390
-add.period$ -- 31
-call.type$ -- 11
-change.case$ -- 43
++ -- 49
+- -- 34
+* -- 200
+:= -- 554
+add.period$ -- 40
+call.type$ -- 14
+change.case$ -- 57
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 98
-empty$ -- 243
-format.name$ -- 24
-if$ -- 528
+cite$ -- 16
+duplicate$ -- 135
+empty$ -- 321
+format.name$ -- 34
+if$ -- 722
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 6
-newline$ -- 56
-num.names$ -- 14
-pop$ -- 74
+int.to.str$ -- 14
+missing$ -- 11
+newline$ -- 71
+num.names$ -- 20
+pop$ -- 81
 preamble$ -- 1
-purify$ -- 35
+purify$ -- 47
 quote$ -- 0
-skip$ -- 74
+skip$ -- 91
 stack$ -- 0
-substring$ -- 91
-swap$ -- 12
+substring$ -- 174
+swap$ -- 14
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 40
-warning$ -- 3
-while$ -- 17
-width$ -- 13
-write$ -- 110
-(There were 5 error messages)
+type$ -- 50
+warning$ -- 2
+while$ -- 27
+width$ -- 16
+write$ -- 144
+(There were 3 warnings)
