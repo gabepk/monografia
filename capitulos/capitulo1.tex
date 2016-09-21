@@ -21,6 +21,8 @@
 
 \indent Conforme o número de sequências de proteínas cresciam, aumentava também a necessidade de criar-se um banco de dados para indexá-las. A físico-química norte-americana Margaret Dayhoff, com colaboração de alguns membros do \textit{National Biomedical Research Foundation} em Washington, foi a primeira a contruir um banco de dados com este propósito em um tipo de atlas de proteínas na década de 60. Somente em 1984 esta coleção foi intitulada de \textit{Protein Information Resource} \cite{mount01}. Os dados eram organizados de acordo com o grau de similaridade das sequências, onde o agrupamento das mesmas era dado em forma de árvore filogenética representando famílias e superfamílias de proteínas. Caso a semelhança seja alta, é provável que tenham as mesmas funções bioquímicas e estrutura tridimensional. A partir da árvore gerada, foi possívei calcular as mutações que ocorreram nos aminoácidos durante a evolução genética e, então, produzir uma tabela utilizada até hoje, chamada PAM (\textit{percent acept mutation}), que apresenta tais dados. Outro banco de dados de grande porte e bastante utilizado nos dias de hoje é o GenBank, estabelecido em 1982 por Walter Goad e demais colaboradores e, agora, com o patrocínio do \textit{National Center for Biotechnology Information}. Os dois bancos são públicos e continuam crescendo exponencialmente \cite{mount01}.
 
+\indent problemas ôminicos
+
 \indent web search database david lipman
 
 
@@ -29,39 +31,30 @@
 %  -------------------------------------------------------------
 %  -------------------------------------------------------------
 
-\indent A linha do tempo abaixo tem o objetivo de auxiliar na localização temporal da história da biologia molecular e da bioinformática ao passo que apresentam os maiores marcos dos principais pesquisadores da área.
+\indent A linha do tempo abaixo tem o objetivo de auxiliar na localização temporal da história da biologia molecular e da bioinformática ao passo que apresentam os maiores marcos dos principais pesquisadores da área. \\
 
 %  -------------------------------------------- 
 %  -------------------------------------------- LINHA DO TEMPO
 %  -------------------------------------------- 
 
-\begin{timeline}{1859}{1933}{2cm}{2.5cm}{10cm}{1\textheight}
-%\entry{1809}{$\star$ Charles Darwin, Inglaterra}
-%\entry{1822}{$\star$ Gregor Mendel, Áustria}
-%\entry{1844}{$\star$ Friedrich Miescher, Suíça}
-\entry{1859}{Darwin publica livro A Origem das Espécies} %On the Origin of Species by Means of Natural Selection,
-% or the Preservation of Favoured Races in the Struggle for Life.
-%  6º ed. It is in this edition that the word 'evolution' occurs for the first time.
-% http://darwin-online.org.uk/content/frameset?pageseq=80&itemID=A1&viewtype=text
-% Genes sobreviventes demoram a se espalhar pois são aleatóriamente selecionados
-\entry{1865}{Mendel apresenta pela primeira vez seu trabalho com ervilhas}
-% http://www.wired.com/2010/02/0208gregor-mendel-reads-paper/
-%\entry{1866}{$\star$ Thomas Morgan, Estados Unidos}
-\entry{1871}{Miescher publicou seu paper sobre a nucleína}
-%\entry{1882}{$\dagger$ Charles Darwin}
-%\entry{1884}{$\dagger$ Gregor Mendel}
-%\entry{1890}{$\star$ Hermann Muller, Estados Unidos}
-%\entry{1895}{$\dagger$ Friedrich Miescher} %%
-%\entry{1916}{$\star$ Francis Crick, Inglaterra}
-%\entry{1925}{$\star$ Margaret Dayhoff, Estados Unidos}
-%\entry{1925}{$\star$ Walter Goad, Estados Unidos}
-%\entry{1928}{$\star$ James Watson, Estados Unidos}
-\entry{1933}{Thomas Morgan recebe Prêmio Nobel de Fisiologia ou Medicina por mostrar experimentalmente a Teoria Cromossômica da Hereditariedade}
-%\entry{1945}{$\dagger$ Thomas Morgan}
-%\entry{1967}{$\dagger$ Hermann Muller}
-\entry{1882}{Primeira versão do GenBank, na liderança de Walter Goad}
-\entry{1984}{Estabelecido o banco de dados Protein Information Resource, pela liderança de Magaret Dayhoff}
-%\entry{2004}{$\dagger$ Francis Crick}
+\begin{timeline}{1859}{1984}{2cm}{1cm}{13cm}{18cm}
+\entry{1859}{Darwin publica livro A Origem das Espécies}
+\entry{1865}{\textbf{Mendel apresenta pela primeira vez seu trabalho com ervilhas}}
+\entry{1869}{Miescher identificou uma substância rica em fosfore na célula e a chamou de nucleína}
+\entry{1871}{\textbf{Miescher publicou seu paper sobre a nucleína}}
+\entry{1878}{Kossel obtém 5 bases nucléicas ao isolar parte não proteica da nucleína}
+%\entry{1879}{Utilizando anilina, Flemming identifica a cromatina}
+\entry{1882}{\textbf{Na divisão celular, Flemming identifica a formação dos cromossomos e chama o processo de mitose}}
+\entry{1889}{Publicação do livro Intracellular Pangenesis, de Hugo de Vries}
+\entry{1900}{\textbf{Vries publicou o artigo \textit{The Mutation Theory}}}
+\entry{1909}{Johannsen introduziu a palavra gene ao vocabulário como característica específica de um organismo}
+\entry{1913}{\textbf{Principal organismo utilizado para experiências genéticas é a \textit{Drosophila melanogaster}, utilizada por Thomas Morgan}}
+\entry{1919}{Levene detectou três elementos que formam nucleotideos: um radical fosfato (HPO$_{4}$), uma pentose e uma base nitrogenada}
+\entry{1933}{\textbf{Morgan recebe Prêmio Nobel de Fisiologia ou Medicina por provar a Teoria Cromossômica da Hereditariedade}}
+\entry{1944}{Avery, McCarty e MacLeod provam que o DNA é o material hereditário}
+\entry{1953}{\textbf{James Watson e Francis Crick descrevem a estrutura do DNA: a dupla hélice}}
+\entry{1982}{Primeira versão do GenBank, na liderança de Walter Goad}
+\entry{1984}{\textbf{Estabelecido o banco de dados Protein Information Resource, pela liderança de Magaret Dayhoff}}
 \end{timeline}
 
 
@@ -71,8 +64,7 @@
 %  -------------------------------------------- LINHA DO TEMPO
 %  -------------------------------------------- 
 
-
-\section{Definição do Problema}
+\section{Problema e Hipótese}
 
 \indent 
 Contruir uma visualização interativa de redes metabólicas aramazenadas em banco de dados de grafos que permita ao pesquisador explorar os aspectos biológicos do organismo estudado.
@@ -105,9 +97,3 @@ Constrir um sistema que acesse redes metabólicas armazenadas em bancos de dados
 \indent O Capítulo 3 apresenta uma estrutura chamada Redes metabólicas, estrutura de dados extremamente complexas que existem para auxiliar o pesquisador biólogo a entender reações intracelulares, bem como determinar propriedades fisiológicas e bioquímicas das células. A construção destas redes é possível pos existe sequenciamento do genoma do organismo estudado. O Capítulo 4 propõe um banco de dados não relacional (NoDB) em grafos como maneira de armazenar estas redes metabólicas. Nele é descrito todo o conceito de NoDB, e é apresentado aquele utilizado neste trabalho: banco de dados OrientDB.
 
 \indent No Capítulo 5 são exibidos os resultados da implementação do programa e no Capítulo 6, as conclusões tiradas a parir da análise dos dados. O Capítulo 7 expõe os problemas enfrentados, bem como sugestões de melhorias e trabalhos futuros. Por fim, o Capítulo 8 apresenta uma tabela do cronograma da execução deste trabalho.
-
-
-
-
-
-
