@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.12)  20 SEP 2016 22:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.12)  26 SEP 2016 00:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1239,22 +1239,22 @@ Cap\'{\i }tulo 3.
 ]
 Cap\'{\i }tulo 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--7
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--20
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
  []
 
 ) (./capitulos/capitulo5.tex
-Underfull \hbox (badness 10000) in paragraph at lines 25--1
+Underfull \hbox (badness 10000) in paragraph at lines 29--1
 
  []
 
@@ -1321,28 +1321,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--30
 . isv % 2Fguide % 2Fint _
  []
 
+[20
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
 []\T1/cmr/m/n/12 Leslie A. Pray.  Dis-co-very of dna struc-ture and func-tion: 
 Wat-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
 \T1/cmr/m/n/12 son and crick, 2008.  [][]$\T1/cmtt/m/n/12 http : / / www . natu
 re . com / scitable / topicpage /
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 77--77
+Underfull \hbox (badness 3735) in paragraph at lines 83--83
 \T1/cmtt/m/n/12 discovery-[]of-[]dna-[]structure-[]and-[]function-[]watson-[]39
 7$[][]\T1/cmr/m/n/12 , vi-si-tado em 2016-
  []
 
-[20
-
-
-])
+)
 
 Package natbib Warning: There were undefined citations.
 
@@ -1354,9 +1354,14 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 228.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 228.
 Package rerunfilecheck Info: File `monografia.out' has not changed.
 (rerunfilecheck)             Checksum: A8DF1B0EB6C6597E5764DAAA5AD29445;2282.
-Package rerunfilecheck Info: File `monografia.brf' has not changed.
-(rerunfilecheck)             Checksum: DE96C8E1B520F99793AEE69B3CD1718D;1348.
 
+
+Package rerunfilecheck Warning: File `monografia.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `monografia.brf':
+(rerunfilecheck)             Before: DE96C8E1B520F99793AEE69B3CD1718D;1348
+(rerunfilecheck)             After:  CE9B742DCC57DC8161F8F69D8146B9CD;1387.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.74pt have occurred.
@@ -1371,10 +1376,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 228.
  )
 (\end occurred when \iffalse on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 20108 strings out of 493029
- 349118 string characters out of 6136234
- 459172 words of memory out of 5000000
- 23121 multiletter control sequences out of 15000+600000
+ 20115 strings out of 493029
+ 349201 string characters out of 6136234
+ 459186 words of memory out of 5000000
+ 23127 multiletter control sequences out of 15000+600000
  16545 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,92p,1486b,1202s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1393,10 +1398,10 @@ onts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm
 </usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fo
 nts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-
 super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on monografia.pdf (32 pages, 900920 bytes).
+Output written on monografia.pdf (32 pages, 901874 bytes).
 PDF statistics:
- 1387 PDF objects out of 1440 (max. 8388607)
- 1124 compressed objects within 12 object streams
- 107 named destinations out of 1000 (max. 500000)
+ 1389 PDF objects out of 1440 (max. 8388607)
+ 1126 compressed objects within 12 object streams
+ 108 named destinations out of 1000 (max. 500000)
  326 words of extra memory for PDF output out of 10000 (max. 10000000)
 
