@@ -11,15 +11,12 @@ Protein structure, 2009.
   \url{http://www.particlesciences.com/news/technical-briefs/2009/protein-structure.html},
   visitado em 2016-01-02.
 
-\bibitem{berger13}
-Bonnie Berger, Jian Peng, and Mona Singh.
-\newblock {Computational solutions for omics data.}
-\newblock {\em Nature reviews. Genetics}, 14(5):333--346, May 2013.
-
-\bibitem{bonetta2010}
-Laura Bonetta.
-\newblock Protein-protein interactions: Interactome under construction.
-\newblock {\em Nature}, 468(7325):851--854, Dec 2010.
+\bibitem{carterClass}
+Perry Carter.
+\newblock Catabolic and anabolic reactions.
+\newblock
+  \url{http://classes.midlandstech.edu/carterp/courses/bio225/chap05/lecture1.htm},
+  visitado em 2016-10-12.
 
 \bibitem{eclipseDoc}
 Eclipse Foundation, Inc., 102 Centrepointe Drive, Ottawa, Ontario,.
@@ -41,26 +38,27 @@ Chua Hock-Chuan.
   \url{https://www.ntu.edu.sg/home/ehchua/programming/java/JavaWebDBApp.html},
   visitado em 2016-08-19.
 
-\bibitem{lacroixCTS08}
-Vincent Lacroix, Ludovic Cottret, Patricia Thébault, and Marie-France Sagot.
-\newblock An introduction to metabolic networks and their structural analysis.
-\newblock {\em IEEE/ACM Trans. Comput. Biology Bioinform.}, 5(4):594--617,
-  2008.
+\bibitem{kabera14}
+Justin~N. Kabera, Edmond Semana, Ally~R. Mussa, and Xin He.
+\newblock Plant secondary metabolites: Biosynthesis, classification, function
+  and pharmacological properties.
+\newblock {\em Journal of Pharmacy and Pharmacology}, 2:377--392, 2014.
 
-\bibitem{mardis08}
-Elaine~R Mardis.
-\newblock Next-generation dna sequencing methods.
-\newblock {\em Annu Rev Genomics Hum Genet}, 9:387--402, 2008.
+\bibitem{violinist12}
+Sam Kean.
+\newblock {\em O Polegar do Violinista - e Outras Histórias da Genética Sobre
+  Amor, Guerra e Genialidade}.
+\newblock Zahar.
+
+\bibitem{Cap2schomburg}
+Gerhard Michal and Dietmar Schomburg.
+\newblock {\em The Cell and Its Contents}, pages 14--36.
+\newblock John Wiley \& Sons, Inc., 2012.
 
 \bibitem{mount01}
 David~W. Mount.
 \newblock {\em Bioinformatics : sequence and genome analysis}.
 \newblock Cold Spring Harbor, N.Y. Cold Spring Harbor Laboratory Press, 2001.
-
-\bibitem{nussbaum08}
-R.~Nussbaum.
-\newblock {\em Genética Médica}.
-\newblock Elsevier Editora Ltda., 2008.
 
 \bibitem{oracle14}
 Oracle.
@@ -68,11 +66,6 @@ Oracle.
   7}, 2014.
 \newblock \url{https://docs.oracle.com/javaee/7/tutorial}, visitado em
   2016-08-19.
-
-\bibitem{pertea2010}
-Mihaela Pertea and Steven~L. Salzberg.
-\newblock Between a chicken and a grape: estimating the number of human genes.
-\newblock {\em Genome Biology}, 11(5):1--7, 2010.
 
 \bibitem{dnadiscovery08}
 Leslie~A. Pray.
@@ -85,5 +78,12 @@ Leslie~A. Pray.
 João~Carlos Setubal and João Meidanis.
 \newblock {\em Introduction to computational molecular biology.}
 \newblock PWS Publishing Company, 1997.
+
+\bibitem{Cap3schomburg}
+Röbbe Wünschiers, Martina Jahn, Dieter Jahn, Ida Schomburg, Susanne Peifer,
+  Elmar Heinzle, Helmut Burtscher, Julia Garbe, Annika Steen, Max Schobert,
+  Dieter Oesterhelt, Josef Wachtveitl, and Antje Chang.
+\newblock {\em Metabolism}, pages 37--209.
+\newblock John Wiley \& Sons, Inc., 2012.
 
 \end{thebibliography}

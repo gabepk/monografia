@@ -3,48 +3,53 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: monografia.aux
 The style file: plain.bst
 Database file #1: monografia.bib
-Warning--I didn't find a database entry for "violinist12"
-Warning--to sort, need author or key in drug09
+I was expecting a `,' or a `}'---line 250 of file monografia.bib
+ :    
+ :    month = "Julho",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in profangela11
-You've used 15 entries,
+Warning--to sort, need author or key in drug09
+Warning--empty year in violinist12
+You've used 14 entries,
             2118 wiz_defined-function locations,
-            591 strings with 6528 characters,
-and the built_in function-call counts, 3909 in all, are:
-= -- 384
-> -- 136
-< -- 1
-+ -- 58
-- -- 42
-* -- 236
-:= -- 630
-add.period$ -- 44
-call.type$ -- 15
-change.case$ -- 64
+            579 strings with 6642 characters,
+and the built_in function-call counts, 4035 in all, are:
+= -- 383
+> -- 179
+< -- 3
++ -- 75
+- -- 60
+* -- 233
+:= -- 638
+add.period$ -- 41
+call.type$ -- 14
+change.case$ -- 68
 chr.to.int$ -- 0
 cite$ -- 17
-duplicate$ -- 158
-empty$ -- 362
-format.name$ -- 42
-if$ -- 843
+duplicate$ -- 161
+empty$ -- 351
+format.name$ -- 60
+if$ -- 874
 int.to.chr$ -- 0
-int.to.str$ -- 15
+int.to.str$ -- 14
 missing$ -- 12
-newline$ -- 76
-num.names$ -- 22
-pop$ -- 90
+newline$ -- 71
+num.names$ -- 20
+pop$ -- 123
 preamble$ -- 1
-purify$ -- 53
+purify$ -- 60
 quote$ -- 0
-skip$ -- 110
+skip$ -- 117
 stack$ -- 0
-substring$ -- 211
-swap$ -- 25
-text.length$ -- 1
+substring$ -- 181
+swap$ -- 38
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 54
-warning$ -- 2
-while$ -- 32
-width$ -- 17
-write$ -- 156
-(There were 3 warnings)
+type$ -- 46
+warning$ -- 3
+while$ -- 31
+width$ -- 16
+write$ -- 142
+(There was 1 error message)
