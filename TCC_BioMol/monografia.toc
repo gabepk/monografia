@@ -1,0 +1,35 @@
+\select@language {american}
+\select@language {american}
+\select@language {brazil}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Hist\IeC {\'o}ria da Gen\IeC {\'e}tica}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Problema e Hip\IeC {\'o}tese}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}Justificativa}{4}{section.1.3}
+\contentsline {section}{\numberline {1.4}Objetivo}{4}{section.1.4}
+\contentsline {section}{\numberline {1.5}Descri\IeC {\c c}\IeC {\~a}o dos Cap\IeC {\'\i }tulos}{4}{section.1.5}
+\contentsline {chapter}{\numberline {2}Biologia Molecular e Bioinform\IeC {\'a}tica}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}\IeC {\'A}cidos Nucl\IeC {\'e}icos}{5}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}DNA}{6}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}RNA}{6}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}S\IeC {\'\i }ntese de Prote\IeC {\'\i }na}{7}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Prote\IeC {\'\i }na}{7}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}C\IeC {\'o}digo Gen\IeC {\'e}tico}{9}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Transcri\IeC {\c c}\IeC {\~a}o e tradu\IeC {\c c}\IeC {\~a}o}{9}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}Bioinform\IeC {\'a}tica}{11}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Desafio das \IeC {\^o}micas}{11}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Visualiza\IeC {\c c}\IeC {\~a}o de dados \IeC {\^o}micos}{12}{subsection.2.3.2}
+\contentsline {chapter}{\numberline {3}Redes Metab\IeC {\'o}licas}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Descri\IeC {\c c}\IeC {\~a}o das entidades}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}Modelagem de Metabolismo usando grafos}{13}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Grafo}{13}{subsection.3.2.1}
+\contentsline {chapter}{\numberline {4}Banco de Dados NoSQL}{14}{chapter.4}
+\contentsline {section}{\numberline {4.1}Propriedades}{14}{section.4.1}
+\contentsline {section}{\numberline {4.2}OrientDB}{14}{section.4.2}
+\contentsline {chapter}{\numberline {5}2Path: Aplica\IeC {\c c}\IeC {\~a}o Web}{15}{chapter.5}
+\contentsline {section}{\numberline {5.1}Implementa\IeC {\c c}\IeC {\~a}o}{15}{section.5.1}
+\contentsline {section}{\numberline {5.2}Visualiza\IeC {\c c}\IeC {\~a}o das redes metab\IeC {\'o}licas}{16}{section.5.2}
+\contentsline {section}{\numberline {5.3}Desafios}{16}{section.5.3}
+\contentsline {chapter}{\numberline {6}Conclus\IeC {\~a}o}{17}{chapter.6}
+\contentsline {chapter}{\numberline {7}Trabalhos Futuros}{18}{chapter.7}
+\contentsline {chapter}{\numberline {8}Cronograma}{19}{chapter.8}
+\contentsline {chapter}{Refer\^encias}{20}{section*.15}
