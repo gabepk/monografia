@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.12)  14 OCT 2016 08:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.12)  14 OCT 2016 14:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -633,65 +633,86 @@ File: biocyc-pathwaytool-desktop.png Graphic file (type png)
 <use biocyc-pathwaytool-desktop.png>
 Package pdftex.def Info: biocyc-pathwaytool-desktop.png used on input line 103.
 
-(pdftex.def)             Requested size: 206.39685pt x 217.69113pt.
+(pdftex.def)             Requested size: 258.0pt x 272.12564pt.
 
-<metacyc_glycin_small.png, id=16, 609.27625pt x 308.15125pt>
-File: metacyc_glycin_small.png Graphic file (type png)
+Overfull \hbox (6.0pt too wide) in paragraph at lines 103--104
+ [][] 
+ []
 
-<use metacyc_glycin_small.png>
-Package pdftex.def Info: metacyc_glycin_small.png used on input line 111.
-(pdftex.def)             Requested size: 258.0pt x 130.48999pt.
+<bioLuz.png, id=16, 738.76pt x 620.3175pt>
+File: bioLuz.png Graphic file (type png)
+ <use bioLuz.png>
+Package pdftex.def Info: bioLuz.png used on input line 111.
+(pdftex.def)             Requested size: 258.0pt x 216.63165pt.
 
 Overfull \hbox (6.0pt too wide) in paragraph at lines 111--112
  [][] 
  []
 
-<reactome_canis_small.png, id=17, 546.04pt x 533.995pt>
-File: reactome_canis_small.png Graphic file (type png)
+<reactome_homo_small.png, id=18, 585.18625pt x 789.95125pt>
+File: reactome_homo_small.png Graphic file (type png)
 
-<use reactome_canis_small.png>
-Package pdftex.def Info: reactome_canis_small.png used on input line 120.
-(pdftex.def)             Requested size: 258.0pt x 252.30582pt.
+<use reactome_homo_small.png>
+Package pdftex.def Info: reactome_homo_small.png used on input line 125.
+(pdftex.def)             Requested size: 206.39685pt x 278.62057pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 120--121
+<reactome_homo_acid.png, id=19, 1030.85126pt x 676.5275pt>
+File: reactome_homo_acid.png Graphic file (type png)
+
+<use reactome_homo_acid.png>
+Package pdftex.def Info: reactome_homo_acid.png used on input line 132.
+(pdftex.def)             Requested size: 258.0pt x 169.31726pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 132--133
  [][] 
  []
 
 
-Underfull \hbox (badness 7362) in paragraph at lines 259--260
+Underfull \hbox (badness 7362) in paragraph at lines 273--274
 []\OT1/ptm/m/n/8 Kyoto En-cy-clo-pe-dia of Genes and Genome, \OT1/ptm/m/it/8 KE
 GG Overview
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
 []\OT1/ptm/m/n/8 Reactome, a cu-rated path-way database, \OT1/ptm/m/it/8 Users-
 guide
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
 \OT1/ptm/m/it/8 http://wiki.reactome.org/index.php/Usersguide \OT1/ptm/m/n/8 vi
 s-i-tado em 01 de
  []
 
-[3 <./biocyc-pathwaytool-desktop.png> <./metacyc_glycin_small.png (PNG copy)> <
-./reactome_canis_small.png (PNG copy)>]
-Underfull \hbox (badness 1533) in paragraph at lines 290--291
+[3 <./biocyc-pathwaytool-desktop.png> <./bioLuz.png>]
+Underfull \hbox (badness 1533) in paragraph at lines 304--305
 []\OT1/ptm/m/n/8 Kyoto En-cy-clo-pe-dia of Genes and Genome, \OT1/ptm/m/it/8 Te
 r-penoid back-bone
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--291
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
 \OT1/ptm/m/it/8 biosyn-the-sis - Ref-er-ence path-way  http://www.kegg.jp/kegg-
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--291
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
 \OT1/ptm/m/it/8 bin/show[]pathway?map=map00900&show[]description=show \OT1/ptm/
 m/n/8 vis-i-tado
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+[]\OT1/ptm/m/n/8 R. Caspi \OT1/ptm/m/it/8 Meta-Cyc Path-way: bac-te-rial bi-o-l
+u-mi-nes-cence\OT1/ptm/m/n/8 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+\OT1/ptm/m/it/8 http://metacyc.org/META/new-image?object=PWY-7723 \OT1/ptm/m/n/
+8 vis-i-tado em
  []
 
 
@@ -705,27 +726,25 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4
-
-] (./bare_conf.aux) ) 
+[4 <./reactome_homo_small.png> <./reactome_homo_acid.png>] (./bare_conf.aux) ) 
 Here is how much of TeX's memory you used:
- 3333 strings out of 493029
- 50192 string characters out of 6136234
- 134447 words of memory out of 5000000
- 6818 multiletter control sequences out of 15000+600000
+ 3341 strings out of 493029
+ 50305 string characters out of 6136234
+ 134465 words of memory out of 5000000
+ 6825 multiletter control sequences out of 15000+600000
  40049 words of font info for 74 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  38i,11n,24p,1210b,245s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
-}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/font
-s/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
-es/utmri8a.pfb>
-Output written on bare_conf.pdf (4 pages, 528139 bytes).
+{
+/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
+8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on bare_conf.pdf (4 pages, 686010 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 49 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -96,11 +96,11 @@ The abstract goes here.
 \item[3]\textbf{Pathway/Genome Navigator}: Oferece mecanismos de busca, visualização e anpalise de redes metabólicas.
 \end{itemize}
 
-\indent Além dessas funcionalidades principais, o Pathway Tools dispõe também de meios para geração de posters de genomas e mapas metabólicos a partir de PGDB, comparação de mapas metabólicos inteiros e exportação de PGDB em vários formatos \cite{MetacycDesktopVsWeb}. Via web, o MetaCyc oferece mecanismos básicos de análise metabolômica, tais como coloração de nós sobre redes (ou colagens de redes) metabólicas para geração de diagramas customizados e análise de níveis de metabólitos, por exemplo \cite{MetacycOmicAnalysis}.
+\indent Além dessas funcionalidades principais, o Pathway Tools dispõe também de meios para geração de posters de genomas e mapas metabólicos a partir de PGDB, comparação de mapas metabólicos inteiros e exportação de PGDB em vários formatos \cite{MetacycDesktopVsWeb}. Via web, o MetaCyc oferece mecanismos básicos de análise metabolômica, tais como coloração de nós sobre redes (ou colagens de redes) metabólicas para geração de diagramas customizados e análise de níveis de metabólitos \cite{MetacycOmicAnalysis}, por exemplo.
 
 \begin{figure}[!t]
 \centering
-\includegraphics[width=0.4\textwidth]{biocyc-pathwaytool-desktop.png}
+\includegraphics[width=0.5\textwidth]{biocyc-pathwaytool-desktop.png}
 \caption{BioCyc}
 \label{metacyc_arvore}
 \end{figure}
@@ -108,18 +108,30 @@ The abstract goes here.
 
 \begin{figure}[!t]
 \centering
-\includegraphics[width=0.5\textwidth]{metacyc_glycin_small.png}
-\caption{BioCyc}
+\includegraphics[width=0.5\textwidth]{bioLuz.png}
+\caption{Exemplo de via metabólica retirado do site MetaCyC. Esta representa o processo de produção da bioluminescência de bactérias \cite{examplePathwayMetacyc}.}
 \label{metacyc_glycin_small}
 \end{figure}
 
-\subsection{Reactome}
+\subsection{Pathway Browser}
+
+\indent O Reactome fornece uma visão geral da rede metabólica completa de vários organismos, organizada por sistemas de maneira sistemática utilizando o elemento canvas do HTML5 para renderizar os diagramas. A Figura \ref{reactome_homo_small} aprensenta a fração da rede que foca nas vias do sistema metabólico do Homo sapiens, onde a via metabólica do ciclo do ácido cítrico está em destaque. O combo-box do topo permite que o usuário escolha o organismo desejado, o painel inferior apresenta (1) detalhes sobre a via selecionada tais como compartimento celular, autor (curador), fundamento teórico, etc; (2) moléculas que contituem a via; (3) estrutura em 3D; (4) expressão gênica; (5) análise - resultados da ferramenta de análise; e por fim (6) arquivos para \textit{download} tais como relatório completo sobre a via metabólica e o modelo em formato SBML \cite{reactomeArticle}.
+
+\indent Ao clicar em um dos nós destacados na Figura \ref{reactome_homo_small}, o site redireciona o usuário para uma página específica desta via, contendo informações mais detalhadas sobre cada elemento. Ela aparece representada em forma de grafo direcionado onde os nós são compostos e as arestas, reações.
+
+...................................
+\begin{figure}[!t]
+\centering
+\includegraphics[width=0.4\textwidth]{reactome_homo_small.png}
+\caption{Visão geral das redes metabólicas do Homo Sapiens com destaque na via metabólica do ciclo do ácido cítrico.}
+\label{reactome_homo_small}
+\end{figure}
 
 \begin{figure}[!t]
 \centering
-\includegraphics[width=0.5\textwidth]{reactome_canis_small.png}
-\caption{Reactome}
-\label{reactome_canis_small}
+\includegraphics[width=0.5\textwidth]{reactome_homo_acid.png}
+\caption{}
+\label{reactome_homo_acid}
 \end{figure}
 
 \begin{itemize}
@@ -127,12 +139,14 @@ The abstract goes here.
 \item The Reactome pathway knowladgebase
 \end{itemize}
 
-\subsection{Cytoscape}
+%\subsection{Cytoscape}
 
-\begin{itemize}
-\item http:\/\/www.cytoscape.org\/what\_is\_cytoscape.html
-\item Cytoscape: A Software Environment for Integrated Models of Biomolecular Interaction Networks
-\end{itemize}
+%\begin{itemize}
+%\item http:\/\/www.cytoscape.org\/what\_is\_cytoscape.html
+%\item Cytoscape: A Software Environment for Integrated Models of Biomolecular Interaction Networks
+%\end{itemize}
+
+\section{2Path: Uma ferramenta de visualização de redes metabólicas em grafos}
 
 \section{Conclusão}
 
@@ -288,6 +302,12 @@ Kyoto Encyclopedia of Genes and Genome, \emph{Metabolic pathways - Reference pat
 
 \bibitem{viaTerpenoideKEGG}
 Kyoto Encyclopedia of Genes and Genome, \emph{Terpenoid backbone biosynthesis - Reference pathway} \hskip 1em plus 0.5em minus 0.4em\relax \emph{http://www.kegg.jp/kegg-bin/show\_pathway?map=map00900\&show\_description=show} visitado em 03 de Outubro de 2016.
+
+\bibitem{examplePathwayMetacyc}
+R.~Caspi \emph{MetaCyc Pathway: bacterial bioluminescence}.  \hskip 1em plus 0.5em minus 0.4em\relax \emph{http://metacyc.org/META/new-image?object=PWY-7723}  visitado em 13 de Outubro de 2016.
+
+\bibitem{reactomeArticle}
+D.~Croft, A.F.~Mundo, R.~Haw, M.~Milacic, J.~Weiser, G.~Wu, M.~Caudy, P.~Garapati, M.~Gillespie, M.R.~Kamdar, B.~Jassal , S.~Jupe, L.~Matthews, B.~May, S. ~Palatnik, K.~Rothfels, V.~Shamovsky, H.~Song, M.~Williams, E.~Birney, H.~Hermjakob, L.~Stein and P.~D’Eustachio, \emph{The Reactome pathway knowledgbase} . \hskip 1em plus 0.5em minus 0.4em\relax Nucleic Acids Research, Vol. 42, 2014.
 
 \end{thebibliography}
 
