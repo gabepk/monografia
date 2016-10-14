@@ -34,67 +34,68 @@ The abstract goes here.
 
 \section{Introducão}
 
-O metabolismo é isso X, ocorre por isso (síntese e degradação) e funciona com isso (moléculas, metabólitos).
+\indent Metabolismo é o conjunto de todas as reações bioquímicas que ocorrem dentro de um organismo vivo. Ele pode ser representados computacionalmente em forma de vias metabólicas, sequências de reações bioquímicas cujo produto e subtrato são denominados metabólitos e que podem ser catalisadas por enzimas com ou sem ajuda de co-fatores. A estrutura de dados que melhor representa o metabolismo é o grafo, onde os nós são os elementos químicos ou reações e as arestas são as relações entre eles. 
 
-Como o metabolismo tem sido representado computacionalmente (redes metabólicas)? Como as redes metabólicas tem sido visualizadas (estado da arte)? \\
-Problema, objetivo. \\
-Descrição dos capítulos.
-
+\indent Atualmente os pesquisadores biólogos trabalham com uma quantidade tão extensa de dados sobre redes metabólicas (conjunto de vias metabólicas) que apenas ferramentas de Big Data podem ser usadas para análise, visualização, busca, etc, para um tratamento eficiente. Estes dados, denominados dados ômicos, são armazenados em bancos de dados específicos hoje em dia, mais vários deles colaboram entre si. O foco deste trabalho é apresentar os bancos de dados que representam redes metabólicas em modelo de grafo já existentes bem como suas ferramentas de visualização de vias metabólicas, e apresentar a ferramenta de visualização 2Path formularizada e desenvolvida neste projeto.
 
 \section{Redes Metabólicas}
 
-\hl{Paragrafo intro} \\. As reações bioquímicas são alterações químicas que fornecem um ou mais produtos a partir de um ou mais substratos. Uma via metabólica é uma sequência de reações bioquímicas, cujo produto e subtrato são denominados de metabólitos, que podem ser catalisados por enzimas, as quais muitas vezes necessitam de compostos químicos chamados de co-fatores para realizarem suas atividades na célula. O conjunto de vias metabólicas de um organismo é chamado de rede metabólica. Todos estes elementos que compõem as redes metabólicas são dados biológicos estudados na área metabolômica. Nesta seção são apresentados três bancos de dados de redes metabólicas: KEGG\footnote{site kegg}, BIoCyc e Reactome.
-
-LIVRO LEHNINGER
+\indent As reações bioquímicas são alterações químicas que fornecem um ou mais produtos a partir de um ou mais substratos. Uma via metabólica é uma sequência de reações bioquímicas, cujo produto e subtrato são denominados de metabólitos, que podem ser catalisados por enzimas, as quais muitas vezes necessitam de compostos químicos chamados de co-fatores para realizarem suas atividades na célula. O conjunto de vias metabólicas de um organismo é chamado de rede metabólica \cite{Lehninger10}. Todos estes elementos que compõem as redes metabólicas são dados biológicos estudados na área metabolômica. Nesta seção são apresentados conceitos básicos de biologia molecular e metabolismo, e três bancos de dados voltados para redes metabólicas: KEGG\footnote{\textit{http:\/\/www.kegg.jp\/}.}, BIoCyc\footnote{\textit{http:\/\/biocyc.org}.} e Reactome\footnote{\textit{http:\/\/www.reactome.org}.}.
 
 \subsection{Conceitos de Biologia Molecular}
 
-O DNA é um conjunto de biomoléculas em um organismo que armazena informações, chamados de genes, referentes ao funcionamento de todas as suas células. Ele constitui o genoma em todos os seres vivos, com excessão dos vírus. A expressão dos genes é o processo no qual os genes são filtrados e utilizados na síntese de um produto, geralmente proteína. O método é segmentado em três etapas: transcrição (síntese de RNA mensageiro, mRNA, a partir de DNA), \textit{splicing} (filtragem do gene síntetizador de proteínas desejadas do mRNA) e tradução (síntese de proteína a partir do mRNA filtrado). Completo este processo, as proteínas resultantes poderão formar uma configuração tridimensional de até quatro níveis. As enzimas, por exemplo, são proteínas que podem ter estrutura terciária ou quaternária. \\
-\indent \hl{Intro sobre sequenciamento de genoma} \\
+% CITARRRR
+
+\indent O DNA é um conjunto de biomoléculas em um organismo que armazena informações, chamados de genes, referentes ao funcionamento de todas as suas células. Ele constitui o genoma em todos os seres vivos, com excessão dos vírus. A expressão dos genes é o processo no qual os genes são filtrados e utilizados na síntese de um produto, geralmente proteína. O método é segmentado em três etapas: transcrição (síntese de RNA mensageiro, mRNA, a partir de DNA), \textit{splicing} (filtragem do gene síntetizador de proteínas desejadas do mRNA) e tradução (síntese de proteína a partir do mRNA filtrado). Completo este processo, as proteínas resultantes poderão formar uma configuração tridimensional de até quatro níveis. As enzimas, por exemplo, são proteínas que podem ter estrutura terciária ou quaternária.
 
 \subsection{Conceitos de Metabolismo}
 
-O papel das enzimas no metabolismo é realizar biosíntese/degradação de moléculas para produção de energia (catalisar) com o propósito de acelerar reações bioquímicas. Aquelas que possuem a mesma atividade enzimática porém estruturas físicas diferentes são chamadas isoenzimas. \hl{Ligar paragrafos}.  \\
-\indent Quando o metabolismo exerce uma função fundamental no organismo, ele é classificado como metabolismo primário. Mitose e meiose são exemplos de metabolismos primários. Já quando o metabolismo não está relacionado a reprodução, desenvolvimento ou crescimento, ele não é essencial no organismo e, portanto, secundário. Os metabólitos secundários, apesar da aparente insignificância, podem ser antibióticos, por exemplo, e deste modo são bastante aplicados na medicina e na indústria \cite{waldeyr}.
+\indent Enzimas são proteínas responsáveis por auxiliar a realização de biossíntese (construção) e biodegradação de moléculas no metabolismo com o propósito de catalisar (acelerar) reações bioquímicas. As enzimas possuem um local pré-determinado em formato côncavo chamado de sítio ativo, que comporta um ou mais substratos. Se a enzima comporta apenas um substrato, a estrutura que se forma com o preenchimento do sítio ativo é um complexo enzima-substrato, porém se ela comporta mais de um substrato, a estrutura é chamada de complexo ternário intermediário \cite{Cap2schomburg}. Quando a atividade catalítica não pode ser realizada apenas pela enzima, co-fatores auxiliam o processo.
+
+\indent O conjunto de todas as reações bioquímicas que ocorrem dentro de um organismo vivo é chamado de metabolismo, e ele podem ser dividido em dois subconjuntos: catabolismo, quando ocorre a quebra de moléculas complexas produzindo energia, e anabolismo, quando ocorre a síntese de moléculas complexas, o que requer energia.Ele também pode ser classificado em relação à função que exerce no organismo \cite{Cap3schomburg}. Se a função realizada é fundamental no organismo, como crescimento, desenvolvimento e reprodução, ele é denominado metabolismo primário. Caso contrário, é denominado metabolismo secundário.
+
 
 \subsection{Banco de Dados de redes metabólicas}
 
+\subsubsection{KEGG}
+\indent O KEGG (\textit{Kyoto Encyclopedia of Genes and Genomes}) é uma base de informações sobre sistemas biológicos em nível molecular, sobretudo sobre conjuntos de dados em larga escala gerados por sequenciamento de genoma \cite{keggOverview}. As informações sobre os sistemas podem ser dadas em forma de módulos, unidades funcionais com identificação otimizada para análise dos dados, em forma de \textit{brite}, coleção de arquivos estruturados hierarquicamente sobre as funções das entidades biológicos, ou em forma de vias, mapa de interações moleculares e reações químicas. Dado que o metabolismo é um conjunto de reações e transformações químicas, a maneira natural de representá-lo é por meio de uma rede de interações, ou seja, em forma de vias. O KEGG oferece uma ferramenta de busca de vias metabólicas sobre várias rede metabólica, dos vários organismos que constituem o banco de dados.
 
-\hl{Paragrafo intro}  \\. O KEGG (\textit{Kyoto Encyclopedia of Genes and Genomes}) é uma base de informações sobre sistemas biológicos em nível molecular, sobretudo sobre conjuntos de dados em larga escala gerados por sequenciamento de genoma \cite{keggOverview}. As informações sobre os sistemas podem ser dadas em forma de módulos, unidades funcionais com identificação otimizada para análise dos dados, em forma de \textit{brite}, coleção de arquivos estruturados hierarquicamente sobre as funções das entidades biológicos, ou em forma de vias, mapa de interações moleculares e reações químicas. Dado que o metabolismo é um conjunto de reações e transformações químicas, a maneira natural de representá-lo é por meio de uma rede de interações, ou seja, em forma de vias. O KEGG oferece uma ferramenta de busca de vias metabólicas sobre várias rede metabólica, dos vários organismos que constituem o banco de dados. É possível acessar o KEGG pela \textit{web} através do site \textit{http:\/\/www.kegg.jp\/}. \hl{Ligar paragrafos}.\\
-\indent O BioCyc é um sistema de coleção de aproximadamente 7 mil bancos de dados chamados PGDBs (\textit{Pathway/Genome Databases}) pois possuem duas maneiras diferentes de representar as informações: modelo de vias metabólicas, que enfatiza as sequências de reações, substratos e produtos de múltiplos organismos, ou modelo de sequência genômica, que destaca a localização e descrição dos genes de cada organismo específico \cite{biocycIntro}. Os bancos PGDBs são organizado em três camadas de acordo com a frequência de atualizações/refinações e da maneira com que os dados foram obtidos. O BioCyc possui um banco de dados específico para redes metabólicas determinadas experimentalmente, chamado MetaCyc. Este é o único banco de dados multi-organismos do grupo BioCyc e ele é referência na ferramenta gratuita \textit{Pathway Tools} desenvolvida pelo instituto de pesquisa \textit{SRI International}.\hl{Ligar paragrafos} \\
-\indent Reactoma é um banco de dados de reações de mudança de estado, ou seja, além de reações bioquímica, ele também abrange reações de ativação, de degradação e de ligação, por exemplo \cite{reactomeUsersguide}. Ele faz uma ligação sistemática entre as proteínas de um certo organismo e as funções moleculares do mesmo, fornecendo uma base de funções que pode ser utilizada para pesquisas sobre expressão de genes ou mutações somáticas. O Reactome disponibiliza o \textit{Pathway Browser}, uma rede geral para cada organismo, que representa os vários seus sistemas, como reprodução e metabolismo, por exemplo. Algumas sub-redes estão conectadas (por exemplo, replicação de DNA e ciclo de célula), outra não (por exemplo, contração muscular e reprodução). Nesta rede, cada nó representa uma via cujo número de entidade se reflete no raio do nó, e cada aresta representa a relação entre estas vias. O site ainda possui uma ferramenta de análise de dados baseada nas correspondências entre as reações na redes dos organismos comparados. \\
-\hl{Frase final} \\
+\subsubsection{BioCyc}
+\indent O BioCyc é um sistema de coleção de aproximadamente 7 mil bancos de dados chamados PGDBs (\textit{Pathway/Genome Databases}) pois possuem duas maneiras diferentes de representar as informações: modelo de vias metabólicas, que enfatiza as sequências de reações, substratos e produtos de múltiplos organismos, ou modelo de sequência genômica, que destaca a localização e descrição dos genes de cada organismo específico \cite{biocycIntro}. Os bancos PGDBs são organizado em três camadas de acordo com a frequência de atualizações/refinações e da maneira com que os dados foram obtidos. O BioCyc possui um banco de dados específico para redes metabólicas determinadas experimentalmente, chamado MetaCyc. Este é o único banco de dados multi-organismos do grupo BioCyc e ele é referência na ferramenta gratuita \textit{Pathway Tools} desenvolvida pelo instituto de pesquisa \textit{SRI International}.
+
+\subsubsection{Reactome}
+\indent O Reactome é um banco de dados de reações de mudança de estado, ou seja, além de reações bioquímica, ele também abrange reações de ativação, de degradação e de ligação, por exemplo \cite{reactomeUsersguide}. Ele faz uma ligação sistemática entre as proteínas de um certo organismo e as funções moleculares do mesmo, fornecendo uma base de funções que pode ser utilizada para pesquisas sobre expressão de genes ou mutações somáticas. O Reactome disponibiliza o \textit{Pathway Browser}, uma rede geral para cada organismo, que representa os vários seus sistemas, como reprodução e metabolismo, por exemplo. Algumas sub-redes estão conectadas (por exemplo, replicação de DNA e ciclo de célula), outra não (por exemplo, contração muscular e reprodução). Nesta rede, cada nó representa uma via cujo número de entidade se reflete no raio do nó, e cada aresta representa a relação entre estas vias. O site ainda possui uma ferramenta de análise de dados baseada nas correspondências entre as reações na redes dos organismos comparados.
 
 \section{Ferramentas de visualização de redes metabólicas}
 
-\hl{Paragrafo inicial}
-
 \subsection{KEGG Pathway Maps}
 
-O KEGG oferece uma visao geral e uma visualização específica para análise de redes metabólicas. Na primeira, o grafo interativo apresenta uma perspectiva global das entidades do banco de dados do KEGG, chamadas de objetos KEGG. Neste panorama, a rede metabólica selecionada é destacada e é acompanhada de interações externas, que não possuem ligação direta com a rede analisada. Os nós representam compostos químicos e as arestas podem representar enzimas, reações e/ou \hl{otholog}. Na página do Atlas, a visualização das arestas pode ser filtrada, bem como as vias, de acordo com suas funções. A Figura \ref{terpenoid_meva_kegg} apresenta uma parte da via de biosíntese de terpenóide, que tem início no composto Acetyl-CoA, destacada sobre as demais. A outra maneira de visualizar esta via é acessando o objeto KEGG do tipo \textit{map} o qual ela representa (\textit{KEGG Pathway Map}). O mapa de vias é um diagrama de interações/reações moleculares entre enzimas desenhado manualmente. A via da Figura \ref{terpenoid_meva_kegg_solo} apresenta a mesma via da Figura \ref{terpenoid_meva_kegg}. \\
+\indent O KEGG oferece uma visao geral e uma visualização específica para análise de redes metabólicas. Na primeira, o grafo interativo apresenta uma perspectiva global das entidades do banco de dados do KEGG, chamadas de objetos KEGG. Neste panorama, a rede metabólica selecionada é destacada e é acompanhada de interações externas, que não possuem ligação direta com a rede analisada. Os nós representam compostos químicos e as arestas podem representar enzimas, reações e/ou ortólogos. Na página do Atlas, a visualização das arestas pode ser filtrada, bem como as vias, de acordo com suas funções. A Figura \ref{terpenoid_meva_kegg} apresenta uma parte da via de biosíntese do \textit{backbone} de terpenóides, que tem início no composto Acetyl-CoA, destacada sobre as demais. A outra maneira de visualizar esta via é acessando o objeto KEGG do tipo \textit{map} o qual ela representa (\textit{KEGG Pathway Map}). O mapa de vias é um diagrama de interações/reações moleculares entre enzimas desenhado manualmente. A via da Figura \ref{terpenoid_meva_kegg_solo} apresenta a mesma via destacada da Figura \ref{terpenoid_meva_kegg}. \\
 
 \begin{figure}[!t]
 \centering
 \includegraphics[width=0.5\textwidth]{terpenoid_meva_kegg.png}
-\caption{KEGG}
+\caption{Visão geral da rede metabólica de referência do KEGG, com destaque na via metabólica de biosíntese do \textit{backbone} de terpenóides \cite{RefPathwayKEGG}.}
 \label{terpenoid_meva_kegg}
 \end{figure}
 
 \begin{figure}[!t]
 \centering
 \includegraphics[width=0.4\textwidth]{terpenoid_meva_kegg_solo.png}
-\caption{KEGG}
+\caption{Via metabólica de biosíntese do \textit{backbone} de terpenóides \cite{viaTerpenoideKEGG}.}
 \label{terpenoid_meva_kegg_solo}
 \end{figure}
 
 \subsection{MetaCyc Pathway Tools}
 
-O intituto SRI International oferece a ferramenta \textit{Pathway Tools} para busca, visualização e edição de dados do MetaCyc \cite{articleMetacyc}. Ela possui três componentes de análise:
+\indent O intituto SRI International oferece a ferramenta \textit{Pathway Tools} para busca, visualização e edição de dados do MetaCyc \cite{articleMetacyc}. Ela possui três componentes de análise:
+
 \begin{itemize}
 \item[1]\textbf{Pathologic}: Um PGDB é gerado a partir do genoma de um organismo e de vias metabólicas produziadas por um software de predição de vias; 
 \item[2]\textbf{Pathway/Genome Editor}: Permite que curadores (especialistas responsáveis por verificar na literatura a corretude dos dados) possam refinar manualmente um PGDB, bem como importar ou exportar entidades de um PGDB para outro;
 \item[3]\textbf{Pathway/Genome Navigator}: Oferece mecanismos de busca, visualização e anpalise de redes metabólicas.
 \end{itemize}
+
 \indent Além dessas funcionalidades principais, o Pathway Tools dispõe também de meios para geração de posters de genomas e mapas metabólicos a partir de PGDB, comparação de mapas metabólicos inteiros e exportação de PGDB em vários formatos \cite{MetacycDesktopVsWeb}. Via web, o MetaCyc oferece mecanismos básicos de análise metabolômica, tais como coloração de nós sobre redes (ou colagens de redes) metabólicas para geração de diagramas customizados e análise de níveis de metabólitos, por exemplo \cite{MetacycOmicAnalysis}.
 
 \begin{figure}[!t]
@@ -237,18 +238,11 @@ Conclusão
 
 
 
-% conference papers do not normally have an appendix
-
-
-% use section* for acknowledgment
-\section*{Agradecimento}
-
-
 % trigger a \newpage just before the given reference
 % number - used to balance the columns on the last page
 % adjust value as needed - may need to be readjusted if
 % the document is modified later
-%\IEEEtriggeratref{8}
+\IEEEtriggeratref{8}
 % The "triggered" command can be changed if desired:
 %\IEEEtriggercmd{\enlargethispage{-5in}}
 
@@ -279,11 +273,23 @@ SRI International and BioCyc Database Collection, \emph{Comparison of Desktop an
 \bibitem{MetacycOmicAnalysis}
 SRI International and BioCyc Database Collection, \emph{Omics Data Analysis} \hskip 1em plus 0.5em minus 0.4em\relax \emph{http://metacyc.org/PToolsWebsiteHowto.shtml\#omicsDataAnalysis} visitado em 04 de Outubro de 2016.
 
+\bibitem{Lehninger10}
+D.L.~Nelson and M.C.~Michael, \emph{Princípios de Bioquímica de Lehninger - Ed. Comemorativa 25 Anos} \hskip 1em plus 0.5em minus 0.4em\relax Artmed, São Paulo - SP, 5nd edition, 2010.
+
+\bibitem{Cap2schomburg}
+G.~Michal and D.~Schomburg, \emph{The Cell and Its Contents}, pages 14–36. \hskip 1em plus 0.5em minus 0.4em\relax John Wiley \& Sons, Inc., 2012.
+
+\bibitem{Cap3schomburg}
+R.~Wünschiers, M.~Jahn, D.~Jahn, I.~Schomburg, S.~Peifer,
+E.~Heinzle, H.~Burtscher, J.~Garbe, A.~Steen, M.~Schobert, D.~Oesterhelt, J.~Wachtveitl, and A.~Chang, \emph{Metabolism}, pages 37–209. \hskip 1em plus 0.5em minus 0.4em\relax John Wiley \& Sons, Inc., 2012.
+
+\bibitem{RefPathwayKEGG}
+Kyoto Encyclopedia of Genes and Genome, \emph{Metabolic pathways - Reference pathway} \hskip 1em plus 0.5em minus 0.4em\relax \emph{http://www.kegg.jp/kegg- bin/show\_pathway?map01100} visitado em 03 de Outubro de 2016.
+
+\bibitem{viaTerpenoideKEGG}
+Kyoto Encyclopedia of Genes and Genome, \emph{Terpenoid backbone biosynthesis - Reference pathway} \hskip 1em plus 0.5em minus 0.4em\relax \emph{http://www.kegg.jp/kegg-bin/show\_pathway?map=map00900\&show\_description=show} visitado em 03 de Outubro de 2016.
+
 \end{thebibliography}
-
-
-
-
 
 \end{document}
 
