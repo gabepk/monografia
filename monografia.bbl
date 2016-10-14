@@ -1,9 +1,22 @@
 \begin{thebibliography}{10}
 
+\bibitem{biocycIntro}
+Introduction to biocyc.
+\newblock \url{http://biocyc.org/intro.shtml}, visitado em 2016-10-01.
+
+\bibitem{keggOverview}
+Kegg overview.
+\newblock \url{http://www.kegg.jp/kegg/kegg1a.html}, visitado em 2016-10-01.
+
 \bibitem{profangela11}
 Proteínas.
 \newblock \url{http://www.professoraangela.net/documents/proteinas.html},
   visitado em 2016-01-02.
+
+\bibitem{reactomeUsersguide}
+Usersguide.
+\newblock \url{http://wiki.reactome.org/index.php/Usersguide}, visitado em
+  2016-10-01.
 
 \bibitem{drug09}
 Protein structure, 2009.
@@ -11,12 +24,30 @@ Protein structure, 2009.
   \url{http://www.particlesciences.com/news/technical-briefs/2009/protein-structure.html},
   visitado em 2016-01-02.
 
+\bibitem{CAPTheorem}
+Abhishek Bansal.
+\newblock Nosql, cap theorem (part of mongodb course).
+\newblock
+  \url{https://www.knowbigdata.com/blog/nosql-cap-theorem-part-mongodb-course},
+  visitado em 2016-10-13.
+
 \bibitem{carterClass}
 Perry Carter.
 \newblock Catabolic and anabolic reactions.
 \newblock
   \url{http://classes.midlandstech.edu/carterp/courses/bio225/chap05/lecture1.htm},
   visitado em 2016-10-12.
+
+\bibitem{examplePathway}
+Ron Caspi.
+\newblock Metacyc pathway: bacterial bioluminescence.
+\newblock \url{http://metacyc.org/META/new-image?object=PWY-7723}, visitado em
+  2016-10-13.
+
+\bibitem{cattell11}
+Rick Cattell.
+\newblock Scalable sql and nosql data stores.
+\newblock {\em SIGMOD Rec.}, 39(4):12--27, May 2011.
 
 \bibitem{eclipseDoc}
 Eclipse Foundation, Inc., 102 Centrepointe Drive, Ottawa, Ontario,.
@@ -78,6 +109,14 @@ Leslie~A. Pray.
 João~Carlos Setubal and João Meidanis.
 \newblock {\em Introduction to computational molecular biology.}
 \newblock PWS Publishing Company, 1997.
+
+\bibitem{vicknair10}
+Chad Vicknair, Michael Macias, Zhendong Zhao, Xiaofei Nan, Yixin Chen, and Dawn
+  Wilkins.
+\newblock A comparison of a graph database and a relational database: A data
+  provenance perspective.
+\newblock In {\em Proceedings of the 48th Annual Southeast Regional
+  Conference}, ACM SE '10, pages 42:1--42:6, New York, NY, USA, 2010. ACM.
 
 \bibitem{Cap3schomburg}
 Röbbe Wünschiers, Martina Jahn, Dieter Jahn, Ida Schomburg, Susanne Peifer,

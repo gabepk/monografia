@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.12)  12 OCT 2016 17:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.12)  14 OCT 2016 06:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1051,7 +1051,7 @@ LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <20> not available
 LaTeX Font Warning: Font shape `T1/ua1/bx/n' in size <20> not available
 (Font)              size <20.74> substituted on input line 190.
 
-<positivo_cor.pdf, id=163, 119.44624pt x 60.225pt>
+<positivo_cor.pdf, id=159, 119.44624pt x 60.225pt>
 File: positivo_cor.pdf Graphic file (type pdf)
  <use positivo_cor.pdf>
 Package pdftex.def Info: positivo_cor.pdf used on input line 190.
@@ -1126,13 +1126,7 @@ Package babel Warning: You haven't loaded the language english yet
 \tf@toc=\write5
 \openout5 = `monografia.toc'.
 
- [6] (./monografia.lof
-Overfull \hbox (1.57297pt too wide) in paragraph at lines 8--8
- [][] [][][]\T1/cmr/m/n/12 CITAR ME-TACYC http:metacyc.orgMETAnew-image?object=
-PWY-7723 
- []
-
-)
+ [6] (./monografia.lof)
 \tf@lof=\write6
 \openout6 = `monografia.lof'.
 
@@ -1142,34 +1136,29 @@ PWY-7723
 \tf@lot=\write7
 \openout7 = `monografia.lot'.
 
- [8
+
+[8
 
 ] (./capitulos/capitulo1.tex
-Cap\'{\i }tulo 1.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 32.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-[1
-
-
-]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 24.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
-)
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
+ [1
+
+
+])
 (./capitulos/capitulo2.tex [2]
-Cap\'{\i }tulo 2.
+Cap\'{\i }tulo 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-<./figuras/nucleotideo.png, id=288, 52.998pt x 31.317pt>
+<./figuras/nucleotideo.png, id=289, 52.998pt x 31.317pt>
 File: ./figuras/nucleotideo.png Graphic file (type png)
 
 <use ./figuras/nucleotideo.png>
@@ -1178,7 +1167,7 @@ Package pdftex.def Info: ./figuras/nucleotideo.png used on input line 18.
  [3
 
  <./figuras/nucleotideo.png>]
-<./figuras/dnaEstrutura.jpg, id=305, 150.8034pt x 139.4811pt>
+<./figuras/dnaEstrutura.jpg, id=306, 150.8034pt x 139.4811pt>
 File: ./figuras/dnaEstrutura.jpg Graphic file (type jpg)
 
 <use ./figuras/dnaEstrutura.jpg>
@@ -1194,7 +1183,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 58.
 
-<./figuras/bioLuz.png, id=326, 738.76pt x 620.3175pt>
+<./figuras/bioLuz.png, id=327, 738.76pt x 620.3175pt>
 File: ./figuras/bioLuz.png Graphic file (type png)
 
 <use ./figuras/bioLuz.png>
@@ -1210,42 +1199,37 @@ Overfull \hbox (13.25375pt too wide) in paragraph at lines 93--94
 i-za-dos por suas pro-pri-e-da-des anti-oxidantes, anti-inflamatória
  []
 
+[8] <./figuras/capTheorm.png, id=382, 819.06pt x 657.45625pt>
+File: ./figuras/capTheorm.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
-
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 115--117
-
- []
+<use ./figuras/capTheorm.png>
+Package pdftex.def Info: ./figuras/capTheorm.png used on input line 123.
+(pdftex.def)             Requested size: 364.19667pt x 292.34138pt.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--137
+LaTeX Warning: `h' float specifier changed to `ht'.
 
- []
-
-) (./capitulos/capitulo3.tex
-Underfull \hbox (badness 10000) in paragraph at lines 150--1
+[9] [10 <./figuras/capTheorm.png (PNG copy)>]) (./capitulos/capitulo3.tex
+Underfull \hbox (badness 10000) in paragraph at lines 158--1
 
  []
 
-[9] [10]
+[11]
+Cap\'{\i }tulo 2.
+) (./capitulos/capitulo4.tex [12
+
+]
 Cap\'{\i }tulo 3.
-) (./capitulos/capitulo4.tex [11
+) (./capitulos/capitulo5.tex [13
 
 ]
 Cap\'{\i }tulo 4.
-) (./capitulos/capitulo5.tex [12
-
-]
-Cap\'{\i }tulo 5.
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) [13
+) [14
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 33--34
@@ -1253,7 +1237,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
  []
 
 
-LaTeX Warning: Reference `' on page 14 undefined on input line 35.
+LaTeX Warning: Reference `' on page 15 undefined on input line 35.
 
 
 Overfull \hbox (7.21924pt too wide) in paragraph at lines 35--36
@@ -1261,82 +1245,93 @@ Overfull \hbox (7.21924pt too wide) in paragraph at lines 35--36
 a lin-gua-gem de mar-ca-ção XHTML,
  []
 
-) (./capitulos/capitulo6.tex [14]
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--56
+
+ []
+
+) (./capitulos/capitulo6.tex [15]
+Cap\'{\i }tulo 5.
+) (./capitulos/capitulo7.tex [16
+
+]
 Cap\'{\i }tulo 6.
-) (./capitulos/capitulo7.tex [15
+) (./capitulos/capitulo8.tex [17
 
 ]
 Cap\'{\i }tulo 7.
-) (./capitulos/capitulo8.tex [16
-
-]
-Cap\'{\i }tulo 8.
-) [17
+) [18
 
 ] (./monografia.bbl (./monografia.brf)
 \tf@brf=\write8
 \openout8 = `monografia.brf'.
 
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 7.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
+Underfull \hbox (badness 1168) in paragraph at lines 20--20
+[]\T1/cmr/m/n/12 Usersguide.  [][]$\T1/cmtt/m/n/12 http : / / wiki . reactome .
+ org / index . php / Usersguide$[][]\T1/cmr/m/n/12 , vi-si-tado em
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
 []\T1/cmr/m/n/12 Protein struc-ture, 2009.  [][]$\T1/cmtt/m/n/12 http : / / www
  . particlesciences . com / news /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
 \T1/cmtt/m/n/12 technical-[]briefs / 2009 / protein-[]structure . html$[][]\T1/
 cmr/m/n/12 , vi-si-tado em 2016-01-02.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 \T1/cmtt/m/n/12 neon / index . jsp ? topic = %2Forg . eclipse . platform . doc 
 . isv % 2Fguide % 2Fint _
  []
 
+[19
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 []\T1/cmr/m/n/12 Leslie A. Pray.  Dis-co-very of dna struc-ture and func-tion: 
 Wat-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 \T1/cmr/m/n/12 son and crick, 2008.  [][]$\T1/cmtt/m/n/12 http : / / www . natu
 re . com / scitable / topicpage /
  []
 
 
-Underfull \hbox (badness 3735) in paragraph at lines 76--76
+Underfull \hbox (badness 3735) in paragraph at lines 107--107
 \T1/cmtt/m/n/12 discovery-[]of-[]dna-[]structure-[]and-[]function-[]watson-[]39
 7$[][]\T1/cmr/m/n/12 , vi-si-tado em 2016-
  []
 
-[18
-
-
-])
+)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 229.
- [19]
+ [20]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
  (./monografia.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
 Package rerunfilecheck Info: File `monografia.out' has not changed.
-(rerunfilecheck)             Checksum: 9A6B298606E06C4D99F77D57B8229879;2450.
+(rerunfilecheck)             Checksum: 92ED565B3CB4510FFA244101932449D7;2424.
 
 
 Package rerunfilecheck Warning: File `monografia.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `monografia.brf':
-(rerunfilecheck)             Before: 33A58C5CD5861ABD5A4FEB7D4C30533B;1510
-(rerunfilecheck)             After:  EA6D79E3B6EA9B7181D83D95C784B2DC;1553.
+(rerunfilecheck)             Before: F9B1E2CBAB3C0D5A4B4354137B17E267;2179
+(rerunfilecheck)             After:  005427B2F95F81D7572304D7D7BECCAF;2127.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.74pt have occurred.
@@ -1354,16 +1349,49 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
  )
 (\end occurred when \iffalse on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 19894 strings out of 493029
- 343012 string characters out of 6136234
- 446308 words of memory out of 5000000
- 22901 multiletter control sequences out of 15000+600000
+ 19962 strings out of 493029
+ 344213 string characters out of 6136234
+ 446950 words of memory out of 5000000
+ 22948 multiletter control sequences out of 15000+600000
  17613 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,10n,92p,1487b,1202s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,10n,92p,1751b,1202s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): 
-name{Hfootnote.3} has been referenced but does not exist, replaced by a fixed o
-ne
+name{Hfootnote.14} has been referenced but does not exist, replaced by a fixed 
+one
+
+pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.12} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 , replaced by a fixed one
@@ -1385,10 +1413,10 @@ per/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></u
 sr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sftt1200.pfb>
-Output written on monografia.pdf (30 pages, 512875 bytes).
+Output written on monografia.pdf (31 pages, 720602 bytes).
 PDF statistics:
- 545 PDF objects out of 1000 (max. 8388607)
- 484 compressed objects within 5 object streams
- 108 named destinations out of 1000 (max. 500000)
- 345 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 616 PDF objects out of 1000 (max. 8388607)
+ 550 compressed objects within 6 object streams
+ 128 named destinations out of 1000 (max. 500000)
+ 342 words of extra memory for PDF output out of 10000 (max. 10000000)
 

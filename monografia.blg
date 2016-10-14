@@ -3,53 +3,56 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: monografia.aux
 The style file: plain.bst
 Database file #1: monografia.bib
-I was expecting a `,' or a `}'---line 250 of file monografia.bib
+I was expecting a `,' or a `}'---line 336 of file monografia.bib
  :    
  :    month = "Julho",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in profangela11
 Warning--to sort, need author or key in drug09
+Warning--to sort, need author or key in keggOverview
+Warning--to sort, need author or key in biocycIntro
+Warning--to sort, need author or key in reactomeUsersguide
 Warning--empty year in violinist12
-You've used 14 entries,
+You've used 21 entries,
             2118 wiz_defined-function locations,
-            579 strings with 6642 characters,
-and the built_in function-call counts, 4035 in all, are:
-= -- 383
-> -- 179
-< -- 3
-+ -- 75
-- -- 60
-* -- 233
-:= -- 638
-add.period$ -- 41
-call.type$ -- 14
-change.case$ -- 68
+            621 strings with 7838 characters,
+and the built_in function-call counts, 5823 in all, are:
+= -- 558
+> -- 236
+< -- 4
++ -- 101
+- -- 78
+* -- 326
+:= -- 892
+add.period$ -- 60
+call.type$ -- 21
+change.case$ -- 98
 chr.to.int$ -- 0
-cite$ -- 17
-duplicate$ -- 161
-empty$ -- 351
-format.name$ -- 60
-if$ -- 874
+cite$ -- 27
+duplicate$ -- 232
+empty$ -- 531
+format.name$ -- 78
+if$ -- 1277
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 12
-newline$ -- 71
-num.names$ -- 20
-pop$ -- 123
+int.to.str$ -- 21
+missing$ -- 14
+newline$ -- 103
+num.names$ -- 28
+pop$ -- 189
 preamble$ -- 1
-purify$ -- 60
+purify$ -- 83
 quote$ -- 0
-skip$ -- 117
+skip$ -- 176
 stack$ -- 0
-substring$ -- 181
-swap$ -- 38
-text.length$ -- 3
+substring$ -- 276
+swap$ -- 56
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 46
-warning$ -- 3
-while$ -- 31
-width$ -- 16
-write$ -- 142
+type$ -- 74
+warning$ -- 6
+while$ -- 44
+width$ -- 23
+write$ -- 206
 (There was 1 error message)

@@ -70,7 +70,7 @@ Uma via metabólica é uma sequência de reações bioquímicas, cujo produto e 
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.7\textwidth]{bioLuz.png}
-    \caption{CITAR METACYC http:\/\/metacyc.org\/META\/new-image?object=PWY-7723 }
+    \caption{Exemplo de via metabólica retirado do site MetaCyC. Esta representa o processo de produção da bioluminescência de bactérias. \cite{examplePathway} }
     \label{fig:EstruturasDoDNA}
 \end{figure} 
 
@@ -98,31 +98,52 @@ Uma via metabólica é uma sequência de reações bioquímicas, cujo produto e 
 
 \section{Banco de Dados de Redes Metabólicas}
 
-\indent FRASE INICIAL. \\
 
 % Surgimento de bancos de dados (PAM, GenBank)
 
-\indent Conforme o número de sequências de proteínas cresciam, aumentava também a necessidade de criar-se um banco de dados para indexá-las. A físico-química norte-americana Margaret Dayhoff, com colaboração de alguns membros do \textit{National Biomedical Research Foundation} em Washington, foi a primeira a construir um banco de dados com este propósito em um tipo de atlas de proteínas na década de 60. Somente em 1984 esta coleção foi intitulada de \textit{Protein Information Resource} \cite{mount01}. Os dados eram organizados de acordo com o grau de similaridade das sequências, onde o agrupamento das mesmas era dado em forma de árvore filogenética representando famílias e superfamílias de proteínas. Caso a semelhança seja alta, é provável que tenham as mesmas funções bioquímicas e estrutura tridimensional. A partir da árvore gerada, foi possível calcular as mutações que ocorreram nos aminoácidos durante a evolução genética e, então, produzir uma tabela utilizada até hoje, chamada PAM (\textit{Percent Acept Mutation}), que apresenta tais dados\footnote{1 PAM é uma medida de tempo para representar 1 mutação para cada 100 aminoácidos}. Outro banco de dados de grande porte e bastante utilizado nos dias de hoje é o GenBank, estabelecido em 1982 por Walter Goad e demais colaboradores e, agora, com o patrocínio do \textit{National Center for Biotechnology Information}. Os dois bancos são públicos e continuam crescendo exponencialmente \cite{mount01}.
+\indent Desde o descobrimento da estrutura do DNA por Crick e Watson, o número de sequências de proteínas descobertas cresceu, aumentando também a necessidade de criar-se um banco de dados para indexá-las. A físico-química norte-americana Margaret Dayhoff, com colaboração de alguns membros do \textit{National Biomedical Research Foundation} em Washington, foi a primeira a construir um banco de dados com este propósito em um tipo de atlas de proteínas na década de 60. Somente em 1984 esta coleção foi intitulada de \textit{Protein Information Resource} \cite{mount01}. Os dados eram organizados de acordo com o grau de similaridade das sequências, onde o agrupamento das mesmas era dado em forma de árvore filogenética representando famílias e superfamílias de proteínas. Caso a semelhança seja alta, é provável que tenham as mesmas funções bioquímicas e estrutura tridimensional. A partir da árvore gerada, foi possível calcular as mutações que ocorreram nos aminoácidos durante a evolução genética e, então, produzir uma tabela utilizada até hoje, chamada PAM (\textit{Percent Acept Mutation}), que apresenta tais dados\footnote{1 PAM é uma medida de tempo para representar 1 mutação para cada 100 aminoácidos.}. Outro banco de dados de grande porte e bastante utilizado nos dias de hoje é o GenBank, estabelecido em 1982 por Walter Goad e demais colaboradores com o objetivo de catalogar sequências genéticas e coleçoes de anotações de todos os DNAs públicos, agora, com o patrocínio do \textit{National Center for Biotechnology Information}. Os dois bancos são públicos e continuam crescendo exponencialmente \cite{mount01}. 
 
 % Especificar banco de dados para Redes metabólicas
 
+\indent Nos dias de hoje, a quantidade de dados é tão grande e  que os biólogos enfrentam dificuldades em tarefas como análise, busca, armazenamento, visualização e atualização de dados. Nesse sentido, eles utilizam agora ferramentas de Big Data em suas pesquisas. Existem grandes áreas da biologia voltadas para estudo deste dados (chamados de dados ômicos), tais como, por exemplo, genoma\footnote{Material genético de um organismo.}, transcritoma\footnote{Conjunto dos transcritos mRNA, tRNA, rRNA e microRNA.}, proteoma\footnote{Conjunto de proteínas e suas variantes em um organismo.}, metaboloma\footnote{Conjunto de metabólitos de um organismo.} e interactoma\footnote{Conjunto de interações moleculares em um organismo.}. Nesta seção serão apresentados três bancos de dados utilizados no estudo do metaboloma cuja estrutura de dados que representam as redes metabólicas são grafos.
+
+%
+% This kind of database is however an exception among genome-scale metabolic databases. Besides being often much less accurate, most of the pathways in BioCyc or in KEGG, another widely used database for metabolism [7], are further biased towards the microbial and plant kingdoms. The quality of the metabolic reconstruction of any animal is thus expected to be worse than the one of a bacterium evolutionarily close to Escherichia coli.
+%
+% \cite{lacroixCTS08}
+
 \subsection{Banco de Dados NoSQL}
 
-\indent NoSQL
+\indent Para comportar tamanha quantidade de dados e ao mesmo tempo providenciar alta performance, atualmente é possível utilizar um banco de dados NoSQL como alternativa ao tradicional modelo relacional. NoSQL pode significar Não-Relacional ou \textit{Not Only SQL}  \cite{cattell11}, para ressaltar as vantagens sobre o modelo tradicional, que são rápida leitura e escrita dos dados, suporte à armazenamento em larga escala, fácil escalabilidade, fácil distribuição (replicação ou fragmentação) de dados entre vários servidores, e baixo custo. \cite{jing12}. Entretanto, uma grande desvantagem é sua falta de suporte à linguagem SQL, o que obriga o usuário a aprender a recuperar seus dados de outra maneira\footnote{No banco de dados Neo4j, por exemplo, usa-se a linguagem CYPHER.}. 
 
-\cite{jing12} 
+\indent Em 2000, o Professor Eric Brewer da Universidade da Califórnia em Berkeley estabeleceu o Teorema CAP (\textit{Consistency, Availability and Partition tolerance}), que afirma que quando os dados estão particionados\footnote{Falha em algum dispositivo de rede que causa a separação entre dois conjuntos de computadores.} em rede, os BDs NoSQL que são distribuídos devem tolerar tal falha e oferecer, assim, apenas duas escolhas para o usuário: consistência ou disponibilidade de dados, nunca os dois ao mesmo tempo. \cite{jing12} \cite{cattell11}. Caso o banco decida fornecer mais consistência do que disponibilidade, o sistema tentará sempre retornar a \textit{query} com dados atualizados para o usuário, mesmo que a operação demore. A Figura \ref{fig:capTheorm} ilustra o teorema também conhecido como Teorema de Brewer. Caso decida fornecer mais disponibilidade do que consistência, o sistema tentará retornar a \textit{query} o mais rápido possível, mesmo se o dados estiverem desatualizados. Esta \textit{trade-off} inerente na maioria dos BDs NoSQL pode, na verdade, ser decidida pelo próprio usuário ao configurar seu banco de dados. 
 
-%https://neo4j.com/docs/developer-manual/current/terminology/
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{capTheorm.png}
+    \caption{Teorema CAP. Na primeira coluna, o banco de dados não suporta partição de rede, na segunda existe replicação parcial de dados entre os servidores e na terceira, replicação total. \cite{CAPTheorem}}
+    \label{fig:capTheorm}
+\end{figure} 
 
-\indent Comparação com SQL \\
-%http://dl.acm.org/citation.cfm?id=1721659
+\subsubsection{Banco de Dados em Grafo}
 
-\subsection{Propriedades}
+\indent Grafos são as estruturas mais úteis para se representar interações entre objetos, portanto são de grande interesse no campo biológico, na modelagem de dados ômicos \cite{vicknair10}. Bancos de dados em grafo podem ser utilizados, por exemplo, quando a finalidade é buscar via \textit{query} a procedência dos objetos\footnote{A procedência é a linhagem do dado, ou seja, os detalhes de sua criação desde a origem conhecida.}, pois realizar uma travessia em grafo é bem mais rápido computacionalmente do que realizar múltiplos \textit{joins} num modelo relacional.
 
-\indent ACID, BASE % ARTIGO Scalable_SQL_and_NoSQL_Data_Stores
-
-\indent Consistency, availability and tolerance of network partition (consistência, disponibilidade e tolerancia de partição de redes) % ARTIGO Survey\_on\_NoSQL\_Database
-
+\indent Ao se trabalhar com banco de dados em grafos, é importante ter conhecimento das principais terminologias a seguir:
+\begin{itemize}
+\item Adjacência: Nós que dividem uma aresta incidente ou arestas que dividem um nó incidente;
+\item Aresta: Uma registro que representa relação entre um par de objetos. Pode possuir direção, quando a relação possui origem e destino, ou não;
+\item Caminho: Coleção de alternados nós e arestas;
+\item \textit{Constraint}: Restrição definida pelo usuário que o banco deve impor aos dados;
+\item DAG: Um grafo direcionado e acíclico;
+\item Incidência: Aresta adjacente associada à um nó, ou nó associado à uma aresta;
+\item \textit{Label}: Rótulo de um nó que o agrupa em algum subconjunto; 
+\item Loop: Uma aresta que conecta um nó à ele mesmo;
+\item Nó: Um registro que representa um objeto e possui um número indefinido de propriedades, labels e arestas incidentes;
+\item Propriedade: Atributo armazenado em um nó ou aresta;
+\item Registro: Unidade de armazenamento;
+\item Vizinho: Nó conectado por uma aresta em comum.
+\end{itemize}
 
 \subsection{KEGG}
 
@@ -130,8 +151,8 @@ Uma via metabólica é uma sequência de reações bioquímicas, cujo produto e 
 
 \subsection{BioCyc}
 
-\indent O BioCyc é um sistema de coleção de aproximadamente 7 mil bancos de dados chamados PGDBs (\textit{Pathway/Genome Databases}) pois possuem duas maneiras diferentes de representar as informações: modelo de vias metabólicas, que enfatiza as sequências de reações, substratos e produtos de múltiplos organismos, ou modelo de sequência genômica, que destaca a localização e descrição dos genes de cada organismo específico \cite{biocycIntro}. Os bancos PGDBs são organizado em três camadas de acordo com a frequência de atualizações/refinações e da maneira com que os dados foram obtidos. O BioCyc possui um banco de dados específico para redes metabólicas determinadas experimentalmente, chamado MetaCyc. Este é o único banco de dados multi-organismos do grupo BioCyc e ele é referência na ferramenta gratuita \textit{Pathway Tools} desenvolvida pelo instituto de pesquisa \textit{SRI International}.
+\indent O BioCyc\footnote{Disponível pela \textit{web} através do site \textit{http:\/\/biocyc.org}.} é um sistema de coleção de aproximadamente 7 mil bancos de dados chamados PGDBs (\textit{Pathway/Genome Databases}) pois possuem duas maneiras diferentes de representar as informações: modelo de vias metabólicas, que enfatiza as sequências de reações, substratos e produtos de múltiplos organismos, ou modelo de sequência genômica, que destaca a localização e descrição dos genes de cada organismo específico \cite{biocycIntro}. Os bancos PGDBs são organizado em três camadas de acordo com a frequência de atualizações/refinações e da maneira com que os dados foram obtidos. O BioCyc possui um banco de dados específico para redes metabólicas determinadas experimentalmente, chamado MetaCyc. Este é o único banco de dados multi-organismos do grupo BioCyc e ele é referência na ferramenta gratuita \textit{Pathway Tools} desenvolvida pelo instituto de pesquisa \textit{SRI International}.
 
 \subsection{Reactome}
 
-\indent Reactoma é um banco de dados de reações de mudança de estado, ou seja, além de reações bioquímica, ele também abrange reações de ativação, de degradação e de ligação, por exemplo \cite{reactomeUsersguide}. Ele faz uma ligação sistemática entre as proteínas de um certo organismo e as funções moleculares do mesmo, fornecendo uma base de funções que pode ser utilizada para pesquisas sobre expressão de genes ou mutações somáticas. O Reactome disponibiliza o \textit{Pathway Browser}, uma rede geral para cada organismo, que representa os vários seus sistemas, como reprodução e metabolismo, por exemplo. Algumas sub-redes estão conectadas (por exemplo, replicação de DNA e ciclo de célula), outra não (por exemplo, contração muscular e reprodução). Nesta rede, cada nó representa uma via cujo número de entidade se reflete no raio do nó, e cada aresta representa a relação entre estas vias. O site ainda possui uma ferramenta de análise de dados baseada nas correspondências entre as reações na redes dos organismos comparados. \\
+\indent Reactoma\footnote{Disponível pela \textit{web} através do site \textit{http:\/\/www.reactome.org}.} é um banco de dados de reações de mudança de estado, ou seja, além de reações bioquímica, ele também abrange reações de ativação, de degradação e de ligação, por exemplo \cite{reactomeUsersguide}. Ele faz uma ligação sistemática entre as proteínas de um certo organismo e as funções moleculares do mesmo, fornecendo uma base de funções que pode ser utilizada para pesquisas sobre expressão de genes ou mutações somáticas. O Reactome disponibiliza o \textit{Pathway Browser}, uma rede geral para cada organismo, que representa os vários seus sistemas, como reprodução e metabolismo, por exemplo. Algumas sub-redes estão conectadas (por exemplo, replicação de DNA e ciclo de célula), outra não (por exemplo, contração muscular e reprodução). Nesta rede, cada nó representa uma via cujo número de entidade se reflete no raio do nó, e cada aresta representa a relação entre estas vias. O site ainda possui uma ferramenta de análise de dados baseada nas correspondências entre as reações na redes dos organismos comparados. \\
