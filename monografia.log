@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.12)  14 OCT 2016 06:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.12)  21 OCT 2016 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -920,6 +920,12 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 159.
 
 LaTeX Warning: Label `fig:EstruturasDoDNA' multiply defined.
 
+
+LaTeX Warning: Label `terpenoidBackboneKEGG' multiply defined.
+
+
+LaTeX Warning: Label `terpenoidBackboneKEGG' multiply defined.
+
 )
 \openout1 = `monografia.aux'.
 
@@ -1158,7 +1164,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-<./figuras/nucleotideo.png, id=289, 52.998pt x 31.317pt>
+<./figuras/nucleotideo.png, id=296, 52.998pt x 31.317pt>
 File: ./figuras/nucleotideo.png Graphic file (type png)
 
 <use ./figuras/nucleotideo.png>
@@ -1167,7 +1173,7 @@ Package pdftex.def Info: ./figuras/nucleotideo.png used on input line 18.
  [3
 
  <./figuras/nucleotideo.png>]
-<./figuras/dnaEstrutura.jpg, id=306, 150.8034pt x 139.4811pt>
+<./figuras/dnaEstrutura.jpg, id=313, 150.8034pt x 139.4811pt>
 File: ./figuras/dnaEstrutura.jpg Graphic file (type jpg)
 
 <use ./figuras/dnaEstrutura.jpg>
@@ -1183,44 +1189,85 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 58.
 
-<./figuras/bioLuz.png, id=327, 738.76pt x 620.3175pt>
+<./figuras/bioLuz.png, id=334, 738.76pt x 620.3175pt>
 File: ./figuras/bioLuz.png Graphic file (type png)
 
 <use ./figuras/bioLuz.png>
-Package pdftex.def Info: ./figuras/bioLuz.png used on input line 72.
+Package pdftex.def Info: ./figuras/bioLuz.png used on input line 71.
 (pdftex.def)             Requested size: 318.66948pt x 267.57373pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6] [7 <./figuras/bioLuz.png>]
-Overfull \hbox (13.25375pt too wide) in paragraph at lines 93--94
+Overfull \hbox (13.25375pt too wide) in paragraph at lines 92--93
 []\T1/cmr/m/n/12 Os \T1/cmr/bx/n/12 fe-nó-li-cos \T1/cmr/m/n/12 são ca-rac-te-r
 i-za-dos por suas pro-pri-e-da-des anti-oxidantes, anti-inflamatória
  []
 
-[8] <./figuras/capTheorm.png, id=382, 819.06pt x 657.45625pt>
+[8] <./figuras/capTheorm.png, id=389, 819.06pt x 657.45625pt>
 File: ./figuras/capTheorm.png Graphic file (type png)
 
 <use ./figuras/capTheorm.png>
-Package pdftex.def Info: ./figuras/capTheorm.png used on input line 123.
+Package pdftex.def Info: ./figuras/capTheorm.png used on input line 122.
 (pdftex.def)             Requested size: 364.19667pt x 292.34138pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9] [10 <./figuras/capTheorm.png (PNG copy)>]) (./capitulos/capitulo2.tex
-Underfull \hbox (badness 10000) in paragraph at lines 158--1
+Underfull \hbox (badness 10000) in paragraph at lines 157--1
 
  []
 
 [11]
 Cap\'{\i }tulo 2.
-) (./capitulos/capitulo3.tex [12
+<./figuras/terpenoidBackboneKEGG_id.png, id=431, 1028.34187pt x 578.16pt>
+File: ./figuras/terpenoidBackboneKEGG_id.png Graphic file (type png)
 
-]
+<use ./figuras/terpenoidBackboneKEGG_id.png>
+Package pdftex.def Info: ./figuras/terpenoidBackboneKEGG_id.png used on input l
+ine 10.
+(pdftex.def)             Requested size: 455.24411pt x 255.95268pt.
+ [12
+
+ <./figuras/terpenoidBackboneKEGG_id.png>] <./figuras/terpenoidViaKEGG.png, id=
+437, 746.79pt x 950.04938pt>
+File: ./figuras/terpenoidViaKEGG.png Graphic file (type png)
+
+<use ./figuras/terpenoidViaKEGG.png>
+Package pdftex.def Info: ./figuras/terpenoidViaKEGG.png used on input line 24.
+(pdftex.def)             Requested size: 455.24411pt x 579.15237pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (251.0518pt too wide) in paragraph at lines 30--32
+[]\T1/cmr/m/n/12 Tipo de ar-quivo: Ob-je-tos cli-cá-veis, se-tas e con-tai-ners
+ com sig-ni-fi-cado (No-ta-ção: http:www.genome.jpkeggdocumenthelp_pathway.html
+),
+ []
+
+<./figuras/bioLuz_modificado.png, id=438, 1742.51pt x 1667.22874pt>
+File: ./figuras/bioLuz_modificado.png Graphic file (type png)
+
+<use ./figuras/bioLuz_modificado.png>
+Package pdftex.def Info: ./figuras/bioLuz_modificado.png used on input line 40.
+
+(pdftex.def)             Requested size: 546.29153pt x 522.68674pt.
+
+Overfull \hbox (91.04742pt too wide) in paragraph at lines 40--41
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./capitulos/capitulo3.tex [13] [14 <./figuras/terpenoidViaKEGG.png>]
+[15 <./figuras/bioLuz_modificado.png>]
 Cap\'{\i }tulo 3.
-) (./capitulos/capitulo4.tex [13
+) (./capitulos/capitulo4.tex [16
 
 ]
 Cap\'{\i }tulo 4.
@@ -1229,7 +1276,7 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) [14
+) [17
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 33--34
@@ -1237,7 +1284,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
  []
 
 
-LaTeX Warning: Reference `' on page 15 undefined on input line 35.
+LaTeX Warning: Reference `' on page 18 undefined on input line 35.
 
 
 Overfull \hbox (7.21924pt too wide) in paragraph at lines 35--36
@@ -1250,17 +1297,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--56
 
  []
 
-) (./capitulos/capitulo5.tex [15]
+) (./capitulos/capitulo5.tex [18]
 Cap\'{\i }tulo 5.
-) (./capitulos/capitulo6.tex [16
+) (./capitulos/capitulo6.tex [19
 
 ]
 Cap\'{\i }tulo 6.
-) (./capitulos/capitulo7.tex [17
+) (./capitulos/capitulo7.tex [20
 
 ]
 Cap\'{\i }tulo 7.
-) [18
+) [21
 
 ] (./monografia.bbl (./monografia.brf)
 \tf@brf=\write8
@@ -1294,7 +1341,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--58
 . isv % 2Fguide % 2Fint _
  []
 
-[19
+[22
 
 
 ]
@@ -1317,15 +1364,15 @@ Underfull \hbox (badness 3735) in paragraph at lines 107--107
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 229.
- [20]
+ [23]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
  (./monografia.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
 Package rerunfilecheck Info: File `monografia.out' has not changed.
-(rerunfilecheck)             Checksum: 92ED565B3CB4510FFA244101932449D7;2424.
+(rerunfilecheck)             Checksum: 90CEB563B64EACC419C6DF1214CB643A;2424.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
-(rerunfilecheck)             Checksum: 005427B2F95F81D7572304D7D7BECCAF;2127.
+(rerunfilecheck)             Checksum: CBABB28DF556CFF6CAA7B18CD56633D5;2127.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1344,10 +1391,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
  )
 (\end occurred when \iffalse on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 19962 strings out of 493029
- 344216 string characters out of 6136234
- 446950 words of memory out of 5000000
- 22948 multiletter control sequences out of 15000+600000
+ 19984 strings out of 493029
+ 344833 string characters out of 6136234
+ 447295 words of memory out of 5000000
+ 22961 multiletter control sequences out of 15000+600000
  17613 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,10n,92p,1751b,1202s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1408,10 +1455,10 @@ per/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></u
 sr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sftt1200.pfb>
-Output written on monografia.pdf (31 pages, 720477 bytes).
+Output written on monografia.pdf (34 pages, 1307679 bytes).
 PDF statistics:
- 615 PDF objects out of 1000 (max. 8388607)
- 549 compressed objects within 6 object streams
- 128 named destinations out of 1000 (max. 500000)
- 342 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 641 PDF objects out of 1000 (max. 8388607)
+ 566 compressed objects within 6 object streams
+ 134 named destinations out of 1000 (max. 500000)
+ 357 words of extra memory for PDF output out of 10000 (max. 10000000)
 
