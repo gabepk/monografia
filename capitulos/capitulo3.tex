@@ -1,52 +1,31 @@
+\chapter{Projeto da Interface}
 
-\chapter{Ferramentas de visualização de Redes Metabólicas}
+\section{Projeto}
 
+Aplicação do método da avaliação da comunicabilidade
 
-\section{KEGG}
-
-http:\/\/www.kegg.jp\/ -> \\ Data-oriented entry points  -> \\KEGG PATHWAY ->\\ Pathway Maps -> \\1. Metabolism  -> \\1.0 Global and overview maps / Metabolic pathways
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=1\textwidth]{terpenoidBackboneKEGG_id.png}
-\caption{Visão geral da rede metabólica de referência do KEGG, com destaque na via metabólica de biossíntese do \textit{backbone} de terpenóides. (1), (2) e (3).}
-\label{terpenoidBackboneKEGG}
-\end{figure}
+\section{Detalhes da Implementação}
 
 
-Notação: http:\/\/www.genome.jp\/kegg\/document\/help\_pathway.html
+\indent O sistema desenvolvido para este projeto é uma aplicação web chamada \textit{2Path}. O usuário deve se cadastrar no \textit{website} para ter acesso às redes metabólicas do banco de dados do sistema, bem como pesquisar por palavras chaves no mesmo. Nesta seção serão apresentadas as linguagens e ferramentas utilizadas no desenvolvimento do \textit{website}, as características, funcionalidades e limites do sistema e, por fim, as dificuldades enfrentadas na implementação do projeto.
+
+\indent O sistema foi desenvolvido no amibiente de desenvolvimento integrado \textit{open source} Eclipse Java EE - \textit{Java Platform, Enterprise Edition}, versão Mars 4.5.2. Para simplificar a obtenção das dependências do projeto, ou seja, pacotes de arquivos java (extensão .jar), foi utilizada o Apache Maven, \textit{software} de gerenciamento de projeto e ferramenta de compreensão de programa. Este \textit{software} opera sobre o arquivo \textit{pom.xml}, onde POM significa \textit{Project Object Model} e contém as especificações de cada projeto que se tornará dependência do sistema em desenvolvimento, além de outros aspectos do código. O servidor selecionado para hospedagem local, \textit{localhost} porta 8080, do sistema foi o Apache TomCat versão 7.0.
+
+\indent As páginas da aplicação foram desenvolvidas na linguagem de marcação XHTML, \textit{Extensible Hypertext Markup Language}, e a estilzação em CSS, \textit{Cascading Style Sheets}.
+
+\indent 
+
+JSF \\
+PRIMEFACES
 
 
+JAVASCRIPT \\
+ANGULARJS \\
+ORIENTBD
 
-http:\/\/www.kegg.jp\/ -> \\ Data-oriented entry points  -> \\KEGG PATHWAY ->\\ Pathway Maps -> \\1. Metabolism/Terpenoid/PK   -> \\1.9 Metabolism of terpenoids and polyketides / Terpenoid backbone biosynthesis
+\section{Desafios}
+ 
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=1\textwidth]{terpenoidViaKEGG.png}
-\caption{Via metabólica de biosíntese do \textit{backbone} de terpenóides}
-\label{terpenoidBackboneKEGG}
-\end{figure}
-
-
-Tipo de arquivo:
-Objetos clicáveis, setas e containers com significado (Notação: http:\/\/www.genome.jp\/kegg\/document\/help\_pathway.html), minimapa ao passar mouse por cima de vias representadas por nós, etc
-
-\section{MetaCyc}
-
-
-Figura do capitulo anterior: bioluminescencia.
-
-\begin{figure}[h]
-\centering
-\includegraphics[width=1.2\textwidth]{bioLuz_modificado.png}
-\caption{Mesa figura do capitulo 1, mas com maior nível de detalhes}
-\label{terpenoidBackboneKEGG}
-\end{figure}
-
-\section{Reactome Browser}
-
-\section{Cytoscape}
-
-\section{2Path}
-
-%\cite{lacroixCTS08}
+O que foi o trabalho. 
+Decrever todo o ambiente usado
+Neste capítulo serão apresentados os primeiros resultados experimentais obtidos.

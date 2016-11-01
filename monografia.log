@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.12)  21 OCT 2016 15:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.12)  1 NOV 2016 15:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -263,6 +263,22 @@ Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen118
+\extrarowheight=\dimen119
+\NC@list=\toks17
+\extratabsurround=\skip46
+\backup@length=\skip47
+)
+\everycr=\toks18
+\minrowclearance=\skip48
+)
+\rownum=\count108
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
@@ -275,20 +291,20 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks17
-\SOUL@lasttoken=\toks18
-\SOUL@cmds=\toks19
-\SOUL@buffer=\toks20
-\SOUL@token=\toks21
-\SOUL@spaceskip=\skip46
-\SOUL@ttwidth=\dimen118
-\SOUL@uldp=\dimen119
-\SOUL@ulht=\dimen120
+\SOUL@word=\toks19
+\SOUL@lasttoken=\toks20
+\SOUL@cmds=\toks21
+\SOUL@buffer=\toks22
+\SOUL@token=\toks23
+\SOUL@spaceskip=\skip49
+\SOUL@ttwidth=\dimen120
+\SOUL@uldp=\dimen121
+\SOUL@ulht=\dimen122
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks22
-\inpenc@posthook=\toks23
+\inpenc@prehook=\toks24
+\inpenc@posthook=\toks25
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
@@ -603,54 +619,54 @@ Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen121
-\captionmargin@=\dimen122
-\captionwidth=\dimen123
-\caption@tempdima=\dimen124
-\caption@indent=\dimen125
-\caption@parindent=\dimen126
-\caption@hangindent=\dimen127
+\captionmargin=\dimen123
+\captionmargin@=\dimen124
+\captionwidth=\dimen125
+\caption@tempdima=\dimen126
+\caption@indent=\dimen127
+\caption@parindent=\dimen128
+\caption@hangindent=\dimen129
 )
-\c@ContinuedFloat=\count108
+\c@ContinuedFloat=\count109
 Package caption Info: hyperref package is loaded.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count109
-\sf@farskip=\skip47
-\sf@captopadj=\dimen128
-\sf@capskip=\skip48
-\sf@nearskip=\skip49
-\c@subfigure=\count110
-\c@subfigure@save=\count111
-\c@lofdepth=\count112
-\c@subtable=\count113
-\c@subtable@save=\count114
-\c@lotdepth=\count115
-\sf@top=\skip50
-\sf@bottom=\skip51
+\c@KVtest=\count110
+\sf@farskip=\skip50
+\sf@captopadj=\dimen130
+\sf@capskip=\skip51
+\sf@nearskip=\skip52
+\c@subfigure=\count111
+\c@subfigure@save=\count112
+\c@lofdepth=\count113
+\c@subtable=\count114
+\c@subtable@save=\count115
+\c@lotdepth=\count116
+\sf@top=\skip53
+\sf@bottom=\skip54
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen129
+\bigstrutjot=\dimen131
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count116
+\lst@mode=\count117
 \lst@gtempboxa=\box28
-\lst@token=\toks24
-\lst@length=\count117
-\lst@currlwidth=\dimen130
-\lst@column=\count118
-\lst@pos=\count119
-\lst@lostspace=\dimen131
-\lst@width=\dimen132
-\lst@newlines=\count120
-\lst@lineno=\count121
-\lst@maxwidth=\dimen133
+\lst@token=\toks26
+\lst@length=\count118
+\lst@currlwidth=\dimen132
+\lst@column=\count119
+\lst@pos=\count120
+\lst@lostspace=\dimen133
+\lst@width=\dimen134
+\lst@newlines=\count121
+\lst@lineno=\count122
+\lst@maxwidth=\dimen135
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count122
-\lst@skipnumbers=\count123
+\c@lstnumber=\count123
+\lst@skipnumbers=\count124
 \lst@framebox=\box29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
@@ -662,7 +678,7 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 (/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks25
+\pgfutil@everybye=\toks27
 )
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box30
@@ -681,26 +697,26 @@ Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks26
-\pgfkeys@temptoks=\toks27
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
 
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks28
+\pgfkeys@tmptoks=\toks30
 ))
-\pgf@x=\dimen134
-\pgf@y=\dimen135
-\pgf@xa=\dimen136
-\pgf@ya=\dimen137
-\pgf@xb=\dimen138
-\pgf@yb=\dimen139
-\pgf@xc=\dimen140
-\pgf@yc=\dimen141
+\pgf@x=\dimen136
+\pgf@y=\dimen137
+\pgf@xa=\dimen138
+\pgf@ya=\dimen139
+\pgf@xb=\dimen140
+\pgf@yb=\dimen141
+\pgf@xc=\dimen142
+\pgf@yc=\dimen143
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count124
-\c@pgf@countb=\count125
-\c@pgf@countc=\count126
-\c@pgf@countd=\count127
+\c@pgf@counta=\count125
+\c@pgf@countb=\count126
+\c@pgf@countc=\count127
+\c@pgf@countd=\count128
 
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -715,8 +731,8 @@ File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
 )))
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
-\pgfsyssoftpath@smallbuffer@items=\count128
-\pgfsyssoftpath@bigbuffer@items=\count129
+\pgfsyssoftpath@smallbuffer@items=\count129
+\pgfsyssoftpath@bigbuffer@items=\count130
 )
 (/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
@@ -728,12 +744,12 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen142
-\pgfmath@count=\count130
+\pgfmath@dimen=\dimen144
+\pgfmath@count=\count131
 \pgfmath@box=\box31
-\pgfmath@toks=\toks29
-\pgfmath@stack@operand=\toks30
-\pgfmath@stack@operation=\toks31
+\pgfmath@toks=\toks31
+\pgfmath@stack@operand=\toks32
+\pgfmath@stack@operation=\toks33
 )
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
@@ -744,51 +760,51 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count131
+\c@pgfmathroundto@lastzeros=\count132
 ))
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
-\pgf@picminx=\dimen143
-\pgf@picmaxx=\dimen144
-\pgf@picminy=\dimen145
-\pgf@picmaxy=\dimen146
-\pgf@pathminx=\dimen147
-\pgf@pathmaxx=\dimen148
-\pgf@pathminy=\dimen149
-\pgf@pathmaxy=\dimen150
-\pgf@xx=\dimen151
-\pgf@xy=\dimen152
-\pgf@yx=\dimen153
-\pgf@yy=\dimen154
-\pgf@zx=\dimen155
-\pgf@zy=\dimen156
+\pgf@picminx=\dimen145
+\pgf@picmaxx=\dimen146
+\pgf@picminy=\dimen147
+\pgf@picmaxy=\dimen148
+\pgf@pathminx=\dimen149
+\pgf@pathmaxx=\dimen150
+\pgf@pathminy=\dimen151
+\pgf@pathmaxy=\dimen152
+\pgf@xx=\dimen153
+\pgf@xy=\dimen154
+\pgf@yx=\dimen155
+\pgf@yy=\dimen156
+\pgf@zx=\dimen157
+\pgf@zy=\dimen158
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
-\pgf@path@lastx=\dimen157
-\pgf@path@lasty=\dimen158
+\pgf@path@lastx=\dimen159
+\pgf@path@lasty=\dimen160
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
-\pgf@shorten@end@additional=\dimen159
-\pgf@shorten@start@additional=\dimen160
+\pgf@shorten@end@additional=\dimen161
+\pgf@shorten@start@additional=\dimen162
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
 \pgfpic=\box32
 \pgf@hbox=\box33
 \pgf@layerbox@main=\box34
-\pgf@picture@serial@count=\count132
+\pgf@picture@serial@count=\count133
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
-\pgflinewidth=\dimen161
+\pgflinewidth=\dimen163
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
-\pgf@pt@x=\dimen162
-\pgf@pt@y=\dimen163
-\pgf@pt@temp=\dimen164
+\pgf@pt@x=\dimen164
+\pgf@pt@y=\dimen165
+\pgf@pt@temp=\dimen166
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -804,8 +820,8 @@ File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
-\pgf@max=\dimen165
-\pgf@sys@shading@range@num=\count133
+\pgf@max=\dimen167
+\pgf@sys@shading@range@num=\count134
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
@@ -832,8 +848,8 @@ File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 )
 (/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen166
-\pgf@nodesepend=\dimen167
+\pgf@nodesepstart=\dimen168
+\pgf@nodesepend=\dimen169
 )
 (/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
@@ -843,39 +859,39 @@ Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
 (/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen168
-\pgffor@skip=\dimen169
-\pgffor@stack=\toks32
-\pgffor@toks=\toks33
+\pgffor@iter=\dimen170
+\pgffor@skip=\dimen171
+\pgffor@stack=\toks34
+\pgffor@toks=\toks35
 ))
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
-\pgf@plot@mark@count=\count134
-\pgfplotmarksize=\dimen170
+\pgf@plot@mark@count=\count135
+\pgfplotmarksize=\dimen172
 )
-\tikz@lastx=\dimen171
-\tikz@lasty=\dimen172
-\tikz@lastxsaved=\dimen173
-\tikz@lastysaved=\dimen174
-\tikzleveldistance=\dimen175
-\tikzsiblingdistance=\dimen176
+\tikz@lastx=\dimen173
+\tikz@lasty=\dimen174
+\tikz@lastxsaved=\dimen175
+\tikz@lastysaved=\dimen176
+\tikzleveldistance=\dimen177
+\tikzsiblingdistance=\dimen178
 \tikz@figbox=\box37
 \tikz@tempbox=\box38
-\tikztreelevel=\count135
-\tikznumberofchildren=\count136
-\tikznumberofcurrentchild=\count137
-\tikz@fig@count=\count138
+\tikztreelevel=\count136
+\tikznumberofchildren=\count137
+\tikznumberofcurrentchild=\count138
+\tikz@fig@count=\count139
 
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
-\pgfmatrixcurrentrow=\count139
-\pgfmatrixcurrentcolumn=\count140
-\pgf@matrix@numberofcolumns=\count141
+\pgfmatrixcurrentrow=\count140
+\pgfmatrixcurrentcolumn=\count141
+\pgf@matrix@numberofcolumns=\count142
 )
-\tikz@expandcount=\count142
+\tikz@expandcount=\count143
 
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
 hs.code.tex
@@ -887,7 +903,7 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
 
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2008/10/27 v2.10 (rcs-revision 1.9)
-\arrowsize=\dimen177
+\arrowsize=\dimen179
 ))
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.
 code.tex
@@ -898,14 +914,14 @@ ations.markings.code.tex
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
 ations.code.tex
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen178
-\pgfdecoratedremainingdistance=\dimen179
-\pgfdecoratedinputsegmentcompleteddistance=\dimen180
-\pgfdecoratedinputsegmentremainingdistance=\dimen181
-\pgf@decorate@distancetomove=\dimen182
-\pgf@decorate@repeatstate=\count143
-\pgfdecorationsegmentamplitude=\dimen183
-\pgfdecorationsegmentlength=\dimen184
+\pgfdecoratedcompleteddistance=\dimen180
+\pgfdecoratedremainingdistance=\dimen181
+\pgfdecoratedinputsegmentcompleteddistance=\dimen182
+\pgfdecoratedinputsegmentremainingdistance=\dimen183
+\pgf@decorate@distancetomove=\dimen184
+\pgf@decorate@repeatstate=\count144
+\pgfdecorationsegmentamplitude=\dimen185
+\pgfdecorationsegmentlength=\dimen186
 )
 \tikz@lib@dec@box=\box39
 )
@@ -915,7 +931,7 @@ arkings.code.tex))
 ioning.code.tex
 File: tikzlibrarypositioning.code.tex 2008/10/06 v2.10 (rcs-revision 1.7)
 ) (./cores.tex)
-Package hyperref Info: Option `colorlinks' set `true' on input line 159.
+Package hyperref Info: Option `colorlinks' set `true' on input line 163.
  (./monografia.aux
 
 LaTeX Warning: Label `fig:EstruturasDoDNA' multiply defined.
@@ -929,34 +945,34 @@ LaTeX Warning: Label `terpenoidBackboneKEGG' multiply defined.
 )
 \openout1 = `monografia.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 189.
-LaTeX Font Info:    ... okay on input line 189.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 193.
+LaTeX Font Info:    ... okay on input line 193.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 193.
+LaTeX Font Info:    ... okay on input line 193.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 193.
+LaTeX Font Info:    ... okay on input line 193.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 193.
+LaTeX Font Info:    ... okay on input line 193.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 193.
+LaTeX Font Info:    ... okay on input line 193.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 193.
+LaTeX Font Info:    ... okay on input line 193.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 193.
+LaTeX Font Info:    ... okay on input line 193.
 \AtBeginShipoutBox=\box40
-Package backref Info: ** backref set up for natbib ** on input line 189.
-Package hyperref Info: Link coloring ON on input line 189.
+Package backref Info: ** backref set up for natbib ** on input line 193.
+Package hyperref Info: Link coloring ON on input line 193.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count144
+\c@section@level=\count145
 )
-LaTeX Info: Redefining \ref on input line 189.
-LaTeX Info: Redefining \pageref on input line 189.
-LaTeX Info: Redefining \nameref on input line 189.
+LaTeX Info: Redefining \ref on input line 193.
+LaTeX Info: Redefining \pageref on input line 193.
+LaTeX Info: Redefining \nameref on input line 193.
 
 (./monografia.out) (./monografia.out)
 \@outlinefile=\write4
@@ -965,17 +981,17 @@ LaTeX Info: Redefining \nameref on input line 189.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count145
-\scratchdimen=\dimen185
+\scratchcounter=\count146
+\scratchdimen=\dimen187
 \scratchbox=\box41
-\nofMPsegments=\count146
-\nofMParguments=\count147
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count148
-\MPscratchDim=\dimen186
-\MPnumerator=\count149
-\makeMPintoPDFobject=\count150
-\everyMPtoPDFconversion=\toks35
+\nofMPsegments=\count147
+\nofMParguments=\count148
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count149
+\MPscratchDim=\dimen188
+\MPnumerator=\count150
+\makeMPintoPDFobject=\count151
+\everyMPtoPDFconversion=\toks37
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1036,67 +1052,67 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hypcap package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count151
+\c@lstlisting=\count152
 
 ABD: EveryShipout initializing macros
-\len@brasiliaw=\skip52
-\len@uadesch=\skip53
-\len@uacaph=\skip54
-LaTeX Font Info:    Try loading font information for T1+ua1 on input line 190.
-LaTeX Font Info:    No file T1ua1.fd. on input line 190.
+\len@brasiliaw=\skip55
+\len@uadesch=\skip56
+\len@uacaph=\skip57
+LaTeX Font Info:    Try loading font information for T1+ua1 on input line 194.
+LaTeX Font Info:    No file T1ua1.fd. on input line 194.
 
 
 LaTeX Font Warning: Font shape `T1/ua1/bx/n' undefined
-(Font)              using `T1/cmr/m/n' instead on input line 190.
+(Font)              using `T1/cmr/m/n' instead on input line 194.
 
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <20> not available
-(Font)              size <20.74> substituted on input line 190.
+(Font)              size <20.74> substituted on input line 194.
 
 
 LaTeX Font Warning: Font shape `T1/ua1/bx/n' in size <20> not available
-(Font)              size <20.74> substituted on input line 190.
+(Font)              size <20.74> substituted on input line 194.
 
-<positivo_cor.pdf, id=159, 119.44624pt x 60.225pt>
+<positivo_cor.pdf, id=163, 119.44624pt x 60.225pt>
 File: positivo_cor.pdf Graphic file (type pdf)
  <use positivo_cor.pdf>
-Package pdftex.def Info: positivo_cor.pdf used on input line 190.
+Package pdftex.def Info: positivo_cor.pdf used on input line 194.
 (pdftex.def)             Requested size: 61.76747pt x 31.14256pt.
-\len@lskipoffset=\skip55
-\len@lskipoffset=\skip56
+\len@lskipoffset=\skip58
+\len@lskipoffset=\skip59
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 190.
+(Font)              <12> on input line 194.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 190.
+(Font)              <8> on input line 194.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 190.
+(Font)              <6> on input line 194.
 
 [1
 
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./positivo_cor.pdf>]
-\@tempa=\count152
+\@tempa=\count153
 
 [2
 
 ]
-\len@brasiliaw=\skip57
-\len@uadesch=\skip58
-\len@uacaph=\skip59
+\len@brasiliaw=\skip60
+\len@uadesch=\skip61
+\len@uacaph=\skip62
 File: positivo_cor.pdf Graphic file (type pdf)
  <use positivo_cor.pdf>
-Package pdftex.def Info: positivo_cor.pdf used on input line 190.
+Package pdftex.def Info: positivo_cor.pdf used on input line 194.
 (pdftex.def)             Requested size: 61.76747pt x 31.14256pt.
-\len@lskipoffset=\skip60
-\len@lskipoffset=\skip61
+\len@lskipoffset=\skip63
+\len@lskipoffset=\skip64
  [3
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.197   \begin{agradecimentos}
+l.201   \begin{agradecimentos}
                                [1
 
 
@@ -1105,7 +1121,7 @@ l.197   \begin{agradecimentos}
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.201   \begin{resumo}
+l.205   \begin{resumo}
                        [2
 
 
@@ -1113,7 +1129,7 @@ l.201   \begin{resumo}
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.206   \begin{abstract}
+l.210   \begin{abstract}
                          [3
 
 
@@ -1121,7 +1137,7 @@ l.206   \begin{abstract}
 
 Package babel Warning: You haven't loaded the language english yet
 (babel)                I'll proceed, but expect unexpected results.
-(babel)                Reported on input line 206.
+(babel)                Reported on input line 210.
 
 [4
 
@@ -1159,21 +1175,42 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 ])
 (./capitulos/capitulo1.tex [2]
 Cap\'{\i }tulo 1.
+[3
+
+]
+
+LaTeX Warning: Reference `cdIHC' on page 4 undefined on input line 32.
+
+[4]
+Overfull \vbox (43.49995pt too high) detected at line 73
+ []
+
+
+Overfull \vbox (43.49995pt too high) detected at line 80
+ []
+
+
+Overfull \hbox (3.81653pt too wide) in paragraph at lines 69--103
+ [][] 
+ []
+
+) (./capitulos/capitulo2.tex [5] [6]
+Cap\'{\i }tulo 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-<./figuras/nucleotideo.png, id=296, 52.998pt x 31.317pt>
+<./figuras/nucleotideo.png, id=322, 52.998pt x 31.317pt>
 File: ./figuras/nucleotideo.png Graphic file (type png)
 
 <use ./figuras/nucleotideo.png>
 Package pdftex.def Info: ./figuras/nucleotideo.png used on input line 18.
 (pdftex.def)             Requested size: 227.62206pt x 134.53809pt.
- [3
+ [7
 
  <./figuras/nucleotideo.png>]
-<./figuras/dnaEstrutura.jpg, id=313, 150.8034pt x 139.4811pt>
+<./figuras/dnaEstrutura.jpg, id=338, 150.8034pt x 139.4811pt>
 File: ./figuras/dnaEstrutura.jpg Graphic file (type jpg)
 
 <use ./figuras/dnaEstrutura.jpg>
@@ -1183,13 +1220,13 @@ Package pdftex.def Info: ./figuras/dnaEstrutura.jpg used on input line 33.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4] [5 <./figuras/dnaEstrutura.jpg>]
+[8] [9 <./figuras/dnaEstrutura.jpg>]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 58.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 58.
 
-<./figuras/bioLuz.png, id=334, 738.76pt x 620.3175pt>
+<./figuras/bioLuz.png, id=359, 738.76pt x 620.3175pt>
 File: ./figuras/bioLuz.png Graphic file (type png)
 
 <use ./figuras/bioLuz.png>
@@ -1199,13 +1236,13 @@ Package pdftex.def Info: ./figuras/bioLuz.png used on input line 71.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6] [7 <./figuras/bioLuz.png>]
+[10] [11 <./figuras/bioLuz.png>]
 Overfull \hbox (13.25375pt too wide) in paragraph at lines 92--93
 []\T1/cmr/m/n/12 Os \T1/cmr/bx/n/12 fe-nó-li-cos \T1/cmr/m/n/12 são ca-rac-te-r
 i-za-dos por suas pro-pri-e-da-des anti-oxidantes, anti-inflamatória
  []
 
-[8] <./figuras/capTheorm.png, id=389, 819.06pt x 657.45625pt>
+[12] <./figuras/capTheorm.png, id=413, 819.06pt x 657.45625pt>
 File: ./figuras/capTheorm.png Graphic file (type png)
 
 <use ./figuras/capTheorm.png>
@@ -1215,99 +1252,68 @@ Package pdftex.def Info: ./figuras/capTheorm.png used on input line 122.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9] [10 <./figuras/capTheorm.png (PNG copy)>]) (./capitulos/capitulo2.tex
-Underfull \hbox (badness 10000) in paragraph at lines 157--1
-
- []
-
-[11]
-Cap\'{\i }tulo 2.
-<./figuras/terpenoidBackboneKEGG_id.png, id=431, 1028.34187pt x 578.16pt>
+[13] [14 <./figuras/capTheorm.png (PNG copy)>]
+<./figuras/terpenoidBackboneKEGG_id.png, id=441, 1028.34187pt x 578.16pt>
 File: ./figuras/terpenoidBackboneKEGG_id.png Graphic file (type png)
 
 <use ./figuras/terpenoidBackboneKEGG_id.png>
 Package pdftex.def Info: ./figuras/terpenoidBackboneKEGG_id.png used on input l
-ine 10.
+ine 161.
 (pdftex.def)             Requested size: 455.24411pt x 255.95268pt.
- [12
-
- <./figuras/terpenoidBackboneKEGG_id.png>] <./figuras/terpenoidViaKEGG.png, id=
-437, 746.79pt x 950.04938pt>
+ [15 <./figuras/terpenoidBackboneKEGG_id.png>] <./figuras/terpenoidViaKEGG.png,
+ id=450, 746.79pt x 950.04938pt>
 File: ./figuras/terpenoidViaKEGG.png Graphic file (type png)
 
 <use ./figuras/terpenoidViaKEGG.png>
-Package pdftex.def Info: ./figuras/terpenoidViaKEGG.png used on input line 24.
+Package pdftex.def Info: ./figuras/terpenoidViaKEGG.png used on input line 172.
+
 (pdftex.def)             Requested size: 455.24411pt x 579.15237pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (251.0518pt too wide) in paragraph at lines 30--32
+Overfull \hbox (251.0518pt too wide) in paragraph at lines 177--179
 []\T1/cmr/m/n/12 Tipo de ar-quivo: Ob-je-tos cli-cá-veis, se-tas e con-tai-ners
  com sig-ni-fi-cado (No-ta-ção: http:www.genome.jpkeggdocumenthelp_pathway.html
 ),
  []
 
-<./figuras/bioLuz_modificado.png, id=438, 1742.51pt x 1667.22874pt>
+<./figuras/bioLuz_modificado.png, id=453, 1742.51pt x 1667.22874pt>
 File: ./figuras/bioLuz_modificado.png Graphic file (type png)
 
 <use ./figuras/bioLuz_modificado.png>
-Package pdftex.def Info: ./figuras/bioLuz_modificado.png used on input line 40.
-
+Package pdftex.def Info: ./figuras/bioLuz_modificado.png used on input line 194
+.
 (pdftex.def)             Requested size: 546.29153pt x 522.68674pt.
 
-Overfull \hbox (91.04742pt too wide) in paragraph at lines 40--41
+Overfull \hbox (91.04742pt too wide) in paragraph at lines 194--195
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./capitulos/capitulo3.tex [13] [14 <./figuras/terpenoidViaKEGG.png>]
-[15 <./figuras/bioLuz_modificado.png>]
+) (./capitulos/capitulo3.tex [16] [17 <./figuras/terpenoidViaKEGG.png>]
+[18 <./figuras/bioLuz_modificado.png>]
 Cap\'{\i }tulo 3.
-) (./capitulos/capitulo4.tex [16
+) (./capitulos/capitulo4.tex [19
 
-]
+] [20]
 Cap\'{\i }tulo 4.
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) [17
+) (./capitulos/capitulo5.tex [21
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-
- []
-
-
-LaTeX Warning: Reference `' on page 18 undefined on input line 35.
-
-
-Overfull \hbox (7.21924pt too wide) in paragraph at lines 35--36
-[]\T1/cmr/m/n/12 As qua-tro pá-gi-nas da apli-ca-ção fo-ram de-sen-vol-vi-das n
-a lin-gua-gem de mar-ca-ção XHTML,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--56
-
- []
-
-) (./capitulos/capitulo5.tex [18]
 Cap\'{\i }tulo 5.
-) (./capitulos/capitulo6.tex [19
+) (./capitulos/capitulo6.tex [22
 
 ]
 Cap\'{\i }tulo 6.
-) (./capitulos/capitulo7.tex [20
+) (./capitulos/capitulo7.tex [23
 
 ]
 Cap\'{\i }tulo 7.
-) [21
+) [24
 
 ] (./monografia.bbl (./monografia.brf)
 \tf@brf=\write8
@@ -1341,7 +1347,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--58
 . isv % 2Fguide % 2Fint _
  []
 
-[22
+[25
 
 
 ]
@@ -1363,16 +1369,16 @@ Underfull \hbox (badness 3735) in paragraph at lines 107--107
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 229.
- [23]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 233.
+ [26]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
  (./monografia.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 233.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 233.
 Package rerunfilecheck Info: File `monografia.out' has not changed.
-(rerunfilecheck)             Checksum: 90CEB563B64EACC419C6DF1214CB643A;2424.
+(rerunfilecheck)             Checksum: 9863F446937D47248FE51F7F4A982E4F;2556.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
-(rerunfilecheck)             Checksum: CBABB28DF556CFF6CAA7B18CD56633D5;2127.
+(rerunfilecheck)             Checksum: E78A7C9E1F93499A9695C99CBDABF7A4;2005.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1387,17 +1393,17 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 233.
  )
 (\end occurred when \iffalse on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 19984 strings out of 493029
- 344833 string characters out of 6136234
- 447295 words of memory out of 5000000
- 22961 multiletter control sequences out of 15000+600000
- 17613 words of font info for 39 fonts, out of 8000000 for 9000
+ 19717 strings out of 493029
+ 342498 string characters out of 6136234
+ 442034 words of memory out of 5000000
+ 22700 multiletter control sequences out of 15000+600000
+ 18312 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,10n,92p,1751b,1202s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,18n,92p,1751b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): 
 name{Hfootnote.14} has been referenced but does not exist, replaced by a fixed 
 one
@@ -1445,20 +1451,20 @@ pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-
-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></u
-sr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts
-/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-sup
-er/sftt1200.pfb>
-Output written on monografia.pdf (34 pages, 1307679 bytes).
+super/sfbi1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts
+/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-sup
+er/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on monografia.pdf (37 pages, 1333382 bytes).
 PDF statistics:
- 641 PDF objects out of 1000 (max. 8388607)
- 566 compressed objects within 6 object streams
- 134 named destinations out of 1000 (max. 500000)
- 357 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 648 PDF objects out of 1000 (max. 8388607)
+ 569 compressed objects within 6 object streams
+ 127 named destinations out of 1000 (max. 500000)
+ 365 words of extra memory for PDF output out of 10000 (max. 10000000)
 

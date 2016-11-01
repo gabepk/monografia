@@ -1,16 +1,217 @@
-\chapter{Método de avaliação de comunicabilidade}
+\chapter{Redes Metabólicas}
+ 
+\indent Neste capítulo serão descritos os conceitos básicos da biologia molecular, metabolismo e bancos de dados específicos para redes metabólicas. A primeira seção detalha a origem das principais estruturas que promovem o metabolismo tais como DNA e enzima, enquanto que a segunda seção descreve de fato como ocorre o processo. Por fim, a última seção apresenta os principais bancos de dados em grafo voltados para redes metabólicas: \textit{KEGG}, \textit{MetaCyc} e \textit{Reactome}.
 
 
-* livro: interação humano computação: simone barbosa : portugue : campus
-
-* MAC: Metode de avaliacao de comunicabilidade : engenharia semiótica : Raquel Prates (Bibiografia)
-
-* think aloud : 
-
-* videos com mão do usuario
-
-* 13 etiquetas : barreiras de comunicabilidade : gargalos
-
-%http://acervodigital.ufpr.br/bitstream/handle/1884/36666/Luiz%20Augusto%20Sakakibara.pdf?sequence=1
+%% ================================================================================================================== %%
 
 
+\section{Conceitos Básicos de Biologia Molecular}
+
+
+\subsection{Ácidos Nucléicos} \label{aceidosNucleicos}
+
+\indent Os ácidos nucleicos são biomoléculas responsáveis pelo armazenamento, transmissão e tradução das informações genéticas dos seres vivos. Isto é possível devido ao processo de síntese de proteínas que permite, assim, a base da herança biológica.Os acidos nucléicos são polímero, macromoléculas formadas por estruturas menores chamadas monômeros, que nesse caso são nucleotídeos. Nucleotídeos são compostos de três elementos: um radical fosfato (HPO$_{4}$), uma pentose, ou seja, um monossacarídeo formado por cinco átomos de carbono, e uma base nitrogenada. Existem cinco tipos de bases nitrogenadas que podem compor um nucleotídeo: Adenina(A), Timina(T), Citosina(C), Guanina(G) e Uracila(U). \\
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{nucleotideo.png}
+    \caption{imagem de um nucleotídeo e das bases nitrogenadas. Mostrar backbone da pentose 1'...5'. Adaptado de : \cite{dnadiscovery08}. }
+    \label{fig:Nucleotideo}
+\end{figure} 
+
+\indent Na figura \ref{fig:Nucleotideo}, observa-se que no \textit{backbone} do nucleotídeo existe uma numeração de 1' à 5', que representam os carbonos presentes na pentose. Para a criação de uma fita de ácido nucleico, no processo de polimerização formar-se uma ligação fosfodiéster entre o carbono da posição 5' do \textit{backbone} de um nucleotídeos e o carbono de posição 3' do \textit{backbone} de outro \cite{setubal97}. Por definição o sentido da leitura de uma fita de ácido nucleido é 5' $\rightarrow$ 3', o que é deve ser levado em consideração ao se fazer interpretação de dados do material genético.
+
+\indent Dois tipos de ácidos nucleicos são encontrados nos seres vivos: ácido desoxirribonucleico (DNA ou ADN) e ácido ribonucleico (RNA ou ARN). Eles diferenciam-se tanto na estrutura do \textit{backbone} e nas bases nitrogenadas, quanto em suas funções. Os DNAs são as biomoléculas que armazenam as informações referentes ao funcionamento de todas as células dos seres vivos de maneira específica: sequências de pares de bases nitrogenadas. Nesse sentido, além de haver a ligação fosfodiéster entre os nucleotídeos, cada um também se liga a partir de suas bases nitrogenadas, formando assim um eixo helicoidal tridimensional chamada de dupla hélice \cite{setubal97}. Esta estrutura foi descoberta em 1953, pelo biólogo James Watson e pelo físico Francis Crick \cite{dnadiscovery08}, porém os ácidos nucleicos já eram estudado desde 1869 na Suíça pelo químico-fisiológico Friedrich Miescher.
+
+\indent Em relação à estrutura dos monômeros do DNA, o \textit{backbone} dos nucleotídeos é uma desoxirribose, indicada na figura \ref{fig:EstruturasDoDNA}. Para a formação da dupla hélice, os pares são feitos com uma base nitrogenada do grupo de purinas, composto orgânico que possui um anel duplo de carbono, e outra base do grupo de pirimidinas, composto orgânico que possui um anel simples de carbono. No caso do DNA, somente quatro das cinco bases são empregadas: as purinas Adenina(A) e Guanina(G), que se ligam com as pirimidinas Timina(T) e Citosina(C) respectivamente. Desta forma, A e T são bases complementares, assim como G e C. Uma fita de DNA pode conter centenas de milhões de nucleotídeos.
+
+\indent A representação do DNA, seja nos livros ou computacionalmente, é dada por um par em paralelo de strings de letras A, T, G e C. Como explicado no início dessa seção, o sentido padrão da leitura de uma fita é de 5' $\rightarrow$ 3', mas no caso do DNA, as hélices são dispostas de maneira antiparalela, ou seja, uma é lida de 5' $\rightarrow$ 3' e a outra, de 3' $\rightarrow$ 5'. Observa-se que a partir de uma hélice, pode-se inferir a sequência de sua hélice complementar. Seja, por exemplo, uma hélice H1 igual a AGTAAGC; então H2 em seu sentido oposto é H2' igual a TCATTCG, e no sentido regular, igual a GCTTACT. A figura \ref{fig:EstruturasDoDNA} apresenta a estrutura do DNA como explicada nesta seção.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{dnaEstrutura.jpg}
+    \caption{Adaptado de : \cite{dnadiscovery08} }
+    \label{fig:EstruturasDoDNA}
+\end{figure} 
+
+\indent Os RNAs são biomoléculas semelhantes ao DNA, porém contam com três diferenças básicas. A primeira é a estrutura do \textit{backbone} dos nucleotídeos, que é composta por uma ribose ao invés de um desoxirribose. A segunda difereça é em relação às bases nitrogenadas, onde a pirimidina Uracila(U) substitui a Timita(T). Por fim, o RNA é formado por apenas uma hélice tridimensional.
+
+\indent Existem três tipos de RNAs presentes no citoplasma - espaço entre a membrama plasmática e o núcleo da célula. 
+Cada um possui funções específicas que serão detalhadas na seção \ref{sinteseDeProteina}. Em suma, O RNA mensageiro (mRNA) é responsável pela transferência de informação do DNA para o RNA ribossômico (rRNA), que por sua vez irá desanexar a proteína do RNA transportador (tRNA) combinando-o com o rRNA, executando assim, a síntese de proteína.
+
+
+
+%% ================================================================================================================== %%
+
+\subsection{Síntese de Proteína} \label{sinteseDeProteina}
+
+\indent As proteínas são biomoléculas com diversas responsabilidades no corpo dos seres vivos. Se fizerem parte do no grupo de proteínas fibrosas, como o colágeno, irão compor a estrutura do corpo e para isso precisam ser resistentes e insolúveis em água. Caso estejam no grupo de proteínas globulares, como a hemoglobina, realizarão processos dinâmico pelo corpo tais como transportações e cataliações \cite{profangela11}.  Cada tarefa é realizada por um proteína com uma estrutura específica e otimizada pra tal.
+
+\indent Assim como os ácidos nucleicos, as proteínas são polímeros, macromoléculas cujos monômeros são aminoácidos. Aminoácidos são moléculas que possuem cinco componentes: amina (NH$_{2}$), carbono (C), hidrogênio (H), ácido carboxílico (COOH) e uma cadeia lateral que funciona como identificador de cada um dos 20 tipos de aminoácidos presentes nos seres vivos. A maneira como eles são criados será explicada com mais detalhes mais à frente, pois envolve um processo complexo de síntese de proteína executado pelo ribossomo. A ligação, ou polimerização, de dois aminoácidos é feita unindo a amida de um com o ácido carboxílico do outro, liberando uma molécula de água (H$_{2}$O) e formando uma cadeia chamada de dipeptídeo. Como houve liberação de água na ligação, o dipeptídeo não é formado por aminoácidos, mas sim resíduos dos mesmos. Nesse sentido, cadeias peptídicas de 100 à 5000 diferentes resíduos aminoácidos, ou cadeia polipeptídicas,  constituem a proteína.
+
+\indent Existem quatro estruturas para caracterização de uma proteína \cite{setubal97}. A mais simples é chamada de estrutura primária e é composta por uma sequência linear de resíduos aminoácidos. A estrutura secundária é tridimensional e estabiliza-se por meio de ligações de hidrogênio na cadeia principal, chamada de \textit{backbone}. Dependendo da disposição dos resíduos de aminoácidos, esta cadeia pode se dar forma de hélice ($\alpha$-Helix) ou em forma de folha ($\beta$-Helix). A estrutura terciária é dada pela união de várias estruturas secundárias e, por fim, a estrutura quaternária é composta de múltiplas estruturas terciárias \cite{drug09}.
+
+% PROCARIÓTAS
+\indent A \textbf{transcrição} é o processo de produção de mRNA a partir do DNA e ele ocorre da seguinte forma: O início de cada gene possui um identificador em uma das fitas para indicar o local da codificação e, a partir dali, uma cópia inversa (A, T, C, G são traduzidos para U, A, G, C respectivamente) do mesmo é feita sob forma de molécula de mRNA que, por consequência, obterá a mesma sequência que a cadeia codificadora (a qual não possui o identificador), porém trocando os U's por Ts.
+
+\indent O mRNA deixa, então, o núcleo celular e inicia a \textbf{tradução} no citoplasma. O processo ocorre no interior de uma organela celular chamada de ribossomo, constituído de proteínas e rRNA e cuja função é construir a molécula de proteína a partir de duas entradas, o mRNA e tRNA. A estrutura do tRNA é tal que de um lado se encaixa exatamente um códon\footnote{Sequência de três nucleotídeos.} e no oposto, seu aminoácido correspondente. O processo de tradução se dá da seguinte forma: a medida em que o mRNA passa pelo interior do ribossomo, este atrai quaisquer tRNAs das proximidades cujos códons sejam correspondentes ao da subsequência corrente do mRNA. No momento em que o códon do tRNA se conecta com um dos códons do mRNA, a molécula de proteína em desenvolvimento é liberada e, com o auxílio da catálise de uma enzima, agregada no aminoácido que estava fixado naquele tRNA. Esta fase é finalmente completa quando o mRNA apresenta um códon de parada, pois nenhum tRNA possui correspondência para tal \cite{setubal97}. Uma proteína simples é, então, formada.
+
+%% ================================================================================================================== %%
+
+
+\section{Conceitos Básicos de Metabolismo}
+
+%D. L. Nelson and M. C. Michael. Princípios de Bioquímica de Lehninger - Ed. Comemorativa 25 Anos. Artmed, São Paulo - SP, 5nd edition, 2010. 4, 5, 6, 7, 8, 11, 13
+
+\indent As reações bioquímicas são alterações químicas que fornecem um ou mais produtos a partir de um ou mais substratos. O conjunto de todas as reações bioquímicas que ocorrem dentro de um organismo vivo é chamado de metabolismo, e ele podem ser dividido em dois subconjuntos: catabolismo, quando ocorre a quebra de moléculas complexas produzindo energia, e anabolismo, quando ocorre a síntese de moléculas complexas, o que requer energia. Geralmente a energia liberada pelas reações catabólicas é usada para impulsionar as reações anabólicas\cite{carterClass}. Uma via metabólica é uma sequência de reações bioquímicas, cujo produto e subtrato são denominados metabólitos, que podem ser catalisados por enzimas, as quais muitas vezes necessitam de compostos químicos chamados de co-fatores para realizarem suas atividades na célula. O conjunto de vias metabólicas de um organismo é chamado de rede metabólica.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{bioLuz.png}
+    \caption{Exemplo de via metabólica retirado do site MetaCyC. Esta representa o processo de produção da bioluminescência de bactérias \cite{examplePathway}. }
+    \label{fig:EstruturasDoDNA}
+\end{figure} 
+
+\indent Enzimas são proteínas responsáveis por auxiliar a realização de biossíntese (construção) e biodegradação de moléculas no metabolismo com o propósito de catalisar (acelerar) reações bioquímicas. As enzimas possuem um local pré-determinado em formato côncavo chamado de sítio ativo, que comporta um ou mais substratos. Se a enzima comporta apenas um substrato, a estrutura que se forma com o preenchimento do sítio ativo é um complexo enzima-substrato, porém se ela comporta mais de um substrato, a estrutura é chamada de complexo ternário intermediário \cite{Cap2schomburg}. Quando a atividade catalítica não pode ser realizada apenas pela enzima, co-fatores auxiliam o processo. Eles podem ser coenzimas, associadas momentaneamente às enzima, ou grupos prostéticos, associados firmemente à elas \cite{Cap2schomburg}. Quando duas enzimas possuem a mesma atividade enzimática porém estruturas físicas diferentes são chamadas isoenzimas\cite{Cap2schomburg}.
+
+
+\subsection{Metabolismo Primário}
+
+
+\indent O metabolismo, além de ser subdivido em catabolismo e anabolismo, também pode ser classificado em relação à função que exerce no organismo. Se a função realizada é fundamental no organismo, como crescimento, desenvolvimento e reprodução, ele é denominado metabolismo primário \cite{Cap3schomburg}. Mitose e meiose são exemplos de metabolismos primários.  
+
+\subsection{Metabolismo Secundário}
+
+\indent No caso do metabolismo não realizar função essencial no organismo, ele é classificado como metabolismo secundário. Estes são caracterizados pela vasta diversidade química e, desta forma, são responsáveis pela sobrevivência do organismo em diferentes meio ambientes de acordo com os fatores bióticos (elementos causados pela interação entre organismos como, por exemplo, cadeia alimentar) e abióticos (elementos naturais independente de organismos como, por exemplo, luz e temperatura) \cite{Cap3schomburg}. Enquanto 20\% dos metabólitos secundário são encontrados em bactérias, fungos e organismos sésseis\footnote{Que vivem fixos, sem capacidade de locomoção.} marinhos, os outros 80\% encontram-se em plantas vasculares \cite{Cap3schomburg} e estes podem ser subdivididos em três classes: terpenóides, alcalóides e fenólicos \cite{kabera14}.
+\begin{itemize}
+\item Os \textbf{terpenóides} constituem no grupo mais abundante de produtos naturais, apresentando uma grande variedade estrutural e funcional, principalmente no Reino \textit{Plantae}. No metabolismo secundário, possem funções como produção de óleos, esteroides, cera, resinas e borracha natural, produção de compostos usados para defesa contra herbívoros ou aromas usados para atrair polinizadores \cite{Cap3schomburg}.
+
+\item Os \textbf{alcalóides} são majoritariamente tóxicos à outros organismos diferentes daquele que os produz. Nesse sentido, eles possuem nas plantas função de defesa contra herbírovos e podem ser encontrados principalmente nos locais mais propícios à ataques como, por exemplo, nas sementes, flores e tecidos periféricos em crescimento. Para o consumo dos seres humanos, são usados na fabricação de estimulantes, como cafeína e nicotina, e drogas, como morfina\cite{Cap3schomburg}. Por apresentarem alta diversidade estrutural, é difícil classificá-los; a tentativa mais recente se baseia na semelhanças entre os esqueletos carbônicos \cite{kabera14}.
+
+\item Os \textbf{fenólicos} são caracterizados por suas propriedades anti-oxidantes, anti-inflamatória e anti-cancerígena e muitos deles são bactericidas, antisépticos e vermífugo. Eles estão presentes em praticamente todas as plantas e são utilizados na química, biologia, agricultura e medicina \cite{kabera14}.
+\end{itemize}
+
+
+%% ================================================================================================================== %%
+
+\section{Banco de Dados de Redes Metabólicas}
+
+
+% Surgimento de bancos de dados (PAM, GenBank)
+
+\indent Desde o descobrimento da estrutura do DNA por Crick e Watson, o número de sequências de proteínas descobertas cresceu, aumentando também a necessidade de criar-se um banco de dados para indexá-las. A físico-química norte-americana Margaret Dayhoff, com colaboração de alguns membros do \textit{National Biomedical Research Foundation} em Washington, foi a primeira a construir um banco de dados com este propósito em um tipo de atlas de proteínas na década de 60. Somente em 1984 esta coleção foi intitulada de \textit{Protein Information Resource} \cite{mount01}. Os dados eram organizados de acordo com o grau de similaridade das sequências, onde o agrupamento das mesmas era dado em forma de árvore filogenética representando famílias e superfamílias de proteínas. Caso a semelhança seja alta, é provável que tenham as mesmas funções bioquímicas e estrutura tridimensional. A partir da árvore gerada, foi possível calcular as mutações que ocorreram nos aminoácidos durante a evolução genética e, então, produzir uma tabela utilizada até hoje, chamada PAM (\textit{Percent Acept Mutation}), que apresenta tais dados\footnote{1 PAM é uma medida de tempo para representar 1 mutação para cada 100 aminoácidos.}. Outro banco de dados de grande porte e bastante utilizado nos dias de hoje é o GenBank, estabelecido em 1982 por Walter Goad e demais colaboradores com o objetivo de catalogar sequências genéticas e coleçoes de anotações de todos os DNAs públicos, agora, com o patrocínio do \textit{National Center for Biotechnology Information}. Os dois bancos são públicos e continuam crescendo exponencialmente \cite{mount01}. 
+
+% Especificar banco de dados para Redes metabólicas
+
+\indent Nos dias de hoje, a quantidade de dados é tão grande e  que os biólogos enfrentam dificuldades em tarefas como análise, busca, armazenamento, visualização e atualização de dados. Nesse sentido, eles utilizam agora ferramentas de Big Data em suas pesquisas. Existem grandes áreas da biologia voltadas para estudo deste dados (chamados de dados ômicos), tais como, por exemplo, genoma\footnote{Material genético de um organismo.}, transcritoma\footnote{Conjunto dos transcritos mRNA, tRNA, rRNA e microRNA.}, proteoma\footnote{Conjunto de proteínas e suas variantes em um organismo.}, metaboloma\footnote{Conjunto de metabólitos de um organismo.} e interactoma\footnote{Conjunto de interações moleculares em um organismo.}. Nesta seção serão apresentados três bancos de dados utilizados no estudo do metaboloma cuja estrutura de dados que representam as redes metabólicas são grafos.
+
+%
+% This kind of database is however an exception among genome-scale metabolic databases. Besides being often much less accurate, most of the pathways in BioCyc or in KEGG, another widely used database for metabolism [7], are further biased towards the microbial and plant kingdoms. The quality of the metabolic reconstruction of any animal is thus expected to be worse than the one of a bacterium evolutionarily close to Escherichia coli.
+%
+% \cite{lacroixCTS08}
+
+\subsection{Banco de Dados NoSQL}
+
+\indent Para comportar tamanha quantidade de dados e ao mesmo tempo providenciar alta performance, atualmente é possível utilizar um banco de dados NoSQL como alternativa ao tradicional modelo relacional. NoSQL pode significar Não-Relacional ou \textit{Not Only SQL}  \cite{cattell11}, para ressaltar as vantagens sobre o modelo tradicional, que são rápida leitura e escrita dos dados, suporte à armazenamento em larga escala, fácil escalabilidade, fácil distribuição (replicação ou fragmentação) de dados entre vários servidores, e baixo custo. \cite{jing12}. Entretanto, uma grande desvantagem é sua falta de suporte à linguagem SQL, o que obriga o usuário a aprender a recuperar seus dados de outra maneira\footnote{No banco de dados Neo4j, por exemplo, usa-se a linguagem CYPHER.}. 
+
+\indent Em 2000, o Professor Eric Brewer da Universidade da Califórnia em Berkeley estabeleceu o Teorema CAP (\textit{Consistency, Availability and Partition tolerance}), que afirma que quando os dados estão particionados\footnote{Falha em algum dispositivo de rede que causa a separação entre dois conjuntos de computadores.} em rede, os BDs NoSQL que são distribuídos devem tolerar tal falha e oferecer, assim, apenas duas escolhas para o usuário: consistência ou disponibilidade de dados, nunca os dois ao mesmo tempo. \cite{jing12} \cite{cattell11}. Caso o banco decida fornecer mais consistência do que disponibilidade, o sistema tentará sempre retornar a \textit{query} com dados atualizados para o usuário, mesmo que a operação demore. A Figura \ref{fig:capTheorm} ilustra o teorema também conhecido como Teorema de Brewer. Caso decida fornecer mais disponibilidade do que consistência, o sistema tentará retornar a \textit{query} o mais rápido possível, mesmo se o dados estiverem desatualizados. Esta \textit{trade-off} inerente na maioria dos BDs NoSQL pode, na verdade, ser decidida pelo próprio usuário ao configurar seu banco de dados. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{capTheorm.png}
+    \caption{Teorema CAP. Na primeira coluna, o banco de dados não suporta partição de rede, na segunda existe replicação parcial de dados entre os servidores e na terceira, replicação total \cite{CAPTheorem}.}
+    \label{fig:capTheorm}
+\end{figure} 
+
+\subsubsection{Banco de Dados em Grafo}
+
+\indent Grafos são as estruturas mais úteis para se representar interações entre objetos, portanto são de grande interesse no campo biológico, na modelagem de dados ômicos \cite{vicknair10}. Bancos de dados em grafo podem ser utilizados, por exemplo, quando a finalidade é buscar via \textit{query} a procedência dos objetos\footnote{A procedência é a linhagem do dado, ou seja, os detalhes de sua criação desde a origem conhecida.}, pois realizar uma travessia em grafo é bem mais rápido computacionalmente do que realizar múltiplos \textit{joins} num modelo relacional.
+
+\indent Ao se trabalhar com banco de dados em grafos, é importante ter conhecimento das principais terminologias a seguir:
+\begin{itemize}
+\item Adjacência: Nós que dividem uma aresta incidente ou arestas que dividem um nó incidente;
+\item Aresta: Uma registro que representa relação entre um par de objetos. Pode possuir direção, quando a relação possui origem e destino, ou não;
+\item Caminho: Coleção de alternados nós e arestas;
+\item \textit{Constraint}: Restrição definida pelo usuário que o banco deve impor aos dados;
+\item DAG: Um grafo direcionado e acíclico;
+\item Incidência: Aresta adjacente associada à um nó, ou nó associado à uma aresta;
+\item \textit{Label}: Rótulo de um nó que o agrupa em algum subconjunto; 
+\item Loop: Uma aresta que conecta um nó à ele mesmo;
+\item Nó: Um registro que representa um objeto e possui um número indefinido de propriedades, labels e arestas incidentes;
+\item Propriedade: Atributo armazenado em um nó ou aresta;
+\item Registro: Unidade de armazenamento;
+\item Vizinho: Nó conectado por uma aresta em comum.
+\end{itemize}
+
+% ____________________________________________________________________
+% ____________________________________________________________________
+% ____________________________________________________________________
+
+\subsection{KEGG}
+
+\indent O KEGG\footnote{Disponível pela \textit{web} através do site \textit{http:\/\/www.kegg.jp\/}.} (\textit{Kyoto Encyclopedia of Genes and Genomes}) é uma base de informações sobre sistemas biológicos em nível molecular, sobretudo sobre conjuntos de dados em larga escala gerados por sequenciamento de genoma \cite{keggOverview}. As informações sobre os sistemas podem ser dadas em forma de módulos, unidades funcionais com identificação otimizada para análise dos dados, em forma de \textit{brite}, coleção de arquivos estruturados hierarquicamente sobre as funções das entidades biológicos, ou em forma de vias, mapa de interações moleculares e reações químicas. Dado que o metabolismo é um conjunto de reações e transformações químicas, a maneira natural de representá-lo é por meio de uma rede de interações, ou seja, em forma de vias. O KEGG oferece uma ferramenta de busca de vias metabólicas sobre várias rede metabólica, dos vários organismos que constituem o banco de dados.
+
+\indent Ferramenta de visualização KEGG. 
+
+http:\/\/www.kegg.jp\/ -> \\ Data-oriented entry points  -> \\KEGG PATHWAY ->\\ Pathway Maps -> \\1. Metabolism  -> \\1.0 Global and overview maps / Metabolic pathways
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{terpenoidBackboneKEGG_id.png}
+\caption{Visão geral da rede metabólica de referência do KEGG, com destaque na via metabólica de biossíntese do \textit{backbone} de terpenóides. (1), (2) e (3).}
+\label{terpenoidBackboneKEGG}
+\end{figure}
+
+Notação: http:\/\/www.genome.jp\/kegg\/document\/help\_pathway.html
+
+http:\/\/www.kegg.jp\/ -> \\ Data-oriented entry points  -> \\KEGG PATHWAY ->\\ Pathway Maps -> \\1. Metabolism/Terpenoid/PK   -> \\1.9 Metabolism of terpenoids and polyketides / Terpenoid backbone biosynthesis
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{terpenoidViaKEGG.png}
+\caption{Via metabólica de biosíntese do \textit{backbone} de terpenóides}
+\label{terpenoidBackboneKEGG}
+\end{figure}
+
+Tipo de arquivo:
+Objetos clicáveis, setas e containers com significado (Notação: http:\/\/www.genome.jp\/kegg\/document\/help\_pathway.html), minimapa ao passar mouse por cima de vias representadas por nós, etc
+
+% ____________________________________________________________________
+% ____________________________________________________________________
+% ____________________________________________________________________
+
+\subsection{BioCyc}
+
+\indent O BioCyc\footnote{Disponível pela \textit{web} através do site \textit{http:\/\/biocyc.org}.} é um sistema de coleção de aproximadamente 7 mil bancos de dados chamados PGDBs (\textit{Pathway/Genome Databases}) pois possuem duas maneiras diferentes de representar as informações: modelo de vias metabólicas, que enfatiza as sequências de reações, substratos e produtos de múltiplos organismos, ou modelo de sequência genômica, que destaca a localização e descrição dos genes de cada organismo específico \cite{biocycIntro}. Os bancos PGDBs são organizado em três camadas de acordo com a frequência de atualizações/refinações e da maneira com que os dados foram obtidos. O BioCyc possui um banco de dados específico para redes metabólicas determinadas experimentalmente, chamado MetaCyc. Este é o único banco de dados multi-organismos do grupo BioCyc e ele é referência na ferramenta gratuita \textit{Pathway Tools} desenvolvida pelo instituto de pesquisa \textit{SRI International}.
+
+\indent Ferramenta de visualização MetaCyc
+
+Figura do capitulo anterior: bioluminescencia.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1.2\textwidth]{bioLuz_modificado.png}
+\caption{Mesa figura do capitulo 1, mas com maior nível de detalhes}
+\label{terpenoidBackboneKEGG}
+\end{figure}
+
+% ____________________________________________________________________
+% ____________________________________________________________________
+% ____________________________________________________________________
+
+\subsection{Reactome}
+
+\indent Reactoma\footnote{Disponível pela \textit{web} através do site \textit{http:\/\/www.reactome.org}.} é um banco de dados de reações de mudança de estado, ou seja, além de reações bioquímica, ele também abrange reações de ativação, de degradação e de ligação, por exemplo \cite{reactomeUsersguide}. Ele faz uma ligação sistemática entre as proteínas de um certo organismo e as funções moleculares do mesmo, fornecendo uma base de funções que pode ser utilizada para pesquisas sobre expressão de genes ou mutações somáticas. O Reactome disponibiliza o \textit{Pathway Browser}, uma rede geral para cada organismo, que representa os vários seus sistemas, como reprodução e metabolismo, por exemplo. Algumas sub-redes estão conectadas (por exemplo, replicação de DNA e ciclo de célula), outra não (por exemplo, contração muscular e reprodução). Nesta rede, cada nó representa uma via cujo número de entidade se reflete no raio do nó, e cada aresta representa a relação entre estas vias. O site ainda possui uma ferramenta de análise de dados baseada nas correspondências entre as reações na redes dos organismos comparados.
+
+\indent Ferramenta de visualização Reactome Browser
+
+
+% ____________________________________________________________________
+% ____________________________________________________________________
+% ____________________________________________________________________
+
+
+\subsection{2Path}
+
+%\cite{lacroixCTS08}

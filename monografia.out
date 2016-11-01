@@ -7,32 +7,33 @@
 \BOOKMARK [1][-]{section*.10}{Problema}{chapter*.8}% 7
 \BOOKMARK [1][-]{section*.11}{Objetivo}{chapter*.8}% 8
 \BOOKMARK [1][-]{section*.12}{Descri\347\343o dos Cap\355tulos}{chapter*.8}% 9
-\BOOKMARK [0][-]{chapter.1}{Redes Metab\363licas}{}% 10
-\BOOKMARK [1][-]{section.1.1}{Conceitos B\341sicos de Biologia Molecular}{chapter.1}% 11
-\BOOKMARK [2][-]{subsection.1.1.1}{\301cidos Nucl\351icos}{section.1.1}% 12
-\BOOKMARK [2][-]{subsection.1.1.2}{S\355ntese de Prote\355na}{section.1.1}% 13
-\BOOKMARK [1][-]{section.1.2}{Conceitos B\341sicos de Metabolismo}{chapter.1}% 14
-\BOOKMARK [2][-]{subsection.1.2.1}{Metabolismo Prim\341rio}{section.1.2}% 15
-\BOOKMARK [2][-]{subsection.1.2.2}{Metabolismo Secund\341rio}{section.1.2}% 16
-\BOOKMARK [1][-]{section.1.3}{Banco de Dados de Redes Metab\363licas}{chapter.1}% 17
-\BOOKMARK [2][-]{subsection.1.3.1}{Banco de Dados NoSQL}{section.1.3}% 18
-\BOOKMARK [2][-]{subsection.1.3.2}{KEGG}{section.1.3}% 19
-\BOOKMARK [2][-]{subsection.1.3.3}{BioCyc}{section.1.3}% 20
-\BOOKMARK [2][-]{subsection.1.3.4}{Reactome}{section.1.3}% 21
-\BOOKMARK [0][-]{chapter.2}{Ferramentas de visualiza\347\343o de Redes Metab\363licas}{}% 22
-\BOOKMARK [1][-]{section.2.1}{KEGG}{chapter.2}% 23
-\BOOKMARK [1][-]{section.2.2}{MetaCyc}{chapter.2}% 24
-\BOOKMARK [1][-]{section.2.3}{Reactome Browser}{chapter.2}% 25
-\BOOKMARK [1][-]{section.2.4}{Cytoscape}{chapter.2}% 26
-\BOOKMARK [0][-]{chapter.3}{IHC}{}% 27
-\BOOKMARK [0][-]{chapter.4}{2Path: Aplica\347\343o Web}{}% 28
-\BOOKMARK [1][-]{section.4.1}{Implementa\347\343o}{chapter.4}% 29
-\BOOKMARK [2][-]{subsection.4.1.1}{Banco de Dados OrientDB}{section.4.1}% 30
-\BOOKMARK [1][-]{section.4.2}{Visualiza\347\343o das redes metab\363licas}{chapter.4}% 31
-\BOOKMARK [1][-]{section.4.3}{Desafios}{chapter.4}% 32
-\BOOKMARK [0][-]{chapter.5}{M\351todo e Resultados}{}% 33
-\BOOKMARK [0][-]{chapter.6}{Conclus\343o e Trabalhos Futuros}{}% 34
-\BOOKMARK [1][-]{section.6.1}{Conclus\343o}{chapter.6}% 35
-\BOOKMARK [1][-]{section.6.2}{Trabalhos Futuros}{chapter.6}% 36
-\BOOKMARK [0][-]{chapter.7}{Cronograma}{}% 37
-\BOOKMARK [0][-]{section*.21}{Refer\352ncias}{}% 38
+\BOOKMARK [0][-]{chapter.1}{Avalia\347\343o em Intera\347\343o Humano-Computador}{}% 10
+\BOOKMARK [1][-]{section.1.1}{Conceitos B\341sicos de IHC}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.2}{Avalia\347\343o Atrav\351s de Observa\347\343o}{chapter.1}% 12
+\BOOKMARK [2][-]{subsection.1.2.1}{M\351todo de Avalia\347\343o de Comunicabilidade}{section.1.2}% 13
+\BOOKMARK [0][-]{chapter.2}{Redes Metab\363licas}{}% 14
+\BOOKMARK [1][-]{section.2.1}{Conceitos B\341sicos de Biologia Molecular}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.1.1}{\301cidos Nucl\351icos}{section.2.1}% 16
+\BOOKMARK [2][-]{subsection.2.1.2}{S\355ntese de Prote\355na}{section.2.1}% 17
+\BOOKMARK [1][-]{section.2.2}{Conceitos B\341sicos de Metabolismo}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.1}{Metabolismo Prim\341rio}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.2}{Metabolismo Secund\341rio}{section.2.2}% 20
+\BOOKMARK [1][-]{section.2.3}{Banco de Dados de Redes Metab\363licas}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.3.1}{Banco de Dados NoSQL}{section.2.3}% 22
+\BOOKMARK [2][-]{subsection.2.3.2}{KEGG}{section.2.3}% 23
+\BOOKMARK [2][-]{subsection.2.3.3}{BioCyc}{section.2.3}% 24
+\BOOKMARK [2][-]{subsection.2.3.4}{Reactome}{section.2.3}% 25
+\BOOKMARK [2][-]{subsection.2.3.5}{2Path}{section.2.3}% 26
+\BOOKMARK [0][-]{chapter.3}{Projeto da Interface}{}% 27
+\BOOKMARK [1][-]{section.3.1}{Projeto}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.2}{Detalhes da Implementa\347\343o}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.3}{Desafios}{chapter.3}% 30
+\BOOKMARK [0][-]{chapter.4}{Resultados}{}% 31
+\BOOKMARK [1][-]{section.4.1}{Interface}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.2}{Avalia\347\343o e Discuss\343o}{chapter.4}% 33
+\BOOKMARK [0][-]{chapter.5}{M\351todo e Resultados}{}% 34
+\BOOKMARK [0][-]{chapter.6}{Conclus\343o e Trabalhos Futuros}{}% 35
+\BOOKMARK [1][-]{section.6.1}{Conclus\343o}{chapter.6}% 36
+\BOOKMARK [1][-]{section.6.2}{Trabalhos Futuros}{chapter.6}% 37
+\BOOKMARK [0][-]{chapter.7}{Cronograma}{}% 38
+\BOOKMARK [0][-]{section*.22}{Refer\352ncias}{}% 39

@@ -19,7 +19,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{indentfirst}
 \usepackage{natbib}
-\usepackage{xcolor,graphicx,url}
+\usepackage[table,xcdraw]{xcolor}
 \usepackage{color,soul}
 \usepackage[utf8]{inputenc}
 \usepackage{caption}
@@ -34,6 +34,10 @@
 \usetikzlibrary{arrows, calc, decorations.markings, positioning}
 \setcounter{secnumdepth}{4}
 \graphicspath{{./figuras/}}
+
+% Para pular linha em células de tabela
+\newcommand{\specialcell}[2][l]{%
+  \begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
 
 \pagestyle{empty}
 \makeatletter
