@@ -13,46 +13,46 @@ Warning--to sort, need author or key in drug09
 Warning--to sort, need author or key in keggOverview
 Warning--to sort, need author or key in biocycIntro
 Warning--to sort, need author or key in reactomeUsersguide
-Warning--empty year in violinist12
-You've used 21 entries,
+Warning--can't use both author and editor fields in IHCbook
+You've used 18 entries,
             2118 wiz_defined-function locations,
-            621 strings with 7838 characters,
-and the built_in function-call counts, 5823 in all, are:
-= -- 558
-> -- 236
+            607 strings with 7313 characters,
+and the built_in function-call counts, 5331 in all, are:
+= -- 504
+> -- 233
 < -- 4
-+ -- 101
++ -- 98
 - -- 78
-* -- 326
-:= -- 892
-add.period$ -- 60
-call.type$ -- 21
-change.case$ -- 98
+* -- 308
+:= -- 817
+add.period$ -- 51
+call.type$ -- 18
+change.case$ -- 88
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 232
-empty$ -- 531
+cite$ -- 24
+duplicate$ -- 209
+empty$ -- 475
 format.name$ -- 78
-if$ -- 1277
+if$ -- 1165
 int.to.chr$ -- 0
-int.to.str$ -- 21
+int.to.str$ -- 18
 missing$ -- 14
-newline$ -- 103
-num.names$ -- 28
-pop$ -- 189
+newline$ -- 88
+num.names$ -- 26
+pop$ -- 176
 preamble$ -- 1
-purify$ -- 83
+purify$ -- 75
 quote$ -- 0
-skip$ -- 176
+skip$ -- 161
 stack$ -- 0
-substring$ -- 276
-swap$ -- 56
+substring$ -- 259
+swap$ -- 54
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 74
+type$ -- 62
 warning$ -- 6
-while$ -- 44
-width$ -- 23
-write$ -- 206
+while$ -- 42
+width$ -- 20
+write$ -- 175
 (There was 1 error message)

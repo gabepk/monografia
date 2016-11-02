@@ -31,6 +31,11 @@ Abhishek Bansal.
   \url{https://www.knowbigdata.com/blog/nosql-cap-theorem-part-mongodb-course},
   visitado em 2016-10-13.
 
+\bibitem{IHCbook}
+Simone Diniz~Junqueira Barbosa and Bruno~Santana da~Silva.
+\newblock {\em Interação Humano-computador}.
+\newblock Elsevier Editora Ltda., 2010.
+
 \bibitem{carterClass}
 Perry Carter.
 \newblock Catabolic and anabolic reactions.
@@ -49,37 +54,17 @@ Rick Cattell.
 \newblock Scalable sql and nosql data stores.
 \newblock {\em SIGMOD Rec.}, 39(4):12--27, May 2011.
 
-\bibitem{eclipseDoc}
-Eclipse Foundation, Inc., 102 Centrepointe Drive, Ottawa, Ontario,.
-\newblock {\em Eclipse documentation - Current Release}, 4.6 edition, 2016.
-\newblock
-  \url{http://help.eclipse.org/neon/index.jsp?topic=\%2Forg.eclipse.platform.doc.isv\%2Fguide\%2Fint_eclipse.htm},
-  visitado em 2016-07-01.
-
 \bibitem{jing12}
 Jing Han, E.~Haihong, Guan Le, and Jian Du.
 \newblock {Survey on NoSQL database}.
 \newblock In {\em Pervasive Computing and Applications (ICPCA), 2011 6th
   International Conference on}, pages 363--366. IEEE, October 2011.
 
-\bibitem{chuan11}
-Chua Hock-Chuan.
-\newblock Java web database applications, 2011.
-\newblock
-  \url{https://www.ntu.edu.sg/home/ehchua/programming/java/JavaWebDBApp.html},
-  visitado em 2016-08-19.
-
 \bibitem{kabera14}
 Justin~N. Kabera, Edmond Semana, Ally~R. Mussa, and Xin He.
 \newblock Plant secondary metabolites: Biosynthesis, classification, function
   and pharmacological properties.
 \newblock {\em Journal of Pharmacy and Pharmacology}, 2:377--392, 2014.
-
-\bibitem{violinist12}
-Sam Kean.
-\newblock {\em O Polegar do Violinista - e Outras Histórias da Genética Sobre
-  Amor, Guerra e Genialidade}.
-\newblock Zahar.
 
 \bibitem{Cap2schomburg}
 Gerhard Michal and Dietmar Schomburg.
@@ -90,13 +75,6 @@ Gerhard Michal and Dietmar Schomburg.
 David~W. Mount.
 \newblock {\em Bioinformatics : sequence and genome analysis}.
 \newblock Cold Spring Harbor, N.Y. Cold Spring Harbor Laboratory Press, 2001.
-
-\bibitem{oracle14}
-Oracle.
-\newblock {\em Java Platform, Enterprise Edition The Java EE Tutorial, Release
-  7}, 2014.
-\newblock \url{https://docs.oracle.com/javaee/7/tutorial}, visitado em
-  2016-08-19.
 
 \bibitem{dnadiscovery08}
 Leslie~A. Pray.
