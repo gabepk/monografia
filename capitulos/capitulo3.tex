@@ -1,29 +1,47 @@
-\chapter{Projeto da Interface}
+\chapter{Projeto de Interface}
 
-\section{Projeto}
+% =========================================================================================
 
-Aplicação do método da avaliação da comunicabilidade
+\section{Comunicação usuário-sistema}
 
-\section{Detalhes da Implementação}
+\indent Página 212.
+
+\subsection{Design de Interação}
+
+\indent Página 213.
+
+\subsection{Mapa de Objetivos}
+
+\indent Página 216.
+
+\subsection{Tratamento de Rupturas na Comunicação}
+
+\indent Página 223.
+
+
+% =========================================================================================
+
+\section{Interface do Sistema}
+
+\indent Página 243.
+
+% =========================================================================================
+
+\section{Detalhes de Implementação}
 
 
 \indent O sistema desenvolvido para este projeto é uma aplicação web chamada \textit{2Path}. O usuário deve se cadastrar no \textit{website} para ter acesso às redes metabólicas do banco de dados do sistema, bem como pesquisar por palavras chaves no mesmo. Nesta seção serão apresentadas as linguagens e ferramentas utilizadas no desenvolvimento do \textit{website}, as características, funcionalidades e limites do sistema e, por fim, as dificuldades enfrentadas na implementação do projeto.
 
-\indent O sistema foi desenvolvido no amibiente de desenvolvimento integrado \textit{open source} Eclipse Java EE - \textit{Java Platform, Enterprise Edition}, versão Mars 4.5.2. Para simplificar a obtenção das dependências do projeto, ou seja, pacotes de arquivos java (extensão .jar), foi utilizada o Apache Maven, \textit{software} de gerenciamento de projeto e ferramenta de compreensão de programa. Este \textit{software} opera sobre o arquivo \textit{pom.xml}, onde POM significa \textit{Project Object Model} e contém as especificações de cada projeto que se tornará dependência do sistema em desenvolvimento, além de outros aspectos do código. O servidor selecionado para hospedagem local, \textit{localhost} porta 8080, do sistema foi o Apache TomCat versão 7.0.
+\indent O sistema foi desenvolvido no amibiente de desenvolvimento integrado \textit{open source} Eclipse Java EE - \textit{Java Platform, Enterprise Edition}, versão Mars 4.5.2. Para simplificar a obtenção das dependências do projeto, ou seja, pacotes de arquivos java (extensão .jar), foi utilizada o Apache Maven\footnote{\textit{Software} de gerenciamento de projeto e ferramenta de compreensão de programa.}. Este \textit{software} opera sobre o arquivo \textit{pom.xml}, onde POM significa \textit{Project Object Model} e contém as especificações de cada projeto que se tornará dependência do sistema em desenvolvimento, além de outros aspectos do código. O servidor selecionado para hospedagem local, \textit{localhost} porta 8080, do sistema foi o Apache TomCat versão 7.0.
 
-\indent As páginas da aplicação foram desenvolvidas na linguagem de marcação XHTML, \textit{Extensible Hypertext Markup Language}, e a estilzação em CSS, \textit{Cascading Style Sheets}.
+\indent As páginas da aplicação foram desenvolvidas na linguagem de marcação XHTML, \textit{Extensible Hypertext Markup Language}, e a estilzação em CSS, \textit{Cascading Style Sheets}. Para conexão entre \textit{front-end} e \textit{back-end} foram utilizados JSF\footnote{Especificação Java para criação de componentes de interface de aplicação \textit{web}.}, Primefaces\footnote{Biblioteca com uma coleção de componentes de interface voltadas para JSF.}, e AngularJS, para a construção do grafo de vias metabólicas.
 
-\indent 
+\subsection{Banco de Dados OrientDB}
 
-JSF \\
-PRIMEFACES
+\indent O banco de dados escolhido para armazenar as enzimas, compostos, reações e demais elementos foi o OrientDB.\\
+CITAR: (1) Graph database, (2) SQL, (3) Commercial Friendly License, (4) Low Total Cost of Ownership (TCO) Community Edition, (5) Open Source. \url{http://orientdb.com/why-orientdb/}
 
-
-JAVASCRIPT \\
-ANGULARJS \\
-ORIENTBD
-
-\section{Desafios}
+\subsection{Desafios}
  
 
 O que foi o trabalho. 

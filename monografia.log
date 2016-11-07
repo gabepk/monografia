@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.12)  7 NOV 2016 01:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.12)  7 NOV 2016 01:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1064,7 +1064,7 @@ LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <20> not available
 LaTeX Font Warning: Font shape `T1/ua1/bx/n' in size <20> not available
 (Font)              size <20.74> substituted on input line 194.
 
-<positivo_cor.pdf, id=159, 119.44624pt x 60.225pt>
+<positivo_cor.pdf, id=175, 119.44624pt x 60.225pt>
 File: positivo_cor.pdf Graphic file (type pdf)
  <use positivo_cor.pdf>
 Package pdftex.def Info: positivo_cor.pdf used on input line 194.
@@ -1174,7 +1174,7 @@ s de In-te-ra-ção Humano-Computador,
 Cap\'{\i }tulo 1.
 [3
 
-] <./figuras/affordance.png, id=329, 288.3272pt x 164.86594pt>
+] <./figuras/affordance.png, id=349, 288.3272pt x 164.86594pt>
 File: ./figuras/affordance.png Graphic file (type png)
 
 <use ./figuras/affordance.png>
@@ -1200,7 +1200,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-<./figuras/nucleotideo.png, id=387, 52.998pt x 31.317pt>
+<./figuras/nucleotideo.png, id=407, 52.998pt x 31.317pt>
 File: ./figuras/nucleotideo.png Graphic file (type png)
 
 <use ./figuras/nucleotideo.png>
@@ -1209,7 +1209,7 @@ Package pdftex.def Info: ./figuras/nucleotideo.png used on input line 18.
  [10
 
  <./figuras/nucleotideo.png>]
-<./figuras/dnaEstrutura.jpg, id=402, 150.8034pt x 139.4811pt>
+<./figuras/dnaEstrutura.jpg, id=422, 150.8034pt x 139.4811pt>
 File: ./figuras/dnaEstrutura.jpg Graphic file (type jpg)
 
 <use ./figuras/dnaEstrutura.jpg>
@@ -1225,7 +1225,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 58.
 
-<./figuras/bioLuz.png, id=422, 738.76pt x 620.3175pt>
+<./figuras/bioLuz.png, id=442, 738.76pt x 620.3175pt>
 File: ./figuras/bioLuz.png Graphic file (type png)
 
 <use ./figuras/bioLuz.png>
@@ -1251,7 +1251,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
-<./figuras/capTheorm.png, id=478, 819.06pt x 657.45625pt>
+<./figuras/capTheorm.png, id=498, 819.06pt x 657.45625pt>
 File: ./figuras/capTheorm.png Graphic file (type png)
 
 <use ./figuras/capTheorm.png>
@@ -1277,7 +1277,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--159
 
  []
 
-<./figuras/reactomeBrowser_id.png, id=506, 896.59969pt x 469.755pt>
+<./figuras/reactomeBrowser_id.png, id=526, 896.59969pt x 469.755pt>
 File: ./figuras/reactomeBrowser_id.png Graphic file (type png)
 
 <use ./figuras/reactomeBrowser_id.png>
@@ -1295,7 +1295,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 188--192
 
  []
 
-<./figuras/terpenoidBackboneKEGG_id.png, id=529, 1028.34187pt x 578.16pt>
+<./figuras/terpenoidBackboneKEGG_id.png, id=549, 1028.34187pt x 578.16pt>
 File: ./figuras/terpenoidBackboneKEGG_id.png Graphic file (type png)
 
 <use ./figuras/terpenoidBackboneKEGG_id.png>
@@ -1327,7 +1327,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
  []
 
-<./figuras/orcRemovalViaReactome.png, id=563, 376.40625pt x 534.49687pt>
+<./figuras/orcRemovalViaReactome.png, id=583, 376.40625pt x 534.49687pt>
 File: ./figuras/orcRemovalViaReactome.png Graphic file (type png)
 
 <use ./figuras/orcRemovalViaReactome.png>
@@ -1335,7 +1335,7 @@ Package pdftex.def Info: ./figuras/orcRemovalViaReactome.png used on input line
  249.
 (pdftex.def)             Requested size: 318.66948pt x 452.54652pt.
 
-<./figuras/terpenoidViaKEGG.png, id=564, 746.79pt x 950.04938pt>
+<./figuras/terpenoidViaKEGG.png, id=584, 746.79pt x 950.04938pt>
 File: ./figuras/terpenoidViaKEGG.png Graphic file (type png)
 
 <use ./figuras/terpenoidViaKEGG.png>
@@ -1346,7 +1346,7 @@ Package pdftex.def Info: ./figuras/terpenoidViaKEGG.png used on input line 256.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./figuras/bioLuz_id.png, id=565, 1182.4175pt x 1432.35126pt>
+<./figuras/bioLuz_id.png, id=585, 1182.4175pt x 1432.35126pt>
 File: ./figuras/bioLuz_id.png Graphic file (type png)
 
 <use ./figuras/bioLuz_id.png>
@@ -1359,9 +1359,9 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ) (./capitulos/capitulo3.tex [22 <./figuras/orcRemovalViaReactome.png>]
 [23 <./figuras/terpenoidViaKEGG.png>] [24 <./figuras/bioLuz_id.png>]
 Cap\'{\i }tulo 3.
-) (./capitulos/capitulo4.tex [25
+[25
 
-] [26]
+]) (./capitulos/capitulo4.tex [26]
 Cap\'{\i }tulo 4.
 ) (./capitulos/capitulo5.tex [27
 
@@ -1429,17 +1429,11 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
  (./monografia.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 233.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 233.
-
-
-Package rerunfilecheck Warning: File `monografia.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `monografia.out':
-(rerunfilecheck)             Before: 27B5556EA55C52DE17F0EEBC67F8E389;2482
-(rerunfilecheck)             After:  9CA44F5FD72E1843D26B938EAA4BDEE8;2424.
+Package rerunfilecheck Info: File `monografia.out' has not changed.
+(rerunfilecheck)             Checksum: 965A58BD1C531FF12441A4AF9978F3DD;2851.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
 (rerunfilecheck)             Checksum: F551E5F16EE2B4907D9DB1DB8BA3EA92;2917.
+
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.74pt have occurred.
@@ -1447,23 +1441,29 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 233.
  )
 (\end occurred when \iffalse on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 19753 strings out of 493029
- 343208 string characters out of 6136234
- 448501 words of memory out of 5000000
- 22717 multiletter control sequences out of 15000+600000
+ 19762 strings out of 493029
+ 343372 string characters out of 6136234
+ 448507 words of memory out of 5000000
+ 22721 multiletter control sequences out of 15000+600000
  20553 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,18n,92p,1751b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): 
-name{Hfootnote.18} has been referenced but does not exist, replaced by a fixed 
+name{Hfootnote.21} has been referenced but does not exist, replaced by a fixed 
 one
+
+pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.17} has been referenced but does not exis
 t, replaced by a fixed one
@@ -1516,15 +1516,6 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{chapter.7} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.6.1} has been referenced but does not exist
-, replaced by a fixed one
-
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fon
@@ -1542,10 +1533,10 @@ er/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on monografia.pdf (42 pages, 1607329 bytes).
+Output written on monografia.pdf (42 pages, 1612979 bytes).
 PDF statistics:
- 769 PDF objects out of 1000 (max. 8388607)
- 671 compressed objects within 7 object streams
- 143 named destinations out of 1000 (max. 500000)
- 372 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 797 PDF objects out of 1000 (max. 8388607)
+ 699 compressed objects within 7 object streams
+ 148 named destinations out of 1000 (max. 500000)
+ 404 words of extra memory for PDF output out of 10000 (max. 10000000)
 
