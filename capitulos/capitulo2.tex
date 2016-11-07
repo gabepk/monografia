@@ -16,7 +16,7 @@
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\textwidth]{nucleotideo.png}
-    \caption{imagem de um nucleotídeo e das bases nitrogenadas. Mostrar backbone da pentose 1'...5'. Adaptado de : \cite{dnadiscovery08}. }
+    \caption{Nucleotídeo cuja grupo fosfato (P) está em amarela, a pentose está em cinza e base nitrogenada, no caso a Guanina, em azul. Adaptado de \cite{dnadiscovery08}. }
     \label{fig:Nucleotideo}
 \end{figure} 
 
@@ -31,7 +31,7 @@
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.7\textwidth]{dnaEstrutura.jpg}
-    \caption{Adaptado de : \cite{dnadiscovery08} }
+    \caption{Representação das duas fitas de DNA se ligando por pontes de hidrogênio entre os nucleotídeos e formando seu \textit{backbone}. Adaptado de \cite{dnadiscovery08}.}
     \label{fig:EstruturasDoDNA}
 \end{figure} 
 
@@ -104,18 +104,18 @@ Cada um possui funções específicas que serão detalhadas na seção \ref{sint
 
 % Especificar banco de dados para Redes metabólicas
 
-\indent Nos dias de hoje, a quantidade de dados é tão grande e  que os biólogos enfrentam dificuldades em tarefas como análise, busca, armazenamento, visualização e atualização de dados. Nesse sentido, eles utilizam agora ferramentas de Big Data em suas pesquisas. Existem grandes áreas da biologia voltadas para estudo deste dados (chamados de dados ômicos), tais como, por exemplo, genoma\footnote{Material genético de um organismo.}, transcritoma\footnote{Conjunto dos transcritos mRNA, tRNA, rRNA e microRNA.}, proteoma\footnote{Conjunto de proteínas e suas variantes em um organismo.}, metaboloma\footnote{Conjunto de metabólitos de um organismo.} e interactoma\footnote{Conjunto de interações moleculares em um organismo.}. Nesta seção serão apresentados três bancos de dados utilizados no estudo do metaboloma cuja estrutura de dados que representam as redes metabólicas são grafos.
+\indent Nos dias de hoje, a quantidade de dados é tão grande e  que os biólogos enfrentam dificuldades em tarefas como análise, busca, armazenamento, visualização e atualização de dados. Nesse sentido, eles utilizam agora ferramentas de Big Data em suas pesquisas. Existem grandes áreas da biologia voltadas para estudo deste dados (chamados de dados ômicos), tais como, por exemplo, genoma\footnote{Material genético de um organismo.}, transcritoma\footnote{Conjunto dos transcritos mRNA, tRNA, rRNA e microRNA.}, proteoma\footnote{Conjunto de proteínas e suas variantes em um organismo.}, metaboloma\footnote{Conjunto de metabólitos de um organismo.} e interactoma\footnote{Conjunto de interações moleculares em um organismo.}. Nesta seção serão apresentados conceitos básicos de banco de dados NoSQL com foco em grafos e quatro bancos de dados utilizados no estudo do metaboloma cuja estrutura de dados que representam as redes metabólicas são grafos: Reactome, KEGG, MetaCyc e 2Path. \\
 
 %
 % This kind of database is however an exception among genome-scale metabolic databases. Besides being often much less accurate, most of the pathways in BioCyc or in KEGG, another widely used database for metabolism [7], are further biased towards the microbial and plant kingdoms. The quality of the metabolic reconstruction of any animal is thus expected to be worse than the one of a bacterium evolutionarily close to Escherichia coli.
 %
 % \cite{lacroixCTS08}
 
-\subsection{Banco de Dados NoSQL}
+\textbf{Banco de Dados NoSQL}
 
 \indent Para comportar tamanha quantidade de dados e ao mesmo tempo providenciar alta performance, atualmente é possível utilizar um banco de dados NoSQL como alternativa ao tradicional modelo relacional. NoSQL pode significar Não-Relacional ou \textit{Not Only SQL}  \cite{cattell11}, para ressaltar as vantagens sobre o modelo tradicional, que são rápida leitura e escrita dos dados, suporte à armazenamento em larga escala, fácil escalabilidade, fácil distribuição (replicação ou fragmentação) de dados entre vários servidores, e baixo custo. \cite{jing12}. Entretanto, uma grande desvantagem é sua falta de suporte à linguagem SQL, o que obriga o usuário a aprender a recuperar seus dados de outra maneira\footnote{No banco de dados Neo4j, por exemplo, usa-se a linguagem CYPHER.}. 
 
-\indent Em 2000, o Professor Eric Brewer da Universidade da Califórnia em Berkeley estabeleceu o Teorema CAP (\textit{Consistency, Availability and Partition tolerance}), que afirma que quando os dados estão particionados\footnote{Falha em algum dispositivo de rede que causa a separação entre dois conjuntos de computadores.} em rede, os BDs NoSQL que são distribuídos devem tolerar tal falha e oferecer, assim, apenas duas escolhas para o usuário: consistência ou disponibilidade de dados, nunca os dois ao mesmo tempo. \cite{jing12} \cite{cattell11}. Caso o banco decida fornecer mais consistência do que disponibilidade, o sistema tentará sempre retornar a \textit{query} com dados atualizados para o usuário, mesmo que a operação demore. A Figura \ref{fig:capTheorm} ilustra o teorema também conhecido como Teorema de Brewer. Caso decida fornecer mais disponibilidade do que consistência, o sistema tentará retornar a \textit{query} o mais rápido possível, mesmo se o dados estiverem desatualizados. Esta \textit{trade-off} inerente na maioria dos BDs NoSQL pode, na verdade, ser decidida pelo próprio usuário ao configurar seu banco de dados. 
+\indent Em 2000, o Professor Eric Brewer da Universidade da Califórnia em Berkeley estabeleceu o Teorema CAP (\textit{Consistency, Availability and Partition tolerance}), que afirma que quando os dados estão particionados\footnote{Falha em algum dispositivo de rede que causa a separação entre dois conjuntos de computadores.} em rede, os BDs NoSQL que são distribuídos devem tolerar tal falha e oferecer, assim, apenas duas escolhas para o usuário: consistência ou disponibilidade de dados, nunca os dois ao mesmo tempo. \cite{jing12} \cite{cattell11}. Caso o banco decida fornecer mais consistência do que disponibilidade, o sistema tentará sempre retornar a \textit{query} com dados atualizados para o usuário, mesmo que a operação demore. A Figura \ref{fig:capTheorm} ilustra o teorema também conhecido como Teorema de Brewer. Caso decida fornecer mais disponibilidade do que consistência, o sistema tentará retornar a \textit{query} o mais rápido possível, mesmo se o dados estiverem desatualizados. Esta \textit{trade-off} inerente na maioria dos BDs NoSQL pode, na verdade, ser decidida pelo próprio usuário ao configurar seu banco de dados. \\ 
 
 \begin{figure}[h]
     \centering
@@ -124,7 +124,7 @@ Cada um possui funções específicas que serão detalhadas na seção \ref{sint
     \label{fig:capTheorm}
 \end{figure} 
 
-\subsubsection{Banco de Dados em Grafo}
+\textbf{Banco de Dados em Grafo}
 
 \indent Grafos são as estruturas mais úteis para se representar interações entre objetos, portanto são de grande interesse no campo biológico, na modelagem de dados ômicos \cite{vicknair10}. Bancos de dados em grafo podem ser utilizados, por exemplo, quando a finalidade é buscar via \textit{query} a procedência dos objetos\footnote{A procedência é a linhagem do dado, ou seja, os detalhes de sua criação desde a origem conhecida.}, pois realizar uma travessia em grafo é bem mais rápido computacionalmente do que realizar múltiplos \textit{joins} num modelo relacional.
 
@@ -235,7 +235,7 @@ Cada um possui funções específicas que serão detalhadas na seção \ref{sint
 
 \subsection{2Path}
 
-Conteúdo estará disponível quando site estiver pronto.
+\indent Conteúdo estará disponível quando site estiver pronto. \\
 
 %\cite{lacroixCTS08}
 
