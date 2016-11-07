@@ -2,14 +2,17 @@
 \select@language {american}
 \select@language {brazil}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Exemplo de tipos de caixa de texto que representam o mesmo campo (Nome) por\IeC {\'e}m com n\IeC {\'\i }veis de \textit {affordance} diferentes, sendo que o \IeC {\'u}ltimo apresenta melhor o objetivo da caixa e, portanto, ela \IeC {\'e} reconhecida mais facilmente \cite {affordance}.\relax }}{4}{figure.caption.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces imagem de um nucleot\IeC {\'\i }deo e das bases nitrogenadas. Mostrar backbone da pentose 1'...5'. Adaptado de : \cite {dnadiscovery08}. \relax }}{8}{figure.caption.14}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Adaptado de : \cite {dnadiscovery08} \relax }}{10}{figure.caption.15}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Exemplo de via metab\IeC {\'o}lica retirado do site MetaCyC. Esta representa o processo de produ\IeC {\c c}\IeC {\~a}o da bioluminesc\IeC {\^e}ncia de bact\IeC {\'e}rias \cite {examplePathway}. \relax }}{12}{figure.caption.16}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Teorema CAP. Na primeira coluna, o banco de dados n\IeC {\~a}o suporta parti\IeC {\c c}\IeC {\~a}o de rede, na segunda existe replica\IeC {\c c}\IeC {\~a}o parcial de dados entre os servidores e na terceira, replica\IeC {\c c}\IeC {\~a}o total \cite {CAPTheorem}.\relax }}{15}{figure.caption.17}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Vis\IeC {\~a}o geral da rede metab\IeC {\'o}lica de refer\IeC {\^e}ncia do KEGG, com destaque na via metab\IeC {\'o}lica de bioss\IeC {\'\i }ntese do \textit {backbone} de terpen\IeC {\'o}ides. (1), (2) e (3).\relax }}{16}{figure.caption.18}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Via metab\IeC {\'o}lica de bios\IeC {\'\i }ntese do \textit {backbone} de terpen\IeC {\'o}ides\relax }}{18}{figure.caption.19}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Mesa figura do capitulo 1, mas com maior n\IeC {\'\i }vel de detalhes\relax }}{19}{figure.caption.20}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces imagem de um nucleot\IeC {\'\i }deo e das bases nitrogenadas. Mostrar backbone da pentose 1'...5'. Adaptado de : \cite {dnadiscovery08}. \relax }}{10}{figure.caption.15}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Adaptado de : \cite {dnadiscovery08} \relax }}{12}{figure.caption.16}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Exemplo de via metab\IeC {\'o}lica retirado do site MetaCyC. Esta representa o processo de produ\IeC {\c c}\IeC {\~a}o da bioluminesc\IeC {\^e}ncia de bact\IeC {\'e}rias \cite {examplePathway}. \relax }}{14}{figure.caption.17}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Teorema CAP. Na primeira coluna, o banco de dados n\IeC {\~a}o suporta parti\IeC {\c c}\IeC {\~a}o de rede, na segunda existe replica\IeC {\c c}\IeC {\~a}o parcial de dados entre os servidores e na terceira, replica\IeC {\c c}\IeC {\~a}o total \cite {CAPTheorem}.\relax }}{17}{figure.caption.18}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Vis\IeC {\~a}o geral da rede metab\IeC {\'o}lica do \textit {Homo sapiens} do Reactome, com destaque na via metab\IeC {\'o}lica de remo\IeC {\c c}\IeC {\~a}o do Orc1 da cromatina do processo de regula\IeC {\c c}\IeC {\~a}o da replica\IeC {\c c}\IeC {\~a}o do DNA. A interface pode ser dividida nas se\IeC {\c c}\IeC {\~o}es [1], [2], [3] e [4].\relax }}{18}{figure.caption.19}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Vis\IeC {\~a}o geral da rede metab\IeC {\'o}lica de refer\IeC {\^e}ncia do KEGG, com destaque na via metab\IeC {\'o}lica de bioss\IeC {\'\i }ntese do \textit {backbone} de terpen\IeC {\'o}ides. A interface pode ser dividida nas se\IeC {\c c}\IeC {\~o}es [1], [2] e [3].\relax }}{20}{figure.caption.20}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Via metab\IeC {\'o}lica de remo\IeC {\c c}\IeC {\~a}o do Orc1 da cromatina.\relax }}{22}{figure.caption.21}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Via metab\IeC {\'o}lica de bioss\IeC {\'\i }ntese do \textit {backbone} de terpen\IeC {\'o}ides.\relax }}{23}{figure.caption.22}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o modificada da Figura \ref {bioLuz_id} com maior n\IeC {\'\i }vel de detalhes.\relax }}{24}{figure.caption.23}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

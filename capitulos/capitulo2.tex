@@ -70,7 +70,7 @@ Cada um possui funções específicas que serão detalhadas na seção \ref{sint
     \centering
     \includegraphics[width=0.7\textwidth]{bioLuz.png}
     \caption{Exemplo de via metabólica retirado do site MetaCyC. Esta representa o processo de produção da bioluminescência de bactérias \cite{examplePathway}. }
-    \label{fig:EstruturasDoDNA}
+    \label{fig:bioLuz}
 \end{figure} 
 
 \indent Enzimas são proteínas responsáveis por auxiliar a realização de biossíntese (construção) e biodegradação de moléculas no metabolismo com o propósito de catalisar (acelerar) reações bioquímicas. As enzimas possuem um local pré-determinado em formato côncavo chamado de sítio ativo, que comporta um ou mais substratos. Se a enzima comporta apenas um substrato, a estrutura que se forma com o preenchimento do sítio ativo é um complexo enzima-substrato, porém se ela comporta mais de um substrato, a estrutura é chamada de complexo ternário intermediário \cite{Cap2schomburg}. Quando a atividade catalítica não pode ser realizada apenas pela enzima, co-fatores auxiliam o processo. Eles podem ser coenzimas, associadas momentaneamente às enzima, ou grupos prostéticos, associados firmemente à elas \cite{Cap2schomburg}. Quando duas enzimas possuem a mesma atividade enzimática porém estruturas físicas diferentes são chamadas isoenzimas\cite{Cap2schomburg}.
@@ -148,34 +148,69 @@ Cada um possui funções específicas que serão detalhadas na seção \ref{sint
 % ____________________________________________________________________
 % ____________________________________________________________________
 
+\subsection{Reactome}
+
+\indent Reactome\footnote{Disponível pela \textit{web} através do site \url{http://www.reactome.org}.} é um banco de dados de reações de mudança de estado, ou seja, além de reações bioquímica, ele também abrange reações de ativação, de degradação e de ligação, por exemplo \cite{reactomeUsersguide}. Ele faz uma ligação sistemática entre as proteínas de um certo organismo e as funções moleculares do mesmo, fornecendo uma base de funções que pode ser utilizada para pesquisas sobre expressão de genes ou mutações somáticas. O Reactome disponibiliza o \textit{Pathway Browser}, uma rede geral para cada organismo, que representa os vários seus sistemas, como reprodução e metabolismo, por exemplo. Algumas sub-redes estão conectadas (por exemplo, replicação de DNA e ciclo de célula), outra não (por exemplo, contração muscular e reprodução). Nesta rede, cada nó representa uma via cujo número de entidade se reflete no raio do nó, e cada aresta representa a relação entre estas vias. O site ainda possui uma ferramenta de análise de dados baseada nas correspondências entre as reações na redes dos organismos comparados.
+
+\indent Para acessa sua ferramenta de visualização, basta navegar a partir da \textit{home page}: \\
+
+\indent \url{http://www.reactome.org/} $\Rightarrow$ \\
+\indent Browse Pathways \\
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=1\textwidth]{reactomeBrowser_id.png}
+\caption{Visão geral da rede metabólica do \textit{Homo sapiens} do Reactome, com destaque na via metabólica de remoção do Orc1 da cromatina do processo de regulação da replicação do DNA. A interface pode ser dividida nas seções [1], [2], [3] e [4].}
+\label{reactomeBrowser_id}
+\end{figure}
+
+\indent Segue abaixo a descrição de cada elemento da interface da ferramenta de visualização do Reactome, subdivididos na Figura \ref{reactomeBrowser_id}.
+
+\begin{itemize}
+\item[[ 1]] Menu de navegação direta e indiretamente relacionado às vias metabólicas. À esquerda tem-se a versão do \textit{Pathway Browser} e de seu banco de dados e um menu \textit{dropdown} para se selecionar o organismo mostrado na interface. À direita tem-se um \textit{link} (\textit{Analysis}) para a uma página modal onde é possível analisar os dados do usuário e fazer comparação entre espécies, um \textit{link} (\textit{Tour}) para um vídeo explicando como \textit{Pathway Browser} funciona e um conjunto de \textit{layouts} que alteram a visualização geral da página;
+\item[[ 2]] Lista de redes metabólicas ordenadas alfabeticamente;
+\item[[ 3]] Mapa gerada em forma de grafo interativo. Quando uma rede metabólica da lista [2] é selecionada, ela se destaca no mapa. No topo, à esquerda é possível buscar por palavras chaves no mapa e visualizá-lo em tela cheia e à direita é possível visualizar imagens detalhadas das redes metabólicas, capturar uma imagem do mapa gerado e ler sobre a notação utilizada na página. Abaixo, à esquerda tem-se um mini-mapa por onde o usuário pode se localizar no mapa geral e à direita tem-se botões com o mesmo propósito e mais dois: (+) \textit{Zoom in} e (-) \textit{Zoom out}. Por fim, à direita do mapa existe um painel que se abre da direita para a esquerda que permite que o usuário edite as cores do mapa e obtenha informação sobre o mesmo.
+\item[[ 4]] Menu de operação e informações sobre as redes metabólicas selecionadas em [2]. O \textit{Description} contém seus detalhes tais como compartimento celular e referências externas. O \textit{Molecules} contém uma lista de compostos químicos e proteínas associadas às vias. O Structures oferece uma lista de imagens que representam a via e seus componentes. O Expression apresenta detalhes sobre o local no organismo onde ocorrem as reações das vias selecionadas. O Analysis apresenta o resultado das análise feita em [1]. Finalmente o botão Downloads oferece arquivos das vias para baixar em diversos formatos tais como SBML e PDF. 
+\end{itemize}
+
+\indent Caso o usuário queira visualizar a(s) via(s) metabólica detalhadamente, basta clicar nos nós do mapa, cujo tamanho está diretamente relacionado ao número de entidades que compõem a via. A imagem do grafo desaparece e então um conjunto dos elementos que o compõe aparece em seu lugar. A Figura \ref{orcRemovalViaReactome} apresenta a via da remoção do Orc1 da cromatina do processo de regulação da replicação do DNA.
+
+% ____________________________________________________________________
+% ____________________________________________________________________
+% ____________________________________________________________________
+
 \subsection{KEGG}
 
-\indent O KEGG\footnote{Disponível pela \textit{web} através do site \textit{http:\/\/www.kegg.jp\/}.} (\textit{Kyoto Encyclopedia of Genes and Genomes}) é uma base de informações sobre sistemas biológicos em nível molecular, sobretudo sobre conjuntos de dados em larga escala gerados por sequenciamento de genoma \cite{keggOverview}. As informações sobre os sistemas podem ser dadas em forma de módulos, unidades funcionais com identificação otimizada para análise dos dados, em forma de \textit{brite}, coleção de arquivos estruturados hierarquicamente sobre as funções das entidades biológicos, ou em forma de vias, mapa de interações moleculares e reações químicas. Dado que o metabolismo é um conjunto de reações e transformações químicas, a maneira natural de representá-lo é por meio de uma rede de interações, ou seja, em forma de vias. O KEGG oferece uma ferramenta de busca de vias metabólicas sobre várias rede metabólica, dos vários organismos que constituem o banco de dados.
+\indent O KEGG\footnote{Disponível pela \textit{web} através do site \url{http://www.kegg.jp/}.} (\textit{Kyoto Encyclopedia of Genes and Genomes}) é uma base de informações sobre sistemas biológicos em nível molecular, sobretudo sobre conjuntos de dados em larga escala gerados por sequenciamento de genoma \cite{keggOverview}. As informações sobre os sistemas podem ser dadas em forma de módulos, unidades funcionais com identificação otimizada para análise dos dados, em forma de \textit{brite}, coleção de arquivos estruturados hierarquicamente sobre as funções das entidades biológicos, ou em forma de vias, mapa de interações moleculares e reações químicas. Dado que o metabolismo é um conjunto de reações e transformações químicas, a maneira natural de representá-lo é por meio de uma rede de interações, ou seja, em forma de vias. O KEGG oferece uma ferramenta de busca de vias metabólicas sobre várias redes metabólicas, dos vários organismos que constituem o banco de dados.
 
-\indent Ferramenta de visualização KEGG. 
+\indent Para acessa sua ferramenta de visualização, basta navegar a partir da \textit{home page}: \\
 
-http:\/\/www.kegg.jp\/ -> \\ Data-oriented entry points  -> \\KEGG PATHWAY ->\\ Pathway Maps -> \\1. Metabolism  -> \\1.0 Global and overview maps / Metabolic pathways
+\indent \url{http://www.kegg.jp/} $\Rightarrow$ \\
+\indent Data-oriented entry points  $\mapsto$ KEGG PATHWAY $\Rightarrow$ \\
+\indent Pathway Maps $\mapsto$ 1. Metabolism  $\Rightarrow$ \\
+\indent 1.0 Global and overview maps $\mapsto$ Metabolic pathways \\
 
-\begin{figure}[h]
+\begin{figure}[!h]
 \centering
 \includegraphics[width=1\textwidth]{terpenoidBackboneKEGG_id.png}
-\caption{Visão geral da rede metabólica de referência do KEGG, com destaque na via metabólica de biossíntese do \textit{backbone} de terpenóides. (1), (2) e (3).}
-\label{terpenoidBackboneKEGG}
+\caption{Visão geral da rede metabólica de referência do KEGG, com destaque na via metabólica de biossíntese do \textit{backbone} de terpenóides. A interface pode ser dividida nas seções [1], [2] e [3].}
+\label{terpenoidBackboneKEGG_id}
 \end{figure}
 
-Notação: http:\/\/www.genome.jp\/kegg\/document\/help\_pathway.html
+\indent Segue abaixo a descrição de cada elemento da interface da ferramenta de visualização do KEGG, subdivididos na Figura \ref{terpenoidBackboneKEGG_id}.
 
-http:\/\/www.kegg.jp\/ -> \\ Data-oriented entry points  -> \\KEGG PATHWAY ->\\ Pathway Maps -> \\1. Metabolism/Terpenoid/PK   -> \\1.9 Metabolism of terpenoids and polyketides / Terpenoid backbone biosynthesis
+\begin{itemize}
+\item[[ 1]] Menu de navegação direta e indiretamente relacionado às vias metabólicas. O \textit{Pathway menu} redireciona para uma página que contém uma lista \textit{links} para todos os diagramas mostrados no mapa geral. O \textit{Organism menu} redireciona para à uma página com uma lista de todos os organismos conhecidos pelo KEGG (346 eucariotas e 4159 procariotas\footnote{Visitado em 2016-10-06}). O \textit{Pathway entry} redireciona para a descrição da via metabólica selecionada. O \textit{Hide module list}, quando clicado, oculta a área [2] da página. O \textit{User data mapping} abre uma nova janela que solicita um objeto seguido de uma cor escolhida pelo o usuário para dar sua própria coloração às vias. Por fim, o \textit{Image (png) file} oferece a imagem do mapa para \textit{download}. Abaixo é possível escolher o organismo apresentado no mapa, sua resolução e buscar por palavras chaves;
+\item[[ 2]] Lista de redes metabólicas organizadas de acordo com suas funções;
+\item[[ 3]] Mapa gerada em forma de grafo interativo. Quando uma rede metabólica da lista [2] é selecionada, ela se destaca no mapa.
+\end{itemize}
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=1\textwidth]{terpenoidViaKEGG.png}
-\caption{Via metabólica de biosíntese do \textit{backbone} de terpenóides}
-\label{terpenoidBackboneKEGG}
-\end{figure}
+\indent Caso o usuário queira visualizar a(s) via(s) metabólica detalhadamente, o KEGG oferece uma lista de diagramas\footnote{Detalhes sobre a notação dos diagramas: \url{http://www.genome.jp/kegg/document/help_pathway.html}} desenhados manualmente em formato de grafo interativo cujos nós, quando clicados, redirecionam para uma página contendo a descrição do objeto, que pode ser enzima, composto químico ou outra rele metabólica, por exemplo. Continuando com o exemplo da biossíntese do \textit{backbone} de terpenóides, para acessar seu diagrama, apresentado na figura \ref{terpenoidBackboneKEGG}, basta navegar a partir da \textit{home page}: \\
 
-Tipo de arquivo:
-Objetos clicáveis, setas e containers com significado (Notação: http:\/\/www.genome.jp\/kegg\/document\/help\_pathway.html), minimapa ao passar mouse por cima de vias representadas por nós, etc
+\indent \url{http://www.kegg.jp/} $\Rightarrow$ \\
+\indent Data-oriented entry points  $\mapsto$ KEGG PATHWAY $\Rightarrow$ \\
+\indent Pathway Maps $\mapsto$ 1. Metabolism  $\Rightarrow$ \\
+\indent 1.9 Metabolism of terpenoids and polyketides  $\mapsto$ Terpenoid backbone biosynthesis \\
 
 % ____________________________________________________________________
 % ____________________________________________________________________
@@ -183,29 +218,15 @@ Objetos clicáveis, setas e containers com significado (Notação: http:\/\/www.
 
 \subsection{BioCyc}
 
-\indent O BioCyc\footnote{Disponível pela \textit{web} através do site \textit{http:\/\/biocyc.org}.} é um sistema de coleção de aproximadamente 7 mil bancos de dados chamados PGDBs (\textit{Pathway/Genome Databases}) pois possuem duas maneiras diferentes de representar as informações: modelo de vias metabólicas, que enfatiza as sequências de reações, substratos e produtos de múltiplos organismos, ou modelo de sequência genômica, que destaca a localização e descrição dos genes de cada organismo específico \cite{biocycIntro}. Os bancos PGDBs são organizado em três camadas de acordo com a frequência de atualizações/refinações e da maneira com que os dados foram obtidos. O BioCyc possui um banco de dados específico para redes metabólicas determinadas experimentalmente, chamado MetaCyc. Este é o único banco de dados multi-organismos do grupo BioCyc e ele é referência na ferramenta gratuita \textit{Pathway Tools} desenvolvida pelo instituto de pesquisa \textit{SRI International}.
+\indent O BioCyc\footnote{Disponível pela \textit{web} através do site \url{http://biocyc.org}.} é um sistema de coleção de aproximadamente 7 mil bancos de dados chamados PGDBs (\textit{Pathway/Genome Databases}) pois possuem duas maneiras diferentes de representar as informações: modelo de vias metabólicas, que enfatiza as sequências de reações, substratos e produtos de múltiplos organismos, ou modelo de sequência genômica, que destaca a localização e descrição dos genes de cada organismo específico \cite{biocycIntro}. Os bancos PGDBs são organizado em três camadas de acordo com a frequência de atualizações/refinações e da maneira com que os dados foram obtidos. O BioCyc possui um banco de dados específico para redes metabólicas determinadas experimentalmente, chamado MetaCyc\footnote{Disponível pela \textit{web} através do site \url{http://metacyc.org/}.}. Este é o único banco de dados multi-organismos do grupo BioCyc e ele é referência na ferramenta gratuita \textit{Pathway Tools} desenvolvida pelo instituto de pesquisa \textit{SRI International}.
 
-\indent Ferramenta de visualização MetaCyc
+\indent Diferente das ferramentas do KEGG e Reactome, o Pathway  Tools não possui um mapa global de visualização das vias metabólicas. Para acessá-las, o usuário deve buscar por alguma palavra chave conhecida ou navegar pelo sumário de vias\footnote{Na última visita, em 2016-10-06, a página possuia 3461 vias metabólicas.} classificado hierarquicamente com base em suas funções biológicas e na classe dos metabólitos produzidos\/consumidos. O acesso à via da Figura \ref{fig:bioLuz}, por exemplo, se deu pela nagevação a partir da \textit{home page}: \\
 
-Figura do capitulo anterior: bioluminescencia.
+\indent \url{http://metacyc.org/} $\Rightarrow$ \\
+\indent Metabolism $\mapsto$ Browse Pathway Ontology $\Rightarrow$ \\
+\indent Pathways $\mapsto$ Bioluminescence (1 instances) $\mapsto$ bacterial bioluminescence \\
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=1.2\textwidth]{bioLuz_modificado.png}
-\caption{Mesa figura do capitulo 1, mas com maior nível de detalhes}
-\label{terpenoidBackboneKEGG}
-\end{figure}
-
-% ____________________________________________________________________
-% ____________________________________________________________________
-% ____________________________________________________________________
-
-\subsection{Reactome}
-
-\indent Reactoma\footnote{Disponível pela \textit{web} através do site \textit{http:\/\/www.reactome.org}.} é um banco de dados de reações de mudança de estado, ou seja, além de reações bioquímica, ele também abrange reações de ativação, de degradação e de ligação, por exemplo \cite{reactomeUsersguide}. Ele faz uma ligação sistemática entre as proteínas de um certo organismo e as funções moleculares do mesmo, fornecendo uma base de funções que pode ser utilizada para pesquisas sobre expressão de genes ou mutações somáticas. O Reactome disponibiliza o \textit{Pathway Browser}, uma rede geral para cada organismo, que representa os vários seus sistemas, como reprodução e metabolismo, por exemplo. Algumas sub-redes estão conectadas (por exemplo, replicação de DNA e ciclo de célula), outra não (por exemplo, contração muscular e reprodução). Nesta rede, cada nó representa uma via cujo número de entidade se reflete no raio do nó, e cada aresta representa a relação entre estas vias. O site ainda possui uma ferramenta de análise de dados baseada nas correspondências entre as reações na redes dos organismos comparados.
-
-\indent Ferramenta de visualização Reactome Browser
-
+\indent Cada nó das vias metabólicas quando clicado redireciona o usuário para uma página com mais detalhes sobre o objeto, que pode ser outra via, um composto químico ou uma enzima, por exemplo. A Figura \ref{bioLuz_id} é uma modificação da Figura \ref{fig:bioLuz} apresentando diretamente o conjunto destes elementos.
 
 % ____________________________________________________________________
 % ____________________________________________________________________
@@ -214,4 +235,32 @@ Figura do capitulo anterior: bioluminescencia.
 
 \subsection{2Path}
 
+Conteúdo estará disponível quando site estiver pronto.
+
 %\cite{lacroixCTS08}
+
+% ____________________________________________________________________
+% _____________FIGURAS MAIORES NO FIM DO CAPITULO_____________________
+% ____________________________________________________________________
+
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.7\textwidth]{orcRemovalViaReactome.png}
+\caption{Via metabólica de remoção do Orc1 da cromatina apresentada pela ferramenta de visualização do Reactome.}
+\label{orcRemovalViaReactome}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=1\textwidth]{terpenoidViaKEGG.png}
+\caption{Via metabólica de biossíntese do \textit{backbone} de terpenóides apresentada pela ferramenta de visualização do KEGG.}
+\label{terpenoidBackboneKEGG}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=1\textwidth]{bioLuz_id.png}
+\caption{Representação modificada da Figura \ref{bioLuz_id} com maior nível de detalhes apresentada pelo MetaCyc.}
+\label{bioLuz_id}
+\end{figure}
