@@ -8,10 +8,10 @@ Introduction to biocyc.
 Kegg overview.
 \newblock \url{http://www.kegg.jp/kegg/kegg1a.html}, visitado em 2016-10-01.
 
-\bibitem{profangela11}
-Proteínas.
-\newblock \url{http://www.professoraangela.net/documents/proteinas.html},
-  visitado em 2016-01-02.
+\bibitem{proteinSyntesis}
+Protein syntesis steps.
+\newblock \url{http://www.proteinsynthesis.org/protein-synthesis-steps/},
+  visitado em 2016-08-19.
 
 \bibitem{reactomeUsersguide}
 Usersguide.
@@ -23,13 +23,6 @@ Protein structure, 2009.
 \newblock
   \url{http://www.particlesciences.com/news/technical-briefs/2009/protein-structure.html},
   visitado em 2016-01-02.
-
-\bibitem{CAPTheorem}
-Abhishek Bansal.
-\newblock Nosql, cap theorem (part of mongodb course).
-\newblock
-  \url{https://www.knowbigdata.com/blog/nosql-cap-theorem-part-mongodb-course},
-  visitado em 2016-10-13.
 
 \bibitem{IHCbook}
 Simone Diniz~Junqueira Barbosa and Bruno~Santana da~Silva.
@@ -49,11 +42,6 @@ Ron Caspi.
 \newblock \url{http://metacyc.org/META/new-image?object=PWY-7723}, visitado em
   2016-10-13.
 
-\bibitem{cattell11}
-Rick Cattell.
-\newblock Scalable sql and nosql data stores.
-\newblock {\em SIGMOD Rec.}, 39(4):12--27, May 2011.
-
 \bibitem{semiose01}
 Claudio~Manoel de~Carvalho~Correia.
 \newblock Semiose e desenvolvimento cognitivo: Estudo sobre as estratégias de
@@ -61,17 +49,17 @@ Claudio~Manoel de~Carvalho~Correia.
 \newblock \url{http://www.filologia.org.br/vicnlf/anais/semiose.html}, visitado
   em 2016-10-06.
 
-\bibitem{jing12}
-Jing Han, E.~Haihong, Guan Le, and Jian Du.
-\newblock {Survey on NoSQL database}.
-\newblock In {\em Pervasive Computing and Applications (ICPCA), 2011 6th
-  International Conference on}, pages 363--366. IEEE, October 2011.
-
 \bibitem{kabera14}
 Justin~N. Kabera, Edmond Semana, Ally~R. Mussa, and Xin He.
 \newblock Plant secondary metabolites: Biosynthesis, classification, function
   and pharmacological properties.
 \newblock {\em Journal of Pharmacy and Pharmacology}, 2:377--392, 2014.
+
+\bibitem{LauraProteinas07}
+José G. Sampedro y Hugo~Nájera Laura González-Torres, Alfredo
+  Téllez-Valencia.
+\newblock Las proteínas en la nutricíon.
+\newblock {\em Respyn - Revista Salud Pública y Nutrición}, 8, 2007.
 
 \bibitem{affordance}
 Nicole Legault.
@@ -101,14 +89,6 @@ Leslie~A. Pray.
 João~Carlos Setubal and João Meidanis.
 \newblock {\em Introduction to computational molecular biology.}
 \newblock PWS Publishing Company, 1997.
-
-\bibitem{vicknair10}
-Chad Vicknair, Michael Macias, Zhendong Zhao, Xiaofei Nan, Yixin Chen, and Dawn
-  Wilkins.
-\newblock A comparison of a graph database and a relational database: A data
-  provenance perspective.
-\newblock In {\em Proceedings of the 48th Annual Southeast Regional
-  Conference}, ACM SE '10, pages 42:1--42:6, New York, NY, USA, 2010. ACM.
 
 \bibitem{Cap3schomburg}
 Röbbe Wünschiers, Martina Jahn, Dieter Jahn, Ida Schomburg, Susanne Peifer,
