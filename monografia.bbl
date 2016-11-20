@@ -24,10 +24,21 @@ Protein structure, 2009.
   \url{http://www.particlesciences.com/news/technical-briefs/2009/protein-structure.html},
   visitado em 2016-01-02.
 
+\bibitem{mitoseMeiose}
+Márcio~Santos Aleixo.
+\newblock Divisão celular.
+\newblock \url{http://www.infoescola.com/citologia/divisao-celular/}, visitado
+  em 2016-11-19.
+
 \bibitem{IHCbook}
 Simone Diniz~Junqueira Barbosa and Bruno~Santana da~Silva.
 \newblock {\em Interação Humano-computador}.
 \newblock Elsevier Editora Ltda., 2010.
+
+\bibitem{berger13}
+Bonnie Berger, Jian Peng, and Mona Singh.
+\newblock {Computational solutions for omics data.}
+\newblock {\em Nature reviews. Genetics}, 14(5):333--346, May 2013.
 
 \bibitem{carterClass}
 Perry Carter.
