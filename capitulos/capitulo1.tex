@@ -2,11 +2,13 @@
 
 % Dogma central
 
-\indent No início dos anos 50, uma química britânica chamada Rosalind Frankling usou a técnica de difração de raios-X para determinação da estrutura da biomolécula do DNA e concluiu que sua forma era helicoidal. Seu trabalho foi empregado nos experimentos de dois pesquisadores, Francis Crick e James Watson, em um laboratório em Cambridge, e assim fizeram a grande descoberta que desencadearam várias linhas de pesquisas atuais: A partir do DNA, o processo de \textit{transcrição} fornece uma fita de RNA, que por sua vez, a partir do processo de \textit{tradução}, fornecem a proteína. Esta sequência de processos ficou conhecida como Dogma Central da biologia molecular.
+\indent No início dos anos 50, uma química britânica chamada Rosalind Frankling usou a técnica de difração de raios-X para determinação da estrutura da biomolécula do DNA e concluiu que sua forma era helicoidal. Seu trabalho foi empregado nos experimentos de dois pesquisadores, Francis Crick e James Watson, em um laboratório em Cambridge. Essa grande descoberta desencadeou várias linhas de pesquisas atuais: A partir do DNA, o processo de \textit{transcrição} fornece uma fita de RNA, que por sua vez, a partir do processo de \textit{tradução}, fornecem a proteína. Esta sequência de processos ficou conhecida como Dogma Central da Biologia Molecular.
 
 % Atualmente
 
-\indent A partir de então, pesquisadores já sequenciaram cadeias de DNA, RNA e proteína de vários organismos, criando uma quantidade de informação tão extensa que apenas ferramentas de Big Data podem ser usadas para análise, visualização, busca, etc, para um tratamento eficiente. Estes dados, denominados dados ômicos, são armazenados em bancos de dados específicos hoje em dia, mais vários deles colaboram entre si. Neste trabalho serão apresentados os bancos de dados que representam redes metabólicas em modelo de grafo já existentes, bem como suas ferramentas de visualização de vias metabólicas, e apresentar a ferramenta de visualização 2Path formularizada e desenvolvida neste projeto seguindo os padrões de projeto de interface do campo de Interface Humano-Computador. Para verificar se o sistema satisfaz os critérios básicos de qualidades (usabilidade, experiência de usuário, acessibilidade e comunicabilidade), este projeto utiliza um método de Interação Humano-Computador, chamado Método de Avaliação de Comunicabilidade, que fornece uma sequência de atividades a serem aplicadas para um grupo de pesquisadores biólogos e, ao final, coleta dados relativos à reação dos mesmos ao navegar no sistema.
+\indent A partir de então, pesquisadores já sequenciaram cadeias de DNA, RNA e proteína de vários organismos, criando uma quantidade de informação tão extensa que apenas ferramentas de Big Data podem ser usadas para análise, visualização, busca, etc, para um tratamento eficiente. Estes dados, denominados dados ômicos, são armazenados em bancos de dados específicos hoje em dia, mais vários deles colaboram entre si. 
+
+\indent Neste trabalho serão apresentados os bancos de dados que representam redes metabólicas em modelo de grafo já existentes, bem como suas ferramentas de visualização de vias metabólicas, e apresentar a ferramenta de visualização 2Path formularizada e desenvolvida neste projeto seguindo os padrões de projeto de interface do campo de Interface Humano-Computador. Para verificar se o sistema satisfaz os critérios básicos de qualidades (usabilidade, experiência de usuário, acessibilidade e comunicabilidade), este projeto utiliza um método de Interação Humano-Computador, chamado Método de Avaliação de Comunicabilidade, que fornece uma sequência de atividades a serem aplicadas para um grupo de pesquisadores biólogos e, ao final, coleta dados relativos à reação dos mesmos ao navegar no sistema.
 
 % O que é metabolismo
 
@@ -20,13 +22,13 @@
 \indent Atualmente, a quantidade de dados ômicos estudados pelos pesquisadores é extensa e complexa. Uma maneira de amenizar o esforço feito para analisá-los e compreendê-los é oferecer uma ferramenta que aproxime o usuário (pesquisador) e os dados e a maneira mais natural é representar tais dados em forma de grafo (redes metabólicas). Esta ferramenta deverá permitir que o usuário visualize e interaja com os dados dinamicamente.
 
 \section{Problema}
-\indent Construir uma visualização interativa,pelos padrões de interface sugeridos pela área de Interface Humano-Computador, de redes metabólicas armazenadas em banco de dados de grafos que permita ao pesquisador explorar os aspectos biológicos do organismo estudado.
+\indent Não há uma visualização interativa de redes metabólicas armazenadas no 2Path que permita ao pesquisador explorar os aspectos biológicos do organismo estudado, pelos padrões de interface sugeridos pela área de Interface Humano-Computador.
 
 \section{Objetivo}
-\indent Construir um sistema que acesse redes metabólicas armazenadas em bancos de dados em grafo e gere uma visualização interativa e verificar se o sistema satisfaz os critérios de qualidade segundo o campo de Interação Humano-Computador.
+\indent Construir uma interface que acesse redes metabólicas armazenadas no 2Path e gere uma visualização interativa. Além disso, verificar se o sistema satisfaz os critérios de qualidade segundo o campo de Interação Humano-Computador.
 \begin{itemize}
- \item Implementar uma busca das vias metabólicas de interesse a a partir de parâmetros informados pelo pesquisador no sistema;
- \item Recuperar a informação desejada e exibi-la para o pesquisador de forma ergonômica;
+ \item Implementar uma interface que permita buscar vias metabólicas de interesse a a partir de parâmetros informados pelo pesquisador no sistema;
+ \item Recuperar a informação desejada e exibi-la para o pesquisador de maneira compreensível;
  \item Aplicar o Método de Avaliação de Computabilidade no sistema para medir a qualidade do mesmo.
 \end{itemize}
 
