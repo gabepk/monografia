@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.12)  20 NOV 2016 13:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.12)  20 NOV 2016 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1246,138 +1246,171 @@ Package pdftex.def Info: ./figuras/sinteseProteina.png used on input line 66.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./figuras/bioLuz.png, id=1360, 738.76pt x 620.3175pt>
+
+Package natbib Warning: Citation `enzymesKirk' on page 16 undefined on input li
+ne 122.
+
+
+Package natbib Warning: Citation `lacroixCTS08' on page 16 undefined on input l
+ine 124.
+
+
+Package natbib Warning: Citation `lacroixCTS08' on page 16 undefined on input l
+ine 124.
+
+[16 <./figuras/sinteseProteina.png>]
+
+Package natbib Warning: Citation `lacroixCTS08' on page 17 undefined on input l
+ine 128.
+
+
+Package natbib Warning: Citation `lacroixCTS08' on page 17 undefined on input l
+ine 130.
+
+<./figuras/bioLuz.png, id=1369, 738.76pt x 620.3175pt>
 File: ./figuras/bioLuz.png Graphic file (type png)
 
 <use ./figuras/bioLuz.png>
-Package pdftex.def Info: ./figuras/bioLuz.png used on input line 123.
+Package pdftex.def Info: ./figuras/bioLuz.png used on input line 134.
 (pdftex.def)             Requested size: 318.66948pt x 267.57373pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16 <./figuras/sinteseProteina.png>]
-<./figuras/mitoseEmeiose.jpg, id=1374, 563.85657pt x 557.83406pt>
+
+Package natbib Warning: Citation `lacroixCTS08' on page 17 undefined on input l
+ine 139.
+
+
+Package natbib Warning: Citation `lacroixCTS08' on page 17 undefined on input l
+ine 139.
+
+[17] <./figuras/mitoseEmeiose.jpg, id=1381, 563.85657pt x 557.83406pt>
 File: ./figuras/mitoseEmeiose.jpg Graphic file (type jpg)
 
 <use ./figuras/mitoseEmeiose.jpg>
-Package pdftex.def Info: ./figuras/mitoseEmeiose.jpg used on input line 138.
+Package pdftex.def Info: ./figuras/mitoseEmeiose.jpg used on input line 147.
 (pdftex.def)             Requested size: 227.62206pt x 225.18953pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17] [18 <./figuras/bioLuz.png>]
-Overfull \hbox (17.88733pt too wide) in paragraph at lines 154--155
+[18 <./figuras/bioLuz.png>]
+Overfull \hbox (17.88733pt too wide) in paragraph at lines 163--164
 []\T1/cmr/m/n/12 Os \T1/cmr/bx/n/12 fe-nó-li-cos \T1/cmr/m/n/12 são ca-rac-te-r
 i-za-dos por suas pro-pri-e-da-des anti-oxidantes, anti-inflamatórias
  []
 
-<./figuras/metSecundario.png, id=1402, 825.0825pt x 172.39406pt>
+<./figuras/metSecundario.png, id=1403, 825.0825pt x 172.39406pt>
 File: ./figuras/metSecundario.png Graphic file (type png)
 
 <use ./figuras/metSecundario.png>
-Package pdftex.def Info: ./figuras/metSecundario.png used on input line 159.
+Package pdftex.def Info: ./figuras/metSecundario.png used on input line 168.
 (pdftex.def)             Requested size: 364.19667pt x 76.09561pt.
- [19 <./figuras/mitoseEmeiose.jpg> <./figuras/metSecundario.png>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 226.
 
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19 <./figuras/mitoseEmeiose.jpg>]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 235.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 233--235
+) [20 <./figuras/metSecundario.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 242--244
 
  []
 
-<./figuras/reactomeBrowser_idBW.png, id=1436, 998.22937pt x 492.33937pt>
+<./figuras/reactomeBrowser_idBW.png, id=1433, 998.22937pt x 492.33937pt>
 File: ./figuras/reactomeBrowser_idBW.png Graphic file (type png)
 
 <use ./figuras/reactomeBrowser_idBW.png>
 Package pdftex.def Info: ./figuras/reactomeBrowser_idBW.png used on input line 
-238.
+247.
 (pdftex.def)             Requested size: 455.24411pt x 224.53311pt.
  [21 <./figuras/reactomeBrowser_idBW.png>] <./figuras/orcRemovalViaReactome.png
-, id=1445, 376.40625pt x 534.49687pt>
+, id=1446, 376.40625pt x 534.49687pt>
 File: ./figuras/orcRemovalViaReactome.png Graphic file (type png)
 
 <use ./figuras/orcRemovalViaReactome.png>
 Package pdftex.def Info: ./figuras/orcRemovalViaReactome.png used on input line
- 256.
+ 265.
 (pdftex.def)             Requested size: 318.66948pt x 452.54652pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--278
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 283--287
 
  []
 
-<./figuras/terpenoidBackboneKEGG_idBW.png, id=1450, 1028.34187pt x 578.16pt>
+<./figuras/terpenoidBackboneKEGG_idBW.png, id=1457, 1028.34187pt x 578.16pt>
 File: ./figuras/terpenoidBackboneKEGG_idBW.png Graphic file (type png)
 
 <use ./figuras/terpenoidBackboneKEGG_idBW.png>
 Package pdftex.def Info: ./figuras/terpenoidBackboneKEGG_idBW.png used on input
- line 281.
+ line 290.
 (pdftex.def)             Requested size: 455.24411pt x 255.95268pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[22] [23 <./figuras/orcRemovalViaReactome.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
+[23 <./figuras/orcRemovalViaReactome.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 296--300
+Underfull \hbox (badness 10000) in paragraph at lines 305--309
 
  []
 
-<./figuras/terpenoidViaKEGG.png, id=1469, 746.79pt x 950.04938pt>
+[24 <./figuras/terpenoidBackboneKEGG_idBW.png>]
+<./figuras/terpenoidViaKEGG.png, id=1476, 746.79pt x 950.04938pt>
 File: ./figuras/terpenoidViaKEGG.png Graphic file (type png)
 
 <use ./figuras/terpenoidViaKEGG.png>
-Package pdftex.def Info: ./figuras/terpenoidViaKEGG.png used on input line 303.
+Package pdftex.def Info: ./figuras/terpenoidViaKEGG.png used on input line 312.
 
 (pdftex.def)             Requested size: 455.24411pt x 579.15237pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[24 <./figuras/terpenoidBackboneKEGG_idBW.png>] [25 <./figuras/terpenoidViaKEGG
-.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--323
+Underfull \hbox (badness 10000) in paragraph at lines 329--332
 
  []
 
-<./figuras/bioLuz_id.png, id=1493, 1182.4175pt x 1432.35126pt>
+<./figuras/bioLuz_id.png, id=1487, 1182.4175pt x 1432.35126pt>
 File: ./figuras/bioLuz_id.png Graphic file (type png)
 
 <use ./figuras/bioLuz_id.png>
-Package pdftex.def Info: ./figuras/bioLuz_id.png used on input line 328.
+Package pdftex.def Info: ./figuras/bioLuz_id.png used on input line 337.
 (pdftex.def)             Requested size: 455.24411pt x 551.46786pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
 
  []
 
-) (./capitulos/capitulo4.tex [26] [27 <./figuras/bioLuz_id.png>]
+) (./capitulos/capitulo4.tex [25] [26 <./figuras/terpenoidViaKEGG.png>]
+[27 <./figuras/bioLuz_id.png>]
 Cap\'{\i }tulo 4.
 [28
 
@@ -1487,8 +1520,11 @@ Underfull \hbox (badness 3735) in paragraph at lines 106--106
  []
 
 )
+
+Package natbib Warning: There were undefined citations.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 232.
- [34]
+[34]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 232.
  (./monografia.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 232.
@@ -1496,7 +1532,7 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 232.
 Package rerunfilecheck Info: File `monografia.out' has not changed.
 (rerunfilecheck)             Checksum: F750E8C2DD786B8B2A1FC1229D8DECA0;3016.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
-(rerunfilecheck)             Checksum: EC2067473B4C8C8AEE35ABB759995D52;2991.
+(rerunfilecheck)             Checksum: F8FB84D43D09DB061A895BE67C1B7DBB;3019.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1509,10 +1545,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 232.
  )
 (\end occurred when \iffalse on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 19801 strings out of 493029
- 344292 string characters out of 6136234
+ 19804 strings out of 493029
+ 344335 string characters out of 6136234
  450688 words of memory out of 5000000
- 22744 multiletter control sequences out of 15000+600000
+ 22747 multiletter control sequences out of 15000+600000
  20553 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,18n,92p,1386b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1609,10 +1645,10 @@ er/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on monografia.pdf (45 pages, 1900121 bytes).
+Output written on monografia.pdf (45 pages, 1901088 bytes).
 PDF statistics:
- 1723 PDF objects out of 1728 (max. 8388607)
- 1416 compressed objects within 15 object streams
+ 1724 PDF objects out of 1728 (max. 8388607)
+ 1417 compressed objects within 15 object streams
  161 named destinations out of 1000 (max. 500000)
  435 words of extra memory for PDF output out of 10000 (max. 10000000)
 
