@@ -15,6 +15,10 @@
 
 \indent Nucleotídeos são compostos de três elementos: um radical fosfato\footnote{Grupo que confere características ácidas às moléculas.}, uma pentose (um monossacarídeo\footnote{Unidade básica dos carboidratos.} formado por cinco átomos de carbono), e uma base nitrogenada. Existem cinco tipos de bases nitrogenadas que podem compor um nucleotídeo: Adenina (A), Timina (T), Citosina (C), Guanina (G) e Uracila (U).
 
+\indent Na Figura \ref{fig:Nucleotideo}, observa-se que no nucleotídeo existe uma numeração de 1' à 5', que representam os carbonos presentes na pentose. Para a criação de uma fita de ácido nucleico, existe uma ligação entre o carbono da posição 5' de um nucleotídeos e o carbono de posição 3' de outro \cite{setubal97}. Por definição o sentido da leitura de uma fita de ácido nucleico é 5' $\rightarrow$ 3', o que deve ser levado em consideração ao se fazer interpretação de dados do material genético.
+
+\indent Dois tipos de ácidos nucleicos são encontrados nos seres vivos: ácido desoxirribonucleico (ADN) e ácido ribonucleico (ARN). Eles diferenciam-se na estrutura das bases nitrogenadas e em suas funções. O ADN é formado por uma desoxirribose, indicada na figura \ref{fig:EstruturasDoDNA}. Cada nucleotídeo de uma fita liga-se a partir de suas bases nitrogenadas com um nucleotídeo de outra fita, formando assim um eixo helicoidal tridimensional chamada de dupla hélice \cite{setubal97}. Esta ligação é feita entre grupos de purinas\footnote{Composto orgânico que possui um anel duplo de carbono.}, Adenina (A) e Guanina (G), e pirimidinas\footnote{Composto orgânico que possui um anel simples de carbono.}, Timina (T) e Citosina (C). Já o ARN possui apenas uma fita, onde a Timina (T) é substituída pela Uracila (U).
+
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\textwidth]{nucleotideo.png}
@@ -22,13 +26,9 @@
     \label{fig:Nucleotideo}
 \end{figure} 
 
-\indent Na Figura \ref{fig:Nucleotideo}, observa-se que no nucleotídeo existe uma numeração de 1' à 5', que representam os carbonos presentes na pentose. Para a criação de uma fita de ácido nucleico, existe uma ligação entre o carbono da posição 5' de um nucleotídeos e o carbono de posição 3' de outro \cite{setubal97}. Por definição o sentido da leitura de uma fita de ácido nucleico é 5' $\rightarrow$ 3', o que deve ser levado em consideração ao se fazer interpretação de dados do material genético.
-
-\indent Dois tipos de ácidos nucleicos são encontrados nos seres vivos: ácido desoxirribonucleico (ADN) e ácido ribonucleico (ARN). Eles diferenciam-se na estrutura das bases nitrogenadas e em suas funções. O ADN é formado por uma desoxirribose, indicada na figura \ref{fig:EstruturasDoDNA}. Cada nucleotídeo de uma fita liga-se a partir de suas bases nitrogenadas com um nucleotídeo de outra fita, formando assim um eixo helicoidal tridimensional chamada de dupla hélice \cite{setubal97}. Esta ligação é feita entre grupos de purinas\footnote{composto orgânico que possui um anel duplo de carbono.}, Adenina (A) e Guanina (G), e pirimidinas\footnote{composto orgânico que possui um anel simples de carbono.}, Timina (T) e Citosina (C). Já o ARN possui apenas uma fita, onde a Timina (T) é substituída pela Uracila (U).
-
 \indent O ADN é uma biomolécula que armazena as informações referentes ao funcionamento de todas as células dos seres vivos. Uma fita de ADN pode conter centenas de milhões de nucleotídeos. A representação do ADN, seja nos livros ou computacionalmente, é dada por um par em paralelo de strings de letras A, T, G e C. Como explicado no início dessa seção, o sentido padrão da leitura de uma fita é de 5' $\rightarrow$ 3', e no caso do ADN, as hélices são dispostas de maneira antiparalela, ou seja, uma é lida de 5' $\rightarrow$ 3' e a outra, de 3' $\rightarrow$ 5'. Observa-se que a partir de uma hélice, pode-se inferir a sequência de sua hélice complementar. Por exemplo, seja uma hélice H1 igual a AGTAAGC; então H2 em seu sentido oposto é H2' igual a TCATTCG, e no sentido biológico, igual a GCTTACT. A Figura \ref{fig:EstruturasDoDNA} apresenta a estrutura do ADN como explicada nesta seção.
 
-\indent O ARN é uma biomolécula que possui diversas funções nas células dos organismos. Existem três tipos de ARNs presentes no citoplasma \footnote{espaço entre a membrana plasmática e o núcleo da célula.}. Cada um possui funções específicas que serão detalhadas na Seção \ref{sinteseDeProteina}. De maneira resumida, o ARN mensageiro (mARN) é responsável pela transferência de informação do ADN. Em seguida o ARN ribossômico (rARN) será combinado com o ARN transportador (tARN) para realizar a síntese de proteína.
+\indent O ARN é uma biomolécula que possui diversas funções nas células dos organismos. Existem três tipos de ARNs presentes no citoplasma \footnote{Espaço entre a membrana plasmática e o núcleo da célula.}. Cada um possui funções específicas que serão detalhadas na Seção \ref{sinteseDeProteina}. De maneira resumida, o ARN mensageiro (mARN) é responsável pela transferência de informação do ADN. Em seguida o ARN ribossômico (rARN) será combinado com o ARN transportador (tARN) para realizar a síntese de proteína.
 
 \begin{figure}[h]
     \centering
@@ -50,24 +50,25 @@
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.6\textwidth]{EstruturasDaProteina.pdf}
+    \includegraphics[width=1\textwidth]{EstruturasDaProteina.png}
     \caption{Quatro estruturas de proteínas. As unidades esféricas na estrutura primária representa os aminoácidos da proteína. Adaptado de \cite{drug09}.}
     \label{fig:EstruturasDaProteina}
 \end{figure}
 
 \subsection{Síntese de Proteína} \label{sinteseDeProteina}
-% PROCARIÓTAS
+
 \indent A \textbf{transcrição} é o processo de produção de mARN a partir do ADN e ele ocorre da seguinte forma: O início de cada gene possui um identificador em uma das fitas para indicar o local da codificação e, a partir dali, uma cópia inversa (A, T, C, G são traduzidos para U, A, G, C respectivamente) do mesmo é feita sob forma de molécula de mARN que, por consequência, obterá a mesma sequência que a cadeia codificadora (a qual não possui o identificador), porém trocando o U por T.
 
 \indent O mARN deixa, então, o núcleo celular e inicia a \textbf{tradução} no citoplasma. O processo ocorre no interior de uma organela celular chamada de ribossomo, constituído de proteínas e rARN e cuja função é construir a molécula de proteína a partir de duas entradas, o mARN e tARN. A estrutura do tARN é tal que de um lado se encaixa exatamente um códon\footnote{Sequência de três nucleotídeos.} e no oposto, seu aminoácido correspondente, conforme ilustrado na Figura \ref{fig:sinteseProteina}. O processo de tradução se dá da seguinte forma: à medida em que o mARN passa pelo interior do ribossomo, este atrai quaisquer tARNs das proximidades cujos códons sejam correspondentes ao da subsequência corrente do mARN. No momento em que o códon do tARN conecta-se com um dos códons do mARN, a molécula de proteína em desenvolvimento é liberada e, com o auxílio da catálise de uma enzima, agregada no aminoácido que estava fixado naquele tARN. A tabela contendo a tradução de códon para aminoácido é fixa e chama-se código genético, apresentado na Tabela \ref{tabelaCodigoGenetico}. A tradução é finalmente completa quando o mARN apresenta um códon de parada, pois nenhum tARN possui correspondência para tal \cite{setubal97}. Uma proteína simples é, então, formada. 
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.35\textwidth]{sinteseProteina.png}
+    \includegraphics[width=0.4\textwidth]{sinteseProteina.png}
     \caption{Representação da etapa final da síntese de proteína, que sempre finaliza com o códon UGA. Adaptado de \cite{proteinSyntesis}.}
     \label{fig:sinteseProteina}
 \end{figure} 
 
+\break
 
 \begin{table}[h!] 
 \centering
@@ -107,17 +108,12 @@
 \end{tabular}
 \end{table}
 
+
 %% ================================================================================================================== %%
 
 
 \section{Conceitos Básicos de Metabolismo} \label{conceitosMeta}
 
-
-% metabolismo
-
-% via metabólica
-
-% rede metabólica
 
 \indent As proteínas podem ser enzimas, macromoléculas responsáveis por auxiliar a realização de biossíntese (construção) e biodegradação de moléculas no metabolismo. As enzimas têm o propósito de catalisar, ou acelerar, reações bioquímicas que naturalmente levariam muito mais tempo para serem realizadas no organismo \cite{setubal97}. Geralmente as enzimas catalisam uma reação específica e seus nomes correspondem à tarefa que elas executam com adição do sufixo "ase". Por exemplo, a Sintetase realiza biossíntese, a Desidrogenases realiza oxi-redução (transferência de elétrons) e a Quinase transporta elementos químicos de uma molécula para outra \cite{enzymesKirk}.
 
@@ -131,7 +127,7 @@
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.7\textwidth]{bioLuz.png}
+    \includegraphics[width=0.75\textwidth]{bioLuz.png}
     \caption{Exemplo de via metabólica retirado do site MetaCyC. Esta representa o processo de produção da bioluminescência de bactérias \cite{examplePathway}. }
     \label{fig:bioLuz}
 \end{figure}
@@ -144,7 +140,7 @@
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.5\textwidth]{mitoseEmeiose.jpg}
+    \includegraphics[width=0.55\textwidth]{mitoseEmeiose.jpg}
     \caption{A célula que se divide por meio de mitose gera duas outras células idênticas à original. A célula que se divide por meio de meiose gera quatro células, cada uma com metade do material genético da célula original. Adaptado de \cite{mitoseMeiose}. }
     \label{fig:mitoseEmeiose}
 \end{figure} 
@@ -153,7 +149,7 @@
 
 \indent No caso dos metabolismos que não realizam função essencial no organismo, eles são classificados como metabolismos secundários. Esses são caracterizados pela vasta diversidade química e, desta forma, são responsáveis pela sobrevivência do organismo em diferentes meio ambientes de acordo com os fatores bióticos (elementos causados pela interação entre organismos como, por exemplo, cadeia alimentar) e abióticos (elementos naturais independente de organismos como, por exemplo, luz e temperatura) \cite{Cap3schomburg}.
 
-\indent Enquanto 20\% dos metabólitos secundário são encontrados em bactérias, fungos e organismos sésseis\footnote{Que vivem fixos, sem capacidade de locomoção.} marinhos, os outros 80\% encontram-se em plantas vasculares\footnote{QUE PORRA EH ESSA *****} \cite{Cap3schomburg} e esses podem ser subdivididos em três classes: terpenóides, alcaloides e fenólicos \cite{kabera14}. A seguir está uma breve explicação de cada uma dessas classe, acompanhada da Figura \ref{fig:metSecundario} que apresenta um exemplo de composto químico para cada grupo.
+\indent Enquanto 20\% dos metabólitos secundário são encontrados em bactérias, fungos e organismos sésseis\footnote{Que vivem fixos, sem capacidade de locomoção.} marinhos, os outros 80\% encontram-se em plantas vasculares\footnote{Plantas com tecidos especializados em transporte de água e seiva.} \cite{Cap3schomburg} e esses podem ser subdivididos em três classes: terpenóides, alcaloides e fenólicos \cite{kabera14}. A seguir está uma breve explicação de cada uma dessas classe, acompanhada da Figura \ref{fig:metSecundario} que apresenta um exemplo de composto químico para cada grupo.
 
 \begin{itemize}
 \item Os \textbf{terpenóides} constituem no grupo mais abundante de produtos naturais, apresentando uma grande variedade estrutural e funcional, principalmente no Reino \textit{Plantae}. No metabolismo secundário, possuem funções como produção de óleos, esteroides, cera, resinas e borracha natural, produção de compostos usados para defesa contra herbívoros ou aromas usados para atrair polinizadores \cite{Cap3schomburg};
@@ -230,17 +226,14 @@
 % ____________________________________________________________________
 % ____________________________________________________________________
 
-\subsection{Reactome}
+\subsection{Reactome, KEGG e BioCyc}
+
+\textbf{Reactome} \\
 
 \indent Reactome\footnote{Disponível pela \textit{web}, em \url{http://www.reactome.org}.} é um banco de dados de reações de mudança de estado, ou seja, além de reações bioquímicas, ele também abrange reações de ativação, de degradação e de ligação, por exemplo \cite{reactomeUsersguide}. Ele faz uma ligação sistemática entre as proteínas de um certo organismo e as funções moleculares do mesmo, fornecendo uma base de funções que pode ser utilizada para pesquisas sobre expressão de genes ou mutações somáticas. 
 \indent O Reactome disponibiliza o \textit{Pathway Browser}, uma rede geral para cada organismo, que representa os vários seus sistemas, como reprodução e metabolismo, por exemplo. Algumas sub-redes estão conectadas (por exemplo, replicação de ADN e ciclo de célula), outra não (por exemplo, contração muscular e reprodução). 
 
 \indent Nesta rede, cada nó representa uma via cujo número de entidade se reflete no raio do nó, e cada aresta representa a relação entre estas vias. A página ainda possui uma ferramenta de análise de dados baseada nas correspondências entre as reações na redes dos organismos comparados.
-
-\indent Para acessa sua ferramenta de visualização, basta navegar a partir da \textit{home page}:
-
-\indent \colorbox{yellow}{\url{http://www.reactome.org/} $\Rightarrow$} \\
-\indent \colorbox{yellow}{Browse Pathways} \\
 
 \begin{figure}[!h]
 \centering
@@ -249,14 +242,10 @@
 \label{reactomeBrowser_id}
 \end{figure}
 
-\indent Segue abaixo a descrição de cada elemento da interface da ferramenta de visualização do Reactome, subdivididos  conforme indicado na Figura \ref{reactomeBrowser_id}.
+\indent Para acessa sua ferramenta de visualização, basta navegar a partir da \textit{home page}:
 
-\begin{itemize}
-\item[[ 1]] Menu de navegação direta e indiretamente relacionado às vias metabólicas. À esquerda tem-se a versão do \textit{Pathway Browser} e de seu banco de dados e um menu \textit{dropdown} para se selecionar o organismo mostrado na interface. À direita tem-se um \textit{link} (\textit{Analysis}) para a uma página modal onde é possível analisar os dados do usuário e fazer comparação entre espécies, um \textit{link} (\textit{Tour}) para um vídeo explicando como \textit{Pathway Browser} funciona e um conjunto de \textit{layouts} que alteram a visualização geral da página;
-\item[[ 2]] Lista de redes metabólicas ordenadas alfabeticamente;
-\item[[ 3]] Mapa gerada em forma de grafo interativo. Quando uma rede metabólica da lista [2] é selecionada, ela se destaca no mapa. No topo, à esquerda é possível buscar por palavras chaves no mapa e visualizá-lo em tela cheia e à direita é possível visualizar imagens detalhadas das redes metabólicas, capturar uma imagem do mapa gerado e ler sobre a notação utilizada na página. Abaixo, à esquerda tem-se um mini-mapa por onde o usuário pode se localizar no mapa geral e à direita tem-se botões com o mesmo propósito e mais dois: (+) \textit{Zoom in} e (-) \textit{Zoom out}. Por fim, à direita do mapa existe um painel que se abre da direita para a esquerda que permite que o usuário edite as cores do mapa e obtenha informação sobre o mesmo.
-\item[[ 4]] Menu de operação e informações sobre as redes metabólicas selecionadas em [2]. O \textit{Description} contém seus detalhes tais como compartimento celular e referências externas. O \textit{Molecules} contém uma lista de compostos químicos e proteínas associadas às vias. O \textit{Structures} oferece uma lista de imagens que representam a via e seus componentes. O Expression apresenta detalhes sobre o local no organismo onde ocorrem as reações das vias selecionadas. O \textit{Analysis} apresenta o resultado das análise feita em [1]. Finalmente o botão Downloads oferece arquivos das vias para baixar em diversos formatos tais como SBML e PDF. 
-\end{itemize}
+\indent \colorbox{yellow}{\url{http://www.reactome.org/} $\Rightarrow$} \\
+\indent \colorbox{yellow}{Browse Pathways} \\
 
 \indent Caso o usuário queira visualizar a(s) via(s) metabólica detalhadamente, basta clicar nos nós do mapa, cujo tamanho está diretamente relacionado ao número de entidades que compõem a via. A imagem do grafo desaparece e então um conjunto dos elementos que o compõe aparece em seu lugar. A Figura \ref{orcRemovalViaReactome} apresenta a via da remoção do Orc1 da cromatina do processo de regulação da replicação do ADN.
 
@@ -267,23 +256,27 @@
 \label{orcRemovalViaReactome}
 \end{figure}
 
+\indent Segue abaixo a descrição de cada elemento da interface da ferramenta de visualização do Reactome, subdivididos  conforme indicado na Figura \ref{reactomeBrowser_id}.
+
+\begin{itemize}
+\item[[ 1]] Menu de navegação direta e indiretamente relacionado às vias metabólicas. À esquerda tem-se a versão do \textit{Pathway Browser} e de seu banco de dados e um menu \textit{dropdown} para se selecionar o organismo mostrado na interface. À direita tem-se um \textit{link} (\textit{Analysis}) para a uma página modal onde é possível analisar os dados do usuário e fazer comparação entre espécies, um \textit{link} (\textit{Tour}) para um vídeo explicando como \textit{Pathway Browser} funciona e um conjunto de \textit{layouts} que alteram a visualização geral da página;
+\item[[ 2]] Lista de redes metabólicas ordenadas alfabeticamente;
+\item[[ 3]] Mapa gerada em forma de grafo interativo. Quando uma rede metabólica da lista [2] é selecionada, ela se destaca no mapa. No topo, à esquerda é possível buscar por palavras chaves no mapa e visualizá-lo em tela cheia e à direita é possível visualizar imagens detalhadas das redes metabólicas, capturar uma imagem do mapa gerado e ler sobre a notação utilizada na página. Abaixo, à esquerda tem-se um mini-mapa por onde o usuário pode se localizar no mapa geral e à direita tem-se botões com o mesmo propósito e mais dois: (+) \textit{Zoom in} e (-) \textit{Zoom out}. Por fim, à direita do mapa existe um painel que se abre da direita para a esquerda que permite que o usuário edite as cores do mapa e obtenha informação sobre o mesmo.
+\item[[ 4]] Menu de operação e informações sobre as redes metabólicas selecionadas em [2]. O \textit{Description} contém seus detalhes tais como compartimento celular e referências externas. O \textit{Molecules} contém uma lista de compostos químicos e proteínas associadas às vias. O \textit{Structures} oferece uma lista de imagens que representam a via e seus componentes. O Expression apresenta detalhes sobre o local no organismo onde ocorrem as reações das vias selecionadas. O \textit{Analysis} apresenta o resultado das análise feita em [1]. Finalmente o botão Downloads oferece arquivos das vias para baixar em diversos formatos tais como SBML e PDF. 
+\end{itemize}
+\textbf{ }\\
 
 % ____________________________________________________________________
 % ____________________________________________________________________
 % ____________________________________________________________________
 
-\subsection{KEGG}
+\textbf{KEGG} \\
 
 \indent O KEGG\footnote{Disponível pela \textit{web}, em \url{http://www.kegg.jp/}.} (\textit{Kyoto Encyclopedia of Genes and Genomes}) é uma base de informações sobre sistemas biológicos em nível molecular, sobretudo sobre conjuntos de dados em larga escala gerados por sequenciamento de genoma \cite{keggOverview}. 
+
 \indent As informações sobre os sistemas podem ser dadas em forma de módulos, unidades funcionais com identificação otimizada para análise dos dados, em forma de \textit{brite}, coleção de arquivos estruturados hierarquicamente sobre as funções das entidades biológicos, ou em forma de vias, mapa de interações moleculares e reações químicas.
+
 \indent Dado que o metabolismo é um conjunto de reações e transformações químicas, a maneira natural de representá-lo é por meio de uma rede de interações, ou seja, em forma de vias. O KEGG oferece uma ferramenta de busca de vias metabólicas sobre várias redes metabólicas, dos vários organismos que constituem o banco de dados.
-
-\indent Para acessar sua ferramenta de visualização, basta navegar a partir da \textit{home page}: \\
-
-\indent \colorbox{yellow}{\url{http://www.kegg.jp/} $\Rightarrow$} \\
-\indent \colorbox{yellow}{Data-oriented entry points  $\mapsto$ KEGG PATHWAY $\Rightarrow$} \\
-\indent \colorbox{yellow}{Pathway Maps $\mapsto$ 1. Metabolism  $\Rightarrow$} \\
-\indent \colorbox{yellow}{1.0 Global and overview maps $\mapsto$ Metabolic pathways} \\
 
 \begin{figure}[!h]
 \centering
@@ -291,6 +284,13 @@
 \caption{Visão geral da rede metabólica de referência do KEGG, com destaque na via metabólica de biossíntese do \textit{backbone} de terpenóides. A interface pode ser dividida nas seções [1], [2] e [3].}
 \label{terpenoidBackboneKEGG_id}
 \end{figure}
+
+\indent Para acessar sua ferramenta de visualização, basta navegar a partir da \textit{home page}: \\
+
+\indent \colorbox{yellow}{\url{http://www.kegg.jp/} $\Rightarrow$} \\
+\indent \colorbox{yellow}{Data-oriented entry points  $\mapsto$ KEGG PATHWAY $\Rightarrow$} \\
+\indent \colorbox{yellow}{Pathway Maps $\mapsto$ 1. Metabolism  $\Rightarrow$} \\
+\indent \colorbox{yellow}{1.0 Global and overview maps $\mapsto$ Metabolic pathways} \\
 
 \indent Segue abaixo a descrição de cada elemento da interface da ferramenta de visualização do KEGG, subdivididos conforme indicado na Figura \ref{terpenoidBackboneKEGG_id}.
 
@@ -307,6 +307,8 @@
 \indent \colorbox{yellow}{Pathway Maps $\mapsto$ 1. Metabolism  $\Rightarrow$} \\
 \indent \colorbox{yellow}{1.9 Metabolism of terpenoids and polyketides  $\mapsto$ Terpenoid backbone biosynthesis} \\
 
+\break
+
 \begin{figure}[!h]
 \centering
 \includegraphics[width=1\textwidth]{terpenoidViaKEGG.png}
@@ -314,11 +316,13 @@
 \label{terpenoidBackboneKEGG}
 \end{figure}
 
+\newpage
+
 % ____________________________________________________________________
 % ____________________________________________________________________
 % ____________________________________________________________________
 
-\subsection{BioCyc}
+\textbf{BioCyc} \\
 
 \indent O BioCyc\footnote{Disponível pela \textit{web}, em \url{http://biocyc.org}.} é um sistema de coleção de aproximadamente 7 mil bancos de dados chamados PGDBs (\textit{Pathway/Genome Databases}) pois possuem duas maneiras diferentes de representar as informações: modelo de vias metabólicas, que enfatiza as sequências de reações, substratos e produtos de múltiplos organismos, ou modelo de sequência genômica, que destaca a localização e descrição dos genes de cada organismo específico \cite{biocycIntro}. 
 

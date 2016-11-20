@@ -3,7 +3,7 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: monografia.aux
 The style file: plain.bst
 Database file #1: monografia.bib
-I was expecting a `,' or a `}'---line 369 of file monografia.bib
+I was expecting a `,' or a `}'---line 376 of file monografia.bib
  :    
  :    month = "Julho",
 (Error may have been on previous line)
@@ -14,45 +14,45 @@ Warning--to sort, need author or key in reactomeUsersguide
 Warning--to sort, need author or key in keggOverview
 Warning--to sort, need author or key in biocycIntro
 Warning--can't use both author and editor fields in IHCbook
-You've used 20 entries,
+You've used 22 entries,
             2118 wiz_defined-function locations,
-            616 strings with 7969 characters,
-and the built_in function-call counts, 5077 in all, are:
-= -- 465
-> -- 216
+            628 strings with 8368 characters,
+and the built_in function-call counts, 5666 in all, are:
+= -- 519
+> -- 246
 < -- 2
-+ -- 91
-- -- 70
-* -- 263
-:= -- 803
-add.period$ -- 55
-call.type$ -- 20
-change.case$ -- 90
++ -- 104
+- -- 80
+* -- 302
+:= -- 902
+add.period$ -- 61
+call.type$ -- 22
+change.case$ -- 101
 chr.to.int$ -- 0
-cite$ -- 26
-duplicate$ -- 192
-empty$ -- 477
-format.name$ -- 70
-if$ -- 1095
+cite$ -- 28
+duplicate$ -- 210
+empty$ -- 526
+format.name$ -- 80
+if$ -- 1217
 int.to.chr$ -- 0
-int.to.str$ -- 20
-missing$ -- 13
-newline$ -- 98
-num.names$ -- 30
-pop$ -- 191
+int.to.str$ -- 22
+missing$ -- 14
+newline$ -- 108
+num.names$ -- 34
+pop$ -- 207
 preamble$ -- 1
-purify$ -- 75
+purify$ -- 84
 quote$ -- 0
-skip$ -- 148
+skip$ -- 161
 stack$ -- 0
-substring$ -- 202
-swap$ -- 35
+substring$ -- 234
+swap$ -- 37
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 70
+type$ -- 78
 warning$ -- 6
-while$ -- 40
-width$ -- 22
-write$ -- 189
+while$ -- 45
+width$ -- 24
+write$ -- 209
 (There was 1 error message)

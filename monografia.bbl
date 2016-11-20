@@ -53,12 +53,18 @@ Ron Caspi.
 \newblock \url{http://metacyc.org/META/new-image?object=PWY-7723}, visitado em
   2016-10-13.
 
+\bibitem{enzymesKirk}
+Krukemberghe Divino~Kirk da~Fonseca~Ribeiro.
+\newblock Enzimas.
+\newblock \url{http://mundoeducacao.bol.uol.com.br/biologia/enzimas.htm},
+  visitado em 2016-11-20.
+
 \bibitem{tics}
 Aline~Marques da~Silva~Almeida.
 \newblock Vivendo uma nova era: a tecnologia e o homem, ambos integrantes de
   uma sociedade que progride rumo ao desenvolvimento, 2014.
 \newblock
-  \url={http://www.seduc.mt.gov.br/Paginas/Vivendo-uma-nova-era-a-tecnologia-e-o-homem,-ambos-integrantes-de-uma-sociedade-que-progride-rumo-ao-desenvolvimento.aspx},
+  \url{http://www.seduc.mt.gov.br/Paginas/Vivendo-uma-nova-era-a-tecnologia-e-o-homem,-ambos-integrantes-de-uma-sociedade-que-progride-rumo-ao-desenvolvimento.aspx},
   visitado em 2016-11-20.
 
 \bibitem{semiose01}
@@ -73,6 +79,12 @@ Justin~N. Kabera, Edmond Semana, Ally~R. Mussa, and Xin He.
 \newblock Plant secondary metabolites: Biosynthesis, classification, function
   and pharmacological properties.
 \newblock {\em Journal of Pharmacy and Pharmacology}, 2:377--392, 2014.
+
+\bibitem{lacroixCTS08}
+Vincent Lacroix, Ludovic Cottret, Patricia Thébault, and Marie-France Sagot.
+\newblock An introduction to metabolic networks and their structural analysis.
+\newblock {\em IEEE/ACM Trans. Comput. Biology Bioinform.}, 5(4):594--617,
+  2008.
 
 \bibitem{LauraProteinas07}
 José G. Sampedro y Hugo~Nájera Laura González-Torres, Alfredo
