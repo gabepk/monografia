@@ -1,10 +1,10 @@
 \chapter{Avaliação em Interação Humano-Computador}
 
-\indent Atualmente a tecnologia está presente mais do que nunca em grande parte das atividades das pessoas, modernizando as casas, ruas, escolas, diferentes ambientes de trabalho, integrando-se na vida pessoal de cada um, se difundindo cada vez mais rápido. Estas tecnologias são chamadas TICs (Tecnologias da Informação e Comunicação) quando interferem direta e indiretamente nos processos de comunicação e informação dos indivíduos. 
+\indent Atualmente a tecnologia está presente mais do que nunca em grande parte das atividades das pessoas, modernizando as casas, ruas, escolas, diferentes ambientes de trabalho, integrando-se na vida pessoal de cada um, se difundindo cada vez mais rápido. Estas tecnologias são chamadas TICs (Tecnologias da Informação e Comunicação) quando interferem direta e indiretamente nos processos de comunicação e informação dos indivíduos \cite{tics}. 
 
-\indent Para satisfazer certos critérios de qualidade, estes sistemas devem possuir algumas características que facilitem seu uso para seus usuários específicos. Ainda, vários métodos de avaliação podem ser aplicados sobre eles, cada um com um foco diferente a ser analisado. Em Ciência da Computação, a área de Interação Humano-Computador (IHC) é responsável por verificar a qualidade destes sistema mensurando certas propriedades e avaliar o impacto dos mesmos na vida dos usuários. 
+\indent Para satisfazer certos critérios de qualidade, estes sistemas devem possuir algumas características que facilitem seu uso para seus usuários específicos. Ainda, vários métodos de avaliação podem ser aplicados sobre eles, cada um com um foco diferente a ser analisado \cite{IHCbook}. Em Ciência da Computação, a área de Interação Humano-Computador (IHC) é responsável por verificar a qualidade destes sistema mensurando certas propriedades e avaliar o impacto dos mesmos na vida dos usuários. 
 
-\indent Na Seção \ref{IHC} serão descritos os conceitos básicos de IHC bem como os critérios de qualidade avaliados nas TICs. Na Seção \ref{avaObs} será apresentado um modelo de avaliação de sistemas computacionais, chamado Avaliação Através de Observação. Um método que utiliza este modelo, chamado Método de Avaliação de Comunicabilidade, será descrito detalhadamente também nessa seção e será utilizado neste projeto.
+\indent Na Seção \ref{cbIHC} serão descritos os conceitos básicos de IHC bem como os critérios de qualidade avaliados nas TICs. Na Seção \ref{avaObs} será apresentado um modelo de avaliação de sistemas computacionais, chamado Avaliação Através de Observação. Um método que utiliza este modelo, chamado Método de Avaliação de Comunicabilidade, será descrito detalhadamente também nessa seção e será utilizado neste projeto.
  
 \section{Conceitos Básicos de IHC} \label{cbIHC}
 
@@ -45,7 +45,7 @@
 
 \indent Os tópicos mais avaliados em IHC são os problemas na interação e na interface do sistema, que são classificados de acordo com a frequência com que ocorrem, com sua gravidade ou com os quatro critérios de qualidade. Um exemplo de questionário associado a esse tópico de avaliação encontra-se na parte de consolidação dos resultados, como será descrito a seguir nessa seção.
 
-\indent A fundamentação dos métodos de avaliação é dada pela teoria da Engenharia Semiótica, focada em dois tipos de comunicações: usuário-sistema e projetista-usuário através do sistema. Esse último tipo de comunicação recebe o nome de \textbf{metacomunicação}, uma vez que é feita indiretamente através da interface criada pelo projetista para o usuário. Segundo esta teoria, toda aplicação computacional é um artefato de metacomunicação por onde o projetista, como interlocutor, comunica-se com o usuário. Quando o objetivo é avaliar a quantidade de emissão de metacomunicação, utiliza-se o Método de Inspeção Semiótica \cite{IHCbook}. Quando é avaliar a quantidade de recepção de metacomunicação, utiliza-se o Método de Avaliação de Comunicabilidade \cite{IHCbook}. 
+\indent A fundamentação dos métodos de avaliação é dada pela teoria da Engenharia Semiótica, focada em dois tipos de comunicações: usuário-sistema e projetista-usuário através do sistema. Esse último tipo de comunicação recebe o nome de \textbf{metacomunicação}, uma vez que é feita indiretamente através da interface criada pelo projetista para o usuário. Segundo esta teoria, toda aplicação computacional é um artefato de metacomunicação por onde o projetista, como interlocutor, comunica-se com o usuário.
 
 \indent A \textbf{metamensagem} é a mensagem transmitida via metacomunicação. Em IHC, a metamensagem possui um padrão fixo e generalizado, que pode ser utilizado para facilitar o entendimento dos problemas do usuário, o que pode ser feito para solucioná-los e como fazê-lo. O texto a seguir representa esta mensagem e os campos entre os símbolos ``<'' e ``>'' representam um espaço a ser ocupado de acordo com o sistema desenvolvido:
 
@@ -53,7 +53,11 @@
 Este é o meu entendimento, como \textit{<projetista do sistema>}, de quem você, \textit{<usuário específico / grupo de usuários>}, é, do que aprendi que você quer ou precisa \textit{<fazer / executar / visualizar / se comunicar>}, de que maneiras \textit{<prefere / é mais natural>} fazer, e \textit{<por quê / por quê não outras>}. O \textit{<nome do sistema>}, portanto, é o sistema que projetei para você, e \textit{<esta navegação específica>} é a forma como você pode ou deve utilizá-lo para alcançar uma gama de objetivos que se encaixam nesta visão.
 \end{quote}
 
-\indent A Semiótica também estuda a semiose: processo de significação dos signos, tudo o que é percebido pelos seres humanos e produz sensação, na mente dos intérpretes. Esse é um processo que transforma os fenômenos perceptíveis através dos sentidos em experiências dos indivíduos \cite{semiose01}. Analogamente, em IHC, a semiose é utilizada para compreender as ações tomadas, bem como as reações de resposta, pelos usuários que interagem com sistemas cobertos de signos. Nesse sentido, é possível elaborar um perfil semiótico do sistema para retratar os problemas de comunicabilidade, e, para isso, a metamensagem pode ser utilizada como base.
+\indent O projetista de um sistema cria signos para se comunicar com o usuário através da interface. Estes signos podem ser estáticos (como rótulos, imagens, botões, cores), dinâmicos (como ações, transições de tela, notificações) ou metaliguísticos (informações referentes à outros signos). A Engenharia Semiótica também estuda o processo de significação dos signos, denominado semiose. A semiose abrange tudo o que é percebido pelos seres humanos e produz sensação, na mente dos intérpretes. Esse é um processo que transforma os fenômenos perceptíveis através dos sentidos em experiências dos indivíduos \cite{semiose01}. 
+
+\indent Em IHC, a semiose é utilizada para compreender as ações tomadas, bem como as reações de resposta, pelos usuários que interagem com sistemas cobertos de signos. Assim, é possível elaborar um perfil semiótico do sistema para retratar os problemas de comunicabilidade, e, para isso, a metamensagem pode ser utilizada como base.
+
+\indent Existem dois métodos de avaliação baseados em Engenharia Semiótica. Quando o objetivo é avaliar a quantidade de emissão de metacomunicação, utiliza-se o Método de Inspeção Semiótica \cite{IHCbook}. Quando é avaliar a quantidade de recepção de metacomunicação, utiliza-se o Método de Avaliação de Comunicabilidade \cite{IHCbook}. O primeiro método, porém, tem como objetivo antever possíveis problemas causados por decisões do projetista, logo não envolve obstáculos reais dos usuários. Já o segundo método visa compreender as dificuldades enfrentadas pelos usuários enquanto navegam de fato pelo sistema. Nesse sentido, o Método de Avaliação de Comunicabilidade será utilizado neste trabalho.
 
 
 \subsection{Método de Avaliação de Comunicabilidade} \label{MAC}
@@ -158,17 +162,17 @@ Este é o meu entendimento, como projetista, de \textbf{quem você, usuário, é
 
 \subsubsection{Relato dos Resultados}
 
-\indent Ao final, o avaliador terá apresentar aos \textit{stakeholders} responsáveis pelo desenvolvimento do sistema os seguintes resultados:
+\indent Ao final, o avaliador deverá possuir material suficiente para apresentar aos \textit{stakeholders} responsáveis pelo desenvolvimento do sistema os seguintes resultados:
 
 \begin{itemize}
-\item Os objetos da avaliação;
-\item Breve descrição do método de avaliação;
-\item Número e perfil dos avaliadores e representantes de usuários;
-\item Descrição das tarefas executadas pelos participantes;
+\item Os objetos da avaliação, tais como interface do sistema e perfil dos usuários;
+\item Breve descrição do Método de Avaliação de Comunicabilidade;
+\item Quantidade e perfil dos avaliadores, bem como dos usuários ou dos participantes que os representam;
+\item Descrição detalhada de todas as tarefas executadas pelos participantes;
 \item Resultado das etiquetagens, em geral contabilizando as etiquetas por usuário e tarefa;
-\item Problemas de comunicabilidade encontrados;
-\item Sugestões de melhoria;
-\item Perfil semiótico do sistema.
+\item Lista de problemas de comunicabilidade encontrados;
+\item Sugestões de melhoria para cada falha de comunicação;
+\item Perfil semiótico do sistema, de acordo com a metamensagem padrão.
 \end{itemize}
 
 
