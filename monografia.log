@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.12)  20 NOV 2016 19:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.12)  21 NOV 2016 01:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1064,7 +1064,7 @@ LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <20> not available
 LaTeX Font Warning: Font shape `T1/ua1/bx/n' in size <20> not available
 (Font)              size <20.74> substituted on input line 194.
 
-<positivo_cor.pdf, id=175, 119.44624pt x 60.225pt>
+<positivo_cor.pdf, id=171, 119.44624pt x 60.225pt>
 File: positivo_cor.pdf Graphic file (type pdf)
  <use positivo_cor.pdf>
 Package pdftex.def Info: positivo_cor.pdf used on input line 194.
@@ -1167,7 +1167,7 @@ s de In-te-ra-ção Humano-Computador
 Cap\'{\i }tulo 2.
 [4
 
-] <./figuras/affordance.png, id=387, 288.3272pt x 164.86594pt>
+] <./figuras/affordance.png, id=389, 288.3272pt x 164.86594pt>
 File: ./figuras/affordance.png Graphic file (type png)
 
 <use ./figuras/affordance.png>
@@ -1194,23 +1194,46 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 137.
- [10])
-(./capitulos/capitulo3.tex [11]
+ [10] [11]
+<./figuras/mapaDeObjetivosGeral.png, id=453, 1714.90688pt x 944.02687pt>
+File: ./figuras/mapaDeObjetivosGeral.png Graphic file (type png)
+
+<use ./figuras/mapaDeObjetivosGeral.png>
+Package pdftex.def Info: ./figuras/mapaDeObjetivosGeral.png used on input line 
+228.
+(pdftex.def)             Requested size: 455.24411pt x 250.59807pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./figuras/modelagemDeTarefas.png, id=454, 2559.5625pt x 1614.7828pt>
+File: ./figuras/modelagemDeTarefas.png Graphic file (type png)
+
+<use ./figuras/modelagemDeTarefas.png>
+Package pdftex.def Info: ./figuras/modelagemDeTarefas.png used on input line 24
+9.
+(pdftex.def)             Requested size: 455.24411pt x 287.19882pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./capitulos/capitulo3.tex [12] [13 <./figuras/mapaDeObjetivosGeral.png> <./f
+iguras/modelagemDeTarefas.png>]
 Cap\'{\i }tulo 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 14.
-[12
+[14
 
-] <./figuras/nucleotideo.png, id=465, 52.998pt x 31.317pt>
+] <./figuras/nucleotideo.png, id=487, 52.998pt x 31.317pt>
 File: ./figuras/nucleotideo.png Graphic file (type png)
 
 <use ./figuras/nucleotideo.png>
 Package pdftex.def Info: ./figuras/nucleotideo.png used on input line 24.
 (pdftex.def)             Requested size: 227.62206pt x 134.53809pt.
 
-<./figuras/dnaEstrutura.jpg, id=471, 150.8034pt x 139.4811pt>
+<./figuras/dnaEstrutura.jpg, id=493, 150.8034pt x 139.4811pt>
 File: ./figuras/dnaEstrutura.jpg Graphic file (type jpg)
 
 <use ./figuras/dnaEstrutura.jpg>
@@ -1220,8 +1243,8 @@ Package pdftex.def Info: ./figuras/dnaEstrutura.jpg used on input line 35.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13 <./figuras/nucleotideo.png>]
-<./figuras/EstruturasDaProteina.png, id=486, 580.3281pt x 265.9536pt>
+[15 <./figuras/nucleotideo.png>]
+<./figuras/EstruturasDaProteina.png, id=508, 580.3281pt x 265.9536pt>
 File: ./figuras/EstruturasDaProteina.png Graphic file (type png)
 
 <use ./figuras/EstruturasDaProteina.png>
@@ -1232,8 +1255,8 @@ Package pdftex.def Info: ./figuras/EstruturasDaProteina.png used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14 <./figuras/dnaEstrutura.jpg>]
-<./figuras/sinteseProteina.png, id=501, 186.6975pt x 186.6975pt>
+[16 <./figuras/dnaEstrutura.jpg>]
+<./figuras/sinteseProteina.png, id=522, 186.6975pt x 186.6975pt>
 File: ./figuras/sinteseProteina.png Graphic file (type png)
 
 <use ./figuras/sinteseProteina.png>
@@ -1243,8 +1266,8 @@ Package pdftex.def Info: ./figuras/sinteseProteina.png used on input line 66.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15 <./figuras/EstruturasDaProteina.png>] [16 <./figuras/sinteseProteina.png>]
-<./figuras/bioLuz.png, id=526, 738.76pt x 493.845pt>
+[17 <./figuras/EstruturasDaProteina.png>] [18 <./figuras/sinteseProteina.png>]
+<./figuras/bioLuz.png, id=547, 738.76pt x 493.845pt>
 File: ./figuras/bioLuz.png Graphic file (type png)
 
 <use ./figuras/bioLuz.png>
@@ -1254,25 +1277,25 @@ Package pdftex.def Info: ./figuras/bioLuz.png used on input line 130.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17] <./figuras/mitoseEmeiose.jpg, id=541, 663.22781pt x 455.45157pt>
+[19] <./figuras/mitoseEmeiose.jpg, id=562, 663.22781pt x 455.45157pt>
 File: ./figuras/mitoseEmeiose.jpg Graphic file (type jpg)
 
 <use ./figuras/mitoseEmeiose.jpg>
 Package pdftex.def Info: ./figuras/mitoseEmeiose.jpg used on input line 143.
 (pdftex.def)             Requested size: 250.38564pt x 171.9406pt.
- [18 <./figuras/bioLuz.png> <./figuras/mitoseEmeiose.jpg>]
+ [20 <./figuras/bioLuz.png> <./figuras/mitoseEmeiose.jpg>]
 Overfull \hbox (17.88733pt too wide) in paragraph at lines 159--160
 []\T1/cmr/m/n/12 Os \T1/cmr/bx/n/12 fe-nó-li-cos \T1/cmr/m/n/12 são ca-rac-te-r
 i-za-dos por suas pro-pri-e-da-des anti-oxidantes, anti-inflamatórias
  []
 
-<./figuras/metSecundario.png, id=560, 825.0825pt x 172.39406pt>
+<./figuras/metSecundario.png, id=582, 825.0825pt x 172.39406pt>
 File: ./figuras/metSecundario.png Graphic file (type png)
 
 <use ./figuras/metSecundario.png>
 Package pdftex.def Info: ./figuras/metSecundario.png used on input line 164.
 (pdftex.def)             Requested size: 364.19667pt x 76.09561pt.
- [19 <./figuras/metSecundario.png>]
+ [21 <./figuras/metSecundario.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
@@ -1281,8 +1304,8 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 233.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [20]
-<./figuras/reactomeBrowser_idBW.png, id=597, 998.22937pt x 492.33937pt>
+) [22]
+<./figuras/reactomeBrowser_idBW.png, id=618, 998.22937pt x 492.33937pt>
 File: ./figuras/reactomeBrowser_idBW.png Graphic file (type png)
 
 <use ./figuras/reactomeBrowser_idBW.png>
@@ -1294,7 +1317,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 247--249
 
  []
 
-<./figuras/orcRemovalViaReactome.png, id=600, 376.40625pt x 534.49687pt>
+<./figuras/orcRemovalViaReactome.png, id=621, 376.40625pt x 534.49687pt>
 File: ./figuras/orcRemovalViaReactome.png Graphic file (type png)
 
 <use ./figuras/orcRemovalViaReactome.png>
@@ -1305,7 +1328,7 @@ Package pdftex.def Info: ./figuras/orcRemovalViaReactome.png used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[21 <./figuras/reactomeBrowser_idBW.png>] [22 <./figuras/orcRemovalViaReactome.
+[23 <./figuras/reactomeBrowser_idBW.png>] [24 <./figuras/orcRemovalViaReactome.
 png>]
 Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
@@ -1316,7 +1339,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 273--274
 
  []
 
-<./figuras/terpenoidBackboneKEGG_idBW.png, id=616, 1028.34187pt x 578.16pt>
+<./figuras/terpenoidBackboneKEGG_idBW.png, id=637, 1028.34187pt x 578.16pt>
 File: ./figuras/terpenoidBackboneKEGG_idBW.png Graphic file (type png)
 
 <use ./figuras/terpenoidBackboneKEGG_idBW.png>
@@ -1337,7 +1360,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 290--294
 
  []
 
-[23]
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
@@ -1347,15 +1370,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 305--309
 
  []
 
-[24 <./figuras/terpenoidBackboneKEGG_idBW.png>]
-<./figuras/terpenoidViaKEGG.png, id=637, 746.79pt x 950.04938pt>
+[26 <./figuras/terpenoidBackboneKEGG_idBW.png>]
+<./figuras/terpenoidViaKEGG.png, id=659, 746.79pt x 950.04938pt>
 File: ./figuras/terpenoidViaKEGG.png Graphic file (type png)
 
 <use ./figuras/terpenoidViaKEGG.png>
 Package pdftex.def Info: ./figuras/terpenoidViaKEGG.png used on input line 314.
 
 (pdftex.def)             Requested size: 455.24411pt x 579.15237pt.
- [25 <./figuras/terpenoidViaKEGG.png>]
+ [27 <./figuras/terpenoidViaKEGG.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 325--326
 
  []
@@ -1370,7 +1393,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 333--336
 
  []
 
-<./figuras/bioLuz_id.png, id=653, 1182.4175pt x 1432.35126pt>
+<./figuras/bioLuz_id.png, id=675, 1182.4175pt x 1432.35126pt>
 File: ./figuras/bioLuz_id.png Graphic file (type png)
 
 <use ./figuras/bioLuz_id.png>
@@ -1385,47 +1408,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 353--354
 
  []
 
-) (./capitulos/capitulo4.tex [26] [27 <./figuras/bioLuz_id.png>]
+) (./capitulos/capitulo4.tex [28] [29 <./figuras/bioLuz_id.png>]
 Cap\'{\i }tulo 4.
-[28
 
-]
-Overfull \hbox (26.79922pt too wide) in paragraph at lines 44--45
+Overfull \hbox (26.79922pt too wide) in paragraph at lines 17--18
 []\T1/cmr/m/n/12 JSF: [][]$\T1/cmtt/m/n/12 https : / / projetos . inf . ufsc . 
 br / arquivos _ projetos / projeto _ 1214 / Ferramenta %
  []
 
 
-Overfull \hbox (5.14224pt too wide) in paragraph at lines 46--47
+Overfull \hbox (5.14224pt too wide) in paragraph at lines 19--20
 []\T1/cmr/m/n/12 CORES: [][]$\T1/cmtt/m/n/12 http : / / www . hermancerrato . c
 om / graphic-[]design / images / color-[]images /
  []
 
 
-Overfull \hbox (298.2096pt too wide) in paragraph at lines 46--47
+Overfull \hbox (298.2096pt too wide) in paragraph at lines 19--20
 \T1/cmtt/m/n/12 the-[]meaning-[]of-[]colors-[]book . pdf$[][]\T1/cmr/m/n/12 , [
 ][]$\T1/cmtt/m/n/12 http : / / www . awwwards . com / trendy-[]web-[]color-[]pa
 lettes-[]and-[]material-[]design-[]color-[]schemes-[]tools .
  []
 
 
-Overfull \hbox (47.7699pt too wide) in paragraph at lines 46--47
+Overfull \hbox (47.7699pt too wide) in paragraph at lines 19--20
 \T1/cmtt/m/n/12 html$[][]\T1/cmr/m/n/12 , [][]$\T1/cmtt/m/n/12 https : / / medi
 um . com / wdstack / how-[]the-[]bootstrap-[]grid-[]really-[]works-[]471d7a089c
 fc #
  []
 
-) (./capitulos/capitulo5.tex [29]
+[30
+
+]) (./capitulos/capitulo5.tex [31]
 Cap\'{\i }tulo 5.
-) (./capitulos/capitulo6.tex [30
+) (./capitulos/capitulo6.tex [32
 
 ]
 Cap\'{\i }tulo 6.
-) (./capitulos/capitulo7.tex [31
+) (./capitulos/capitulo7.tex [33
 
 ]
 Cap\'{\i }tulo 7.
-) [32
+) [34
 
 ] (./monografia.bbl (./monografia.brf)
 \tf@brf=\write8
@@ -1485,7 +1508,7 @@ Overfull \hbox (24.56906pt too wide) in paragraph at lines 69--69
 []rumo-[]ao-[]desenvolvimento .
  []
 
-[33
+[35
 
 
 ]
@@ -1514,21 +1537,16 @@ Underfull \hbox (badness 3735) in paragraph at lines 118--118
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 232.
- [34]
+ [36]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 232.
  (./monografia.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 232.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 232.
 Package rerunfilecheck Info: File `monografia.out' has not changed.
-(rerunfilecheck)             Checksum: 6981628199545F6E98BAB048B4445442;2913.
+(rerunfilecheck)             Checksum: B1C88DD8042F41C65C4BEC1810EC4C04;2818.
+Package rerunfilecheck Info: File `monografia.brf' has not changed.
+(rerunfilecheck)             Checksum: 375AC21EDC9502A5834ECE75A5D3ADE9;3621.
 
-
-Package rerunfilecheck Warning: File `monografia.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `monografia.brf':
-(rerunfilecheck)             Before: DF5C174C7AC5C07D0E5397F889121C26;3373
-(rerunfilecheck)             After:  2113EF52ECA7247F640E09AEBCC44662;3373.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.74pt have occurred.
@@ -1536,17 +1554,14 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 232.
  )
 (\end occurred when \iffalse on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 19812 strings out of 493029
- 344483 string characters out of 6136234
- 450720 words of memory out of 5000000
- 22755 multiletter control sequences out of 15000+600000
+ 19834 strings out of 493029
+ 345036 string characters out of 6136234
+ 450953 words of memory out of 5000000
+ 22771 multiletter control sequences out of 15000+600000
  20553 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,18n,92p,1386b,498s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1643,10 +1658,10 @@ er/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on monografia.pdf (45 pages, 1703342 bytes).
+Output written on monografia.pdf (47 pages, 1932758 bytes).
 PDF statistics:
- 891 PDF objects out of 1000 (max. 8388607)
- 781 compressed objects within 8 object streams
- 161 named destinations out of 1000 (max. 500000)
- 419 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 915 PDF objects out of 1000 (max. 8388607)
+ 799 compressed objects within 8 object streams
+ 165 named destinations out of 1000 (max. 500000)
+ 421 words of extra memory for PDF output out of 10000 (max. 10000000)
 

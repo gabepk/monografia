@@ -90,21 +90,21 @@ Este é o meu entendimento, como \textit{<projetista do sistema>}, de quem você
 \label{tabEtiquetas}
 \begin{tabular}{|l|l|c|}
 \hline
-\multicolumn{3}{|l|}{\cellcolor[HTML]{9B9B9B}\specialcell{\textbf{Falhas de comunicação completas: efeito obtido é inconsistente com}\\\textbf{a intenção comunicativa do usuário}}} \\\hline
+\multicolumn{3}{|l|}{\cellcolor[HTML]{DFDFDF}\specialcell{\textbf{Falhas de comunicação completas: efeito obtido é inconsistente com}\\\textbf{a intenção comunicativa do usuário}}} \\\hline
 \textbf{aspecto semiótico}  & \textbf{característica específica} & \textbf{etiqueta} \\ \hline
 \multirow{-2}{*}{\specialcell{O usuário termina uma\\semiose malsucedida,\\mas não inicia outra\\para obter o resultado\\esperado}}
     &  \specialcell{porque, mesmo percebendo que não obteve o\\resultado esperado, não possui mais recursos,\\capacidade ou vontade de continuar tentando}&Desisto \\ \cline{2-3} 
 	&  \specialcell{porque não percebe que não obteve o\\resultado esperado}&\specialcell{Para mim\\está bom...} \\ \hline
 		
 		
-\multicolumn{3}{|l|}{\cellcolor[HTML]{9B9B9B}\specialcell{\textbf{Falhas de comunicação parciais: o efeito obtido é somente parte do}\\\textbf{efeito pretendido de acordo com a intenção do usuário}}} \\ \hline
+\multicolumn{3}{|l|}{\cellcolor[HTML]{DFDFDF}\specialcell{\textbf{Falhas de comunicação parciais: o efeito obtido é somente parte do}\\\textbf{efeito pretendido de acordo com a intenção do usuário}}} \\ \hline
 \textbf{aspecto semiótico}  & \textbf{característica específica} & \textbf{etiqueta} \\ \hline
 \multirow{-2}{*}{\specialcell{O usuário abandona\\uma semiose antes de\\obter o resultado espe-\\rado, e inicia outra\\com o mesmo propósito}}
     & \specialcell{porque, embora entenda a solução de IHC\\proposta, prefere seguir por outro caminho no\\momento} & \specialcell{Não,\\obrigado} \\ \cline{2-3} 
     &  porque não entende a solução de IHC proposta & \specialcell{Vai de\\outro\\jeito}  \\ \hline
 
     
-\multicolumn{3}{|l|}{\cellcolor[HTML]{9B9B9B}\specialcell{\textbf{Falhas de comunicação temporárias: o efeito parcial do processo de}\\\textbf{interpretação (semiose) e de comunicação (interação) do usuário é}\\\textbf{inconsistente e incoerente com sua intenção de comunicação}}}   \\ \hline
+\multicolumn{3}{|l|}{\cellcolor[HTML]{DFDFDF}\specialcell{\textbf{Falhas de comunicação temporárias: o efeito parcial do processo de}\\\textbf{interpretação (semiose) e de comunicação (interação) do usuário é}\\\textbf{inconsistente e incoerente com sua intenção de comunicação}}}   \\ \hline
 \textbf{aspecto semiótico}  & \textbf{característica específica} & \textbf{etiqueta} \\ \hline
 
 \multirow{3}{*}{\specialcell{O usuário interrompe\\temporariamente sua\\semiose}}
@@ -181,4 +181,75 @@ Este é o meu entendimento, como projetista, de \textbf{quem você, usuário, é
 
 %http://acervodigital.ufpr.br/bitstream/handle/1884/36666/Luiz%20Augusto%20Sakakibara.pdf?sequence=1
 
+
+
+
+
+
+
+% ==========================================================================================
+% ==========================================================================================
+% ==========================================================================================
+
+\section{Projeto de Interface Centrado na Comunicação}
+
+\indent Ao se montar um sistema com foco na comunicabilidade, o projetista deve elaborar um modelo conceitual de elementos do sistema computacional em desenvolvido. Esse modelo deve descrever detalhadamente como será realizada a interação usuário-sistema, os objetivos dos usuários e todas as possíveis tarefas que um usuário pode realizar. Além disso, para cada possível erro cometido pelo usuário no sistema, o projetista deve definir os métodos de recuperação e/ou prevenção dessas rupturas comunicativas \cite{IHCbook}.
+
+\indent O objetivo desta seção é apresentar os mapas e tabelas utilizadas neste trabalho para a modelagem do sistema 2Path. 
+
+\subsection{Tabela de Interações}
+
+\indent Na Engenharia Semiótica, cabe ao projetista elaborar a metacomunicação do sistema, minimizando ao máximo qualquer tipo de falha de comunicação que pode levar a possível rupturas comunicativas. Para simplificar essa tarefa, pode-se representar todas as interações entre usuário e sistema em forma de conversação \cite{IHCbook}. Nesse sentido, o projetista pode criar uma tabela nos padrões da Tabela \ref{tabelaDeInteracao}, onde o usuário parece estar se comunicando com o projetista através de suas ações e as respostas obtidas.
+
+\indent Cada conversa possui um tópico geral, como "Realizar compra" ou "Cadastrar Membro". Essas ações não serão executadas de fato no sistema, mas possuem o propósito de engajar o projetista a iniciar uma conversa mais específica. Os subtópicos que se estendem a partir de um tópico geral são chamados diálogos. Esses sim representam ações reais que podem precisar de alguma entrada do usuário (através de um formulário, por exemplo) e produzem respostas para dadas ações (mensagens de sucesso ou fracasso, por exemplo).
+
+\indent 
+\begin{table}
+\centering
+\caption{Modelo geral de representação da interação entre usuário (U) e projetista (P). Os signos representam o foco de cada conversa.} \label{tabelaDeInteracao}
+\begin{tabular}{|l|l|}
+\hline
+{\cellcolor[HTML]{DFDFDF}\textbf{\specialcell{Tópico\\>Subtópico (diálogo)}}} &  {\cellcolor[HTML]{DFDFDF}\textbf{\specialcell{Falas e Signos\\U: Usuário e P: Projetista}}} \\ \hline
+Ação com objetivo generalizado & \specialcell{U: Fala de usuário que precisa realizar\\um objetivo generalizado.} \\ \hline
+> Ação com objetivo específico & \specialcell{U: Detalhes da requisição\\P: Resposta do sistema para o usuário.} \\ \hline
+\end{tabular}
+\end{table}
+
+\subsection{Mapa de Objetivos}
+
+\indent Um dos primeiros passos para se construir um projeto de interação é a definição dos objetivos dos usuários. Os objetivos podem ser finais ou instrumentais \cite{IHCbook}. Os objetivos finais são o motivo pelo qual o usuário está utilizando o sistema. Em um site de venda de roupas, por exemplo, o objetivo final pode ser "Comprar camiseta". Os objetivos instrumentais não são naturalmente percebidos pelos usuários. Eles servem para simplificar o objetivo final, realizando-o passo a passo. No mesmo exemplo, um objetivo instrumental pode ser "Adicionar camiseta no carrinho de compras".
+
+\indent Existem dois tipos de objetivos instrumentais: direto e indireto \cite{IHCbook}. Os objetivos instrumentais diretos facilitam a realização do objetivo final de maneira imediata. No exemplo acima, a ação "Adicionar camiseta no carrinho de compras" é um objetivo instrumental direto. Já o indireto prepara atividades planejadas para o futuro. A ação "Adicionar cartão de crédito" pode ser considerada um objetivo instrumental indireto, pois não envolve diretamente a aquisição da camiseta, porém será uma informação necessária para a finalização da compra
+
+\indent A escolha dos objetivos já envolve tomar decisões de interação usuário-sistema \cite{IHCbook}. Nesse sentido, ao criar o do mapa de objetivos representado de maneira generalizada na Figura \ref{fig:mapaDeObjetivosGeral}, o projetista já consegue imaginar qual deverá ser o foco da implementação do sistema para melhor atender as necessidades dos usuários. Esses usuários podem não possuir o mesmo perfil, e consequentemente, apresentar papéis diferentes. Assim, também cabe ao projetista definir as permissões de acesso de certos elementos em uma mesma páginas, de acordo com o perfil dos usuários e seus objetivos.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1\textwidth]{mapaDeObjetivosGeral.png}
+    \caption{}
+    \label{fig:mapaDeObjetivosGeral}
+\end{figure} 
+
+\subsection{Tratamento de Rupturas na Comunicação}
+
+
+\begin{itemize}
+\item Prevenção passiva
+\item Prevenção ativa
+\item Prevenção apoiada
+\item Recuperação apoiada
+\item Captura de erro
+\end{itemize}
+
+
+\subsection{Modelagem de Tarefas}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1\textwidth]{modelagemDeTarefas.png}
+    \caption{}
+    \label{fig:modelagemDeTarefas}
+\end{figure} 
+
+% =========================================================================================
 
