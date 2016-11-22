@@ -193,15 +193,15 @@ Este é o meu entendimento, como projetista, de \textbf{quem você, usuário, é
 
 \section{Projeto de Interface Centrado na Comunicação}
 
-\indent Ao se montar um sistema com foco na comunicabilidade, o projetista deve elaborar um modelo conceitual de elementos do sistema computacional em desenvolvido. Esse modelo deve descrever detalhadamente como será realizada a interação usuário-sistema, os objetivos dos usuários e todas as possíveis tarefas que um usuário pode realizar. Além disso, para cada possível erro cometido pelo usuário no sistema, o projetista deve definir os métodos de recuperação e/ou prevenção dessas rupturas comunicativas \cite{IHCbook}.
+\indent Ao se montar um sistema com foco na comunicabilidade, o projetista deve elaborar um modelo conceitual de elementos do sistema computacional em desenvolvido. Esse modelo deve descrever detalhadamente como será realizada a interação usuário-sistema, os objetivos dos usuários e todas as possíveis tarefas que um usuário pode realizar. Além disso, para certos elementos da interface facilmente mal interpretados pelo usuário no sistema, o projetista deve definir os métodos de recuperação e/ou prevenção de rupturas comunicativas \cite{IHCbook}. Esses e outros conceitos serão explicados com detalhes nessa seção.
 
-\indent O objetivo desta seção é apresentar os mapas e tabelas utilizadas neste trabalho para a modelagem do sistema 2Path. 
+\indent O objetivo desta seção é apresentar a tabela de interações usuário-sistema, o mapa de objetivos de usuário, o diagrama de tarefas do sistema e a tabela de prevenção e recuperação de rupturas comunicativas. Esses quatro modelos serão utilizadas neste trabalho para o desenvolvimento da interface do sistema 2Path. 
 
 \subsection{Tabela de Interações}
 
 \indent Na Engenharia Semiótica, cabe ao projetista elaborar a metacomunicação do sistema, minimizando ao máximo qualquer tipo de falha de comunicação que pode levar a possível rupturas comunicativas. Para simplificar essa tarefa, pode-se representar todas as interações entre usuário e sistema em forma de conversação \cite{IHCbook}. Nesse sentido, o projetista pode criar uma tabela nos padrões da Tabela \ref{tabelaDeInteracao}, onde o usuário parece estar se comunicando com o projetista através de suas ações e as respostas obtidas.
 
-\indent Cada conversa possui um tópico geral, como "Realizar compra" ou "Cadastrar Membro". Essas ações não serão executadas de fato no sistema, mas possuem o propósito de engajar o projetista a iniciar uma conversa mais específica. Os subtópicos que se estendem a partir de um tópico geral são chamados diálogos. Esses sim representam ações reais que podem precisar de alguma entrada do usuário (através de um formulário, por exemplo) e produzem respostas para dadas ações (mensagens de sucesso ou fracasso, por exemplo).
+\indent Cada conversa possui um tópico geral, como ``Realizar compra'' ou ``Cadastrar Membro''. Essas ações não serão executadas de fato no sistema, mas possuem o propósito de engajar o projetista a iniciar uma conversa mais específica. Os subtópicos que se estendem a partir de um tópico geral são chamados diálogos. Esses sim representam ações reais que podem precisar de alguma entrada do usuário (através de um formulário, por exemplo) e produzem respostas para dadas ações (mensagens de sucesso ou fracasso, por exemplo).
 
 \indent 
 \begin{table}
@@ -217,9 +217,9 @@ Ação com objetivo generalizado & \specialcell{U: Fala de usuário que precisa 
 
 \subsection{Mapa de Objetivos}
 
-\indent Um dos primeiros passos para se construir um projeto de interação é a definição dos objetivos dos usuários. Os objetivos podem ser finais ou instrumentais \cite{IHCbook}. Os objetivos finais são o motivo pelo qual o usuário está utilizando o sistema. Em um site de venda de roupas, por exemplo, o objetivo final pode ser "Comprar camiseta". Os objetivos instrumentais não são naturalmente percebidos pelos usuários. Eles servem para simplificar o objetivo final, realizando-o passo a passo. No mesmo exemplo, um objetivo instrumental pode ser "Adicionar camiseta no carrinho de compras".
+\indent Um dos primeiros passos para se construir um projeto de interação é a definição dos objetivos dos usuários. Os objetivos podem ser finais ou instrumentais \cite{IHCbook}. Os objetivos finais são o motivo pelo qual o usuário está utilizando o sistema. Em um site de venda de roupas, por exemplo, o objetivo final pode ser ``Comprar camiseta''. Os objetivos instrumentais não são naturalmente percebidos pelos usuários. Eles servem para simplificar o objetivo final, realizando-o passo a passo. No mesmo exemplo, um objetivo instrumental pode ser ``Adicionar camiseta no carrinho de compras''.
 
-\indent Existem dois tipos de objetivos instrumentais: direto e indireto \cite{IHCbook}. Os objetivos instrumentais diretos facilitam a realização do objetivo final de maneira imediata. No exemplo acima, a ação "Adicionar camiseta no carrinho de compras" é um objetivo instrumental direto. Já o indireto prepara atividades planejadas para o futuro. A ação "Adicionar cartão de crédito" pode ser considerada um objetivo instrumental indireto, pois não envolve diretamente a aquisição da camiseta, porém será uma informação necessária para a finalização da compra
+\indent Existem dois tipos de objetivos instrumentais: direto e indireto \cite{IHCbook}. Os objetivos instrumentais diretos facilitam a realização do objetivo final de maneira imediata. No exemplo acima, a ação ``Adicionar camiseta no carrinho de compras'' é um objetivo instrumental direto. Já o indireto prepara atividades planejadas para o futuro. A ação "Adicionar cartão de crédito" pode ser considerada um objetivo instrumental indireto, pois não envolve diretamente a aquisição da camiseta, porém será uma informação necessária para a finalização da compra
 
 \indent A escolha dos objetivos já envolve tomar decisões de interação usuário-sistema \cite{IHCbook}. Nesse sentido, ao criar o do mapa de objetivos representado de maneira generalizada na Figura \ref{fig:mapaDeObjetivosGeral}, o projetista já consegue imaginar qual deverá ser o foco da implementação do sistema para melhor atender as necessidades dos usuários. Esses usuários podem não possuir o mesmo perfil, e consequentemente, apresentar papéis diferentes. Assim, também cabe ao projetista definir as permissões de acesso de certos elementos em uma mesma páginas, de acordo com o perfil dos usuários e seus objetivos.
 
@@ -230,26 +230,51 @@ Ação com objetivo generalizado & \specialcell{U: Fala de usuário que precisa 
     \label{fig:mapaDeObjetivosGeral}
 \end{figure} 
 
-\subsection{Tratamento de Rupturas na Comunicação}
+\subsection{Modelagem de Tarefas}
 
+\indent Conhecendo os objetivos dos usuários, o projetista pode formular uma sequência de tarefas a serem realizadas no sistema para cada um. Independente da plataforma, o diagrama de modelagem de tarefas descrito a seguir deverá permitir que o projetista tenha uma visualização hierarquizada de todas as tarefas que podem ser realizadas dado um objetivo de usuário.
+
+\indent Diferente do mapa de objetivos, a modelagem de tarefas não se foca em definir as permissões de usuários nem os tipos de objetivos (finais ou instrumentais). Ela tem a finalidade de apresentar em formato de árvore as navegações que um usuário genérico pode realizar no sistema a partir de um objetivo. Em um sistema de grande porte, podem existir diversos diagramas de tarefas, um para cada objetivo de usuário. 
+
+\indent Ao elaborar esse modelo, o projetista deve fazer uma distinção entre tarefa, objetivo e operador. Objetivos são representados de maneira geral, em formato retangular, e não são executáveis de verdade no sistema. A raiz (elemento inicial) do diagrama de tarefas é um objetivo. As tarefas compõem um objetivo, e elas também são representadas por retângulos. As tarefas são os nós (elementos) internos do diagrama. Quando uma ação interage de fato com a interface, ou seja, quando a ação deixa de ser abstrata, ela é dita operador. Operadores são as folhas (elementos finais) do diagrama de tarefas.
+
+\indent A Figura \ref{fig:modelagemDeTarefas} apresenta os tipos de estruturas que compõem o diagrama. Elas são:
 
 \begin{itemize}
-\item Prevenção passiva
-\item Prevenção ativa
-\item Prevenção apoiada
-\item Recuperação apoiada
-\item Captura de erro
+\item [(a)] Estruturas sequenciais representam tarefas que devem ser executadas em ordem seguindo a numeração no canto superior esquerdo do retângulo;
+\item [(b)] Estruturas independentes de ordem são auto-explicativas. Geralmente o projetista sugere a ordem que considera a mais otimizada para se atingir o objetivo, indicada na numeração seguida de um ponto de interrogação. Porém o usuário possui autonomia para decidir qual a ordem o deixa mais confortável;
+\item [(c)] Estruturas alternativas oferecem mais de um caminho, ou navegação, que o usuário pode seguir. Ele, portanto, deve escolher apenas uma opção dentre as oferecidas na subárvore. Cada nó da subárvore é representado com letras em maiúsculo no canto superior esquerdo dos retângulos e um circulo em branco no canto superior direito;
+\item [(d)] Estruturas iterativas podem ser realizadas mais de uma vez e os retângulos possuem um asterisco no canto superior direito. Para definir quantidade mínima (m) e máxima (n) de execução, pode-se alinhar à direita a expressão [m...n]; 
+\item [(e)] Estrutura ubíqua é utilizada quando existe uma tarefa que pode ser realizada a qualquer momento e em qualquer ordem. Ela é representada com um circulo preenchido no canto superior direito;
+\item [(f)] Estruturas opcionais, cuja borda é tracejada, representam tarefas opcionais.
 \end{itemize}
-
-
-\subsection{Modelagem de Tarefas}
+  
 
 \begin{figure}[!h]
     \centering
     \includegraphics[width=1\textwidth]{modelagemDeTarefas.png}
-    \caption{}
+    \caption{Estruturas de tarefas (a) sequencial, (b) independente de ordem, (c) alternativa, (d) iterativa, (e) ubíqua e (f) opcional.}
     \label{fig:modelagemDeTarefas}
 \end{figure} 
+
+\subsection{Tratamento de Rupturas na Comunicação}
+
+\indent Na Engenharia Semiótica, as rupturas na comunicação devem ser fortemente evitadas. Rupturas são consequências de falhas na comunicação e ocorrem durante a interação. Elas podem ser, por exemplo, cliques indevidos, ações executadas erroneamente ou erros de interpretação. O projetista deve identificar os elementos que podem causar rupturas na comunicação e implementar ou uma prevenção , ou uma recuperação da mesma. Existem cinco categorias de prevenção\/Recuperação de rupturas \cite{IHCbook}, conforme descritas abaixo.
+
+\indent Mais de uma categoria pode ser utilizada para prevenir e/ou recuperar uma tarefa, interação ou signo. O Projetista deve criar uma tabela com a lista dos principais signos da interface, cada um com zero ou mais métodos de prevenção e zero ou mais métodos de recuperação.
+
+\begin{itemize}
+
+\item \textbf{Prevenção passiva:} O sistema \textit{tenta evitar} que o usuário execute uma ação de maneira errada, porém sem impedi-lo de fazê-lo. Para isso, ele pode apresentar textos explicativos sobre o elemento específico (um campo em um formulário, por exemplo). Ainda, ele pode utilizar imagens e símbolos para guiar o usuário na execução de todas as ações de maneira correta;
+
+\item \textbf{Prevenção ativa:} O sistema \textit{deve interferir} diretamente na interface do usuário, impedindo-o de executar certas ações que podem não ser seguras. Computacionalmente isso significa desabilitar botões, campos de entrada, \textit{links}, restringir entrada de dados apresentando uma lista fechada de opções ao invés de espaço em branco para preenchimento livre, entre outros;
+
+\item \textbf{Prevenção apoiada:} Nesse caso, o projetista identificou que um certo ponto da interface pode muito facilmente causa uma ruptura, portanto o sistema desenvolvido \textit{deve descrever} com detalhes as consequências da interação com o conjunto de elementos naquele ponto em questão. Normalmente o projetista cria uma janela \textit{pop-up} para chamar a atenção do usuário e solicitar a confirmação de sua decisão. Por exemplo, o usuário pode tentar sobrescrever um arquivo já existente, pensando que está criando um novo. O sistema, então, deverá informá-lo das consequências de sua ação;
+
+\item \textbf{Recuperação apoiada:} Caso uma ruptura já tenha acontecido e o usuário tenha a chance de voltar atrás em sua decisão, o sistema deve fornecer um meio para ele fazê-lo. A recuperação apoiada expõe ao usuário seu erro cometido e oferece um meio para que ele \textit{corrija}. Um exemplo disso são os campos obrigatórios de um formulário que ficam destacados em vermelho se o usuário tenta enviar sem preenchê-los;
+
+\item \textbf{Captura de erro:} Caso uma ruptura já tenha acontecido e não exista possibilidade de recuperação, o sistema \textit{deve descrever} uma outra maneira de o usuário retomar suas atividades novamente. Por exemplo, caso o usuário envie um formulário com uma informação incorreta, ele deve poder editá-la, seja no mesmo sistema ou enviando um email para alguém com mais permissões que ele.
+\end{itemize}
 
 % =========================================================================================
 
