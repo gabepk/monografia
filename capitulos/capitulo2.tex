@@ -19,7 +19,7 @@
 
 \indent Em um sistema interativo, a \textbf{interface} é responsável por manter o contato motor (como a \textit{webcam} e o teclado), perceptivo (como o monitor) e conceitual (interpretação do contato físico) do usuário \cite{IHCbook}. 
 
-\indent O conjunto dos elementos da interface que expõem seu funcionamento de maneira implícita é chamado de \textbf{\textit{affordance}} \cite{IHCbook}. Esta palavra não possui tradução para o português, mas entende-se que significa "reconhecimento", pois uma vez que o usuário é levado a realizar os passos corretos para cumprir seus objetivos em uma interface, mesmo sem nunca ter interagido com ela antes, considera-se que ele já conhecia algumas características que o sistema oferece e obteve respostas já esperadas. Nesse sentido, a \textit{affordance} é geralmente uma característica muito desejável nos sistemas. Na Figura \ref{fig:Affordance} é possível perceber três graus diferentes de \textit{affordance} na \ref{fig:Affordance}.
+\indent O conjunto dos elementos da interface que expõem seu funcionamento de maneira implícita é chamado de \textbf{\textit{affordance}} \cite{IHCbook}. Esta palavra não possui tradução para o português, mas entende-se que significa ``reconhecimento'', pois uma vez que o usuário é levado a realizar os passos corretos para cumprir seus objetivos em uma interface, mesmo sem nunca ter interagido com ela antes, considera-se que ele já conhecia algumas características que o sistema oferece e obteve respostas já esperadas. Nesse sentido, a \textit{affordance} é geralmente uma característica muito desejável nos sistemas. Na Figura \ref{fig:Affordance} é possível perceber três graus diferentes de \textit{affordance} na \ref{fig:Affordance}.
 
 \begin{figure}[!h]
     \centering
@@ -113,8 +113,8 @@ Este é o meu entendimento, como \textit{<projetista do sistema>}, de quem você
    &\specialcell{porque não consegue formular sua próxima\\intenção de comunicação}& E agora? \\ \hline
    
 \multirow{3}{*}{\specialcell{O usuário percebe que\\seu ato comunicativo\\não foi bem-sucedido}}
-   &\specialcell{porque percebeu que havia "falado" algo no\\contexto errado}&\specialcell{Onde\\estou?} \\ \cline{2-3} 
-   & porque percebeu que havia "falado" algo errado & Epa!\\ \cline{2-3} 
+   &\specialcell{porque percebeu que havia ``falado'' algo no\\contexto errado}&\specialcell{Onde\\estou?} \\ \cline{2-3} 
+   & porque percebeu que havia ``falado'' algo errado & Epa!\\ \cline{2-3} 
    &\specialcell{porque não obteve o resultado esperado depois\\de conversar com o sistema (preposto do\\projetista) por algum tempo, alternando vários\\turnos de fala com ele}&\specialcell{Assim não\\dá.}\\ \hline
    
 \multirow{4}{*}{\specialcell{O usuário procura com-\\preender o ato comuni-\\cativo do sistema\\(preposto do projetista)}}
@@ -193,9 +193,11 @@ Este é o meu entendimento, como projetista, de \textbf{quem você, usuário, é
 
 \section{Projeto de Interface Centrado na Comunicação}
 
-\indent Ao se montar um sistema com foco na comunicabilidade, o projetista deve elaborar um modelo conceitual de elementos do sistema computacional em desenvolvido. Esse modelo deve descrever detalhadamente como será realizada a interação usuário-sistema, os objetivos dos usuários e todas as possíveis tarefas que um usuário pode realizar. Além disso, para certos elementos da interface facilmente mal interpretados pelo usuário no sistema, o projetista deve definir os métodos de recuperação e/ou prevenção de rupturas comunicativas \cite{IHCbook}. Esses e outros conceitos serão explicados com detalhes nessa seção.
+\indent Ao se montar um sistema com foco na comunicabilidade, o projetista deve elaborar um modelo conceitual de elementos do sistema computacional em desenvolvido. Esse modelo deve descrever detalhadamente como será realizada a interação usuário-sistema, os objetivos dos usuários e todas as possíveis tarefas que um usuário pode realizar. Além disso, para certos elementos da interface facilmente mal interpretados pelo usuário no sistema, o projetista deve definir os métodos de recuperação e/ou prevenção de rupturas comunicativas \cite{IHCbook}. Esses e outros conceitos serão explicados com detalhes a seguir.
 
 \indent O objetivo desta seção é apresentar a tabela de interações usuário-sistema, o mapa de objetivos de usuário, o diagrama de tarefas do sistema e a tabela de prevenção e recuperação de rupturas comunicativas. Esses quatro modelos serão utilizadas neste trabalho para o desenvolvimento da interface do sistema 2Path. 
+
+\indent De maneira geral, a tabela de interações tem o objetivo de representar a interação entre usuário e sistema de uma maneira fácil de entender, para que fiquem claros o que o sistema espera do usuário e vice-e-versa. O mapa de objetivos apresenta a lista de todos os motivos pelos quais o usuário está utilizando o sistema, indicando também os tipos diferentes de objetivos e usuários. O diagrama de tarefas é elaborado para cada objetivo e apresenta a navegação completa no sistema para atingi-lo. Por fim, a tabela de prevenção e recuperação de rupturas aponta o tratamento realizado após um erro já cometido ou prestes a ser cometido pelo usuário.
 
 \subsection{Tabela de Interações}
 
@@ -219,7 +221,7 @@ Ação com objetivo generalizado & \specialcell{U: Fala de usuário que precisa 
 
 \indent Um dos primeiros passos para se construir um projeto de interação é a definição dos objetivos dos usuários. Os objetivos podem ser finais ou instrumentais \cite{IHCbook}. Os objetivos finais são o motivo pelo qual o usuário está utilizando o sistema. Em um site de venda de roupas, por exemplo, o objetivo final pode ser ``Comprar camiseta''. Os objetivos instrumentais não são naturalmente percebidos pelos usuários. Eles servem para simplificar o objetivo final, realizando-o passo a passo. No mesmo exemplo, um objetivo instrumental pode ser ``Adicionar camiseta no carrinho de compras''.
 
-\indent Existem dois tipos de objetivos instrumentais: direto e indireto \cite{IHCbook}. Os objetivos instrumentais diretos facilitam a realização do objetivo final de maneira imediata. No exemplo acima, a ação ``Adicionar camiseta no carrinho de compras'' é um objetivo instrumental direto. Já o indireto prepara atividades planejadas para o futuro. A ação "Adicionar cartão de crédito" pode ser considerada um objetivo instrumental indireto, pois não envolve diretamente a aquisição da camiseta, porém será uma informação necessária para a finalização da compra
+\indent Existem dois tipos de objetivos instrumentais: direto e indireto \cite{IHCbook}. Os objetivos instrumentais diretos facilitam a realização do objetivo final de maneira imediata. No exemplo acima, a ação ``Adicionar camiseta no carrinho de compras'' é um objetivo instrumental direto. Já o indireto prepara atividades planejadas para o futuro. A ação ``Adicionar cartão de crédito'' pode ser considerada um objetivo instrumental indireto, pois não envolve diretamente a aquisição da camiseta, porém será uma informação necessária para a finalização da compra
 
 \indent A escolha dos objetivos já envolve tomar decisões de interação usuário-sistema \cite{IHCbook}. Nesse sentido, ao criar o do mapa de objetivos representado de maneira generalizada na Figura \ref{fig:mapaDeObjetivosGeral}, o projetista já consegue imaginar qual deverá ser o foco da implementação do sistema para melhor atender as necessidades dos usuários. Esses usuários podem não possuir o mesmo perfil, e consequentemente, apresentar papéis diferentes. Assim, também cabe ao projetista definir as permissões de acesso de certos elementos em uma mesma páginas, de acordo com o perfil dos usuários e seus objetivos.
 
@@ -234,7 +236,7 @@ Ação com objetivo generalizado & \specialcell{U: Fala de usuário que precisa 
 
 \indent Conhecendo os objetivos dos usuários, o projetista pode formular uma sequência de tarefas a serem realizadas no sistema para cada um. Independente da plataforma, o diagrama de modelagem de tarefas descrito a seguir deverá permitir que o projetista tenha uma visualização hierarquizada de todas as tarefas que podem ser realizadas dado um objetivo de usuário.
 
-\indent Diferente do mapa de objetivos, a modelagem de tarefas não se foca em definir as permissões de usuários nem os tipos de objetivos (finais ou instrumentais). Ela tem a finalidade de apresentar em formato de árvore as navegações que um usuário genérico pode realizar no sistema a partir de um objetivo. Em um sistema de grande porte, podem existir diversos diagramas de tarefas, um para cada objetivo de usuário. 
+\indent Diferente do mapa de objetivos, a modelagem de tarefas não se foca em definir as permissões de usuários nem os tipos de objetivos (finais ou instrumentais). Ela tem a finalidade de apresentar em formato de árvore as navegações que um usuário genérico pode realizar no sistema a partir de um objetivo \cite{IHCbook}. Em um sistema de grande porte, podem existir diversos diagramas de tarefas, um para cada objetivo de usuário. 
 
 \indent Ao elaborar esse modelo, o projetista deve fazer uma distinção entre tarefa, objetivo e operador. Objetivos são representados de maneira geral, em formato retangular, e não são executáveis de verdade no sistema. A raiz (elemento inicial) do diagrama de tarefas é um objetivo. As tarefas compõem um objetivo, e elas também são representadas por retângulos. As tarefas são os nós (elementos) internos do diagrama. Quando uma ação interage de fato com a interface, ou seja, quando a ação deixa de ser abstrata, ela é dita operador. Operadores são as folhas (elementos finais) do diagrama de tarefas.
 
