@@ -67,22 +67,52 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
 
 \subsection{Modelagem de Tarefas}
 
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1\textwidth]{objetivo_enzima.png}
+    \caption{Objetivo de pesquisar enzima no banco de dados público.}
+    \label{fig:objetivo_enzyma}
+\end{figure}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1\textwidth]{objetivo_enzima_organismo.png}
+    \caption{Objetivo de pesquisar enzima no banco de dados privado.}
+    \label{fig:objetivo_enzyma_organismo}
+\end{figure}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1\textwidth]{objetivo_pathway.png}
+    \caption{Objetivo de pesquisar via metabólica entre substrato e produto no banco de dados público.}
+    \label{fig:objetivo_pathway}
+\end{figure}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1\textwidth]{objetivo_pathway_organismo.png}
+    \caption{Objetivo de pesquisar via metabólica entre substrato e produto no banco de dados público.}
+    \label{fig:objetivo_pathway_organismo}
+\end{figure}
+
 \subsection{Tratamento de Rupturas na Comunicação}
 
 \indent 
 \begin{table}
 \centering
-\caption{Campos de entrada dos usuários do sistema 2Path} \label{prevencaoRecuperacao:2Path}
+\caption{Campos de entrada e manipulação dos usuários do sistema 2Path} \label{prevencaoRecuperacao:2Path}
 \begin{tabular}{|l|c|c|}
 \hline
 {\cellcolor[HTML]{DFDFDF}\textbf{Signo}} &  {\cellcolor[HTML]{DFDFDF}\textbf{Prevenção}} &  {\cellcolor[HTML]{DFDFDF}\textbf{Recuperação}}\\ \hline
-\specialcell{Seleção de\\organismo}  & \specialcell{PA: Campo obrigatório para\\ formulários ``\textit{Search Enzyme}\\\textit{in Organism}'' e  ``\textit{Search}\\\textit{Pathway in Organism}''.\\Caso o usuário esqueça\\de selecionar este campo,\\o organismo escolhido será o\\primeiro em ordem alfabética.} & -  \\ \hline
+\specialcell{Seleção de\\organismo}  & \specialcell{\textbf{PA}: Campo obrigatório com\\indicador ``*'' para\\ formulários ``\textit{Search Enzyme}\\\textit{in Organism}'' e  ``\textit{Search}\\\textit{Pathway in Organism}''. Caso\\o usuário esqueça de selecionar\\este campo, o organismo\\escolhido será o primeiro e\\ordem alfabética.} & -  \\ \hline
 
-\specialcell{Seleção de\\enzima} & \specialcell{PP: Campo obrigatório com\\indicador ``*''} & \specialcell{RA: Mensagem de texto em vermelho \\aparece acima do formulário informando\\o usuário de que o campo obrigatório\\não foi preenchido: ``\textit{Enzyme: Validation}\\\textit{ Error: Value is required}''.} \\ \hline
+\specialcell{Seleção de\\enzima} & \specialcell{\textbf{PP}: Campo obrigatório com\\indicador ``*'';\\\textbf{PP}: Campo possui função\\\textit{auto-complete}, que fornece\\ao usuário todos os\\números EC existentes} & \specialcell{\textbf{RA}: Mensagem de texto em vermelho \\aparece acima do formulário informando\\o usuário de que o campo obrigatório\\não foi preenchido: ``\textit{Enzyme: Validation}\\\textit{ Error: Value is required}''.} \\ \hline
 
-\specialcell{Seleção de\\substrato} & \specialcell{PP: Campo obrigatório com\\indicador ``*''} & \specialcell{RA: Mensagem de texto em vermelho \\aparece acima do formulário informando\\o usuário de que o campo obrigatório\\não foi preenchido: ``\textit{From: Validation}\\\textit{Error: Value is required.}''.\\O ``From'' significa que a via\\tem início neste metabólito} \\ \hline
+\specialcell{Seleção de\\substrato} & \specialcell{\textbf{PP}: Campo obrigatório com\\indicador ``*'';\\\textbf{PP}: Campo possui função\\\textit{auto-complete}, que fornece\\ao usuário todos os\\compostos existentes no\\2Path} & \specialcell{\textbf{RA}: Mensagem de texto em vermelho \\aparece acima do formulário informando\\o usuário de que o campo obrigatório\\não foi preenchido: ``\textit{From: Validation}\\\textit{Error: Value is required.}''.\\O ``From'' significa que a via\\tem início neste metabólito} \\ \hline
 
-\specialcell{Seleção de\\produto} & \specialcell{PP: Campo obrigatório com\\indicador ``*''} & \specialcell{RA: Mensagem de texto em vermelho \\aparece acima do formulário informando\\o usuário de que o campo obrigatório\\não foi preenchido: ``\textit{To: Validation}\\\textit{Error: Value is required.}''.\\O ``To'' significa que a via\\finaliza neste metabólito} \\ \hline
+\specialcell{Seleção de\\produto} & \specialcell{\textbf{PP}: Campo obrigatório com\\indicador ``*'';\\\textbf{PP}: Campo possui função\\\textit{auto-complete}, que fornece\\ao usuário todos os\\compostos existentes no\\2Path} & \specialcell{\textbf{RA}: Mensagem de texto em vermelho \\aparece acima do formulário informando\\o usuário de que o campo obrigatório\\não foi preenchido: ``\textit{To: Validation}\\\textit{Error: Value is required.}''.\\O ``To'' significa que a via\\finaliza neste metabólito} \\ \hline
+
+\specialcell{Manipulação\\da via\\metabólica} & - & - \\ \hline
 \end{tabular}
 \end{table}
 
@@ -103,10 +133,8 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
 
 % Communication websites which market to individual customers on a one-to-one basis would benefit with some blue in their marketing. Hi-tech and computer technology businesses can benefit from most shades of blue combined with gray.
 
-\subsection{Banco de Dados OrientDB}
+\subsection{Banco de Dados Neo4j}
 
-\indent O banco de dados escolhido para armazenar as enzimas, compostos, reações e demais elementos foi o OrientDB.\\
-CITAR: (1) Graph database, (2) SQL, (3) Commercial Friendly License, (4) Low Total Cost of Ownership (TCO) Community Edition, (5) Open Source. \url{http://orientdb.com/why-orientdb/}, \url{http://orientdb.com/docs/last/Java-API.html}
 
 \subsection{Desafios}
  
