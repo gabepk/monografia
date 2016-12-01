@@ -1,9 +1,14 @@
 \chapter{2Path}
 
-% =========================================================================================
+\indent Este capítulo apresenta o sistema 2Path desenvolvido neste projeto utilizando as informações dos capítulos 2 e 3. São descritos quatro elementos de IHC utilizados para definir o escopo do trabalho. A tabela de interações representa de forma simples a metacomunicação. A partir dela é possível estabelecer os objetivos finais e instrumentais, organizados em um diagrama chamado mapa de objetivos. Uma vez conhecendo os motivos de os usuários utilizarem o sistema, o projetista utiliza os diagramas de modelagem de tarefas para representar de forma abstrata a navegação pelo sistema do ponto de vista de cada tipo de usuário. Por fim, a tabela de tratamento de rupturas na comunicação tem o objetivos de documentar os métodos utilizados para impedir / prevenir / recuperar erros cometidos pelo usuário ao interagir com o sistema.
+
+\indent Em seguida são descritos de maneira geral todas as ferramentas, softwares e linguagens utilizadas na elaboração do 2Path. De maneira breve, a interface do 2Path foi desenvolvida na IDE Eclipse utilizando a linguagem Java para \textit{Back-end} e XHTML, JSF e Primefaces para \textit{Front-end}. O banco de dados utilizado foi o Neo4j, um banco não relacional direcionado a grafos. A visualização das vias metabólicas foi implementada em javascript, com uma biblioteca de grafos e gráficos chamada D3 (Data-Driven Documents);
+
+\indent Por fim, são listadas todas as dificuldades enfrentadas na execução desse projeto.
 
 \section{Projeto de Interface}
 
+\indent 
 
 \subsection{Tabela de Interações}
 
@@ -69,7 +74,7 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
 
 \begin{figure}[!h]
     \centering
-    \includegraphics[width=1\textwidth]{objetivo_enzima.png}
+    \includegraphics[width=0.8\textwidth]{objetivo_enzima.png}
     \caption{Objetivo de pesquisar enzima no banco de dados público.}
     \label{fig:objetivo_enzyma}
 \end{figure}

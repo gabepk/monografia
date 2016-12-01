@@ -35,9 +35,9 @@
 \contentsline {section}{\numberline {4.1}Projeto de Interface}{32}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Tabela de Intera\IeC {\c c}\IeC {\~o}es}{32}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Mapa de Objetivos}{32}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Modelagem de Tarefas}{35}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Tratamento de Rupturas na Comunica\IeC {\c c}\IeC {\~a}o}{35}{subsection.4.1.4}
-\contentsline {section}{\numberline {4.2}Detalhes de Implementa\IeC {\c c}\IeC {\~a}o}{37}{section.4.2}
+\contentsline {subsection}{\numberline {4.1.3}Modelagem de Tarefas}{34}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Tratamento de Rupturas na Comunica\IeC {\c c}\IeC {\~a}o}{34}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Detalhes de Implementa\IeC {\c c}\IeC {\~a}o}{34}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Banco de Dados Neo4j}{38}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Desafios}{38}{subsection.4.2.2}
 \contentsline {chapter}{\numberline {5}Resultados}{39}{chapter.5}
