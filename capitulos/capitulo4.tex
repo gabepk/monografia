@@ -13,13 +13,57 @@
 \caption{Representação da interação entre usuário (U) e projetista (P). Os signos representam o foco de cada conversa.} \label{tabelaDeInteracao:2Path}
 \begin{tabular}{|l|l|}
 \hline
-{\cellcolor[HTML]{DFDFDF}\textbf{\specialcell{Tópico\\>Subtópico (diálogo)}}} &  {\cellcolor[HTML]{DFDFDF}\textbf{\specialcell{Falas e Signos\\U: Usuário e P: Projetista}}} \\ \hline
-Ação com objetivo generalizado & \specialcell{U: Fala de usuário que precisa realizar\\um objetivo generalizado.} \\ \hline
-> Ação com objetivo específico & \specialcell{U: Detalhes da requisição\\P: Resposta do sistema para o usuário.} \\ \hline
+{\cellcolor[HTML]{DFDFDF}\textbf{\specialcell{Tópico\\>Subtópico (diálogo)}}} &  {\cellcolor[HTML]{DFDFDF}\textbf{\specialcell{Falas e Signos\\U: Usuário e P: Projetista}}} \\ \hline 
+Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} no banco de dados 2Path.} \\ \hline
+\specialcell{> Informar dados\\da enzima}	& \specialcell{\textbf{P}: Qual o \textbf{número EC} (\textit{Enzyme Commission})\\da enzima?} \\ 
+				  & \specialcell{\textbf{U}: O número EC é (...).} \\ 
+				  & \specialcell{\textbf{P}: OK. A enzima está no banco de dados e ela catalisa as\\\textbf{reações} (...) cujos \textbf{substratos} são (...) e os \textbf{produtos}\\são (...).} \\ \hline
+\specialcell{Pesquisar enzima\\em organismo} & \specialcell{\textbf{U}: Quero saber se o genoma de um dos meus organismos\\possui sequencia que produz certa enzima.} \\ \hline
+> Informar organismo & \specialcell{\textbf{P}: Em qual dos seus \textbf{organismos} você quer buscar essa\\enzima?} \\
+& \specialcell{\textbf{U}: O organismo é (...).} \\ \hline
+\specialcell{> Informar dados\\da enzima} & \specialcell{\textbf{P}: Qual o \textbf{número EC} da enzima?} \\
+& \specialcell{\textbf{U}: O número EC é (...).} \\ 
+& \specialcell{\textbf{P}: OK. A está no banco de dados e ela catalisa as\\\textbf{reações} (...) cujos \textbf{substratos} são (...) e os \textbf{produtos}\\são (...). O organismo (...) possui as sequências (...) que\\produziram tal enzima.} \\ \hline
+
+\specialcell{Procurar caminho\\entre dois\\metabólitos} & \specialcell{\textbf{U}: Quero saber se um certo metabólito é substrato de\\alguma \textbf{via} \textbf{metabólica} no 2Path cujo produto é um\\outro certo metabólito.} \\ \hline
+\specialcell{> Informar dados\\dos metabólitos} & \specialcell{\textbf{P}: Qual o \textbf{substrato}? Qual o \textbf{produto}?} \\
+&  \specialcell{\textbf{U}: O substrato é (...) e o produto é (...).} \\
+& \specialcell{\textbf{P}: OK. Existe uma via que liga estes dois metabólitos.\\As \textbf{reações} (...) e os \textbf{compostos} (...) estão entre eles.} \\ \hline
+\specialcell{Procurar caminho\\entre dois\\metabólitos\\em organismo} & \specialcell{\textbf{U}: Agora quero verificar se há uma via metabólica entre\\dois metabólitos em um dos meus organismos.} \\ \hline
+> Informar organismo & \specialcell{\textbf{P}: Em qual dos seus \textbf{organismos} você quer buscar essa\\enzima?} \\
+& \specialcell{\textbf{U}: O organismo é (...).} \\ \hline
+\specialcell{> Informar dados\\da metabólitos} & \specialcell{\textbf{P}: Qual o \textbf{substrato}? Qual o \textbf{produto}?} \\
+&  \specialcell{\textbf{U}: O substrato é (...) e o produto é (...).} \\
+& \specialcell{\textbf{P}: OK. Existe uma via que liga estes dois metabólitos.\\O \textbf{organismo} possui as \textbf{sequências} (...) que geram \\as \textbf{enzimas} (...) que, por sua vez, catalisam as \textbf{reações}.\\Estas são as reações que compõem a via metabólica\\e os \textbf{compostos} (...) são seus substratos e produtos.} \\ \hline
+
 \end{tabular}
 \end{table}
 
 \subsection{Mapa de Objetivos}
+
+\indent O 2Path foi desenvolvido considerando que um usuário já fez \textit{login} no sistema e já possui pelo menos um organismo em seu banco de dados particular. Nesse sentido, o usuário possui dois objetivos finais:
+\begin{itemize}
+\item[1]: Verificar se existe uma via metabólica entre dois compostos no banco de dados público do 2Path e/ou em algum de seus organismos privados;
+\item[2]: Verificar se existe uma enzima específica no banco de dados público do 2Path e/ou em algum dos seus organismos privados. 
+\end{itemize}
+
+\indent Para atingir tais objetivos, ele precisa realizar certos objetivos instrumentais diretos e indiretos. Observe que a manipulação do grafo na visualização da via metabólica envolve clicar, mover e passar o mouse por cima nos nós e arestas.
+\begin{itemize}
+\item[Direto]: Informar dois elementos: substrato e produto;
+\item[Direto]: Informar enzima;
+\item[Direto]: Manipular grafo para obter informações sobre os nós e arestas;
+\item[Indireto]: Fazer \textit{login} no sistema (Considerado já feito);
+\item[Indireto]: Fazer \textit{upload} de arquivos FASTA de organismos (Considerado já feito).
+\end{itemize}
+
+\indent A Figura \ref{fig:mapaDeObjetivos} apresenta o Mapa de Objetivos do sistema 2Path construído com base nos objetivos finais e instrumentais (diretos e indiretos) dos usuários. 
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1\textwidth]{mapaDeObjetivos.png}
+    \caption{Mapa de Objetivos}
+    \label{fig:mapaDeObjetivos}
+\end{figure} 
 
 \subsection{Modelagem de Tarefas}
 
@@ -28,12 +72,17 @@ Ação com objetivo generalizado & \specialcell{U: Fala de usuário que precisa 
 \indent 
 \begin{table}
 \centering
-\caption{Busca de elementos no banco de dados do 2Path} \label{prevencaoRecuperacao:2Path}
-\begin{tabular}{|l|l|l|}
+\caption{Campos de entrada dos usuários do sistema 2Path} \label{prevencaoRecuperacao:2Path}
+\begin{tabular}{|l|c|c|}
 \hline
 {\cellcolor[HTML]{DFDFDF}\textbf{Signo}} &  {\cellcolor[HTML]{DFDFDF}\textbf{Prevenção}} &  {\cellcolor[HTML]{DFDFDF}\textbf{Recuperação}}\\ \hline
-Isso & \specialcell{Faz\\isso} & -  \\ \hline
-Aquilo & \specialcell{Faz\\aquilo} & RA\\ \hline
+\specialcell{Seleção de\\organismo}  & \specialcell{PA: Campo obrigatório para\\ formulários ``\textit{Search Enzyme}\\\textit{in Organism}'' e  ``\textit{Search}\\\textit{Pathway in Organism}''.\\Caso o usuário esqueça\\de selecionar este campo,\\o organismo escolhido será o\\primeiro em ordem alfabética.} & -  \\ \hline
+
+\specialcell{Seleção de\\enzima} & \specialcell{PP: Campo obrigatório com\\indicador ``*''} & \specialcell{RA: Mensagem de texto em vermelho \\aparece acima do formulário informando\\o usuário de que o campo obrigatório\\não foi preenchido: ``\textit{Enzyme: Validation}\\\textit{ Error: Value is required}''.} \\ \hline
+
+\specialcell{Seleção de\\substrato} & \specialcell{PP: Campo obrigatório com\\indicador ``*''} & \specialcell{RA: Mensagem de texto em vermelho \\aparece acima do formulário informando\\o usuário de que o campo obrigatório\\não foi preenchido: ``\textit{From: Validation}\\\textit{Error: Value is required.}''.\\O ``From'' significa que a via\\tem início neste metabólito} \\ \hline
+
+\specialcell{Seleção de\\produto} & \specialcell{PP: Campo obrigatório com\\indicador ``*''} & \specialcell{RA: Mensagem de texto em vermelho \\aparece acima do formulário informando\\o usuário de que o campo obrigatório\\não foi preenchido: ``\textit{To: Validation}\\\textit{Error: Value is required.}''.\\O ``To'' significa que a via\\finaliza neste metabólito} \\ \hline
 \end{tabular}
 \end{table}
 
