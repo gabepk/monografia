@@ -8,13 +8,11 @@
 
 \section{Projeto de Interface}
 
-\indent 
+\indent O conjunto de diagramas do projeto de interface apresentam um modelo de elementos do sistema a ser seguido na implementação de fato das páginas \textit{web}. Esses elementos devem ter o propósito de permitir que o usuário atinja seu objetivo, conservando os quatro critérios de qualidade: usabilidade, experiência do usuário, acessibilidade e comunicabilidade.
 
 \subsection{Tabela de Interações}
 
 \indent De acordo com as especificações do capítulo 2, uma tabela de interações deve conter uma simulação de conversa entre o projetista da interface e o usuário que irá interagir com ela. A Tabela \ref{tabelaDeInteracao:2Path} apresenta este conteúdo de maneira simples, de forma a facilitar o entendimento do que se é requisitado pelo usuário. 
-
-\indent Após a criação a tabela, ficou claro quais eram os campos de entrada e saída esperados pelo usuário. Assim, a partir dessa informação foi possível construir mais facilmente os demais diagramas.
 
 \indent 
 \begin{table}
@@ -48,6 +46,8 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
 \end{tabular}
 \end{table}
 
+\indent Após a criação a tabela, ficou claro quais eram os campos de entrada e saída esperados pelo usuário. Assim, a partir dessa informação foi possível construir mais facilmente os demais diagramas.
+
 \subsection{Mapa de Objetivos}
 
 \indent O 2Path foi desenvolvido considerando que um usuário já fez \textit{login} no sistema e já possui pelo menos um organismo em seu banco de dados particular. Nesse sentido, o usuário possui dois objetivos finais:
@@ -67,46 +67,55 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
 
 \indent A Figura \ref{fig:mapaDeObjetivos} apresenta o Mapa de Objetivos do sistema 2Path construído com base nos objetivos finais e instrumentais (diretos e indiretos) dos usuários. 
 
-\begin{figure}[!h]
-    \centering
-    \includegraphics[width=1\textwidth]{mapaDeObjetivos.png}
-    \caption{Mapa de Objetivos}
-    \label{fig:mapaDeObjetivos}
-\end{figure} 
-
 \subsection{Modelagem de Tarefas}
 
-\indent 
+\indent A partir do mapa de objetivos, têm-se uma ideia geral da navegação do site, uma vez que foi feito um mapeamento generalizado das sequências de passos para atingi-los. O propósito da modelagem de tarefas é, portanto, formularizar essa sequências de passos de maneira específica para cada objetivo final. 
 
+\indent No caso, foram elaborados dois objetivos finais: Verificar via metabólica entre dois metabólitos no banco de dados; Verificar existência de enzima no banco de dados. Entretanto a pequisa pode ser feita tanto no banco de dados completo do 2Path, quanto na rede metabólica construída para um organismo específico. Assim, esses objetivos finais foram subdivididos em dois na modelagem de tarefas: Verificar se enzima está no banco de dados público do 2Path (Figura \ref{fig:objetivo_enzyma}); Verificar se enzima está no banco de dados privado (Figura \ref{fig:objetivo_enzyma_organismo}); Verificar se há via entre dois metabólitos no banco de dados público (Figura \ref{fig:objetivo_pathway}); Verificar se há via metabólica no banco de dados privado (Figura \ref{fig:objetivo_pathway_organismo});
+
+\newpage 
+\begin{figure}[!h] % ESSA FIGURA EH DA SUBSECAO ANTERIOR QUE VEIO PARAR AQUI EM BAIXO NO PDF
+    \centering
+    \includegraphics[width=1\textwidth]{mapaDeObjetivos.png}
+    \caption{Mapa de objetivos finais e intrumentais.}
+    \label{fig:mapaDeObjetivos}
+\end{figure} 
 \begin{figure}[!h]
     \centering
     \includegraphics[width=0.8\textwidth]{objetivo_enzima.png}
-    \caption{Objetivo de pesquisar enzima no banco de dados público.}
+    \caption{Objetivo de pesquisar enzima no banco de dados completo do 2Path.}
     \label{fig:objetivo_enzyma}
 \end{figure}
+\break
 
 \begin{figure}[!h]
     \centering
     \includegraphics[width=1\textwidth]{objetivo_enzima_organismo.png}
-    \caption{Objetivo de pesquisar enzima no banco de dados privado.}
+    \caption{Objetivo de pesquisar enzima no banco de dados específico para a rede metabólica construída a partir do organismo do usuário.}
     \label{fig:objetivo_enzyma_organismo}
 \end{figure}
 
 \begin{figure}[!h]
     \centering
     \includegraphics[width=1\textwidth]{objetivo_pathway.png}
-    \caption{Objetivo de pesquisar via metabólica entre substrato e produto no banco de dados público.}
+    \caption{Objetivo de pesquisar via metabólica entre substrato e produto no banco de dados completo do 2Path.}
     \label{fig:objetivo_pathway}
 \end{figure}
-
+\break
 \begin{figure}[!h]
     \centering
     \includegraphics[width=1\textwidth]{objetivo_pathway_organismo.png}
-    \caption{Objetivo de pesquisar via metabólica entre substrato e produto no banco de dados público.}
+    \caption{Objetivo de pesquisar via metabólica entre substrato e produto no banco de dados  específico para a rede metabólica construída a partir do organismo do usuário.}
     \label{fig:objetivo_pathway_organismo}
 \end{figure}
 
 \subsection{Tratamento de Rupturas na Comunicação}
+
+\indent A Tabela \ref{prevencaoRecuperacao:2Path} apresenta as medidas tomadas para prevenção e recuperação de falhas de comunicação na interface do 2Path, assim como especificado no Capítulo 2. Nela, PP significa a prevenção passiva, PA siginifica prevenção ativa e RA significa recuperação apoiada. 
+
+\indent Não houve nenhum tipo de prevenção apoiada, pois não foi observado tipo de interação que o usuário possa fazer que cause dano grave como, por exemplo, excluir um arquivo. Quando este projeto evoluir, esse tipo de prevenção pode ser aplicada, por exemplo, ao se tratar o \textit{upload} de um arquivo FASTA, onde o projetista deverá verificar se existe um organismo com o mesmo nome já no banco de dados privado do usuário. 
+
+\indent Também não foi constatado a necessidade de implementar captura de erro, uma vez que todas as possíveis rupturas observadas são tratáveis por meio de mensagens de erro.
 
 \indent 
 \begin{table}
@@ -138,11 +147,8 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
 
 \indent As páginas da aplicação foram desenvolvidas na linguagem de marcação XHTML, \textit{Extensible Hypertext Markup Language}, e a estilzação em CSS, \textit{Cascading Style Sheets}. Para conexão entre \textit{front-end} e \textit{back-end} foram utilizados JSF\footnote{Especificação Java para criação de componentes de interface de aplicação \textit{web}.}, Primefaces\footnote{Biblioteca com uma coleção de componentes de interface voltadas para JSF.}, e AngularJS, para a construção do grafo de vias metabólicas.
 
-\indent JSF: \url{https://projetos.inf.ufsc.br/arquivos_projetos/projeto_1214/Ferramenta\%20de\%20mapeamento\%20de\%20UIDs\%20para\%20JSF.pdf}
 
-\indent CORES: \url{http://www.hermancerrato.com/graphic-design/images/color-images/the-meaning-of-colors-book.pdf}, \url{http://www.awwwards.com/trendy-web-color-palettes-and-material-design-color-schemes-tools.html}, \url{https://medium.com/wdstack/how-the-bootstrap-grid-really-works-471d7a089cfc#.k7w39z2uh}
 
-% Communication websites which market to individual customers on a one-to-one basis would benefit with some blue in their marketing. Hi-tech and computer technology businesses can benefit from most shades of blue combined with gray.
 
 \subsection{Banco de Dados Neo4j}
 

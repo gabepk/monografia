@@ -280,7 +280,7 @@
 \indent \colorbox{yellow}{Pathway Maps $\mapsto$ 1. Metabolism  $\Rightarrow$} \\
 \indent \colorbox{yellow}{1.9 Metabolism of terpenoids and polyketides  $\mapsto$ Terpenoid backbone biosynthesis} \\
 
-\break
+\newpage
 
 \begin{figure}[!h]
 \centering
@@ -289,7 +289,7 @@
 \label{terpenoidBackboneKEGG}
 \end{figure}
 
-\newpage
+\break
 
 % ____________________________________________________________________
 % ____________________________________________________________________
@@ -307,15 +307,15 @@
 \indent \colorbox{yellow}{Metabolism $\mapsto$ Browse Pathway Ontology $\Rightarrow$} \\
 \indent \colorbox{yellow}{Pathways $\mapsto$ Bioluminescence (1 instances) $\mapsto$ bacterial bioluminescence} \\
 
-\indent Cada nó das vias metabólicas, quando clicado, redireciona o usuário para uma página com mais detalhes sobre o objeto, que pode ser outra via, um composto químico ou uma enzima, por exemplo. A Figura \ref{bioLuz_id} é uma modificação da Figura \ref{fig:bioLuz} apresentando diretamente o conjunto destes elementos.
-
+\indent Cada nó das vias metabólicas, quando clicado, redireciona o usuário para uma página com mais detalhes sobre o objeto, que pode ser outra via, um composto químico ou uma enzima, por exemplo. A Figura \ref{bioLuz_id} é uma modificação da Figura \ref{fig:bioLuz} apresentando diretamente o conjunto destes elementos. \\
+\newpage
 \begin{figure}[!h]
 \centering
 \includegraphics[width=1\textwidth]{bioLuz_id.png}
 \caption{Representação modificada da Figura \ref{fig:bioLuz} com maior nível de detalhes apresentada pelo MetaCyc.}
 \label{bioLuz_id}
 \end{figure}
-
+\break
 % ____________________________________________________________________
 % ____________________________________________________________________
 % ____________________________________________________________________
@@ -325,14 +325,8 @@
 
 \indent O \textit{2Path} é um banco de dados de redes metabólicas de terpenoides. Ele possui milhares de reações de metabolismos secundários, preservando, assim, as principais características de biossíntese dos terpenos~\cite{waldeyr}. O 2Path foi modelado em uma banco de dados não-relacional baseado em grafos, onde os nós são enzimas, reações, cofatores, compostos, compartimento celular e organismos. A relação entre os nós é apresentada na Figura \ref{2PathDB}.
 
-\begin{figure}[!h]
-\centering
-\includegraphics[width=0.75\textwidth]{2PathDB.png}
-\caption{Modelo do banco de dados 2Path.}
-\label{2PathDB}
-\end{figure}
-
 \indent O \textit{2Path} foi constituído a partir de dados obtidos de outros bancos. Dessa forma, a maioria dos nós e arestas possuem propriedades que fazem referências aos mesmos. A enzima, por exemplo, possui um nome, um número EC\footnote{O número\textit{Enzyme Commission} (EC) é um esquema de classificação de enzimas.} e referências para seus dados nos bancos \textit{Universal Protein Resource} (Uniprot) e Brenda - \textit{Comprehensive Enzyme Information system}. 
+
 
 \indent A modelagem em grafo do 2Path foi feita de tal forma a permitir a obtenção de respostas das seguintes questões biológicas~\cite{waldeyr}:	
 
@@ -345,5 +339,12 @@
 
 \indent A \textit{feature} mais nova do \textit{2Path}, que ainda está em fase de teste, é um sistema que permite a construção de uma rede metabólica de terpenoide a partir do genoma de um organismo. Para isso, os usuários do sistema deveriam fazer \textit{upload} de seus arquivos FASTA, cada um contendo sequências de nucleotídeos do genoma um organismo. Então, o banco retornaria uma rede metabólica para cada organismo, construídos de acordo com as reações que as enzimas mapeadas pelas sequências catalisam.
 
-\indent Entretando, o \textit{2Path} ainda não possui uma interface para lidar com os usuários desse sistema que está sendo desenvolvido. Este trabalho propõe uma interface que permita que os usuários obtenham as respostas das questões biológicas que o banco de dados 2Path é capaz de responder. 
+\indent Entretando, o \textit{2Path} ainda não possui uma interface para lidar com os usuários desse sistema que está sendo desenvolvido. Este trabalho propõe uma interface que permita que os usuários obtenham as respostas das questões biológicas que o banco de dados 2Path é capaz de responder. \\
+\newpage
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.75\textwidth]{2PathDB.png}
+\caption{Modelo do banco de dados 2Path.}
+\label{2PathDB}
+\end{figure}
 

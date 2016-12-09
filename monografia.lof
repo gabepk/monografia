@@ -20,13 +20,13 @@
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Vis\IeC {\~a}o geral da rede metab\IeC {\'o}lica de refer\IeC {\^e}ncia do KEGG, com destaque na via metab\IeC {\'o}lica de bioss\IeC {\'\i }ntese do \textit {backbone} de terpen\IeC {\'o}ides. A interface pode ser dividida nas se\IeC {\c c}\IeC {\~o}es [1], [2] e [3].\relax }}{28}{figure.caption.24}
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Via metab\IeC {\'o}lica de bioss\IeC {\'\i }ntese do \textit {backbone} de terpen\IeC {\'o}ides apresentada pela ferramenta de visualiza\IeC {\c c}\IeC {\~a}o do KEGG.\relax }}{30}{figure.caption.25}
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o modificada da Figura \ref {fig:bioLuz} com maior n\IeC {\'\i }vel de detalhes apresentada pelo MetaCyc.\relax }}{32}{figure.caption.26}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Modelo do banco de dados 2Path.\relax }}{33}{figure.caption.27}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Modelo do banco de dados 2Path.\relax }}{34}{figure.caption.27}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Mapa de Objetivos\relax }}{37}{figure.caption.29}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Objetivo de pesquisar enzima no banco de dados p\IeC {\'u}blico.\relax }}{39}{figure.caption.30}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Objetivo de pesquisar enzima no banco de dados privado.\relax }}{39}{figure.caption.31}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Objetivo de pesquisar via metab\IeC {\'o}lica entre substrato e produto no banco de dados p\IeC {\'u}blico.\relax }}{40}{figure.caption.32}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Objetivo de pesquisar via metab\IeC {\'o}lica entre substrato e produto no banco de dados p\IeC {\'u}blico.\relax }}{40}{figure.caption.33}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Mapa de objetivos finais e intrumentais.\relax }}{38}{figure.caption.29}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Objetivo de pesquisar enzima no banco de dados completo do 2Path.\relax }}{38}{figure.caption.30}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Objetivo de pesquisar enzima no banco de dados espec\IeC {\'\i }fico para a rede metab\IeC {\'o}lica constru\IeC {\'\i }da a partir do organismo do usu\IeC {\'a}rio.\relax }}{39}{figure.caption.31}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Objetivo de pesquisar via metab\IeC {\'o}lica entre substrato e produto no banco de dados completo do 2Path.\relax }}{39}{figure.caption.32}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Objetivo de pesquisar via metab\IeC {\'o}lica entre substrato e produto no banco de dados espec\IeC {\'\i }fico para a rede metab\IeC {\'o}lica constru\IeC {\'\i }da a partir do organismo do usu\IeC {\'a}rio.\relax }}{40}{figure.caption.33}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

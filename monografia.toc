@@ -19,7 +19,7 @@
 \contentsline {subsection}{\numberline {2.3.1}Tabela de Intera\IeC {\c c}\IeC {\~o}es}{11}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Mapa de Objetivos}{12}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Modelagem de Tarefas}{13}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Tratamento de Rupturas na Comunica\IeC {\c c}\IeC {\~a}o}{15}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.4}Tratamento de Rupturas na Comunica\IeC {\c c}\IeC {\~a}o}{14}{subsection.2.3.4}
 \contentsline {chapter}{\numberline {3}Redes Metab\IeC {\'o}licas}{16}{chapter.3}
 \contentsline {section}{\numberline {3.1}Conceitos B\IeC {\'a}sicos de Biologia Molecular}{16}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}\IeC {\'A}cidos Nucleicos}{16}{subsection.3.1.1}
@@ -30,24 +30,24 @@
 \contentsline {subsection}{\numberline {3.2.2}Metabolismo Secund\IeC {\'a}rio}{22}{subsection.3.2.2}
 \contentsline {section}{\numberline {3.3}Visualiza\IeC {\c c}\IeC {\~a}o de Redes Metab\IeC {\'o}licas}{24}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Reactome, KEGG e BioCyc}{25}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}2Path}{31}{subsection.3.3.2}
-\contentsline {chapter}{\numberline {4}2Path}{35}{chapter.4}
+\contentsline {subsection}{\numberline {3.3.2}2Path}{33}{subsection.3.3.2}
+\contentsline {chapter}{\numberline {4}Interface do 2Path}{35}{chapter.4}
 \contentsline {section}{\numberline {4.1}Projeto de Interface}{35}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Tabela de Intera\IeC {\c c}\IeC {\~o}es}{35}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Mapa de Objetivos}{35}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.2}Mapa de Objetivos}{37}{subsection.4.1.2}
 \contentsline {subsection}{\numberline {4.1.3}Modelagem de Tarefas}{37}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Tratamento de Rupturas na Comunica\IeC {\c c}\IeC {\~a}o}{37}{subsection.4.1.4}
-\contentsline {section}{\numberline {4.2}Detalhes de Implementa\IeC {\c c}\IeC {\~a}o}{39}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Banco de Dados Neo4j}{41}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Desafios}{41}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Avalia\IeC {\c c}\IeC {\~a}o da Interface}{41}{section.4.3}
-\contentsline {chapter}{\numberline {5}Resultados}{42}{chapter.5}
-\contentsline {section}{\numberline {5.1}Interface}{42}{section.5.1}
-\contentsline {section}{\numberline {5.2}Avalia\IeC {\c c}\IeC {\~a}o e Discuss\IeC {\~a}o}{42}{section.5.2}
-\contentsline {chapter}{\numberline {6}Conclus\IeC {\~a}o e Trabalhos Futuros}{43}{chapter.6}
-\contentsline {section}{\numberline {6.1}Conclus\IeC {\~a}o}{43}{section.6.1}
-\contentsline {section}{\numberline {6.2}Trabalhos Futuros}{43}{section.6.2}
-\contentsline {chapter}{\numberline {A}Question\IeC {\'a}rios de dados pessoais dos bi\IeC {\'o}logos}{44}{appendix.A}
-\contentsline {chapter}{\numberline {B}Tarefas realizadas pelos bi\IeC {\'o}logos no sistema 2Path}{46}{appendix.B}
-\contentsline {chapter}{\numberline {C}Question\IeC {\'a}rios de interface conforme o M\IeC {\'e}todo de Avalia\IeC {\c c}\IeC {\~a}o de Comunicabilidade}{48}{appendix.C}
-\contentsline {chapter}{Refer\^encias}{50}{section*.35}
+\contentsline {subsection}{\numberline {4.1.4}Tratamento de Rupturas na Comunica\IeC {\c c}\IeC {\~a}o}{40}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Detalhes de Implementa\IeC {\c c}\IeC {\~a}o}{40}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Banco de Dados Neo4j}{42}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Desafios}{42}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Avalia\IeC {\c c}\IeC {\~a}o da Interface}{42}{section.4.3}
+\contentsline {chapter}{\numberline {5}Resultados}{43}{chapter.5}
+\contentsline {section}{\numberline {5.1}Interface}{43}{section.5.1}
+\contentsline {section}{\numberline {5.2}Avalia\IeC {\c c}\IeC {\~a}o e Discuss\IeC {\~a}o}{43}{section.5.2}
+\contentsline {chapter}{\numberline {6}Conclus\IeC {\~a}o e Trabalhos Futuros}{44}{chapter.6}
+\contentsline {section}{\numberline {6.1}Conclus\IeC {\~a}o}{44}{section.6.1}
+\contentsline {section}{\numberline {6.2}Trabalhos Futuros}{44}{section.6.2}
+\contentsline {chapter}{\numberline {A}Question\IeC {\'a}rios de dados pessoais dos bi\IeC {\'o}logos}{45}{appendix.A}
+\contentsline {chapter}{\numberline {B}Tarefas realizadas pelos bi\IeC {\'o}logos no sistema 2Path}{47}{appendix.B}
+\contentsline {chapter}{\numberline {C}Question\IeC {\'a}rios de interface conforme o M\IeC {\'e}todo de Avalia\IeC {\c c}\IeC {\~a}o de Comunicabilidade}{49}{appendix.C}
+\contentsline {chapter}{Refer\^encias}{51}{section*.35}
