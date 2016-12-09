@@ -64,8 +64,8 @@ Aline~Marques da~Silva~Almeida.
 \newblock Vivendo uma nova era: a tecnologia e o homem, ambos integrantes de
   uma sociedade que progride rumo ao desenvolvimento, 2014.
 \newblock
-  \url{http://www.seduc.mt.gov.br/Paginas/Vivendo-uma-nova-era-a-tecnologia-e-o-homem,-ambos-integrantes-de-uma-sociedade-que-progride-rumo-ao-desenvolvimento.aspx},
-  visitado em 2016-11-20.
+  \url{http://www.seduc.mt.gov.br/Paginas/Vivendo-uma-nova-era-a-tecnologia-e-o-homem,-ambos-integrantes-de-uma-sociedade-que-progride-rumo-ao-
+  desenvolvimento.aspx}, visitado em 2016-11-20.
 
 \bibitem{semiose01}
 Claudio~Manoel de~Carvalho~Correia.
@@ -73,6 +73,12 @@ Claudio~Manoel de~Carvalho~Correia.
   construção dos processos sígnicos em seqüências lógicas, 2001.
 \newblock \url{http://www.filologia.org.br/vicnlf/anais/semiose.html}, visitado
   em 2016-10-06.
+
+\bibitem{reacaoBioUSP}
+Prof. Dr. Luiz~Antonio Gallo.
+\newblock Bioquímica - enzimas.
+\newblock \url{http://docentes.esalq.usp.br/luagallo/enzimas.html}, visitado em
+  2016-12-08.
 
 \bibitem{kabera14}
 Justin~N. Kabera, Edmond Semana, Ally~R. Mussa, and Xin He.
@@ -87,8 +93,8 @@ Vincent Lacroix, Ludovic Cottret, Patricia Thébault, and Marie-France Sagot.
   2008.
 
 \bibitem{LauraProteinas07}
-José G. Sampedro y Hugo~Nájera Laura González-Torres, Alfredo
-  Téllez-Valencia.
+José G.~Sampedro Laura González-Torres, Alfredo Téllez-Valencia and Hugo
+  Nájera.
 \newblock Las proteínas en la nutricíon.
 \newblock {\em Respyn - Revista Salud Pública y Nutrición}, 8, 2007.
 
@@ -101,13 +107,18 @@ Nicole Legault.
 
 \bibitem{Cap2schomburg}
 Gerhard Michal and Dietmar Schomburg.
-\newblock {\em The Cell and Its Contents}, pages 14--36.
+\newblock {\em The Cell and Its Contents}.
 \newblock John Wiley \& Sons, Inc., 2012.
 
 \bibitem{mount01}
 David~W. Mount.
 \newblock {\em Bioinformatics : sequence and genome analysis}.
 \newblock Cold Spring Harbor, N.Y. Cold Spring Harbor Laboratory Press, 2001.
+
+\bibitem{pireddu06}
+Luca Pireddu, Duane Szafron, Paul Lu, and Russell Greiner.
+\newblock The path-a metabolic pathway prediction web server.
+\newblock {\em Nucleic Acids Research}, 34(Web-Server-Issue):714--719, 2006.
 
 \bibitem{dnadiscovery08}
 Leslie~A. Pray.
@@ -121,11 +132,16 @@ João~Carlos Setubal and João Meidanis.
 \newblock {\em Introduction to computational molecular biology.}
 \newblock PWS Publishing Company, 1997.
 
+\bibitem{waldeyr}
+Waldeyr Silva, Marcelo Brígido, Danilo Vilar, Daniel Souza, Maria~Emília
+  Walter, and Maristela Holanda.
+\newblock 2path: a terpenoid metabolic network modeled as graph database.
+
 \bibitem{Cap3schomburg}
 Röbbe Wünschiers, Martina Jahn, Dieter Jahn, Ida Schomburg, Susanne Peifer,
   Elmar Heinzle, Helmut Burtscher, Julia Garbe, Annika Steen, Max Schobert,
   Dieter Oesterhelt, Josef Wachtveitl, and Antje Chang.
-\newblock {\em Metabolism}, pages 37--209.
+\newblock {\em Metabolism}.
 \newblock John Wiley \& Sons, Inc., 2012.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-\chapter{2Path}
+\chapter{Interface do 2Path}
 
 \indent Este capítulo apresenta o sistema 2Path desenvolvido neste projeto utilizando as informações dos capítulos 2 e 3. São descritos quatro elementos de IHC utilizados para definir o escopo do trabalho. A tabela de interações representa de forma simples a metacomunicação. A partir dela é possível estabelecer os objetivos finais e instrumentais, organizados em um diagrama chamado mapa de objetivos. Uma vez conhecendo os motivos de os usuários utilizarem o sistema, o projetista utiliza os diagramas de modelagem de tarefas para representar de forma abstrata a navegação pelo sistema do ponto de vista de cada tipo de usuário. Por fim, a tabela de tratamento de rupturas na comunicação tem o objetivos de documentar os métodos utilizados para impedir / prevenir / recuperar erros cometidos pelo usuário ao interagir com o sistema.
 
@@ -11,6 +11,10 @@
 \indent 
 
 \subsection{Tabela de Interações}
+
+\indent De acordo com as especificações do capítulo 2, uma tabela de interações deve conter uma simulação de conversa entre o projetista da interface e o usuário que irá interagir com ela. A Tabela \ref{tabelaDeInteracao:2Path} apresenta este conteúdo de maneira simples, de forma a facilitar o entendimento do que se é requisitado pelo usuário. 
+
+\indent Após a criação a tabela, ficou claro quais eram os campos de entrada e saída esperados pelo usuário. Assim, a partir dessa informação foi possível construir mais facilmente os demais diagramas.
 
 \indent 
 \begin{table}
@@ -53,13 +57,13 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
 \end{itemize}
 
 \indent Para atingir tais objetivos, ele precisa realizar certos objetivos instrumentais diretos e indiretos. Observe que a manipulação do grafo na visualização da via metabólica envolve clicar, mover e passar o mouse por cima nos nós e arestas.
-\begin{itemize}
+\begin{description}
 \item[Direto]: Informar dois elementos: substrato e produto;
 \item[Direto]: Informar enzima;
 \item[Direto]: Manipular grafo para obter informações sobre os nós e arestas;
 \item[Indireto]: Fazer \textit{login} no sistema (Considerado já feito);
 \item[Indireto]: Fazer \textit{upload} de arquivos FASTA de organismos (Considerado já feito).
-\end{itemize}
+\end{description}
 
 \indent A Figura \ref{fig:mapaDeObjetivos} apresenta o Mapa de Objetivos do sistema 2Path construído com base nos objetivos finais e instrumentais (diretos e indiretos) dos usuários. 
 
@@ -71,6 +75,8 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
 \end{figure} 
 
 \subsection{Modelagem de Tarefas}
+
+\indent 
 
 \begin{figure}[!h]
     \centering
@@ -146,3 +152,6 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
 O que foi o trabalho. 
 Decrever todo o ambiente usado
 Neste capítulo serão apresentados os primeiros resultados experimentais obtidos.
+
+\section{Avaliação da Interface}
+

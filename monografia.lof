@@ -3,28 +3,32 @@
 \select@language {brazil}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Exemplo de tipos de caixa de texto que representam o mesmo campo (Nome) por\IeC {\'e}m com n\IeC {\'\i }veis de \textit {affordance} diferentes, sendo que o \IeC {\'u}ltimo apresenta melhor o objetivo da caixa e, portanto, ela \IeC {\'e} reconhecida mais facilmente. Adaptado de \cite {affordance}.\relax }}{5}{figure.caption.8}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces \relax }}{13}{figure.caption.11}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces ExemploS de tipos de caixa de texto que representam o mesmo campo (Nome) por\IeC {\'e}m com n\IeC {\'\i }veis de \textit {affordance} diferentes, sendo que o \IeC {\'u}ltimo apresenta melhor o objetivo da caixa e, portanto, ela \IeC {\'e} reconhecida mais facilmente. Adaptado de~\cite {affordance}.\relax }}{5}{figure.caption.8}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o generalizada do mapa de objetivos.\relax }}{13}{figure.caption.11}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Estruturas de tarefas (a) sequencial, (b) independente de ordem, (c) alternativa, (d) iterativa, (e) ub\IeC {\'\i }qua e (f) opcional.\relax }}{14}{figure.caption.12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Nucleot\IeC {\'\i }deo com grupo fosfato (P), pentose abaixo \IeC {\`a} esquerda e base nitrogenada G (no caso a Guanina). Adaptado de \cite {dnadiscovery08}. \relax }}{17}{figure.caption.13}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o das duas fitas de ADN, que se ligam por pontes de hidrog\IeC {\^e}nio entre os nucleot\IeC {\'\i }deos. Adaptado de \cite {dnadiscovery08}.\relax }}{18}{figure.caption.14}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Quatro estruturas de prote\IeC {\'\i }nas. As unidades esf\IeC {\'e}ricas na estrutura prim\IeC {\'a}ria representa os amino\IeC {\'a}cidos da prote\IeC {\'\i }na. Adaptado de \cite {drug09}.\relax }}{19}{figure.caption.15}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o da etapa final da s\IeC {\'\i }ntese de prote\IeC {\'\i }na, que sempre finaliza com o c\IeC {\'o}don UGA. Adaptado de \cite {proteinSyntesis}.\relax }}{20}{figure.caption.16}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Exemplo de via metab\IeC {\'o}lica retirado do site MetaCyC. Esta representa o processo de produ\IeC {\c c}\IeC {\~a}o da bioluminesc\IeC {\^e}ncia de bact\IeC {\'e}rias \cite {examplePathway}. \relax }}{22}{figure.caption.18}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces A c\IeC {\'e}lula que se divide por meio de mitose gera duas outras c\IeC {\'e}lulas id\IeC {\^e}nticas \IeC {\`a} original. A c\IeC {\'e}lula que se divide por meio de meiose gera quatro c\IeC {\'e}lulas, cada uma com metade do material gen\IeC {\'e}tico da c\IeC {\'e}lula original. Adaptado de \cite {mitoseMeiose}. \relax }}{22}{figure.caption.19}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Um exemplo de elemento qu\IeC {\'\i }mico para cada classe, ou grupo, de metabolismo secund\IeC {\'a}rio.\relax }}{23}{figure.caption.20}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Vis\IeC {\~a}o geral da rede metab\IeC {\'o}lica do \textit {Homo sapiens} do Reactome, com destaque na via metab\IeC {\'o}lica de remo\IeC {\c c}\IeC {\~a}o do Orc1 da cromatina do processo de regula\IeC {\c c}\IeC {\~a}o da replica\IeC {\c c}\IeC {\~a}o do ADN. A interface pode ser dividida nas se\IeC {\c c}\IeC {\~o}es [1], [2], [3] e [4].\relax }}{25}{figure.caption.21}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Via metab\IeC {\'o}lica de remo\IeC {\c c}\IeC {\~a}o do Orc1 da cromatina apresentada pela ferramenta de visualiza\IeC {\c c}\IeC {\~a}o do Reactome.\relax }}{26}{figure.caption.22}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Vis\IeC {\~a}o geral da rede metab\IeC {\'o}lica de refer\IeC {\^e}ncia do KEGG, com destaque na via metab\IeC {\'o}lica de bioss\IeC {\'\i }ntese do \textit {backbone} de terpen\IeC {\'o}ides. A interface pode ser dividida nas se\IeC {\c c}\IeC {\~o}es [1], [2] e [3].\relax }}{28}{figure.caption.23}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Via metab\IeC {\'o}lica de bioss\IeC {\'\i }ntese do \textit {backbone} de terpen\IeC {\'o}ides apresentada pela ferramenta de visualiza\IeC {\c c}\IeC {\~a}o do KEGG.\relax }}{29}{figure.caption.24}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o modificada da Figura \ref {fig:bioLuz} com maior n\IeC {\'\i }vel de detalhes apresentada pelo MetaCyc.\relax }}{31}{figure.caption.25}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Nucleot\IeC {\'\i }deo com grupo fosfato (P), pentose abaixo \IeC {\`a} esquerda e base nitrogenada G (no caso a Guanina). Adaptado de~\cite {dnadiscovery08}. \relax }}{17}{figure.caption.13}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o das duas fitas de ADN, que se ligam por pontes de hidrog\IeC {\^e}nio entre os nucleot\IeC {\'\i }deos. Adaptado de~\cite {dnadiscovery08}.\relax }}{18}{figure.caption.14}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Quatro estruturas de prote\IeC {\'\i }nas. As unidades esf\IeC {\'e}ricas na estrutura prim\IeC {\'a}ria representam os amino\IeC {\'a}cidos da prote\IeC {\'\i }na. Adaptado de~\cite {drug09}.\relax }}{19}{figure.caption.15}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o da etapa final da s\IeC {\'\i }ntese de prote\IeC {\'\i }na, que sempre finaliza com o c\IeC {\'o}don UGA, UAA ou UAG. Adaptado de~\cite {proteinSyntesis}.\relax }}{20}{figure.caption.16}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o de uma rea\IeC {\c c}\IeC {\~a}o bioqu\IeC {\'\i }mica catalisada por uma enzima. Adaptado de~\cite {reacaoBioUSP}\relax }}{21}{figure.caption.18}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Exemplo de via metab\IeC {\'o}lica retirado do MetaCyC~\cite {examplePathway}, que representa o processo de produ\IeC {\c c}\IeC {\~a}o da bioluminesc\IeC {\^e}ncia de bact\IeC {\'e}rias.\relax }}{22}{figure.caption.19}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces A c\IeC {\'e}lula que se divide por meio de mitose gera duas outras c\IeC {\'e}lulas id\IeC {\^e}nticas \IeC {\`a} original. A c\IeC {\'e}lula que se divide por meio de meiose gera quatro c\IeC {\'e}lulas, cada uma com metade do material gen\IeC {\'e}tico da c\IeC {\'e}lula original. Adaptado de~\cite {mitoseMeiose}. \relax }}{23}{figure.caption.20}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Um exemplo de elemento qu\IeC {\'\i }mico para cada classe, ou grupo, de metabolismo secund\IeC {\'a}rio.\relax }}{24}{figure.caption.21}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Vis\IeC {\~a}o geral da rede metab\IeC {\'o}lica do \textit {Homo sapiens} do Reactome, com destaque na via metab\IeC {\'o}lica de remo\IeC {\c c}\IeC {\~a}o do Orc1 da cromatina do processo de regula\IeC {\c c}\IeC {\~a}o da replica\IeC {\c c}\IeC {\~a}o do ADN. A interface pode ser dividida nas se\IeC {\c c}\IeC {\~o}es [1], [2], [3] e [4].\relax }}{26}{figure.caption.22}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Via metab\IeC {\'o}lica de remo\IeC {\c c}\IeC {\~a}o do Orc1 da cromatina apresentada pela ferramenta de visualiza\IeC {\c c}\IeC {\~a}o do Reactome.\relax }}{27}{figure.caption.23}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Vis\IeC {\~a}o geral da rede metab\IeC {\'o}lica de refer\IeC {\^e}ncia do KEGG, com destaque na via metab\IeC {\'o}lica de bioss\IeC {\'\i }ntese do \textit {backbone} de terpen\IeC {\'o}ides. A interface pode ser dividida nas se\IeC {\c c}\IeC {\~o}es [1], [2] e [3].\relax }}{28}{figure.caption.24}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Via metab\IeC {\'o}lica de bioss\IeC {\'\i }ntese do \textit {backbone} de terpen\IeC {\'o}ides apresentada pela ferramenta de visualiza\IeC {\c c}\IeC {\~a}o do KEGG.\relax }}{30}{figure.caption.25}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Representa\IeC {\c c}\IeC {\~a}o modificada da Figura \ref {fig:bioLuz} com maior n\IeC {\'\i }vel de detalhes apresentada pelo MetaCyc.\relax }}{32}{figure.caption.26}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Modelo do banco de dados 2Path.\relax }}{33}{figure.caption.27}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Mapa de Objetivos\relax }}{34}{figure.caption.27}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Objetivo de pesquisar enzima no banco de dados p\IeC {\'u}blico.\relax }}{36}{figure.caption.28}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Objetivo de pesquisar enzima no banco de dados privado.\relax }}{36}{figure.caption.29}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Objetivo de pesquisar via metab\IeC {\'o}lica entre substrato e produto no banco de dados p\IeC {\'u}blico.\relax }}{37}{figure.caption.30}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Objetivo de pesquisar via metab\IeC {\'o}lica entre substrato e produto no banco de dados p\IeC {\'u}blico.\relax }}{37}{figure.caption.31}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Mapa de Objetivos\relax }}{37}{figure.caption.29}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Objetivo de pesquisar enzima no banco de dados p\IeC {\'u}blico.\relax }}{39}{figure.caption.30}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Objetivo de pesquisar enzima no banco de dados privado.\relax }}{39}{figure.caption.31}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Objetivo de pesquisar via metab\IeC {\'o}lica entre substrato e produto no banco de dados p\IeC {\'u}blico.\relax }}{40}{figure.caption.32}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Objetivo de pesquisar via metab\IeC {\'o}lica entre substrato e produto no banco de dados p\IeC {\'u}blico.\relax }}{40}{figure.caption.33}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

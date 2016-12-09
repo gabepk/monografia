@@ -3,7 +3,7 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: monografia.aux
 The style file: plain.bst
 Database file #1: monografia.bib
-I was expecting a `,' or a `}'---line 376 of file monografia.bib
+I was expecting a `,' or a `}'---line 404 of file monografia.bib
  :    
  :    month = "Julho",
 (Error may have been on previous line)
@@ -14,45 +14,49 @@ Warning--to sort, need author or key in reactomeUsersguide
 Warning--to sort, need author or key in keggOverview
 Warning--to sort, need author or key in biocycIntro
 Warning--can't use both author and editor fields in IHCbook
-You've used 22 entries,
+Warning--empty chapter and pages in Cap2schomburg
+Warning--empty booktitle in waldeyr
+Warning--empty year in waldeyr
+Warning--empty chapter and pages in Cap3schomburg
+You've used 25 entries,
             2118 wiz_defined-function locations,
-            628 strings with 8368 characters,
-and the built_in function-call counts, 5666 in all, are:
-= -- 519
-> -- 246
-< -- 2
-+ -- 104
-- -- 80
-* -- 302
-:= -- 902
-add.period$ -- 61
-call.type$ -- 22
-change.case$ -- 101
+            644 strings with 9082 characters,
+and the built_in function-call counts, 6404 in all, are:
+= -- 568
+> -- 315
+< -- 0
++ -- 132
+- -- 104
+* -- 365
+:= -- 1047
+add.period$ -- 69
+call.type$ -- 25
+change.case$ -- 122
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 210
-empty$ -- 526
-format.name$ -- 80
-if$ -- 1217
+cite$ -- 35
+duplicate$ -- 227
+empty$ -- 580
+format.name$ -- 104
+if$ -- 1344
 int.to.chr$ -- 0
-int.to.str$ -- 22
-missing$ -- 14
-newline$ -- 108
-num.names$ -- 34
-pop$ -- 207
+int.to.str$ -- 25
+missing$ -- 16
+newline$ -- 122
+num.names$ -- 40
+pop$ -- 242
 preamble$ -- 1
-purify$ -- 84
+purify$ -- 102
 quote$ -- 0
 skip$ -- 161
 stack$ -- 0
-substring$ -- 234
-swap$ -- 37
-text.length$ -- 2
+substring$ -- 224
+swap$ -- 26
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 78
-warning$ -- 6
-while$ -- 45
-width$ -- 24
-write$ -- 209
+type$ -- 90
+warning$ -- 10
+while$ -- 47
+width$ -- 27
+write$ -- 234
 (There was 1 error message)

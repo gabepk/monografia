@@ -1,51 +1,33 @@
 \chapter{Introdução}
 
-% Dogma central
+\indent Desde a descoberta da estrutura helicoidal do DNA, por Watson e Crick~\cite{setubal97} em 1953, várias linhas de pesquisas em Biologia Molecular foram desencadeadas. O estudo do conjunto de processos celulares que ocorrem envolvendo o DNA e o RNA, denominado Dogma Central~\cite{setubal97}, permitiu o sequenciamento dessas macromoléculas, bem como o sequenciamento de estruturas maiores produzidas por elas, como as proteínas. Essa tarefa, porém, não é simples. Para sequenciar os genes humanos, por exemplo, foi necessário criar o Projeto Genoma Humano, financiado pelo Departamento de Energia dos Estados Unidos e pelo Instituto Nacional de Saúde dos Estados Unidos. Mesmo contando com colaboração de laboratórios internacionais, o projeto levou aproximadamente 17 anos para ser concluído~\cite{mount01}.
 
-%\indent No início dos anos 50, uma química britânica chamada Rosalind Frankling usou a técnica de difração de raios-X para determinação da estrutura da biomolécula do DNA e concluiu que sua forma era helicoidal. Seu trabalho foi empregado nos experimentos de dois pesquisadores, Francis Crick e James Watson, em um laboratório em Cambridge. Essa grande descoberta desencadeou várias linhas de pesquisas atuais: A partir do DNA, o processo de transcrição fornece uma fita de RNA, que por sua vez, a partir do processo de tradução, fornecem a proteína. Esta sequência de processos ficou conhecida como Dogma Central da Biologia Molecular.
+\indent Atualmente, pesquisadores já podem sequenciar cadeias de DNA, RNA e proteína~\cite{mount01} de vários organismos mais rapidamente. Esses dados, denominados dados ômicos, geram uma quantidade de informação tão extensa e complexa que apenas ferramentas de Big Data podem ser usadas para análise, visualização, busca, etc, para um tratamento eficiente~\cite{berger13}. Existem grandes áreas da Biologia Molecular voltadas para estudo desse dados, tais como genoma (conjunto de genes), proteoma (conjunto de proteínas) e metaboloma (conjunto de metabólitos)~\cite{berger13}. Existe também um campo da Biologia Molecular específico para visualização de informação, chamado interactoma, uma vez que os pesquisadores precisam de uma ferramenta para analisar os dados ômicos. Essa visualização pode ser disponível de maneira dinâmica, permitindo que o pesquisador manipule os dados de maneira interativa. 
 
-% Atualmente
+\indent Na área de redes metabólicas, existem diversas ferramentas de visualização das vias, cada uma provendo sua própria perspectiva dos dados para o pesquisador. Neste trabalho serão apresentados de quatro bancos de dados de redes metabólicas: \textit{Reactome}, \textit{KEGG} e \textit{MetaCyc} e \textit{2Path}, bem como as ferramentas de visualização de dados dos três primeiros. Devido à complexidade dos dados, o objetivo dessas ferramentas é apresentar um conteúdo de maneira confortável ao usuário, de maneira que ele não fique sobrecarregado com a quantidade de informação inerentemente extensa dos dados ômicos.
 
-%\indent A partir de então, pesquisadores já sequenciaram cadeias de DNA, RNA e proteína de vários organismos, criando uma quantidade de informação tão extensa que apenas ferramentas de Big Data podem ser usadas para análise, visualização, busca, etc, para um tratamento eficiente. Estes dados, denominados dados ômicos, são armazenados em bancos de dados específicos hoje em dia.
+\indent Em Computação existe uma área voltada para o estudo de interação entre usuários e sistemas computacionais, chamado Interação Humano-Computador (IHC). Existem diversas técnicas e métodos que especificam a maneira com que uma interface deve ser estruturada para aumentar o nível de qualidade de um sistema~\cite{IHCbook}. Além disso, existem também vários métodos de avaliação que verificam se um sistema já pronto ou ainda em produção satisfaz os critérios de qualidade~\cite{IHCbook} desejados (usabilidade, experiência de usuário, acessibilidade e comunicabilidade).
 
-%\indent Neste trabalho serão apresentados os bancos de dados que representam redes metabólicas em modelo de grafo já existentes, bem como suas ferramentas de visualização de vias metabólicas, e apresentar a ferramenta de visualização 2Path formularizada e desenvolvida neste projeto seguindo os padrões de projeto de interface do campo de Interface Humano-Computador. Para verificar se o sistema satisfaz os critérios básicos de qualidades (usabilidade, experiência de usuário, acessibilidade e comunicabilidade), este projeto utiliza um método de Interação Humano-Computador, chamado Método de Avaliação de Comunicabilidade, que fornece uma sequência de atividades a serem aplicadas para um grupo de pesquisadores biólogos e, ao final, coleta dados relativos à reação dos mesmos ao navegar no sistema.
-
-% Projeto genoma transcriptoma OK
-
-% análises: work-flow... (estáticas)
-
-% análise: vias metabólicas (dinâmicas)
-
-% várias ferramentas de redes/vias metabólicas (entre elas 2Path)
-
-% interface IHC
-
-% avaliação de interface
-
-% ligar avaliação de interface IHC com redes metabólicas
-
-
-\indent Desde a descoberta da estrutura helicoidal do DNA, por Watson e Crick em 1953 \cite{setubal97}, várias linhas de pesquisas em Biologia Molecurar foram desencadeadas. O estudo do conjunto de processos celulares que ocorrem envolvendo o DNA e o RNA, denominado Dogma Central \cite{setubal97}, permitiu o sequenciamento dessas macromoléculas, bem como o sequenciamento de estruturas maiores produzidas por elas, como as proteínas. Essa tarefa, porém, não é simples. Para sequenciar os genes humanos, por exemplo, foi necessário criar o Projeto Genoma Humano, financiado pelo Departamento de Energia dos Estados Unidos e pelo Instituto Nacional de Saúde dos Estados Unidos. Mesmo contando com colaboração de laboratórios internacionais, o projeto levou aproximadamente 17 anos para ser concluído \cite{mount01}.
-
-\indent Atualmente, pesquisadores já podem sequenciar cadeias de DNA, RNA e proteína \cite{mount01} de vários organismos mais rapidamente. Esses dados, denominados dados ômicos, geram uma quantidade de informação tão extensa e complexa que apenas ferramentas de Big Data podem ser usadas para análise, visualização, busca, etc, para um tratamento eficiente \cite{berger13}. Existem grandes áreas da Biologia Molecular voltadas para estudo desse dados, tais como genoma (conjunto de genes), proteoma (conjunto de proteínas) e metaboloma (conjunto de metabólitos) \cite{berger13}.
-
-\indent Existe também um campo da Biologia Molecular específico para visualização de informação, chamado interactoma, uma vez que os pesquisadores precisam de uma ferramenta para analisar os dados ômicos. Essa visualização pode ser disponível de maneira dinâmica, permitindo que o pesquisador manipule com os dados de maneira interativa. 
-
-\indent Na área de redes metabólicas, existem diversas ferramentas de visualização das vias, cada uma provendo sua própria perspectiva dos dados para o pesquisador. Neste trabalho serão apresentados o estado da arte de quatro ferramentas de visualização de vias metabólicas: \textit{Reactome Pathway Browser}, \textit{KEGG Pathway}, \textit{ByoCyc} e \textit{2Path}. Devido à complexidade dos dados, o objetivo dessas ferramentas é apresentar um conteúdo de maneira confortável ao usuário, de maneira que ele não fique sobrecarregado com a quantidade de informação inerentemente extensa dos dados ômicos.
-
-\indent Em computação existe uma área voltada para o estudo de interação entre usuários e sistemas computacionais, chamado Interação Humano-Computador (IHC). Existem diversas técnicas e métodos que especificam a maneira com que uma interface deve ser estruturada para aumentar o nível de qualidade de um sistema \cite{IHCbook}. Além disso, existem também vários métodos de avaliação que verificam se um sistema já pronto ou ainda em produção satisfaz os critérios de qualidade \cite{IHCbook} desejados (usabilidade, experiência de usuário, acessibilidade e comunicabilidade).
-
-\indent Neste trabalho será formularizada e desenvolvida a ferramenta de visualização de vias metabólicas \textit{2Path} seguindo os padrões de projeto de interface do campo de IHC. Para verificar se o sistema satisfaz os critérios básicos de qualidades, este projeto utiliza um método chamado Método de Avaliação de Comunicabilidade, que fornece uma sequência de atividades a serem aplicadas para um grupo de pesquisadores biólogos e, ao final, coleta dados relativos à reação dos mesmos ao navegar no sistema.
+\indent Neste trabalho será desenvolvida uma ferramenta de visualização de vias metabólicas, a ser acoplada ao \textit{2Path}, seguindo os padrões de projeto de interface do campo de IHC. Para verificar se o sistema satisfaz os critérios básicos de qualidade, este projeto utiliza um método chamado Método de Avaliação de Comunicabilidade, que fornece uma sequência de atividades a serem aplicadas para um grupo de pesquisadores biólogos e, ao final, coleta dados relativos à reação dos mesmos ao navegar no sistema.
 
 
 \section{Justificativa}
-\indent Atualmente, a quantidade de dados ômicos estudados pelos pesquisadores é extensa e complexa. Uma maneira de amenizar o esforço feito para analisá-los e compreendê-los é oferecer uma ferramenta que aproxime o usuário (pesquisador) e os dados e a maneira mais natural é representar tais dados em forma de grafo (redes metabólicas). Esta ferramenta deverá permitir que o usuário facilmente visualize e interaja com os dados dinamicamente.
+\indent Atualmente o 2Path não possui uma interface para que os pesquisadores biólogos façam consulta no banco de dados. Nesse sentido, a única maneira de interagir com o banco é por meio de \textit{queries} em CYPHER, linguagem específica do banco de dados não relacional em grafos, Neo4j, sobre o qual o 2Path foi modelado. A ferramenta desenvolvida neste projeto deverá permitir que o usuário facilmente pesquise, visualize e interaja com os dados dinamicamente.
 
 \section{Problema}
-\indent Não há uma visualização interativa de redes metabólicas armazenadas no \textit{2Path} que permita ao pesquisador explorar os aspectos biológicos do organismo estudado, pelos padrões de interface sugeridos pela área de Interface Humano-Computador.
+\indent Não há uma visualização de redes metabólicas armazenadas no \textit{2Path} que facilite ao pesquisador explorar os aspectos biológicos do organismo estudado.
 
 \section{Objetivo}
-\indent Construir uma interface que acesse redes metabólicas armazenadas no \textit{2Path} e gere uma visualização interativa. Além disso, verificar se o sistema satisfaz os critérios de qualidade de acordo com as especificações de Interação Humano-Computador.
+\indent O objetivo principal do projeto é construir uma interface que acesse redes metabólicas armazenadas no \textit{2Path} e gere uma visualização interativa dessas informações. Essa interface deverá ser avaliada de acordo com os critérios de qualidade especificados em Interação Humano-Computador.
+
+\indent Os objetivos específicos são:
+\begin{itemize}
+\item[1]: Realizar levantamento de informações do 2Path que permita construir uma interface adequada;
+\item[2]: Implementar a interface e acoplá-la ao 2Path;
+\item[3]: Propor avaliação de usabilidade, experiência do usuário, acessibilidade e comunicabilidade da interface;
+\item[4]: Avaliar a interface desenvolvida com 4 biólogos;
+\item[5]: Analisar a usabilidade e a comunicabilidade de modo a aprimorar a interface.
+\end{itemize}
 
 \section{Descrição dos Capítulos}
 \indent No Capítulo 2 serão apresentados os conceitos básicos de Interação Humano-Computador e alguns métodos de avaliação da qualidade de sistemas computacionais, com foco no Método de Avaliação de Comunicabilidade utilizado neste trabalho.
@@ -57,5 +39,3 @@
 \indent Já o Capítulo 5 apresenta os resultados da aplicação do Método de Avaliação de Comunicabilidade definido no Capítulo 2 sobre o \textit{2Path}.
 
 \indent O Capítulo 6  conclui o projeto e oferece sugestões para trabalhos futuros.
-
-\indent Por fim, o Capítulo 7 descreve as atividades realizadas neste trabalho através de um cronograma.
