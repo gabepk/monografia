@@ -4,9 +4,7 @@
 
 \indent Em seguida são descritos de maneira geral todas as ferramentas, softwares e linguagens utilizadas na elaboração do 2Path. De maneira breve, a interface do 2Path foi desenvolvida na IDE Eclipse utilizando a linguagem Java para \textit{Back-end} e XHTML, JSF e Primefaces para \textit{Front-end}. O banco de dados utilizado foi o Neo4j, um banco não relacional direcionado a grafos. A visualização das vias metabólicas foi implementada em javascript, com uma biblioteca de grafos e gráficos chamada D3 (Data-Driven Documents);
 
-\indent Por fim, são listadas todas as dificuldades enfrentadas na execução desse projeto.
-
-\section{Projeto de Interface}
+\section{Projeto de Interfaces}
 
 \indent O conjunto de diagramas do projeto de interface apresentam um modelo de elementos do sistema a ser seguido na implementação de fato das páginas \textit{web}. Esses elementos devem ter o propósito de permitir que o usuário atinja seu objetivo, conservando os quatro critérios de qualidade: usabilidade, experiência do usuário, acessibilidade e comunicabilidade.
 
@@ -138,26 +136,92 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
 
 % =========================================================================================
 
-\section{Detalhes de Implementação}
+\section{Implementação da Interface}
 
 
-\indent O sistema desenvolvido para este projeto é uma aplicação web chamada \textit{2Path}. O usuário deve se cadastrar no \textit{website} para ter acesso às redes metabólicas do banco de dados do sistema, bem como pesquisar por palavras chaves no mesmo. Nesta seção serão apresentadas as linguagens e ferramentas utilizadas no desenvolvimento do \textit{website}, as características, funcionalidades e limites do sistema e, por fim, as dificuldades enfrentadas na implementação do projeto.
+\indent O sistema desenvolvido para este projeto é uma aplicação web chamada \textit{EnzymeGraph}. Nesta seção serão apresentadas as linguagens e ferramentas utilizadas no desenvolvimento do \textit{website}, as características, funcionalidades e limites do sistema e, por fim, as dificuldades enfrentadas na implementação do projeto.
 
-\indent O sistema foi desenvolvido no amibiente de desenvolvimento integrado \textit{open source} Eclipse Java EE - \textit{Java Platform, Enterprise Edition}, versão Mars 4.5.2. Para simplificar a obtenção das dependências do projeto, ou seja, pacotes de arquivos java (extensão .jar), foi utilizada o Apache Maven\footnote{\textit{Software} de gerenciamento de projeto e ferramenta de compreensão de programa.}. Este \textit{software} opera sobre o arquivo \textit{pom.xml}, onde POM significa \textit{Project Object Model} e contém as especificações de cada projeto que se tornará dependência do sistema em desenvolvimento, além de outros aspectos do código. O servidor selecionado para hospedagem local, \textit{localhost} porta 8080, do sistema foi o Apache TomCat versão 7.0.
+\subsection{Detalhes de Implementação}
 
-\indent As páginas da aplicação foram desenvolvidas na linguagem de marcação XHTML, \textit{Extensible Hypertext Markup Language}, e a estilzação em CSS, \textit{Cascading Style Sheets}. Para conexão entre \textit{front-end} e \textit{back-end} foram utilizados JSF\footnote{Especificação Java para criação de componentes de interface de aplicação \textit{web}.}, Primefaces\footnote{Biblioteca com uma coleção de componentes de interface voltadas para JSF.}, e AngularJS, para a construção do grafo de vias metabólicas.
+\indent O sistema foi desenvolvido no amibiente de desenvolvimento integrado \textit{open source} Eclipse Java EE - \textit{Java Platform, Enterprise Edition}, versão Mars 4.5.2. Para simplificar a obtenção das dependências do projeto, ou seja, pacotes de arquivos java (extensão .jar), foi utilizada o Apache Maven\footnote{\textit{Software} de gerenciamento de projeto e ferramenta de compreensão de programa.}. Este \textit{software} opera sobre o arquivo \textit{pom.xml} (\textit{Project Object Model}) e contém as especificações de cada projeto que se tornará dependência do sistema em desenvolvimento, além de outros aspectos do código. O servidor selecionado para hospedagem local, \textit{localhost} porta 8080, do sistema foi o Apache TomCat versão 7.0.
+
+\indent As páginas da aplicação foram desenvolvidas na linguagem de marcação XHTML, \textit{Extensible Hypertext Markup Language}, e a estilização em CSS, \textit{Cascading Style Sheets}. Para conexão entre \textit{front-end} e \textit{back-end} foram utilizados JSF\footnote{Especificação Java para criação de componentes de interface de aplicação \textit{web}.}, Primefaces\footnote{Biblioteca com uma coleção de componentes de interface voltadas para JSF.}, e Javascript, para a construção do grafo de vias metabólicas.
+
+\indent Em javascript, foi utilizada a bilioteca D3 na apresentação das vias metabólicas na tela. Essa biblioteca permite que a construção de um grafo a partir de um arquivo ou \textit{string} no formato JSON com os vetores \textit{nodes} para os nós e \textit{links} para as arestas. A figura \ref{fig:nodeslinksD3} apresenta as cores escolhidas para cada nó do grafo. Não houve padrão definido para a escolha das cores.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{nodeslinksD3.png}
+    \caption{Diagrama geral de uma via metabólica na interface do 2Path.}
+    \label{fig:nodeslinksD3}
+\end{figure}
+
+\indent O banco de dados em grado Neo4j foi utilizado no sistema, pois o próprio 2Path foi desenvolvido no mesmo. Devido à facilidade de implementação do mesmo em Java e da alta usabilidade de sua interface, foi relativamente simples implementar as \textit{queries} de busca e fazer a conexão em Java. As \textit{queries} foram escritas em \textit{CYPHER}, linguagem nativa do Neo4j. Como o banco não é relacional, essa linguagem não tem a estrutura do SQL, porém foi elaborada para facilitar buscas que realizam travessia em grafos. 
+
+\indent O Neo4j, porém, retorna em suas transações uma string em formato JSON que não é compatível com o especificado pelo D3. Nesse caso, foi feito um parser para a construção de uma nova string compatível. Os dados passados de uma página para a outra, inclusive essa string em JSON, são todos armazenados em uma sessão, cujo ciclo de vida é determinado pelo JSF.
+
+\subsection{Interface do Sistema}
+
+\indent A implementação do \textit{front-end} resultou nas figuras a seguir. Todos os elementos estão em inglês, pois o sistema criado pode ser utilizado mundialmente. A Figura \ref{fig:2path_home} mostra a página inicial, que possui uma breve explicação sobre terpenoides, sobre o sistema 2Path e sobre as possíveis buscas que o usuário pode realizar. O menu ao topo está em todas as páginas do sistema. Nele é possível navegar até a página inicial (Home), página sobre terpenoides (Terpenoids), página de busca (Search), página sobre o 2Path (About) e, por fim, página de ajuda (Help). A Figura \ref{fig:2path_search} apresenta a página de busca principal, onde a partir dela é possível fazer as quatro tipos de buscas: por enzima no 2Path; por enzima no organismo; por via metabólica no 2Path e por via metabólica no organismo.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1\textwidth]{2path_home.png}
+    \caption{Página inicial do 2Path.}
+    \label{fig:2path_home}
+\end{figure}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1\textwidth]{2path_search.png}
+    \caption{Página principal de busca no 2Path.}
+    \label{fig:2path_search}
+\end{figure}
+
+\indent Em relação às buscas específicas, decidiu-se apresentar o grafo das vias metabólicas em uma página separada da busca, pois ele poderia ficar extenso e complexo. Nesse sentido, a busca de fato é realizada em uma página intermediária, que apenas responde se a enzima/via foi encontrada ou não. Caso o usuário queira saber detalhes sobre a mesma, ele deve selecionar o botão \textit{View Interactive Data}.
+
+\indent A Figura \ref{fig:2path_enzyme} apresenta um exemplo de busca pela enzima \textit{2.7.7.60} no banco de dados completo do 2Path. Esta enzima foi encontrada e o grafo da Figura \ref{fig:2path_enzyme_graph} apresenta o substrato (\textit{2-C-Methyl-D-erythritol 4-phosphate}) que ela recebe e o produto (\textit{4-(Cytidine 5'-diphospho)-2-C-methyl-D-erythritol}) que ela produz. 
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1\textwidth]{2path_enzyme.png}
+    \caption{Página de busca por enzima no banco completo}
+    \label{fig:2path_enzyme}
+\end{figure}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1\textwidth]{2path_enzyme_graph.png}
+    \caption{Página de apresentação da reação bioquímica catalisada pela enzima buscada.}
+    \label{fig:2path_enzyme_graph}
+\end{figure}
+
+\indent A Figura \ref{fig:2path_pathway_org} apresenta um exemplo de busca por via metabólica entre os compostos \textit{1-Deoxy-D-xylolose 5-phosphate} e \textit{2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol} no organismo \textit{Arabidopsis thaliana}. O grafo gerado para esta via é representado na Figura \ref{fig:2path_pathway_graph}.
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1\textwidth]{2path_pathway_org.png}
+    \caption{Página de busca por via metabólica no banco de dados formado para o organismo \textit{Arabidopsis thaliana}.}
+    \label{fig:2path_pathway_org}
+\end{figure}
+
+\begin{figure}[!h]
+    \centering
+    \includegraphics[width=1\textwidth]{2path_pathway_graph.png}
+    \caption{Página de apresentação da via metabólica de reações que ocorrem no organismo \textit{Arabidopsis thaliana}.}
+    \label{fig:2path_pathway_graph}
+\end{figure}
+
+\section{Descrição dos Testes}
+
+\indent Os testes serão realizados no Laboratório de Bioinformática do Departamento de Biologia Celular, Instituto de Ciências Biológicas da Universidade de Brasília. Três biólogos foram selecionados para participar do teste descritos pelo Método de Avaliação de Comunicabilidade no capítulo 2. A identidade dos mesmos será preservada por questão de privacidade.
+
+\indent Primeiramente, cada biólogo deverá responder ao questionário do Anexo \ref{questionario_dados_pessoais}. Ele é necessário para analisar se o perfil do usuário tem alguma relação com a facilidade com que o mesmo possui ao realizar um tarefa proposta no sistema. Para isso, é importante conhecer a formação acadêmica do usuário, bem como sua atuação profissional. Além disso, são solicitadas informações sobre a frequência em que ele utiliza ferramentas interativas e o nível de conhecimento a respeito de redes metabólicas. 
+
+\indent Após responderem o questionário, cada usuário fará o teste separadamente, sem ter acesso às respostas de outro usuário para que o teste não perca a legitimidade. Apenas um avaliador guiará os usuários e apenas um computador será utilizado para os testes. Assim, serão realizados três testes em sequência. Será utilizado um computador pessoal para a realização das tarefas, ao invés de um computador do Laboratório de Bioinformática, uma vez que o ambiente de teste já está pronto no computador pessoal.
+
+\indent Os usuários serão filmados a tela do computador, o \textit{mouse}/\textit{mousepad}, o teclado e as mãos do usuários. Serão apresentadas as 13 etiquetas, descritas no capítulo 3, para cada usuário
 
 
 
-
-\subsection{Banco de Dados Neo4j}
-
-
-\subsection{Desafios}
- 
-O que foi o trabalho. 
-Decrever todo o ambiente usado
-Neste capítulo serão apresentados os primeiros resultados experimentais obtidos.
-
-\section{Avaliação da Interface}
 

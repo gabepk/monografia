@@ -1,10 +1,52 @@
-\chapter{Resultados}
+\chapter{Resultados dos testes}
+
+
+\section{Avaliação da Interface}
 
 Aplicação do método da avaliação da comunicabilidade
 
-\section{Interface}
+Pontos fortes: \\
 
+\begin{itemize}
+  \item Os botões do menu ao topo do site facilitaram a navegação pelo site;
+  \item A função auto-complete dos compostos facilitou muito a busca;
+  \item A mensagem de sucesso ou fracasso sempre era reparada.
+\end{itemize}
+
+ 
+Pontos fracos:\\
+
+\begin{itemize}
+\item Busca
+  \begin{itemize}
+  \item[1] O botão de voltar um página, do navegador, não fazia o que o usuário esperava. Ele voltava para a pesquisa anterior ao invés de ir para a página central de buscas;
+  \item[2] A função auto-complete das enzimas não foi uma boa decisão de projeto, pois os usuários ficavam confusos com os números que apareciam;
+  \item[3] Resultado de busca não estava sendo inicializado toda vez que página é carregada, portanto apresentava um resultado anterior, o que causava confusão;
+  \item[4] Botão "View Interative Data", para visualizar a via metabólica, esta sempre ativo. Isso fez com que os usuários não notassem que existe informação extra sobre enzima ou via quando a pesquisa retorna sucesso;
+  \item[5] Botões "Search" e "View Interative Data" estavam muito pertos um do outro. Muitos usuários não selecionavam o botão \textit{Search} antes de clicar em "View Interative Data", pois a segunda coluna da página estava mal localizada, para um formulário;
+  \item[6] A página de busca central dá mais foco em busca por elementos no organismo, e isso faz com que a seção menor à esquerda passe despercebida.
+  \end{itemize}
+
+\item Grafo
+  \begin{itemize}
+  \item[1] A reação não deveria ser representada por um nó, pois para os biólogos, ela é uma ação, e não um elemento. Assim, faz mais sentido biológico representar COMPOUND-[SUBSTRACT]->ENZIME e ENZIME-[PRODUCTOF]->COMPUND. A aresta "CATALISE" não é necessária. Houve muita confusão, pois pensaram que reação era representada por aresta invés de nó;
+  \item[2] Não é necessário apresentar os nós do organismo e sequências que o organismo possui. Ao apresentar a enzima na busca de informações no organismo, já é implícito que aquela enzima é produzida pelo organismo. Se possível, fazer organismo ligar-se com enzima, apenas;
+  \item[3] É mais desejável um grafo que apareça primeiramente de maneira estática. Um grafo que aparece se movendo levemente é irritante. Caso o usuário queira mover e clicar nos elementos, ele o faz com mais facilidade com um grafo estático;
+  \item[4] É mais agradável um grafo que apareça aberto;
+  \item[5] As labels poderiam apresentar só as bolinhas e explicação a respeito do que elas representam. A informação sobre as arestas já é informação extra desnecessária;
+  \item[6] Quanto maior o grafo, mais complexo é entendê-los;
+  \item[7] Grafos muito grades podem ficar cortados e alguns elementos podem sair do campo de visão do usuário.
+  \end{itemize}
+\end{itemize}
+
+
+Foi encontrado um \textit{erro} de implementação em um dos testes. Uma das tarefas era encontrar uma via metabólica entre dois compostos no grafo completo do 2Path, porém um dos usuários utilizou a busca por via em um organismo. A busca deveria retornar que não há via, porém ela retornou que existia, e apresentou um grafo disjunto\footnote{Dois grafos que não se conectam.}. Um grafo era do organismo com todas as enzimas que ele produzia e o outro grafo representava a via entre os compostos pesquisados.
+
+
+ 
+ 
+ 
 % Telas, printscreen
 
-\section{Avaliação e Discussão}
+\section{Nova Interface do Sistema}
 
