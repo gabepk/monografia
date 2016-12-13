@@ -1,10 +1,14 @@
 \chapter{Interface do 2Path}
 
-\indent Este capítulo apresenta o sistema 2Path desenvolvido neste projeto utilizando as informações dos capítulos 2 e 3. São descritos quatro elementos de IHC utilizados para definir o escopo do trabalho. A tabela de interações representa de forma simples a metacomunicação. A partir dela é possível estabelecer os objetivos finais e instrumentais, organizados em um diagrama chamado mapa de objetivos. Uma vez conhecendo os motivos de os usuários utilizarem o sistema, o projetista utiliza os diagramas de modelagem de tarefas para representar de forma abstrata a navegação pelo sistema do ponto de vista de cada tipo de usuário. Por fim, a tabela de tratamento de rupturas na comunicação tem o objetivos de documentar os métodos utilizados para impedir / prevenir / recuperar erros cometidos pelo usuário ao interagir com o sistema.
+\indent Este capítulo apresenta uma interface para o \textit{2Path}, utilizando as informações dos capítulos 2 e 3. São descritos quatro elementos de IHC utilizados para definir o escopo do trabalho. A tabela de interações representa de forma simples a metacomunicação. A partir dela é possível estabelecer os objetivos finais e instrumentais, organizados em um diagrama chamado mapa de objetivos. Uma vez conhecendo os motivos de os usuários utilizarem o sistema, o projetista utiliza os diagramas de modelagem de tarefas para representar de forma abstrata a navegação pelo sistema do ponto de vista de cada tipo de usuário. Por fim, a tabela de tratamento de rupturas na comunicação tem o objetivos de documentar os métodos utilizados para impedir / prevenir / recuperar erros cometidos pelo usuário ao interagir com o sistema.
 
-\indent Em seguida são descritos de maneira geral todas as ferramentas, softwares e linguagens utilizadas na elaboração do 2Path. De maneira breve, a interface do 2Path foi desenvolvida na IDE Eclipse utilizando a linguagem Java para \textit{Back-end} e XHTML, JSF e Primefaces para \textit{Front-end}. O banco de dados utilizado foi o Neo4j, um banco não relacional direcionado a grafos. A visualização das vias metabólicas foi implementada em javascript, com uma biblioteca de grafos e gráficos chamada D3 (Data-Driven Documents);
+\indent Na Seção \ref{projeto}, são descritos de maneira geral todas as ferramentas, softwares e linguagens utilizadas na elaboração de uma interface para o \textit{2Path}. De maneira breve, a interface do 2Path foi desenvolvida na IDE Eclipse utilizando a linguagem Java para \textit{Back-end} e XHTML, JSF e Primefaces para \textit{Front-end}. O banco de dados utilizado foi o Neo4j~\cite{waldeyr}, um banco não relacional direcionado a grafos. A visualização das vias metabólicas foi implementada em javascript, com uma biblioteca de grafos e gráficos chamada D3 (Data-Driven Documents);
 
-\section{Projeto de Interfaces}
+\indent Na Seção \ref{implementacao}, são descritos o ambiente de desenvolvimento e os detalhes de implementação do \textit{back-end}, e \textit{front-end} do sistema.
+
+\indent Na Seção \ref{avaliacao}, é detalhada a coleta de dados do Método de Avaliação de Comunicabilidade com os três usuários biólogos.
+
+\section{Projeto de Interfaces} \label{projeto}
 
 \indent O conjunto de diagramas do projeto de interface apresentam um modelo de elementos do sistema a ser seguido na implementação de fato das páginas \textit{web}. Esses elementos devem ter o propósito de permitir que o usuário atinja seu objetivo, conservando os quatro critérios de qualidade: usabilidade, experiência do usuário, acessibilidade e comunicabilidade.
 
@@ -136,7 +140,7 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
 
 % =========================================================================================
 
-\section{Implementação da Interface}
+\section{Implementação da Interface} \label{implementacao}
 
 
 \indent O sistema desenvolvido para este projeto é uma aplicação web chamada \textit{EnzymeGraph}. Nesta seção serão apresentadas as linguagens e ferramentas utilizadas no desenvolvimento do \textit{website}, as características, funcionalidades e limites do sistema e, por fim, as dificuldades enfrentadas na implementação do projeto.
@@ -212,7 +216,7 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
     \label{fig:2path_pathway_graph}
 \end{figure}
 
-\section{Descrição dos Testes}
+\section{Projeto de Avaliação} \label{avaliacao}
 
 \indent Os testes serão realizados no Laboratório de Bioinformática do Departamento de Biologia Celular, Instituto de Ciências Biológicas da Universidade de Brasília. Três biólogos foram selecionados para participar do teste descritos pelo Método de Avaliação de Comunicabilidade no capítulo 2. A identidade dos mesmos será preservada por questão de privacidade.
 
@@ -220,8 +224,10 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
 
 \indent Após responderem o questionário, cada usuário fará o teste separadamente, sem acesso às respostas de outro usuário para que o teste não perca a legitimidade. Apenas um avaliador guiará os usuários e apenas um computador será utilizado para os testes. Assim, serão realizados três testes em sequência. Será utilizado o computador pessoal do avaliador para a realização das tarefas, ao invés de um computador do Laboratório de Bioinformática, uma vez que o ambiente de teste já esta configurado corretamente no computador pessoal. Configurar o ambiente em um outro computador poderia levar em torno de 2 horas, levando em consideração que seria necessário fazer \textit{download} da IDE Eclipse e do banco de dados Neo4j.
 
-\indent Durante a realização das tarefas, serão filmadas a tela do computador, o \textit{mouse}/\textit{mousepad}, o teclado e as mãos do usuários. Serão apresentadas aos usuários, um de cada vez, as 13 etiquetas descritas no capítulo 2 para que eles entendam o propósito do teste.
+\indent Durante a realização das tarefas, serão filmadas a tela do computador, o \textit{mouse} / \textit{mousepad}, o teclado e as mãos do usuários. Serão apresentadas aos usuários, um de cada vez, as 13 etiquetas descritas no capítulo 2 para que eles entendam o propósito do teste. Não haverá comunicação entre avaliador e usuário durante a realização completa da tarefa, ou até que o usuário desista de cumprir o objetivo proposto.
 
+\indent Serão realizadas 5 tarefas, descritas no Anexo \ref{tarefas}. As primeiras três envolvem buscar por enzimas em um organismo. Considerou-se que o organismo já havia sido processado pelo sistema do \textit{2Path} e as sequências de seu arquivo FASTA já haviam sido ligadas às enzimas correspondentes do banco de dados. Assim, o usuário deverá apenas selecionar o organismo listado na página de busca e pesquisar pelas enzimas. As outras duas tarefas envolvem buscar por vias metabólicas no banco de dados inteiro do \textit{2Path}.
 
+\indent Após a tarefa, o usuários devem responder ao questionário do Anexo \ref{questionario_interface}, que visa coletar a opinião dos usuários a respeito do projeto de interface. Estes dados, juntamente com as etiquetas listadas para cada usuário, fornecem uma base de informação para análise e a re-implementação aperfeiçoada do sistema.
 
-
+\indent Por fim, será apresentado a nova proposta de interface do banco de dados 2Path, de acordo com as necessidades dos usuários e contemplando novos recursos que devem aumentar os quatro critérios de qualidade: usabilidade, experiência de usuário, acessibilidade e comunicabilidade.

@@ -1,49 +1,46 @@
-\BOOKMARK [0][-]{dedication.0}{Dedicat\363ria}{}% 1
-\BOOKMARK [0][-]{acknowledgements.0}{Agradecimentos}{}% 2
-\BOOKMARK [0][-]{resumo.0}{Resumo}{}% 3
-\BOOKMARK [0][-]{abstract.0}{Abstract}{}% 4
-\BOOKMARK [0][-]{chapter.1}{Introdu\347\343o}{}% 5
-\BOOKMARK [1][-]{section.1.1}{Justificativa}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.2}{Problema}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.3}{Objetivo}{chapter.1}% 8
-\BOOKMARK [1][-]{section.1.4}{Descri\347\343o dos Cap\355tulos}{chapter.1}% 9
-\BOOKMARK [0][-]{chapter.2}{Avalia\347\343o em Intera\347\343o Humano-Computador}{}% 10
-\BOOKMARK [1][-]{section.2.1}{Conceitos B\341sicos de IHC}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.2}{Avalia\347\343o Atrav\351s de Observa\347\343o}{chapter.2}% 12
-\BOOKMARK [2][-]{subsection.2.2.1}{M\351todo de Avalia\347\343o de Comunicabilidade}{section.2.2}% 13
-\BOOKMARK [1][-]{section.2.3}{Projeto de Interface Centrado na Comunica\347\343o}{chapter.2}% 14
-\BOOKMARK [2][-]{subsection.2.3.1}{Tabela de Intera\347\365es}{section.2.3}% 15
-\BOOKMARK [2][-]{subsection.2.3.2}{Mapa de Objetivos}{section.2.3}% 16
-\BOOKMARK [2][-]{subsection.2.3.3}{Modelagem de Tarefas}{section.2.3}% 17
-\BOOKMARK [2][-]{subsection.2.3.4}{Tratamento de Rupturas na Comunica\347\343o}{section.2.3}% 18
-\BOOKMARK [0][-]{chapter.3}{Redes Metab\363licas}{}% 19
-\BOOKMARK [1][-]{section.3.1}{Conceitos B\341sicos de Biologia Molecular}{chapter.3}% 20
-\BOOKMARK [2][-]{subsection.3.1.1}{\301cidos Nucleicos}{section.3.1}% 21
-\BOOKMARK [2][-]{subsection.3.1.2}{Prote\355nas}{section.3.1}% 22
-\BOOKMARK [2][-]{subsection.3.1.3}{S\355ntese de Prote\355na}{section.3.1}% 23
-\BOOKMARK [1][-]{section.3.2}{Conceitos B\341sicos de Metabolismo}{chapter.3}% 24
-\BOOKMARK [2][-]{subsection.3.2.1}{Metabolismo Prim\341rio}{section.3.2}% 25
-\BOOKMARK [2][-]{subsection.3.2.2}{Metabolismo Secund\341rio}{section.3.2}% 26
-\BOOKMARK [1][-]{section.3.3}{Visualiza\347\343o de Redes Metab\363licas}{chapter.3}% 27
-\BOOKMARK [2][-]{subsection.3.3.1}{Reactome, KEGG e BioCyc}{section.3.3}% 28
-\BOOKMARK [2][-]{subsection.3.3.2}{2Path}{section.3.3}% 29
-\BOOKMARK [0][-]{chapter.4}{Interface do 2Path}{}% 30
-\BOOKMARK [1][-]{section.4.1}{Projeto de Interfaces}{chapter.4}% 31
-\BOOKMARK [2][-]{subsection.4.1.1}{Tabela de Intera\347\365es}{section.4.1}% 32
-\BOOKMARK [2][-]{subsection.4.1.2}{Mapa de Objetivos}{section.4.1}% 33
-\BOOKMARK [2][-]{subsection.4.1.3}{Modelagem de Tarefas}{section.4.1}% 34
-\BOOKMARK [2][-]{subsection.4.1.4}{Tratamento de Rupturas na Comunica\347\343o}{section.4.1}% 35
-\BOOKMARK [1][-]{section.4.2}{Implementa\347\343o da Interface}{chapter.4}% 36
-\BOOKMARK [2][-]{subsection.4.2.1}{Detalhes de Implementa\347\343o}{section.4.2}% 37
-\BOOKMARK [2][-]{subsection.4.2.2}{Interface do Sistema}{section.4.2}% 38
-\BOOKMARK [1][-]{section.4.3}{Descri\347\343o dos Testes}{chapter.4}% 39
-\BOOKMARK [0][-]{chapter.5}{Resultados dos testes}{}% 40
-\BOOKMARK [1][-]{section.5.1}{Avalia\347\343o da Interface}{chapter.5}% 41
-\BOOKMARK [1][-]{section.5.2}{Nova Interface do Sistema}{chapter.5}% 42
-\BOOKMARK [0][-]{chapter.6}{Conclus\343o e Trabalhos Futuros}{}% 43
-\BOOKMARK [1][-]{section.6.1}{Conclus\343o}{chapter.6}% 44
-\BOOKMARK [1][-]{section.6.2}{Trabalhos Futuros}{chapter.6}% 45
-\BOOKMARK [0][-]{appendix.A}{Question\341rios de dados pessoais dos bi\363logos}{}% 46
-\BOOKMARK [0][-]{appendix.B}{Tarefas realizadas pelos bi\363logos no sistema 2Path}{}% 47
-\BOOKMARK [0][-]{appendix.C}{Question\341rios de interface conforme o M\351todo de Avalia\347\343o de Comunicabilidade}{}% 48
-\BOOKMARK [0][-]{section*.42}{Refer\352ncias}{}% 49
+\BOOKMARK [0][-]{acknowledgements.0}{Agradecimentos}{}% 1
+\BOOKMARK [0][-]{resumo.0}{Resumo}{}% 2
+\BOOKMARK [0][-]{abstract.0}{Abstract}{}% 3
+\BOOKMARK [0][-]{chapter.1}{Introdu\347\343o}{}% 4
+\BOOKMARK [1][-]{section.1.1}{Justificativa}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.2}{Problema}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.3}{Objetivo}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.4}{Descri\347\343o dos Cap\355tulos}{chapter.1}% 8
+\BOOKMARK [0][-]{chapter.2}{Avalia\347\343o em Intera\347\343o Humano-Computador}{}% 9
+\BOOKMARK [1][-]{section.2.1}{Conceitos B\341sicos de IHC}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.2}{Avalia\347\343o Atrav\351s de Observa\347\343o}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.1}{M\351todo de Avalia\347\343o de Comunicabilidade}{section.2.2}% 12
+\BOOKMARK [1][-]{section.2.3}{Projeto de Interface Centrado na Comunica\347\343o}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.3.1}{Tabela de Intera\347\365es}{section.2.3}% 14
+\BOOKMARK [2][-]{subsection.2.3.2}{Mapa de Objetivos}{section.2.3}% 15
+\BOOKMARK [2][-]{subsection.2.3.3}{Modelagem de Tarefas}{section.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.3.4}{Tratamento de Rupturas na Comunica\347\343o}{section.2.3}% 17
+\BOOKMARK [0][-]{chapter.3}{Redes Metab\363licas}{}% 18
+\BOOKMARK [1][-]{section.3.1}{Conceitos B\341sicos de Biologia Molecular}{chapter.3}% 19
+\BOOKMARK [2][-]{subsection.3.1.1}{\301cidos Nucleicos}{section.3.1}% 20
+\BOOKMARK [2][-]{subsection.3.1.2}{Prote\355nas}{section.3.1}% 21
+\BOOKMARK [2][-]{subsection.3.1.3}{S\355ntese de Prote\355na}{section.3.1}% 22
+\BOOKMARK [1][-]{section.3.2}{Conceitos B\341sicos de Metabolismo}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.2.1}{Metabolismo Prim\341rio}{section.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.2.2}{Metabolismo Secund\341rio}{section.3.2}% 25
+\BOOKMARK [1][-]{section.3.3}{Visualiza\347\343o de Redes Metab\363licas}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.1}{Reactome, KEGG e BioCyc}{section.3.3}% 27
+\BOOKMARK [2][-]{subsection.3.3.2}{2Path}{section.3.3}% 28
+\BOOKMARK [0][-]{chapter.4}{Interface do 2Path}{}% 29
+\BOOKMARK [1][-]{section.4.1}{Projeto de Interfaces}{chapter.4}% 30
+\BOOKMARK [2][-]{subsection.4.1.1}{Tabela de Intera\347\365es}{section.4.1}% 31
+\BOOKMARK [2][-]{subsection.4.1.2}{Mapa de Objetivos}{section.4.1}% 32
+\BOOKMARK [2][-]{subsection.4.1.3}{Modelagem de Tarefas}{section.4.1}% 33
+\BOOKMARK [2][-]{subsection.4.1.4}{Tratamento de Rupturas na Comunica\347\343o}{section.4.1}% 34
+\BOOKMARK [1][-]{section.4.2}{Implementa\347\343o da Interface}{chapter.4}% 35
+\BOOKMARK [2][-]{subsection.4.2.1}{Detalhes de Implementa\347\343o}{section.4.2}% 36
+\BOOKMARK [2][-]{subsection.4.2.2}{Interface do Sistema}{section.4.2}% 37
+\BOOKMARK [1][-]{section.4.3}{Projeto de Avalia\347\343o}{chapter.4}% 38
+\BOOKMARK [0][-]{chapter.5}{Resultados dos testes}{}% 39
+\BOOKMARK [1][-]{section.5.1}{Avalia\347\343o da Interface}{chapter.5}% 40
+\BOOKMARK [1][-]{section.5.2}{Nova Interface do Sistema}{chapter.5}% 41
+\BOOKMARK [0][-]{chapter.6}{Conclus\343o e Trabalhos Futuros}{}% 42
+\BOOKMARK [0][-]{section*.50}{Refer\352ncias}{}% 43
+\BOOKMARK [0][-]{appendix.A}{Question\341rios de dados pessoais dos bi\363logos}{}% 44
+\BOOKMARK [0][-]{appendix.B}{Tarefas realizadas pelos bi\363logos no sistema 2Path}{}% 45
+\BOOKMARK [0][-]{appendix.C}{Question\341rios de interface conforme o M\351todo de Avalia\347\343o de Comunicabilidade}{}% 46

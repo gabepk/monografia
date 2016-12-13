@@ -3,7 +3,7 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: monografia.aux
 The style file: plain.bst
 Database file #1: monografia.bib
-I was expecting a `,' or a `}'---line 404 of file monografia.bib
+I was expecting a `,' or a `}'---line 407 of file monografia.bib
  :    
  :    month = "Julho",
 (Error may have been on previous line)
@@ -16,36 +16,35 @@ Warning--to sort, need author or key in biocycIntro
 Warning--can't use both author and editor fields in IHCbook
 Warning--empty chapter and pages in Cap2schomburg
 Warning--empty booktitle in waldeyr
-Warning--empty year in waldeyr
 Warning--empty chapter and pages in Cap3schomburg
 You've used 25 entries,
             2118 wiz_defined-function locations,
-            644 strings with 9082 characters,
-and the built_in function-call counts, 6404 in all, are:
-= -- 568
-> -- 315
+            646 strings with 9177 characters,
+and the built_in function-call counts, 6476 in all, are:
+= -- 576
+> -- 325
 < -- 0
-+ -- 132
-- -- 104
-* -- 365
-:= -- 1047
-add.period$ -- 69
++ -- 136
+- -- 108
+* -- 372
+:= -- 1062
+add.period$ -- 70
 call.type$ -- 25
-change.case$ -- 122
+change.case$ -- 124
 chr.to.int$ -- 0
-cite$ -- 35
+cite$ -- 34
 duplicate$ -- 227
 empty$ -- 580
-format.name$ -- 104
-if$ -- 1344
+format.name$ -- 108
+if$ -- 1358
 int.to.chr$ -- 0
 int.to.str$ -- 25
 missing$ -- 16
-newline$ -- 122
+newline$ -- 123
 num.names$ -- 40
-pop$ -- 242
+pop$ -- 241
 preamble$ -- 1
-purify$ -- 102
+purify$ -- 104
 quote$ -- 0
 skip$ -- 161
 stack$ -- 0
@@ -55,8 +54,8 @@ text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 90
-warning$ -- 10
+warning$ -- 9
 while$ -- 47
 width$ -- 27
-write$ -- 234
+write$ -- 237
 (There was 1 error message)

@@ -5,7 +5,7 @@
 \contentsline {section}{\numberline {1.1}Justificativa}{2}{section.1.1}
 \contentsline {section}{\numberline {1.2}Problema}{2}{section.1.2}
 \contentsline {section}{\numberline {1.3}Objetivo}{2}{section.1.3}
-\contentsline {section}{\numberline {1.4}Descri\IeC {\c c}\IeC {\~a}o dos Cap\IeC {\'\i }tulos}{3}{section.1.4}
+\contentsline {section}{\numberline {1.4}Descri\IeC {\c c}\IeC {\~a}o dos Cap\IeC {\'\i }tulos}{2}{section.1.4}
 \contentsline {chapter}{\numberline {2}Avalia\IeC {\c c}\IeC {\~a}o em Intera\IeC {\c c}\IeC {\~a}o Humano-Computador}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Conceitos B\IeC {\'a}sicos de IHC}{4}{section.2.1}
 \contentsline {section}{\numberline {2.2}Avalia\IeC {\c c}\IeC {\~a}o Atrav\IeC {\'e}s de Observa\IeC {\c c}\IeC {\~a}o}{6}{section.2.2}
@@ -33,21 +33,19 @@
 \contentsline {subsection}{\numberline {3.3.2}2Path}{33}{subsection.3.3.2}
 \contentsline {chapter}{\numberline {4}Interface do 2Path}{35}{chapter.4}
 \contentsline {section}{\numberline {4.1}Projeto de Interfaces}{35}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Tabela de Intera\IeC {\c c}\IeC {\~o}es}{35}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Mapa de Objetivos}{37}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Modelagem de Tarefas}{37}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Tratamento de Rupturas na Comunica\IeC {\c c}\IeC {\~a}o}{40}{subsection.4.1.4}
-\contentsline {section}{\numberline {4.2}Implementa\IeC {\c c}\IeC {\~a}o da Interface}{40}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Detalhes de Implementa\IeC {\c c}\IeC {\~a}o}{40}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Interface do Sistema}{42}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Descri\IeC {\c c}\IeC {\~a}o dos Testes}{46}{section.4.3}
-\contentsline {chapter}{\numberline {5}Resultados dos testes}{47}{chapter.5}
-\contentsline {section}{\numberline {5.1}Avalia\IeC {\c c}\IeC {\~a}o da Interface}{47}{section.5.1}
-\contentsline {section}{\numberline {5.2}Nova Interface do Sistema}{49}{section.5.2}
-\contentsline {chapter}{\numberline {6}Conclus\IeC {\~a}o e Trabalhos Futuros}{50}{chapter.6}
-\contentsline {section}{\numberline {6.1}Conclus\IeC {\~a}o}{50}{section.6.1}
-\contentsline {section}{\numberline {6.2}Trabalhos Futuros}{50}{section.6.2}
-\contentsline {chapter}{\numberline {A}Question\IeC {\'a}rios de dados pessoais dos bi\IeC {\'o}logos}{51}{appendix.A}
-\contentsline {chapter}{\numberline {B}Tarefas realizadas pelos bi\IeC {\'o}logos no sistema 2Path}{53}{appendix.B}
-\contentsline {chapter}{\numberline {C}Question\IeC {\'a}rios de interface conforme o M\IeC {\'e}todo de Avalia\IeC {\c c}\IeC {\~a}o de Comunicabilidade}{55}{appendix.C}
-\contentsline {chapter}{Refer\^encias}{57}{section*.42}
+\contentsline {subsection}{\numberline {4.1.1}Tabela de Intera\IeC {\c c}\IeC {\~o}es}{36}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Mapa de Objetivos}{36}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Modelagem de Tarefas}{36}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Tratamento de Rupturas na Comunica\IeC {\c c}\IeC {\~a}o}{41}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Implementa\IeC {\c c}\IeC {\~a}o da Interface}{41}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Detalhes de Implementa\IeC {\c c}\IeC {\~a}o}{41}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Interface do Sistema}{43}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Projeto de Avalia\IeC {\c c}\IeC {\~a}o}{47}{section.4.3}
+\contentsline {chapter}{\numberline {5}Resultados dos testes}{48}{chapter.5}
+\contentsline {section}{\numberline {5.1}Avalia\IeC {\c c}\IeC {\~a}o da Interface}{48}{section.5.1}
+\contentsline {section}{\numberline {5.2}Nova Interface do Sistema}{52}{section.5.2}
+\contentsline {chapter}{\numberline {6}Conclus\IeC {\~a}o e Trabalhos Futuros}{55}{chapter.6}
+\contentsline {chapter}{Refer\^encias}{56}{section*.50}
+\contentsline {chapter}{\numberline {A}Question\IeC {\'a}rios de dados pessoais dos bi\IeC {\'o}logos}{58}{appendix.A}
+\contentsline {chapter}{\numberline {B}Tarefas realizadas pelos bi\IeC {\'o}logos no sistema 2Path}{60}{appendix.B}
+\contentsline {chapter}{\numberline {C}Question\IeC {\'a}rios de interface conforme o M\IeC {\'e}todo de Avalia\IeC {\c c}\IeC {\~a}o de Comunicabilidade}{62}{appendix.C}

@@ -22,6 +22,7 @@
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{color,soul}
 \usepackage[utf8]{inputenc}
+\DeclareUnicodeCharacter{2010}{-}% support older LaTeX versions
 \usepackage{caption}
 \usepackage{subfig}
 \usepackage{graphicx}
@@ -176,14 +177,14 @@
 \coordenador{\prof \dr Rodrigo Bonifácio de Almeida}{CIC/UnB}
 \diamesano{08}{Julho}{2016}
 
-\membrobanca{\prof \dr[a] Fernanda Lima}{CIC/UnB}
-\membrobanca{\prof \dr Professor II}{CIC/UnB}
+\membrobanca{\dr[a] Tainá Raiol Alencar}{IB/UnB}
+\membrobanca{\prof \dr Rodrigo Bonifacio de Almeida}{CIC/UnB}
 
 \autor{Gabriella de Oliveira}{Esteves}
 \CDU{004.4}
 
-\palavraschave{Bioinformática, Redes Metabólicas, NoSQL, Grafo, Interação Humano-Computador, Método de Análise de Computabilidade}
-\keywords{Bioinformatics, Metabolic Networks, NoSQL, Graph, Human-Computer Interaction,  Method for Evaluating Software Communicability}
+\palavraschave{Bioinformática, Redes Metabólicas, Grafo, Interação Humano-Computador, Método de Análise de Computabilidade}
+\keywords{Bioinformatics, Metabolic Networks, Graph, Human-Computer Interaction,  Communicability Evaluation Method}
 
 
 
@@ -195,21 +196,21 @@
   \maketitle
   \pretextual
 
-  \begin{dedicatoria}
-  Dedicatória
-  \end{dedicatoria}
+  %\begin{dedicatoria}
+  
+  %\end{dedicatoria}
 
   \begin{agradecimentos}
-  Agradecimento
+  Agradeço à professora Maria Emília pelo e ao pesquisador Waldeyr Mendes, pela paciência, apoio e orientação. Agradeço à minha família pelo suporte e dedicação em me ajudar nessa fase final da graduação.
   \end{agradecimentos}
 
   \begin{resumo}
-  Resumo em português
+  O \textit{2Path} é um banco de dados de redes metabólicas. Ele possui um sistema que recebe um arquivo FASTA de múltiplas sequências e verifica se as sequências de enzimas presentes no banco correspondem às sequências presentes no FASTA. Caso alguma corresponda, então essa enzima está presente no organismo em questão. O objetivo deste trabalho é apresentar um projeto de interface para o banco \textit{2Path} em que seja possível fazer \textit{upload} de arquivos FASTA que representam organismos, além de pesquisar por enzimas e vias metabólicas entre dois compostos no mesmo. Para isso, serão analisadas as interfaces dos bancos de dados de redes metabólicas KEGG, BioCyc e Reactome. A interface proposta será testada e aperfeiçoada de acordo com o Método de Avaliação de Comunicabilidade, da área de Interação Humano-Computador.
   \end{resumo}
 
   \selectlanguage{american}
   \begin{abstract}
-  Abstract in english
+  The 2Path is a metabolic network database. It has a system that receives as an input a multiple sequence FASTA file and verifies if the enzymes on the database can be produced by the uploaded organism represented by the FASTA file. If so, then the organism is linked to them on the database. The goal of this project is to propose an interface to the 2Path database such that users can upload a FASTA file and search for enzymes and metabolic pathways between two compounds in the database. To achieve this goal, the interface of the most known metabolic database (KEGG, BioCyc and Reactome) will be analysed. The proposed interface will be tested and improved according to the Communicability Evaluation Method, from the Human-Computer Interaction field.
   \end{abstract}
   \selectlanguage{brazil}
 
@@ -224,11 +225,12 @@
   \input{capitulos/capitulo4}
   \input{capitulos/capitulo5}
   \input{capitulos/capitulo6}
-  \input{capitulos/questionarios_e_tarefas}
+  
 
   \postextual
   \bibliographystyle{plain}
   \bibliography{monografia}
+  \input{capitulos/questionarios_e_tarefas}
 
 \end{document}
 \grid

@@ -75,10 +75,16 @@ Claudio~Manoel de~Carvalho~Correia.
   em 2016-10-06.
 
 \bibitem{reacaoBioUSP}
-Prof. Dr. Luiz~Antonio Gallo.
+Luiz~Antonio Gallo.
 \newblock Bioquímica - enzimas.
 \newblock \url{http://docentes.esalq.usp.br/luagallo/enzimas.html}, visitado em
   2016-12-08.
+
+\bibitem{LauraProteinas07}
+Laura González-Torres, Alfredo Téllez-Valencia, José~Guadalupe Sampedro, and
+  Hugo Nájera.
+\newblock Las proteínas en la nutricíon.
+\newblock {\em Respyn - Revista Salud Pública y Nutrición}, 8, 2007.
 
 \bibitem{kabera14}
 Justin~N. Kabera, Edmond Semana, Ally~R. Mussa, and Xin He.
@@ -91,12 +97,6 @@ Vincent Lacroix, Ludovic Cottret, Patricia Thébault, and Marie-France Sagot.
 \newblock An introduction to metabolic networks and their structural analysis.
 \newblock {\em IEEE/ACM Trans. Comput. Biology Bioinform.}, 5(4):594--617,
   2008.
-
-\bibitem{LauraProteinas07}
-José G.~Sampedro Laura González-Torres, Alfredo Téllez-Valencia and Hugo
-  Nájera.
-\newblock Las proteínas en la nutricíon.
-\newblock {\em Respyn - Revista Salud Pública y Nutrición}, 8, 2007.
 
 \bibitem{affordance}
 Nicole Legault.
@@ -111,7 +111,7 @@ Gerhard Michal and Dietmar Schomburg.
 \newblock John Wiley \& Sons, Inc., 2012.
 
 \bibitem{mount01}
-David~W. Mount.
+David Mount.
 \newblock {\em Bioinformatics : sequence and genome analysis}.
 \newblock Cold Spring Harbor, N.Y. Cold Spring Harbor Laboratory Press, 2001.
 
@@ -121,7 +121,7 @@ Luca Pireddu, Duane Szafron, Paul Lu, and Russell Greiner.
 \newblock {\em Nucleic Acids Research}, 34(Web-Server-Issue):714--719, 2006.
 
 \bibitem{dnadiscovery08}
-Leslie~A. Pray.
+Leslie Pray.
 \newblock Discovery of dna structure and function: Watson and crick, 2008.
 \newblock
   \url{http://www.nature.com/scitable/topicpage/discovery-of-dna-structure-and-function-watson-397},
@@ -136,6 +136,8 @@ João~Carlos Setubal and João Meidanis.
 Waldeyr Silva, Marcelo Brígido, Danilo Vilar, Daniel Souza, Maria~Emília
   Walter, and Maristela Holanda.
 \newblock 2path: a terpenoid metabolic network modeled as graph database.
+\newblock International Workshop on Biological Network Analysis and Integrative
+  Graph‐Based Approaches, 2016.
 
 \bibitem{Cap3schomburg}
 Röbbe Wünschiers, Martina Jahn, Dieter Jahn, Ida Schomburg, Susanne Peifer,
