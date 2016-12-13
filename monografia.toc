@@ -43,9 +43,9 @@
 \contentsline {section}{\numberline {4.3}Projeto de Avalia\IeC {\c c}\IeC {\~a}o}{47}{section.4.3}
 \contentsline {chapter}{\numberline {5}Resultados dos testes}{48}{chapter.5}
 \contentsline {section}{\numberline {5.1}Avalia\IeC {\c c}\IeC {\~a}o da Interface}{48}{section.5.1}
-\contentsline {section}{\numberline {5.2}Nova Interface do Sistema}{52}{section.5.2}
-\contentsline {chapter}{\numberline {6}Conclus\IeC {\~a}o e Trabalhos Futuros}{55}{chapter.6}
-\contentsline {chapter}{Refer\^encias}{56}{section*.50}
-\contentsline {chapter}{\numberline {A}Question\IeC {\'a}rios de dados pessoais dos bi\IeC {\'o}logos}{58}{appendix.A}
-\contentsline {chapter}{\numberline {B}Tarefas realizadas pelos bi\IeC {\'o}logos no sistema 2Path}{60}{appendix.B}
-\contentsline {chapter}{\numberline {C}Question\IeC {\'a}rios de interface conforme o M\IeC {\'e}todo de Avalia\IeC {\c c}\IeC {\~a}o de Comunicabilidade}{62}{appendix.C}
+\contentsline {section}{\numberline {5.2}Nova Interface do Sistema}{53}{section.5.2}
+\contentsline {chapter}{\numberline {6}Conclus\IeC {\~a}o e Trabalhos Futuros}{56}{chapter.6}
+\contentsline {chapter}{Refer\^encias}{57}{section*.51}
+\contentsline {chapter}{\numberline {A}Question\IeC {\'a}rios de dados pessoais dos bi\IeC {\'o}logos}{59}{appendix.A}
+\contentsline {chapter}{\numberline {B}Tarefas realizadas pelos bi\IeC {\'o}logos no sistema 2Path}{61}{appendix.B}
+\contentsline {chapter}{\numberline {C}Question\IeC {\'a}rios de interface conforme o M\IeC {\'e}todo de Avalia\IeC {\c c}\IeC {\~a}o de Comunicabilidade}{63}{appendix.C}
