@@ -30,12 +30,12 @@ Pontos fracos:\\
 \item Grafo
   \begin{itemize}
   \item[1] A reação não deveria ser representada por um nó, pois para os biólogos, ela é uma ação, e não um elemento. Assim, faz mais sentido biológico representar COMPOUND-[SUBSTRACT]->ENZIME e ENZIME-[PRODUCTOF]->COMPUND. A aresta "CATALISE" não é necessária. Houve muita confusão, pois pensaram que reação era representada por aresta invés de nó;
-  \item[2] Não é necessário apresentar os nós do organismo e sequências que o organismo possui. Ao apresentar a enzima na busca de informações no organismo, já é implícito que aquela enzima é produzida pelo organismo. Se possível, fazer organismo ligar-se com enzima, apenas;
-  \item[3] É mais desejável um grafo que apareça primeiramente de maneira estática. Um grafo que aparece se movendo levemente é irritante. Caso o usuário queira mover e clicar nos elementos, ele o faz com mais facilidade com um grafo estático;
-  \item[4] É mais agradável um grafo que apareça aberto;
-  \item[5] As labels poderiam apresentar só as bolinhas e explicação a respeito do que elas representam. A informação sobre as arestas já é informação extra desnecessária;
-  \item[6] Quanto maior o grafo, mais complexo é entendê-los;
-  \item[7] Grafos muito grades podem ficar cortados e alguns elementos podem sair do campo de visão do usuário.
+  \item[2] Não é necessário apresentar os nós do organismo e sequências que o organismo possui. Ao apresentar a enzima na busca de informações no organismo, já é implícito que aquela enzima é produzida pelo organismo;
+  \item[3] Quanto maior o grafo, mais complexo é entendê-los;
+  \item[4] Grafos muito grades podem ficar cortados e alguns elementos podem sair do campo de visão do usuário.
+  \item[5] É mais desejável um grafo que apareça primeiramente de maneira estática. Um grafo que aparece se movendo levemente é irritante. Caso o usuário queira mover e clicar nos elementos, ele o faz com mais facilidade com um grafo estático;
+  \item[6] É mais agradável um grafo que apareça aberto;
+  \item[7] As labels poderiam apresentar só as bolinhas e explicação a respeito do que elas representam. A informação sobre as arestas já é informação extra desnecessária;
   \end{itemize}
 \end{itemize}
 
@@ -43,6 +43,26 @@ Pontos fracos:\\
 Foi encontrado um \textit{erro} de implementação em um dos testes. Uma das tarefas era encontrar uma via metabólica entre dois compostos no grafo completo do 2Path, porém um dos usuários utilizou a busca por via em um organismo. A busca deveria retornar que não há via, porém ela retornou que existia, e apresentou um grafo disjunto\footnote{Dois grafos que não se conectam.}. Um grafo era do organismo com todas as enzimas que ele produzia e o outro grafo representava a via entre os compostos pesquisados.
 
 
+Mudanças no projeto de interface após os testes:
+\begin{itemize}
+\item Busca
+  \begin{itemize}
+  \item[1] Foi adicionado um botão de voltar nas páginas específicas de busca por enzima e vias metabólicas, assim o usuário pode clicar nele e voltar diretamente para a página de buscas gerais;
+  \item[2] A função \textit{auto-complete} do campo de busca por enzima foi removido;
+  \item[3] As mensagens de sucesso e erro são apresentadas no canto superior direito da tela e são atualizadas sempre que uma nova busca é feita. Ela aparece por 5 segundos e depois desaparece.
+  \item[4, 5] O grafo que apresenta os detalhes sobre a enzima ou via metabólica buscada aparece na mesma página que o formulário de pesquisa. Se a busca retorna verdadeira, o grafo aparece, se retorna falsa, não aparece. Assim, o usuário não precisa seguir mais um passo na interface para visualizar os dados biológicos que procura;
+  \item[6] As colunar de busca no banco completo e no organismo foram configuradas no mesmo tamanho e ícones que simbolizam elementos públicos e privados foram posicionados ao lado dos títulos de cada busca.
+  \end{itemize}
+  
+\item Grafo
+  \begin{itemize} 
+  \item[1] NÃO DÁ: Uma enzima pode catalisar mais de uma reação. Assim, não teria como representar o nó da enzima recebendo todos os possíveis substratos e produzindo todas os possíveis produtos. Seria mais fácil pedir pro waldeyr adicionar uma propriedade no nó da reação falando qual enzima catalisa a reação.
+  \item[2, 3, 4] Para diminuir o tamanho do grafo, foram omitidos os nós referentes ao organismo e às sequências do genoma que ele possui.
+  \item[5] O grafo aparece estático, porém o usuário pode clicar nos nós e movê-los como desejar;
+  \item[6] O nós do grafo não se sobrepõem, portanto ele tem a aparência de que está aberto;
+  \item[7] A legenda apresenta apenas informações sobre as cores de três nós: Compostos, Reações e Enzimas;
+  \end{itemize}
+\end{itemize}
  
  
  

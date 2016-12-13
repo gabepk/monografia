@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.12)  12 DEC 2016 01:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.12)  13 DEC 2016 04:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1525,63 +1525,37 @@ File: ./figuras/nodeslinksD3.png Graphic file (type png)
 <use ./figuras/nodeslinksD3.png>
 Package pdftex.def Info: ./figuras/nodeslinksD3.png used on input line 154.
 (pdftex.def)             Requested size: 273.14923pt x 146.63281pt.
-
-
-LaTeX Warning: Reference `fig:2path_home' on page 42 undefined on input line 16
-5.
-
-
-LaTeX Warning: Reference `fig:2path_search' on page 42 undefined on input line 
-165.
-
-[42 <./figuras/nodeslinksD3.png>]
-<./figuras/2path_home.png, id=884, 913.16156pt x 454.69875pt>
+ [42 <./figuras/nodeslinksD3.png>]
+<./figuras/2path_home.png, id=886, 913.16156pt x 454.69875pt>
 File: ./figuras/2path_home.png Graphic file (type png)
 
 <use ./figuras/2path_home.png>
 Package pdftex.def Info: ./figuras/2path_home.png used on input line 169.
 (pdftex.def)             Requested size: 455.24411pt x 226.68275pt.
 
-<./figuras/2path_search.png, id=885, 931.98187pt x 467.49657pt>
+<./figuras/2path_search.png, id=887, 931.98187pt x 467.49657pt>
 File: ./figuras/2path_search.png Graphic file (type png)
 
 <use ./figuras/2path_search.png>
 Package pdftex.def Info: ./figuras/2path_search.png used on input line 176.
 (pdftex.def)             Requested size: 455.24411pt x 228.35484pt.
- [43 <./figuras/2path_home.png> <./figuras/2path_search.png>]
-
-LaTeX Warning: Reference `fig:2path_enzyme' on page 44 undefined on input line 
-183.
-
-
-LaTeX Warning: Reference `fig:2path_enzyme_graph' on page 44 undefined on input
- line 183.
-
-<./figuras/2path_enzyme.png, id=893, 952.30782pt x 463.7325pt>
+ [43 <./figuras/2path_home.png> <./figuras/2path_search.png>] <./figuras/2path_
+enzyme.png, id=897, 952.30782pt x 463.7325pt>
 File: ./figuras/2path_enzyme.png Graphic file (type png)
 
 <use ./figuras/2path_enzyme.png>
 Package pdftex.def Info: ./figuras/2path_enzyme.png used on input line 187.
 (pdftex.def)             Requested size: 455.24411pt x 221.68333pt.
 
-<./figuras/2path_enzyme_graph.png, id=894, 899.61093pt x 439.6425pt>
+<./figuras/2path_enzyme_graph.png, id=898, 899.61093pt x 439.6425pt>
 File: ./figuras/2path_enzyme_graph.png Graphic file (type png)
 
 <use ./figuras/2path_enzyme_graph.png>
 Package pdftex.def Info: ./figuras/2path_enzyme_graph.png used on input line 19
 4.
 (pdftex.def)             Requested size: 455.24411pt x 222.47723pt.
-
-
-LaTeX Warning: Reference `fig:2path_pathway_org' on page 44 undefined on input 
-line 199.
-
-
-LaTeX Warning: Reference `fig:2path_pathway_graph' on page 44 undefined on inpu
-t line 199.
-
-[44 <./figuras/2path_enzyme.png> <./figuras/2path_enzyme_graph.png>]
-<./figuras/2path_pathway_org.png, id=901, 923.70094pt x 446.41782pt>
+ [44 <./figuras/2path_enzyme.png> <./figuras/2path_enzyme_graph.png>]
+<./figuras/2path_pathway_org.png, id=907, 923.70094pt x 446.41782pt>
 File: ./figuras/2path_pathway_org.png Graphic file (type png)
 
 <use ./figuras/2path_pathway_org.png>
@@ -1589,15 +1563,21 @@ Package pdftex.def Info: ./figuras/2path_pathway_org.png used on input line 203
 .
 (pdftex.def)             Requested size: 455.24411pt x 220.01363pt.
 
-<./figuras/2path_pathway_graph.png, id=902, 913.91437pt x 558.58687pt>
+<./figuras/2path_pathway_graph.png, id=908, 913.91437pt x 558.58687pt>
 File: ./figuras/2path_pathway_graph.png Graphic file (type png)
 
 <use ./figuras/2path_pathway_graph.png>
 Package pdftex.def Info: ./figuras/2path_pathway_graph.png used on input line 2
 10.
 (pdftex.def)             Requested size: 455.24411pt x 278.24437pt.
- [45 <./figuras/2path_pathway_org.png> <./figuras/2path_pathway_graph.png>]) (.
-/capitulos/capitulo5.tex [46]
+ [45 <./figuras/2path_pathway_org.png> <./figuras/2path_pathway_graph.png>]
+Overfull \hbox (14.85774pt too wide) in paragraph at lines 223--224
+[]\T1/cmr/m/n/12 Durante a re-a-li-za-ção das ta-re-fas, se-rão fil-ma-das a te
+la do com-pu-ta-dor, o \T1/cmr/m/it/12 mouse\T1/cmr/m/n/12 /\T1/cmr/m/it/12 mou
+sepad\T1/cmr/m/n/12 ,
+ []
+
+) (./capitulos/capitulo5.tex [46]
 Cap\'{\i }tulo 5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
@@ -1611,13 +1591,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
 [47
 
-]) (./capitulos/capitulo6.tex [48]
+] [48]) (./capitulos/capitulo6.tex [49]
 Cap\'{\i }tulo 6.
-) (./capitulos/questionarios_e_tarefas.tex [49
+) (./capitulos/questionarios_e_tarefas.tex [50
 
 ]
 Ap\^endice A.
-<capitulos/questionario_dados_pessoais.pdf, id=928, 597.23125pt x 845.1575pt>
+<capitulos/questionario_dados_pessoais.pdf, id=939, 597.23125pt x 845.1575pt>
 File: capitulos/questionario_dados_pessoais.pdf Graphic file (type pdf)
 
 <use capitulos/questionario_dados_pessoais.pdf>
@@ -1631,7 +1611,7 @@ Package pdftex.def Info: capitulos/questionario_dados_pessoais.pdf used on inpu
 t line 5.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<capitulos/questionario_dados_pessoais.pdf, id=931, page=1, 597.23125pt x 845.1
+<capitulos/questionario_dados_pessoais.pdf, id=942, page=1, 597.23125pt x 845.1
 575pt>
 File: capitulos/questionario_dados_pessoais.pdf Graphic file (type pdf)
  <use capitulos/questionario_dados_pessoais.pdf, page 1>
@@ -1644,7 +1624,7 @@ File: capitulos/questionario_dados_pessoais.pdf Graphic file (type pdf)
 Package pdftex.def Info: capitulos/questionario_dados_pessoais.pdf, page1 used 
 on input line 5.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- [50
+ [51
 
 ]
 File: capitulos/questionario_dados_pessoais.pdf Graphic file (type pdf)
@@ -1665,9 +1645,9 @@ File: capitulos/questionario_dados_pessoais.pdf Graphic file (type pdf)
 Package pdftex.def Info: capitulos/questionario_dados_pessoais.pdf, page1 used 
 on input line 5.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- [51 <./capitulos/questionario_dados_pessoais.pdf>]
+ [52 <./capitulos/questionario_dados_pessoais.pdf>]
 Ap\^endice B.
-<capitulos/tarefas_2Path.pdf, id=966, 597.23125pt x 845.1575pt>
+<capitulos/tarefas_2Path.pdf, id=977, 597.23125pt x 845.1575pt>
 File: capitulos/tarefas_2Path.pdf Graphic file (type pdf)
 
 <use capitulos/tarefas_2Path.pdf>
@@ -1678,7 +1658,7 @@ File: capitulos/tarefas_2Path.pdf Graphic file (type pdf)
 Package pdftex.def Info: capitulos/tarefas_2Path.pdf used on input line 9.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<capitulos/tarefas_2Path.pdf, id=969, page=1, 597.23125pt x 845.1575pt>
+<capitulos/tarefas_2Path.pdf, id=980, page=1, 597.23125pt x 845.1575pt>
 File: capitulos/tarefas_2Path.pdf Graphic file (type pdf)
 
 <use capitulos/tarefas_2Path.pdf, page 1>
@@ -1691,7 +1671,7 @@ File: capitulos/tarefas_2Path.pdf Graphic file (type pdf)
 Package pdftex.def Info: capitulos/tarefas_2Path.pdf, page1 used on input line 
 9.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- [52
+ [53
 
 ]
 File: capitulos/tarefas_2Path.pdf Graphic file (type pdf)
@@ -1712,9 +1692,9 @@ File: capitulos/tarefas_2Path.pdf Graphic file (type pdf)
 Package pdftex.def Info: capitulos/tarefas_2Path.pdf, page1 used on input line 
 9.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- [53 <./capitulos/tarefas_2Path.pdf>]
+ [54 <./capitulos/tarefas_2Path.pdf>]
 Ap\^endice C.
-<capitulos/questionario_interface.pdf, id=1004, 597.23125pt x 845.1575pt>
+<capitulos/questionario_interface.pdf, id=1016, 597.23125pt x 845.1575pt>
 File: capitulos/questionario_interface.pdf Graphic file (type pdf)
 
 <use capitulos/questionario_interface.pdf>
@@ -1728,7 +1708,7 @@ Package pdftex.def Info: capitulos/questionario_interface.pdf used on input lin
 e 13.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<capitulos/questionario_interface.pdf, id=1007, page=1, 597.23125pt x 845.1575p
+<capitulos/questionario_interface.pdf, id=1019, page=1, 597.23125pt x 845.1575p
 t>
 File: capitulos/questionario_interface.pdf Graphic file (type pdf)
  <use capitulos/questionario_interface.pdf, page 1>
@@ -1741,7 +1721,7 @@ File: capitulos/questionario_interface.pdf Graphic file (type pdf)
 Package pdftex.def Info: capitulos/questionario_interface.pdf, page1 used on in
 put line 13.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- [54
+ [55
 
 ]
 File: capitulos/questionario_interface.pdf Graphic file (type pdf)
@@ -1762,7 +1742,7 @@ File: capitulos/questionario_interface.pdf Graphic file (type pdf)
 Package pdftex.def Info: capitulos/questionario_interface.pdf, page1 used on in
 put line 13.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- [55 <./capitulos/questionario_interface.pdf>]) (./monografia.bbl (./monografia
+ [56 <./capitulos/questionario_interface.pdf>]) (./monografia.bbl (./monografia
 .brf)
 \tf@brf=\write8
 \openout8 = `monografia.brf'.
@@ -1821,7 +1801,7 @@ Overfull \hbox (24.56906pt too wide) in paragraph at lines 69--69
 []rumo-[]ao-[]desenvolvimento .
  []
 
-[56
+[57
 
 
 ]
@@ -1850,7 +1830,7 @@ Underfull \hbox (badness 3735) in paragraph at lines 129--129
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 233.
- [57]
+ [58]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
  (./monografia.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 233.
@@ -1877,10 +1857,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 233.
  )
 (\end occurred when \iffalse on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 20744 strings out of 493029
- 361021 string characters out of 6136234
- 467813 words of memory out of 5000000
- 23583 multiletter control sequences out of 15000+600000
+ 20739 strings out of 493029
+ 360938 string characters out of 6136234
+ 467851 words of memory out of 5000000
+ 23577 multiletter control sequences out of 15000+600000
  20553 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,92p,1383b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1995,10 +1975,10 @@ er/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on monografia.pdf (69 pages, 4980918 bytes).
+Output written on monografia.pdf (70 pages, 4984913 bytes).
 PDF statistics:
- 1258 PDF objects out of 1440 (max. 8388607)
- 1044 compressed objects within 11 object streams
- 219 named destinations out of 1000 (max. 500000)
+ 1269 PDF objects out of 1440 (max. 8388607)
+ 1054 compressed objects within 11 object streams
+ 220 named destinations out of 1000 (max. 500000)
  615 words of extra memory for PDF output out of 10000 (max. 10000000)
 
