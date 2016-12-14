@@ -6,7 +6,7 @@
 
 \section{Avaliação da Interface} \label{avaliacaoDeInterface}
 
-\indent Os testes foram realizados com 3 biólogos, identificados aqui como Usuário 1, 2 e 3. A Tabela \ref{dados_pessoais} apresenta os dados pessoais de cada um, levando em consideração, principalmente, a experiência que já possuem em redes metabólicas. Isso é necessário, pois quanto mais ele conhecem sobre o conteúdo, mais críticos são a respeito da interface a qual devem interagir em seu trabalho e pesquisas.
+\indent Os testes foram realizados com 3 biólogos, identificados aqui como Usuário 1, 2 e 3. A Tabela \ref{dados_pessoais} apresenta os dados pessoais de cada um, levando em consideração, principalmente, a experiência que já possuem em redes metabólicas. Isso é necessário, pois quanto mais eles conhecem sobre o conteúdo, mais críticos são a respeito da interface a qual devem interagir em seu trabalho e pesquisas.
 
 \begin{table}[h!]
   \centering
@@ -107,7 +107,7 @@
   \end{tabular}
 \end{table}
 
-\indent Após a realização das tarefas, cada biólogo respondeu à um questionário, do Anexo \ref{questionario_interface}, para que fosse avaliado também sua opinião a respeito do sistema.
+\indent Após a realização das tarefas, cada biólogo respondeu a um questionário, do Anexo \ref{questionario_interface}, para que fosse avaliado também sua opinião a respeito do sistema.
 
 \indent O usuário 1 relatou que apesar de as tarefas serem relativamente fáceis, a representação das vias metabólicas é confusa, pois a reação é uma ação, portanto seria melhor representada como uma aresta. Quem recebe o substrato e produz outro composto a partir desse é a enzima, portanto o grafo deveria ser configurando mantendo essa informação biológica. Foi reportado, também, que a legenda do grafo estava confusa e poderia conter apenas informações sobre os nós, removendo as informações sobre as arestas, que são óbvias para os biólogos. Por fim, o usuário 1 sugeriu que a via metabólica aparecesse inicialmente estática e com os nós distantes uns dos outros.
 
@@ -145,7 +145,7 @@
 \end{itemize}
 
 
-\indent Além dessas dificuldade relatadas, foi encontrado um \textit{erro} de implementação em um dos testes. Uma das tarefas era encontrar uma via metabólica entre dois compostos no grafo completo do 2Path, porém um dos usuários utilizou a busca por via em um organismo. A busca deveria retornar que não há via, porém ela retornou que existia, e apresentou um grafo disjunto\footnote{Dois grafos que não se conectam.}. Um grafo era do organismo com todas as enzimas que ele produzia e o outro grafo representava a via entre os compostos pesquisados.
+\indent Além dessas dificuldades relatadas, foi encontrado um erro de implementação em um dos testes. Uma das tarefas era encontrar uma via metabólica entre dois compostos no grafo completo do 2Path, porém um dos usuários utilizou a busca por via em um organismo. A busca deveria retornar que não há via, porém ela retornou que existia, e apresentou um grafo disjunto\footnote{Dois grafos que não se conectam.}. Um grafo era do organismo com todas as enzimas que ele produzia e o outro grafo representava a via entre os compostos pesquisados.
 
 \indent Assim sendo, foi criado, a partir da análise completa dos dados, o seguinte perfil semiótico para a proposta de interface para o banco de dados 2path:
 
@@ -192,7 +192,7 @@
     \label{fig:new_search_page}
 \end{figure}
 
-\indent A antiga interface para buscar por enzima possuia duas páginas, onde o objetivo da primeira era relatar se a enzima existe no banco de dados e o objetivo da segunda era de apresentar o grafo da enzima e as reações que ela catalizava, se existisse. Essa interface, porém era bastante confusa, principalmente os \textit{feedbacks} dados na busca, pois não atualizavam corretamente. A função de auto-complete do EC das enzimas também diminuiu a usabilidade, pois acredita-se que não seja natural um campo de entrada completar números. Além disso, quando o usuário seguia para a página de visualização dos dados biológicos, eles precisavam clicar e arrastar os nós de maneira forçada, pois os mesmos não paravam de se mexer. O objetivo era apresentar um grafo simples e interativo, porém a experiência de usuário não correspondeu ao esperado.
+\indent A antiga interface para buscar por enzima possuia duas páginas, onde o objetivo da primeira era relatar se a enzima existe no banco de dados e o objetivo da segunda era de apresentar o grafo da enzima e as reações que catalizava, se existisse. Essa interface, porém era bastante confusa, principalmente os \textit{feedbacks} dados na busca, pois não atualizavam corretamente. A função de auto-complete do EC das enzimas também diminuiu a usabilidade, pois acredita-se que não seja natural um campo de entrada completar números. Além disso, quando o usuário seguia para a página de visualização dos dados biológicos, eles precisavam clicar e arrastar os nós de maneira forçada, pois os mesmos não paravam de se mexer. O objetivo era apresentar um grafo simples e interativo, porém a experiência de usuário não correspondeu ao esperado.
 
 \indent A nova interface para busca de enzima sofreu fortes mudanças. Não há mais função de auto-complete no campo de entrada de EC, foi adicionado um botão para retornar à página de busca e, principalmete, o grafo aparece na mesma página. Se existe enzima, o grafo aparece, se não existe, não aparece. A Figura \ref{fig:new_enzyme_4_catalyses}, além de apresentar a nova interface, mostra que não é possível representar as reações como enzimas, pois uma enzima pode catalizar mais de uma reação. Se as próprias reações possuíssem informação sobre qual enzima às catalisam, então essa mudança seria possível. Essa alteração no banco de dados facilitaria bastante a interpretação do grafo, de acordo com os biólogos, que costumaram entender reação como aresta. Por fim, a legenda do grafo ficou mais simples, portanto, mais legível.
 
