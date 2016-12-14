@@ -69,27 +69,27 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
 
 \indent A Figura \ref{fig:mapaDeObjetivos} apresenta o Mapa de Objetivos do sistema 2Path construído com base nos objetivos finais e instrumentais (diretos e indiretos) dos usuários. 
 
+\begin{figure}[!h] 
+	\centering
+	\includegraphics[width=1\textwidth]{mapaDeObjetivos.png}
+	\caption{Mapa de objetivos finais e intrumentais.}
+	\label{fig:mapaDeObjetivos}
+\end{figure} 
+
 \subsection{Modelagem de Tarefas}
 
 \indent A partir do mapa de objetivos, têm-se uma ideia geral da navegação do site, uma vez que foi feito um mapeamento generalizado das sequências de passos para atingi-los. O propósito da modelagem de tarefas é, portanto, formularizar essa sequências de passos de maneira específica para cada objetivo final. 
 
 \indent No caso, foram elaborados dois objetivos finais: Verificar via metabólica entre dois metabólitos no banco de dados; Verificar existência de enzima no banco de dados. Entretanto a pequisa pode ser feita tanto no banco de dados completo do 2Path, quanto na rede metabólica construída para um organismo específico. Assim, esses objetivos finais foram subdivididos em dois na modelagem de tarefas: Verificar se enzima está no banco de dados público do 2Path (Figura \ref{fig:objetivo_enzyma}); Verificar se enzima está no banco de dados privado (Figura \ref{fig:objetivo_enzyma_organismo}); Verificar se há via entre dois metabólitos no banco de dados público (Figura \ref{fig:objetivo_pathway}); Verificar se há via metabólica no banco de dados privado (Figura \ref{fig:objetivo_pathway_organismo});
 
-\newpage 
-\begin{figure}[!h] % ESSA FIGURA EH DA SUBSECAO ANTERIOR QUE VEIO PARAR AQUI EM BAIXO NO PDF
-    \centering
-    \includegraphics[width=1\textwidth]{mapaDeObjetivos.png}
-    \caption{Mapa de objetivos finais e intrumentais.}
-    \label{fig:mapaDeObjetivos}
-\end{figure} 
 \begin{figure}[!h]
     \centering
     \includegraphics[width=0.8\textwidth]{objetivo_enzima.png}
     \caption{Objetivo de pesquisar enzima no banco de dados completo do 2Path.}
     \label{fig:objetivo_enzyma}
 \end{figure}
-\break
 
+\newpage
 \begin{figure}[!h]
     \centering
     \includegraphics[width=1\textwidth]{objetivo_enzima_organismo.png}

@@ -1,29 +1,27 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.12)  13 DEC 2016 16:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.1)  14 DEC 2016 15:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **monografia.tex
 (./monografia.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 3 languages loaded.
 (./unb-cic.cls
 Document Class: unb-cic 2008/06/05 v0.93 Classe para trabalhos CIC UnB
 (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks14
 \XKV@tempa@toks=\toks15
-
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))
 \XKV@depth=\count79
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex)))
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@chapter=\count81
@@ -39,14 +37,10 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/fixltx2e.sty
-Package: fixltx2e 2015/06/22 v2.0b fixes to LaTeX (obsolete)
-
-
-Package fixltx2e Warning: fixltx2e is not required with releases after 2015
-(fixltx2e)                All fixes are now in the LaTeX kernel.
-(fixltx2e)                See the latexrelease package for details.
-
-) (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -170,18 +164,18 @@ File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Hy@SectionHShift=\skip43
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 95.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
@@ -220,13 +214,13 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 \c@definition=\count105
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2016/02/24 3.9q The Babel package
+Package: babel 2013/12/03 3.9h The Babel package
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2016/02/24 3.9q Babel common definitions
+File: babel.def 2013/12/03 3.9h Babel common definitions
 \babel@savecnt=\count106
 \U@D=\dimen117
 )
@@ -235,6 +229,8 @@ Package babel Info: Making " an active character on input line 145.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2012/08/20 v3.3p English support from the babel system
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
@@ -244,7 +240,7 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
@@ -268,7 +264,7 @@ Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen118
 \extrarowheight=\dimen119
 \NC@list=\toks17
@@ -302,24 +298,22 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@ulht=\dimen122
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2015/03/17 v1.2c Input encoding file
+Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks24
 \inpenc@posthook=\toks25
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00AD (decimal 173)
    defining Unicode char U+00BB (decimal 187)
    defining Unicode char U+00BF (decimal 191)
    defining Unicode char U+00C0 (decimal 192)
@@ -384,94 +378,50 @@ File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+00FD (decimal 253)
    defining Unicode char U+00FE (decimal 254)
    defining Unicode char U+00FF (decimal 255)
-   defining Unicode char U+0100 (decimal 256)
-   defining Unicode char U+0101 (decimal 257)
    defining Unicode char U+0102 (decimal 258)
    defining Unicode char U+0103 (decimal 259)
    defining Unicode char U+0104 (decimal 260)
    defining Unicode char U+0105 (decimal 261)
    defining Unicode char U+0106 (decimal 262)
    defining Unicode char U+0107 (decimal 263)
-   defining Unicode char U+0108 (decimal 264)
-   defining Unicode char U+0109 (decimal 265)
-   defining Unicode char U+010A (decimal 266)
-   defining Unicode char U+010B (decimal 267)
    defining Unicode char U+010C (decimal 268)
    defining Unicode char U+010D (decimal 269)
    defining Unicode char U+010E (decimal 270)
    defining Unicode char U+010F (decimal 271)
    defining Unicode char U+0110 (decimal 272)
    defining Unicode char U+0111 (decimal 273)
-   defining Unicode char U+0112 (decimal 274)
-   defining Unicode char U+0113 (decimal 275)
-   defining Unicode char U+0114 (decimal 276)
-   defining Unicode char U+0115 (decimal 277)
-   defining Unicode char U+0116 (decimal 278)
-   defining Unicode char U+0117 (decimal 279)
    defining Unicode char U+0118 (decimal 280)
    defining Unicode char U+0119 (decimal 281)
    defining Unicode char U+011A (decimal 282)
    defining Unicode char U+011B (decimal 283)
-   defining Unicode char U+011C (decimal 284)
-   defining Unicode char U+011D (decimal 285)
    defining Unicode char U+011E (decimal 286)
    defining Unicode char U+011F (decimal 287)
-   defining Unicode char U+0120 (decimal 288)
-   defining Unicode char U+0121 (decimal 289)
-   defining Unicode char U+0122 (decimal 290)
-   defining Unicode char U+0123 (decimal 291)
-   defining Unicode char U+0124 (decimal 292)
-   defining Unicode char U+0125 (decimal 293)
-   defining Unicode char U+0128 (decimal 296)
-   defining Unicode char U+0129 (decimal 297)
-   defining Unicode char U+012A (decimal 298)
-   defining Unicode char U+012B (decimal 299)
-   defining Unicode char U+012C (decimal 300)
-   defining Unicode char U+012D (decimal 301)
-   defining Unicode char U+012E (decimal 302)
-   defining Unicode char U+012F (decimal 303)
    defining Unicode char U+0130 (decimal 304)
    defining Unicode char U+0131 (decimal 305)
    defining Unicode char U+0132 (decimal 306)
    defining Unicode char U+0133 (decimal 307)
-   defining Unicode char U+0134 (decimal 308)
-   defining Unicode char U+0135 (decimal 309)
-   defining Unicode char U+0136 (decimal 310)
-   defining Unicode char U+0137 (decimal 311)
    defining Unicode char U+0139 (decimal 313)
    defining Unicode char U+013A (decimal 314)
-   defining Unicode char U+013B (decimal 315)
-   defining Unicode char U+013C (decimal 316)
    defining Unicode char U+013D (decimal 317)
    defining Unicode char U+013E (decimal 318)
    defining Unicode char U+0141 (decimal 321)
    defining Unicode char U+0142 (decimal 322)
    defining Unicode char U+0143 (decimal 323)
    defining Unicode char U+0144 (decimal 324)
-   defining Unicode char U+0145 (decimal 325)
-   defining Unicode char U+0146 (decimal 326)
    defining Unicode char U+0147 (decimal 327)
    defining Unicode char U+0148 (decimal 328)
    defining Unicode char U+014A (decimal 330)
    defining Unicode char U+014B (decimal 331)
-   defining Unicode char U+014C (decimal 332)
-   defining Unicode char U+014D (decimal 333)
-   defining Unicode char U+014E (decimal 334)
-   defining Unicode char U+014F (decimal 335)
    defining Unicode char U+0150 (decimal 336)
    defining Unicode char U+0151 (decimal 337)
    defining Unicode char U+0152 (decimal 338)
    defining Unicode char U+0153 (decimal 339)
    defining Unicode char U+0154 (decimal 340)
    defining Unicode char U+0155 (decimal 341)
-   defining Unicode char U+0156 (decimal 342)
-   defining Unicode char U+0157 (decimal 343)
    defining Unicode char U+0158 (decimal 344)
    defining Unicode char U+0159 (decimal 345)
    defining Unicode char U+015A (decimal 346)
    defining Unicode char U+015B (decimal 347)
-   defining Unicode char U+015C (decimal 348)
-   defining Unicode char U+015D (decimal 349)
    defining Unicode char U+015E (decimal 350)
    defining Unicode char U+015F (decimal 351)
    defining Unicode char U+0160 (decimal 352)
@@ -480,22 +430,10 @@ File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+0163 (decimal 355)
    defining Unicode char U+0164 (decimal 356)
    defining Unicode char U+0165 (decimal 357)
-   defining Unicode char U+0168 (decimal 360)
-   defining Unicode char U+0169 (decimal 361)
-   defining Unicode char U+016A (decimal 362)
-   defining Unicode char U+016B (decimal 363)
-   defining Unicode char U+016C (decimal 364)
-   defining Unicode char U+016D (decimal 365)
    defining Unicode char U+016E (decimal 366)
    defining Unicode char U+016F (decimal 367)
    defining Unicode char U+0170 (decimal 368)
    defining Unicode char U+0171 (decimal 369)
-   defining Unicode char U+0172 (decimal 370)
-   defining Unicode char U+0173 (decimal 371)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
    defining Unicode char U+0178 (decimal 376)
    defining Unicode char U+0179 (decimal 377)
    defining Unicode char U+017A (decimal 378)
@@ -503,31 +441,6 @@ File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+017C (decimal 380)
    defining Unicode char U+017D (decimal 381)
    defining Unicode char U+017E (decimal 382)
-   defining Unicode char U+01CD (decimal 461)
-   defining Unicode char U+01CE (decimal 462)
-   defining Unicode char U+01CF (decimal 463)
-   defining Unicode char U+01D0 (decimal 464)
-   defining Unicode char U+01D1 (decimal 465)
-   defining Unicode char U+01D2 (decimal 466)
-   defining Unicode char U+01D3 (decimal 467)
-   defining Unicode char U+01D4 (decimal 468)
-   defining Unicode char U+01E2 (decimal 482)
-   defining Unicode char U+01E3 (decimal 483)
-   defining Unicode char U+01E6 (decimal 486)
-   defining Unicode char U+01E7 (decimal 487)
-   defining Unicode char U+01E8 (decimal 488)
-   defining Unicode char U+01E9 (decimal 489)
-   defining Unicode char U+01EA (decimal 490)
-   defining Unicode char U+01EB (decimal 491)
-   defining Unicode char U+01F0 (decimal 496)
-   defining Unicode char U+01F4 (decimal 500)
-   defining Unicode char U+01F5 (decimal 501)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+01E02 (decimal 7682)
-   defining Unicode char U+01E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
@@ -547,11 +460,9 @@ Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AD (decimal 173)
    defining Unicode char U+00B8 (decimal 184)
    defining Unicode char U+00BF (decimal 191)
    defining Unicode char U+00C5 (decimal 197)
@@ -569,14 +480,6 @@ File: ot1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+0142 (decimal 322)
    defining Unicode char U+0152 (decimal 338)
    defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
    defining Unicode char U+2018 (decimal 8216)
@@ -588,7 +491,7 @@ Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -616,11 +519,11 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2010 (decimal 8208)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen123
 \captionmargin@=\dimen124
 \captionwidth=\dimen125
@@ -666,43 +569,40 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 \lst@maxwidth=\dimen135
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 \c@lstnumber=\count123
 \lst@skipnumbers=\count124
 \lst@framebox=\box29
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2015/06/04 1.6 listings configuration
+File: listings.cfg 2013/08/26 1.5b listings configuration
 ))
-Package: listings 2015/06/04 1.6 (Carsten Heinz)
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2015/09/18 v0.5d Insert pages of external PDF documents (AM)
+Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count125
 \calc@Bcount=\count126
 \calc@Adimen=\dimen136
 \calc@Bdimen=\dimen137
 \calc@Askip=\skip55
 \calc@Bskip=\skip56
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count127
 \calc@Cskip=\skip57
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
 )
-\AM@pagewidth=\dimen138
-\AM@pageheight=\dimen139
-
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
+File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box30
 \AM@toc@title=\toks27
@@ -738,14 +638,14 @@ Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks31
 ))
-\pgf@x=\dimen140
-\pgf@y=\dimen141
-\pgf@xa=\dimen142
-\pgf@ya=\dimen143
-\pgf@xb=\dimen144
-\pgf@yb=\dimen145
-\pgf@xc=\dimen146
-\pgf@yc=\dimen147
+\pgf@x=\dimen138
+\pgf@y=\dimen139
+\pgf@xa=\dimen140
+\pgf@ya=\dimen141
+\pgf@xb=\dimen142
+\pgf@yb=\dimen143
+\pgf@xc=\dimen144
+\pgf@yc=\dimen145
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
 \c@pgf@counta=\count129
@@ -779,7 +679,7 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen148
+\pgfmath@dimen=\dimen146
 \pgfmath@count=\count135
 \pgfmath@box=\box33
 \pgfmath@toks=\toks32
@@ -799,30 +699,30 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 ))
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
-\pgf@picminx=\dimen149
-\pgf@picmaxx=\dimen150
-\pgf@picminy=\dimen151
-\pgf@picmaxy=\dimen152
-\pgf@pathminx=\dimen153
-\pgf@pathmaxx=\dimen154
-\pgf@pathminy=\dimen155
-\pgf@pathmaxy=\dimen156
-\pgf@xx=\dimen157
-\pgf@xy=\dimen158
-\pgf@yx=\dimen159
-\pgf@yy=\dimen160
-\pgf@zx=\dimen161
-\pgf@zy=\dimen162
+\pgf@picminx=\dimen147
+\pgf@picmaxx=\dimen148
+\pgf@picminy=\dimen149
+\pgf@picmaxy=\dimen150
+\pgf@pathminx=\dimen151
+\pgf@pathmaxx=\dimen152
+\pgf@pathminy=\dimen153
+\pgf@pathmaxy=\dimen154
+\pgf@xx=\dimen155
+\pgf@xy=\dimen156
+\pgf@yx=\dimen157
+\pgf@yy=\dimen158
+\pgf@zx=\dimen159
+\pgf@zy=\dimen160
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
-\pgf@path@lastx=\dimen163
-\pgf@path@lasty=\dimen164
+\pgf@path@lastx=\dimen161
+\pgf@path@lasty=\dimen162
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
-\pgf@shorten@end@additional=\dimen165
-\pgf@shorten@start@additional=\dimen166
+\pgf@shorten@end@additional=\dimen163
+\pgf@shorten@start@additional=\dimen164
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
@@ -833,13 +733,13 @@ File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
-\pgflinewidth=\dimen167
+\pgflinewidth=\dimen165
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
-\pgf@pt@x=\dimen168
-\pgf@pt@y=\dimen169
-\pgf@pt@temp=\dimen170
+\pgf@pt@x=\dimen166
+\pgf@pt@y=\dimen167
+\pgf@pt@temp=\dimen168
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
@@ -855,7 +755,7 @@ File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
-\pgf@max=\dimen171
+\pgf@max=\dimen169
 \pgf@sys@shading@range@num=\count138
 )
 (/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
@@ -883,8 +783,8 @@ File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 )
 (/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen172
-\pgf@nodesepend=\dimen173
+\pgf@nodesepstart=\dimen170
+\pgf@nodesepend=\dimen171
 )
 (/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
@@ -894,8 +794,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 (/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
 (/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen174
-\pgffor@skip=\dimen175
+\pgffor@iter=\dimen172
+\pgffor@skip=\dimen173
 \pgffor@stack=\toks35
 \pgffor@toks=\toks36
 ))
@@ -905,14 +805,14 @@ Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \pgf@plot@mark@count=\count139
-\pgfplotmarksize=\dimen176
+\pgfplotmarksize=\dimen174
 )
-\tikz@lastx=\dimen177
-\tikz@lasty=\dimen178
-\tikz@lastxsaved=\dimen179
-\tikz@lastysaved=\dimen180
-\tikzleveldistance=\dimen181
-\tikzsiblingdistance=\dimen182
+\tikz@lastx=\dimen175
+\tikz@lasty=\dimen176
+\tikz@lastxsaved=\dimen177
+\tikz@lastysaved=\dimen178
+\tikzleveldistance=\dimen179
+\tikzsiblingdistance=\dimen180
 \tikz@figbox=\box39
 \tikz@tempbox=\box40
 \tikztreelevel=\count140
@@ -938,7 +838,7 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
 
 (/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2008/10/27 v2.10 (rcs-revision 1.9)
-\arrowsize=\dimen183
+\arrowsize=\dimen181
 ))
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.
 code.tex
@@ -949,14 +849,14 @@ ations.markings.code.tex
 (/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
 ations.code.tex
 (/usr/share/texmf/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen184
-\pgfdecoratedremainingdistance=\dimen185
-\pgfdecoratedinputsegmentcompleteddistance=\dimen186
-\pgfdecoratedinputsegmentremainingdistance=\dimen187
-\pgf@decorate@distancetomove=\dimen188
+\pgfdecoratedcompleteddistance=\dimen182
+\pgfdecoratedremainingdistance=\dimen183
+\pgfdecoratedinputsegmentcompleteddistance=\dimen184
+\pgfdecoratedinputsegmentremainingdistance=\dimen185
+\pgf@decorate@distancetomove=\dimen186
 \pgf@decorate@repeatstate=\count148
-\pgfdecorationsegmentamplitude=\dimen189
-\pgfdecorationsegmentlength=\dimen190
+\pgfdecorationsegmentamplitude=\dimen187
+\pgfdecorationsegmentlength=\dimen188
 )
 \tikz@lib@dec@box=\box41
 )
@@ -1011,13 +911,13 @@ LaTeX Info: Redefining \nameref on input line 195.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count150
-\scratchdimen=\dimen191
+\scratchdimen=\dimen189
 \scratchbox=\box43
 \nofMPsegments=\count151
 \nofMParguments=\count152
 \everyMPshowfont=\toks37
 \MPscratchCnt=\count153
-\MPscratchDim=\dimen192
+\MPscratchDim=\dimen190
 \MPnumerator=\count154
 \makeMPintoPDFobject=\count155
 \everyMPtoPDFconversion=\toks38
@@ -1083,14 +983,6 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count156
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
-Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
-)
 ABD: EveryShipout initializing macros
 \len@brasiliaw=\skip58
 \len@uadesch=\skip59
@@ -1110,7 +1002,7 @@ LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <20> not available
 LaTeX Font Warning: Font shape `T1/ua1/bx/n' in size <20> not available
 (Font)              size <20.74> substituted on input line 196.
 
-<positivo_cor.pdf, id=191, 119.44624pt x 60.225pt>
+<positivo_cor.pdf, id=199, 119.44624pt x 60.225pt>
 File: positivo_cor.pdf Graphic file (type pdf)
  <use positivo_cor.pdf>
 Package pdftex.def Info: positivo_cor.pdf used on input line 196.
@@ -1154,14 +1046,8 @@ l.207   \begin{resumo}
 
 
 
-]
-Overfull \hbox (20.7756pt too wide) in paragraph at lines 209--210
-\T1/cmr/bx/n/12 Palavras-chave: \T1/cmr/m/n/12 Bioin-for-mática, Re-des Metaból
-i-cas, Grafo, In-ter-ação Humano-Computador,
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
- been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) ha
+s been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.212   \begin{abstract}
@@ -1221,7 +1107,7 @@ os de In-te-ra-ção Humano-Computador
 Cap\'{\i }tulo 2.
 [4
 
-] <./figuras/affordance.png, id=474, 288.3272pt x 164.86594pt>
+] <./figuras/affordance.png, id=495, 288.3272pt x 164.86594pt>
 File: ./figuras/affordance.png Graphic file (type png)
 
 <use ./figuras/affordance.png>
@@ -1244,12 +1130,12 @@ Overfull \hbox (4.79561pt too wide) in paragraph at lines 93--127
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 139.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 139.
  [10] [11]
-<./figuras/mapaDeObjetivosGeral.png, id=540, 695.59875pt x 788.9475pt>
+<./figuras/mapaDeObjetivosGeral.png, id=560, 695.59875pt x 788.9475pt>
 File: ./figuras/mapaDeObjetivosGeral.png Graphic file (type png)
 
 <use ./figuras/mapaDeObjetivosGeral.png>
@@ -1261,7 +1147,7 @@ Package pdftex.def Info: ./figuras/mapaDeObjetivosGeral.png used on input line
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [12] [13 <./figuras/mapaDeObjetivosGeral.png>]
-<./figuras/modelagemDeTarefas.png, id=552, 2559.5625pt x 1614.7828pt>
+<./figuras/modelagemDeTarefas.png, id=572, 2559.5625pt x 1614.7828pt>
 File: ./figuras/modelagemDeTarefas.png Graphic file (type png)
 
 <use ./figuras/modelagemDeTarefas.png>
@@ -1276,14 +1162,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 14.
 [16
 
-] <./figuras/nucleotideo.png, id=584, 52.998pt x 31.317pt>
+] <./figuras/nucleotideo.png, id=605, 52.998pt x 31.317pt>
 File: ./figuras/nucleotideo.png Graphic file (type png)
 
 <use ./figuras/nucleotideo.png>
 Package pdftex.def Info: ./figuras/nucleotideo.png used on input line 24.
 (pdftex.def)             Requested size: 227.62206pt x 134.53809pt.
 
-<./figuras/dnaEstrutura.jpg, id=589, 150.8034pt x 139.4811pt>
+<./figuras/dnaEstrutura.jpg, id=610, 150.8034pt x 139.4811pt>
 File: ./figuras/dnaEstrutura.jpg Graphic file (type jpg)
 
 <use ./figuras/dnaEstrutura.jpg>
@@ -1294,7 +1180,7 @@ Package pdftex.def Info: ./figuras/dnaEstrutura.jpg used on input line 35.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [17 <./figuras/nucleotideo.png>]
-<./figuras/EstruturasDaProteina.png, id=605, 580.3281pt x 265.9536pt>
+<./figuras/EstruturasDaProteina.png, id=625, 580.3281pt x 265.9536pt>
 File: ./figuras/EstruturasDaProteina.png Graphic file (type png)
 
 <use ./figuras/EstruturasDaProteina.png>
@@ -1306,7 +1192,7 @@ Package pdftex.def Info: ./figuras/EstruturasDaProteina.png used on input line
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [18 <./figuras/dnaEstrutura.jpg>]
-<./figuras/sinteseProteina.png, id=619, 186.6975pt x 186.6975pt>
+<./figuras/sinteseProteina.png, id=639, 186.6975pt x 186.6975pt>
 File: ./figuras/sinteseProteina.png Graphic file (type png)
 
 <use ./figuras/sinteseProteina.png>
@@ -1320,21 +1206,21 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: Reference `reacaoBio' on page 21 undefined on input line 124.
 
-<./figuras/reacaoBio.png, id=640, 385.44pt x 120.63531pt>
+<./figuras/reacaoBio.png, id=660, 385.44pt x 120.63531pt>
 File: ./figuras/reacaoBio.png Graphic file (type png)
 
 <use ./figuras/reacaoBio.png>
 Package pdftex.def Info: ./figuras/reacaoBio.png used on input line 128.
 (pdftex.def)             Requested size: 409.71692pt x 128.2336pt.
  [21 <./figuras/reacaoBio.png>]
-<./figuras/bioLuz.png, id=656, 738.76pt x 493.845pt>
+<./figuras/bioLuz.png, id=676, 738.76pt x 493.845pt>
 File: ./figuras/bioLuz.png Graphic file (type png)
 
 <use ./figuras/bioLuz.png>
 Package pdftex.def Info: ./figuras/bioLuz.png used on input line 139.
 (pdftex.def)             Requested size: 341.43307pt x 228.24149pt.
 
-<./figuras/mitoseEmeiose.jpg, id=663, 663.22781pt x 455.45157pt>
+<./figuras/mitoseEmeiose.jpg, id=683, 663.22781pt x 455.45157pt>
 File: ./figuras/mitoseEmeiose.jpg Graphic file (type jpg)
 
 <use ./figuras/mitoseEmeiose.jpg>
@@ -1345,7 +1231,7 @@ Package pdftex.def Info: ./figuras/mitoseEmeiose.jpg used on input line 152.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [22 <./figuras/bioLuz.png>]
-<./figuras/metSecundario.png, id=683, 825.0825pt x 172.39406pt>
+<./figuras/metSecundario.png, id=703, 825.0825pt x 172.39406pt>
 File: ./figuras/metSecundario.png Graphic file (type png)
 
 <use ./figuras/metSecundario.png>
@@ -1363,9 +1249,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--206
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 207.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<./figuras/reactomeBrowser_idBW.png, id=716, 998.22937pt x 492.33937pt>
+<./figuras/reactomeBrowser_idBW.png, id=736, 998.22937pt x 492.33937pt>
 File: ./figuras/reactomeBrowser_idBW.png Graphic file (type png)
 
 <use ./figuras/reactomeBrowser_idBW.png>
@@ -1377,102 +1263,87 @@ Package pdftex.def Info: ./figuras/reactomeBrowser_idBW.png used on input line
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--224
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
 
  []
 
-<./figuras/orcRemovalViaReactome.png, id=719, 376.40625pt x 534.49687pt>
+<./figuras/orcRemovalViaReactome.png, id=738, 376.40625pt x 534.49687pt>
 File: ./figuras/orcRemovalViaReactome.png Graphic file (type png)
 
 <use ./figuras/orcRemovalViaReactome.png>
 Package pdftex.def Info: ./figuras/orcRemovalViaReactome.png used on input line
- 229.
+ 231.
 (pdftex.def)             Requested size: 318.66948pt x 452.54652pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [25] [26 <./figuras/reactomeBrowser_idBW.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
 [27 <./figuras/orcRemovalViaReactome.png>]
-<./figuras/terpenoidBackboneKEGG_idBW.png, id=751, 1028.34187pt x 578.16pt>
+<./figuras/terpenoidBackboneKEGG_idBW.png, id=772, 1028.34187pt x 578.16pt>
 File: ./figuras/terpenoidBackboneKEGG_idBW.png Graphic file (type png)
 
 <use ./figuras/terpenoidBackboneKEGG_idBW.png>
 Package pdftex.def Info: ./figuras/terpenoidBackboneKEGG_idBW.png used on input
- line 256.
+ line 258.
 (pdftex.def)             Requested size: 455.24411pt x 255.95268pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--267
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
 [28 <./figuras/terpenoidBackboneKEGG_idBW.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 278--282
-
- []
-
-[29] <./figuras/terpenoidViaKEGG.png, id=774, 746.79pt x 950.04938pt>
+[29] <./figuras/terpenoidViaKEGG.png, id=809, 746.79pt x 950.04938pt>
 File: ./figuras/terpenoidViaKEGG.png Graphic file (type png)
 
 <use ./figuras/terpenoidViaKEGG.png>
-Package pdftex.def Info: ./figuras/terpenoidViaKEGG.png used on input line 287.
+Package pdftex.def Info: ./figuras/terpenoidViaKEGG.png used on input line 299.
 
 (pdftex.def)             Requested size: 455.24411pt x 579.15237pt.
  [30 <./figuras/terpenoidViaKEGG.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 306--309
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 310--311
 
  []
 
-[31] <./figuras/bioLuz_id.png, id=798, 1182.4175pt x 1432.35126pt>
-File: ./figuras/bioLuz_id.png Graphic file (type png)
 
-<use ./figuras/bioLuz_id.png>
-Package pdftex.def Info: ./figuras/bioLuz_id.png used on input line 314.
-(pdftex.def)             Requested size: 455.24411pt x 551.46786pt.
- [32 <./figuras/bioLuz_id.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
 
  []
 
-[33] <./figuras/2PathDB.png, id=817, 706.89093pt x 1109.64563pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
+
+ []
+
+[31] <./figuras/bioLuz_id.png, id=839, 1182.4175pt x 1432.35126pt>
+File: ./figuras/bioLuz_id.png Graphic file (type png)
+
+<use ./figuras/bioLuz_id.png>
+Package pdftex.def Info: ./figuras/bioLuz_id.png used on input line 331.
+(pdftex.def)             Requested size: 455.24411pt x 551.46786pt.
+ [32 <./figuras/bioLuz_id.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
+
+ []
+
+[33] <./figuras/2PathDB.png, id=858, 706.89093pt x 1109.64563pt>
 File: ./figuras/2PathDB.png Graphic file (type png)
 
 <use ./figuras/2PathDB.png>
-Package pdftex.def Info: ./figuras/2PathDB.png used on input line 346.
+Package pdftex.def Info: ./figuras/2PathDB.png used on input line 363.
 (pdftex.def)             Requested size: 341.43307pt x 535.97635pt.
 ) (./capitulos/capitulo4.tex [34 <./figuras/2PathDB.png>]
 Cap\'{\i }tulo 4.
@@ -1482,22 +1353,24 @@ Cap\'{\i }tulo 4.
 
 LaTeX Warning: Float too large for page by 9.71652pt on input line 49.
 
-[36] [37] [38]
-<./figuras/mapaDeObjetivos.png, id=850, 2258.4375pt x 1119.43219pt>
+<./figuras/mapaDeObjetivos.png, id=875, 2258.4375pt x 1119.43219pt>
 File: ./figuras/mapaDeObjetivos.png Graphic file (type png)
 
 <use ./figuras/mapaDeObjetivos.png>
-Package pdftex.def Info: ./figuras/mapaDeObjetivos.png used on input line 81.
+Package pdftex.def Info: ./figuras/mapaDeObjetivos.png used on input line 74.
 (pdftex.def)             Requested size: 455.24411pt x 225.64183pt.
 
-<./figuras/objetivo_enzima.png, id=851, 764.8575pt x 545.03625pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[36] [37] <./figuras/objetivo_enzima.png, id=888, 764.8575pt x 545.03625pt>
 File: ./figuras/objetivo_enzima.png Graphic file (type png)
 
 <use ./figuras/objetivo_enzima.png>
 Package pdftex.def Info: ./figuras/objetivo_enzima.png used on input line 87.
 (pdftex.def)             Requested size: 364.19667pt x 259.52696pt.
- [39 <./figuras/mapaDeObjetivos.png> <./figuras/objetivo_enzima.png>]
-<./figuras/objetivo_enzima_organismo.png, id=858, 3252.90282pt x 1446.15282pt>
+ [38 <./figuras/mapaDeObjetivos.png> <./figuras/objetivo_enzima.png>]
+<./figuras/objetivo_enzima_organismo.png, id=896, 3252.90282pt x 1446.15282pt>
 File: ./figuras/objetivo_enzima_organismo.png Graphic file (type png)
 
 <use ./figuras/objetivo_enzima_organismo.png>
@@ -1505,16 +1378,16 @@ Package pdftex.def Info: ./figuras/objetivo_enzima_organismo.png used on input
 line 95.
 (pdftex.def)             Requested size: 455.24411pt x 202.37175pt.
 
-<./figuras/objetivo_pathway.png, id=859, 911.65594pt x 537.50812pt>
+<./figuras/objetivo_pathway.png, id=897, 911.65594pt x 537.50812pt>
 File: ./figuras/objetivo_pathway.png Graphic file (type png)
 
 <use ./figuras/objetivo_pathway.png>
 Package pdftex.def Info: ./figuras/objetivo_pathway.png used on input line 102.
 
 (pdftex.def)             Requested size: 455.24411pt x 268.41713pt.
- [40 <./figuras/objetivo_enzima_organismo.png> <./figuras/objetivo_pathway.png>
+ [39 <./figuras/objetivo_enzima_organismo.png> <./figuras/objetivo_pathway.png>
 ]
-<./figuras/objetivo_pathway_organismo.png, id=866, 3586.39874pt x 1472.50125pt>
+<./figuras/objetivo_pathway_organismo.png, id=904, 3586.39874pt x 1472.50125pt>
 File: ./figuras/objetivo_pathway_organismo.png Graphic file (type png)
 <use ./figuras/objetivo_pathway_organismo.png>
 Package pdftex.def Info: ./figuras/objetivo_pathway_organismo.png used on input
@@ -1525,44 +1398,44 @@ Overfull \hbox (16.8593pt too wide) in paragraph at lines 126--139
  [][] 
  []
 
-[41 <./figuras/objetivo_pathway_organismo.png>] [42]
-<./figuras/nodeslinksD3.png, id=882, 705.38531pt x 378.66469pt>
+[40 <./figuras/objetivo_pathway_organismo.png>] [41]
+<./figuras/nodeslinksD3.png, id=919, 705.38531pt x 378.66469pt>
 File: ./figuras/nodeslinksD3.png Graphic file (type png)
 
 <use ./figuras/nodeslinksD3.png>
 Package pdftex.def Info: ./figuras/nodeslinksD3.png used on input line 158.
 (pdftex.def)             Requested size: 273.14923pt x 146.63281pt.
- [43 <./figuras/nodeslinksD3.png>]
-<./figuras/2path_home.png, id=893, 913.16156pt x 454.69875pt>
+ [42 <./figuras/nodeslinksD3.png>]
+<./figuras/2path_home.png, id=930, 913.16156pt x 454.69875pt>
 File: ./figuras/2path_home.png Graphic file (type png)
 
 <use ./figuras/2path_home.png>
 Package pdftex.def Info: ./figuras/2path_home.png used on input line 173.
 (pdftex.def)             Requested size: 455.24411pt x 226.68275pt.
 
-<./figuras/2path_search.png, id=894, 931.98187pt x 467.49657pt>
+<./figuras/2path_search.png, id=931, 931.98187pt x 467.49657pt>
 File: ./figuras/2path_search.png Graphic file (type png)
 
 <use ./figuras/2path_search.png>
 Package pdftex.def Info: ./figuras/2path_search.png used on input line 180.
 (pdftex.def)             Requested size: 455.24411pt x 228.35484pt.
- [44 <./figuras/2path_home.png> <./figuras/2path_search.png>] <./figuras/2path_
-enzyme.png, id=904, 952.30782pt x 463.7325pt>
+ [43 <./figuras/2path_home.png> <./figuras/2path_search.png>] <./figuras/2path_
+enzyme.png, id=940, 952.30782pt x 463.7325pt>
 File: ./figuras/2path_enzyme.png Graphic file (type png)
 
 <use ./figuras/2path_enzyme.png>
 Package pdftex.def Info: ./figuras/2path_enzyme.png used on input line 191.
 (pdftex.def)             Requested size: 455.24411pt x 221.68333pt.
 
-<./figuras/2path_enzyme_graph.png, id=905, 899.61093pt x 439.6425pt>
+<./figuras/2path_enzyme_graph.png, id=941, 899.61093pt x 439.6425pt>
 File: ./figuras/2path_enzyme_graph.png Graphic file (type png)
 
 <use ./figuras/2path_enzyme_graph.png>
 Package pdftex.def Info: ./figuras/2path_enzyme_graph.png used on input line 19
 8.
 (pdftex.def)             Requested size: 455.24411pt x 222.47723pt.
- [45 <./figuras/2path_enzyme.png> <./figuras/2path_enzyme_graph.png>]
-<./figuras/2path_pathway_org.png, id=914, 923.70094pt x 446.41782pt>
+ [44 <./figuras/2path_enzyme.png> <./figuras/2path_enzyme_graph.png>]
+<./figuras/2path_pathway_org.png, id=951, 923.70094pt x 446.41782pt>
 File: ./figuras/2path_pathway_org.png Graphic file (type png)
 
 <use ./figuras/2path_pathway_org.png>
@@ -1570,85 +1443,85 @@ Package pdftex.def Info: ./figuras/2path_pathway_org.png used on input line 207
 .
 (pdftex.def)             Requested size: 455.24411pt x 220.01363pt.
 
-<./figuras/2path_pathway_graph.png, id=915, 913.91437pt x 558.58687pt>
+<./figuras/2path_pathway_graph.png, id=952, 913.91437pt x 558.58687pt>
 File: ./figuras/2path_pathway_graph.png Graphic file (type png)
 
 <use ./figuras/2path_pathway_graph.png>
 Package pdftex.def Info: ./figuras/2path_pathway_graph.png used on input line 2
 14.
 (pdftex.def)             Requested size: 455.24411pt x 278.24437pt.
- [46 <./figuras/2path_pathway_org.png> <./figuras/2path_pathway_graph.png>]) (.
-/capitulos/capitulo5.tex [47]
+ [45 <./figuras/2path_pathway_org.png> <./figuras/2path_pathway_graph.png>]) (.
+/capitulos/capitulo5.tex [46]
 Cap\'{\i }tulo 5.
-[48
+[47
 
-] [49] [50] [51] [52]
-<./figuras/new_search_page.png, id=957, 930.47626pt x 490.08093pt>
+]
+Overfull \hbox (1.19336pt too wide) in paragraph at lines 30--43
+ [][] 
+ []
+
+
+Overfull \hbox (4.52179pt too wide) in paragraph at lines 49--63
+ [][] 
+ []
+
+
+Overfull \hbox (0.79762pt too wide) in paragraph at lines 69--80
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[48] [49] [50] [51] [52]
+<./figuras/new_search_page.png, id=1005, 930.47626pt x 490.08093pt>
 File: ./figuras/new_search_page.png Graphic file (type png)
 
 <use ./figuras/new_search_page.png>
-Package pdftex.def Info: ./figuras/new_search_page.png used on input line 158.
+Package pdftex.def Info: ./figuras/new_search_page.png used on input line 190.
 (pdftex.def)             Requested size: 455.24411pt x 239.77533pt.
+ [53 <./figuras/new_search_page.png>]
+<./figuras/new_enzyme_4_catalyses.png, id=1012, 901.86937pt x 491.58656pt>
+File: ./figuras/new_enzyme_4_catalyses.png Graphic file (type png)
 
-<./figuras/new_message_success.png, id=958, 945.5325pt x 490.83376pt>
+<use ./figuras/new_enzyme_4_catalyses.png>
+Package pdftex.def Info: ./figuras/new_enzyme_4_catalyses.png used on input lin
+e 201.
+(pdftex.def)             Requested size: 455.24411pt x 248.14798pt.
+
+<./figuras/new_message_success.png, id=1014, 945.5325pt x 490.83376pt>
 File: ./figuras/new_message_success.png Graphic file (type png)
 
 <use ./figuras/new_message_success.png>
-Package pdftex.def Info: ./figuras/new_message_success.png used on input line 1
-65.
+Package pdftex.def Info: ./figuras/new_message_success.png used on input line 2
+10.
 (pdftex.def)             Requested size: 455.24411pt x 236.324pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./figuras/new_message_error.png, id=959, 947.03813pt x 487.8225pt>
+<./figuras/new_message_error.png, id=1017, 947.03813pt x 487.8225pt>
 File: ./figuras/new_message_error.png Graphic file (type png)
 
 <use ./figuras/new_message_error.png>
-Package pdftex.def Info: ./figuras/new_message_error.png used on input line 172
+Package pdftex.def Info: ./figuras/new_message_error.png used on input line 219
 .
 (pdftex.def)             Requested size: 455.24411pt x 234.49454pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./figuras/new_legenda.png, id=960, 272.51813pt x 291.33844pt>
-File: ./figuras/new_legenda.png Graphic file (type png)
-
-<use ./figuras/new_legenda.png>
-Package pdftex.def Info: ./figuras/new_legenda.png used on input line 179.
-(pdftex.def)             Requested size: 91.04742pt x 97.33336pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./figuras/new_pathway.png, id=961, 917.67844pt x 490.83376pt>
+[54 <./figuras/new_enzyme_4_catalyses.png>]
+<./figuras/new_pathway.png, id=1023, 917.67844pt x 490.83376pt>
 File: ./figuras/new_pathway.png Graphic file (type png)
 
 <use ./figuras/new_pathway.png>
-Package pdftex.def Info: ./figuras/new_pathway.png used on input line 186.
+Package pdftex.def Info: ./figuras/new_pathway.png used on input line 227.
 (pdftex.def)             Requested size: 455.24411pt x 243.49895pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./figuras/new_enzyme_4_catalyses.png, id=962, 901.86937pt x 491.58656pt>
-File: ./figuras/new_enzyme_4_catalyses.png Graphic file (type png)
-
-<use ./figuras/new_enzyme_4_catalyses.png>
-Package pdftex.def Info: ./figuras/new_enzyme_4_catalyses.png used on input lin
-e 193.
-(pdftex.def)             Requested size: 455.24411pt x 248.14798pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./capitulos/capitulo6.tex [53 <./figuras/new_search_page.png>] [54 <./figura
-s/new_message_success.png> <./figuras/new_message_error.png> <./figuras/new_leg
-enda.png>] [55 <./figuras/new_pathway.png> <./figuras/new_enzyme_4_catalyses.pn
-g>]
+) (./capitulos/capitulo6.tex [55 <./figuras/new_message_success.png> <./figuras
+/new_message_error.png>] [56 <./figuras/new_pathway.png>]
 Cap\'{\i }tulo 6.
-) [56
+) [57
 
 ] (./monografia.bbl (./monografia.brf)
 \tf@brf=\write8
@@ -1708,7 +1581,7 @@ Overfull \hbox (24.56906pt too wide) in paragraph at lines 69--69
 []rumo-[]ao-[]desenvolvimento .
  []
 
-[57
+[58
 
 
 ]
@@ -1735,10 +1608,10 @@ Underfull \hbox (badness 3735) in paragraph at lines 129--129
 7$[][]\T1/cmr/m/n/12 , vi-si-tado em 2016-
  []
 
-) (./capitulos/questionarios_e_tarefas.tex [58]
+) (./capitulos/questionarios_e_tarefas.tex [59]
 Ap\^endice A.
 
-<capitulos/questionario_dados_pessoais.pdf, id=1080, 597.23125pt x 845.1575pt>
+<capitulos/questionario_dados_pessoais.pdf, id=1134, 597.23125pt x 845.1575pt>
 File: capitulos/questionario_dados_pessoais.pdf Graphic file (type pdf)
 
 <use capitulos/questionario_dados_pessoais.pdf>
@@ -1751,8 +1624,10 @@ File: capitulos/questionario_dados_pessoais.pdf Graphic file (type pdf)
 Package pdftex.def Info: capitulos/questionario_dados_pessoais.pdf used on inpu
 t line 5.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+ [60
 
-<capitulos/questionario_dados_pessoais.pdf, id=1083, page=1, 597.23125pt x 845.
+]
+<capitulos/questionario_dados_pessoais.pdf, id=1141, page=1, 597.23125pt x 845.
 1575pt>
 File: capitulos/questionario_dados_pessoais.pdf Graphic file (type pdf)
  <use capitulos/questionario_dados_pessoais.pdf, page 1>
@@ -1765,9 +1640,6 @@ File: capitulos/questionario_dados_pessoais.pdf Graphic file (type pdf)
 Package pdftex.def Info: capitulos/questionario_dados_pessoais.pdf, page1 used 
 on input line 5.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- [59
-
-]
 File: capitulos/questionario_dados_pessoais.pdf Graphic file (type pdf)
 
 <use capitulos/questionario_dados_pessoais.pdf, page 1>
@@ -1786,9 +1658,9 @@ File: capitulos/questionario_dados_pessoais.pdf Graphic file (type pdf)
 Package pdftex.def Info: capitulos/questionario_dados_pessoais.pdf, page1 used 
 on input line 5.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- [60 <./capitulos/questionario_dados_pessoais.pdf>]
+ [61 <./capitulos/questionario_dados_pessoais.pdf>]
 Ap\^endice B.
-<capitulos/tarefas_2Path.pdf, id=1118, 597.23125pt x 845.1575pt>
+<capitulos/tarefas_2Path.pdf, id=1172, 597.23125pt x 845.1575pt>
 File: capitulos/tarefas_2Path.pdf Graphic file (type pdf)
 
 <use capitulos/tarefas_2Path.pdf>
@@ -1798,23 +1670,10 @@ File: capitulos/tarefas_2Path.pdf Graphic file (type pdf)
  <use capitulos/tarefas_2Path.pdf>
 Package pdftex.def Info: capitulos/tarefas_2Path.pdf used on input line 9.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-
-<capitulos/tarefas_2Path.pdf, id=1121, page=1, 597.23125pt x 845.1575pt>
-File: capitulos/tarefas_2Path.pdf Graphic file (type pdf)
-
-<use capitulos/tarefas_2Path.pdf, page 1>
-Package pdftex.def Info: capitulos/tarefas_2Path.pdf, page1 used on input line 
-9.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-File: capitulos/tarefas_2Path.pdf Graphic file (type pdf)
-
-<use capitulos/tarefas_2Path.pdf, page 1>
-Package pdftex.def Info: capitulos/tarefas_2Path.pdf, page1 used on input line 
-9.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- [61
+ [62
 
 ]
+<capitulos/tarefas_2Path.pdf, id=1180, page=1, 597.23125pt x 845.1575pt>
 File: capitulos/tarefas_2Path.pdf Graphic file (type pdf)
 
 <use capitulos/tarefas_2Path.pdf, page 1>
@@ -1833,9 +1692,21 @@ File: capitulos/tarefas_2Path.pdf Graphic file (type pdf)
 Package pdftex.def Info: capitulos/tarefas_2Path.pdf, page1 used on input line 
 9.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- [62 <./capitulos/tarefas_2Path.pdf>]
+File: capitulos/tarefas_2Path.pdf Graphic file (type pdf)
+
+<use capitulos/tarefas_2Path.pdf, page 1>
+Package pdftex.def Info: capitulos/tarefas_2Path.pdf, page1 used on input line 
+9.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: capitulos/tarefas_2Path.pdf Graphic file (type pdf)
+
+<use capitulos/tarefas_2Path.pdf, page 1>
+Package pdftex.def Info: capitulos/tarefas_2Path.pdf, page1 used on input line 
+9.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+ [63 <./capitulos/tarefas_2Path.pdf>]
 Ap\^endice C.
-<capitulos/questionario_interface.pdf, id=1157, 597.23125pt x 845.1575pt>
+<capitulos/questionario_interface.pdf, id=1212, 597.23125pt x 845.1575pt>
 File: capitulos/questionario_interface.pdf Graphic file (type pdf)
 
 <use capitulos/questionario_interface.pdf>
@@ -1848,8 +1719,10 @@ File: capitulos/questionario_interface.pdf Graphic file (type pdf)
 Package pdftex.def Info: capitulos/questionario_interface.pdf used on input lin
 e 13.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+ [64
 
-<capitulos/questionario_interface.pdf, id=1160, page=1, 597.23125pt x 845.1575p
+]
+<capitulos/questionario_interface.pdf, id=1219, page=1, 597.23125pt x 845.1575p
 t>
 File: capitulos/questionario_interface.pdf Graphic file (type pdf)
  <use capitulos/questionario_interface.pdf, page 1>
@@ -1862,9 +1735,6 @@ File: capitulos/questionario_interface.pdf Graphic file (type pdf)
 Package pdftex.def Info: capitulos/questionario_interface.pdf, page1 used on in
 put line 13.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- [63
-
-]
 File: capitulos/questionario_interface.pdf Graphic file (type pdf)
 
 <use capitulos/questionario_interface.pdf, page 1>
@@ -1883,14 +1753,14 @@ File: capitulos/questionario_interface.pdf Graphic file (type pdf)
 Package pdftex.def Info: capitulos/questionario_interface.pdf, page1 used on in
 put line 13.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
- [64 <./capitulos/questionario_interface.pdf>])
+ [65 <./capitulos/questionario_interface.pdf>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
  (./monografia.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 235.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
 Package rerunfilecheck Info: File `monografia.out' has not changed.
-(rerunfilecheck)             Checksum: B211691A8867CFA4B049D41249B7681B;3421.
+(rerunfilecheck)             Checksum: 6048844CC4023564CE41D5B194E9B6C6;3594.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
 (rerunfilecheck)             Checksum: 6B7A8DC643718D87FF8773B2359A0294;4134.
 
@@ -1911,13 +1781,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 235.
  )
 (\end occurred when \iffalse on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 20792 strings out of 493029
- 362249 string characters out of 6136234
- 468543 words of memory out of 5000000
- 23613 multiletter control sequences out of 15000+600000
+ 20926 strings out of 495004
+ 362721 string characters out of 6180663
+ 460355 words of memory out of 5000000
+ 23410 multiletter control sequences out of 15000+600000
  20553 words of font info for 43 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 56i,19n,92p,1383b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 16 hyphenation exceptions out of 8191
+ 56i,19n,92p,1383b,1048s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): 
 name{Hfootnote.31} has been referenced but does not exist, replaced by a fixed 
 one
@@ -2012,27 +1882,29 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
 , replaced by a fixed one
 
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-
-super/sfbi1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></u
-sr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts
-/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-sup
-er/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></us
-r/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/
-type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/type1/public/cm-supe
-r/sftt1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on monografia.pdf (75 pages, 5927884 bytes).
+ </home/guest/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk> </home/gue
+st/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk> </home/guest/.texmf-v
+ar/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/guest/.texmf-var/fonts/pk
+/ljfour/jknappen/ec/ecrm0700.600pk> </home/guest/.texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecbx1095.600pk> </home/guest/.texmf-var/fonts/pk/ljfour/jknappen/ec/ec
+bx1440.600pk> </home/guest/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1095.600p
+k> </home/guest/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </home/g
+uest/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1200.600pk> </home/guest/.texmf
+-var/fonts/pk/ljfour/jknappen/ec/ecti1200.600pk> </home/guest/.texmf-var/fonts/
+pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/guest/.texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecbx1200.600pk> </home/guest/.texmf-var/fonts/pk/ljfour/jknappen/ec/
+ecrm0800.600pk> </home/guest/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.60
+0pk> </home/guest/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home
+/guest/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> </home/guest/.tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/guest/.texmf-var/font
+s/pk/ljfour/jknappen/ec/ecrm2074.600pk></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb>
+Output written on monografia.pdf (76 pages, 5312473 bytes).
 PDF statistics:
- 1322 PDF objects out of 1440 (max. 8388607)
- 1090 compressed objects within 11 object streams
- 231 named destinations out of 1000 (max. 500000)
- 621 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2105 PDF objects out of 2487 (max. 8388607)
+ 1168 compressed objects within 12 object streams
+ 262 named destinations out of 1000 (max. 500000)
+ 632 words of extra memory for PDF output out of 10000 (max. 10000000)
 
