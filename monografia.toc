@@ -47,7 +47,7 @@
 \contentsline {subsection}{\numberline {5.1.2}Consolida\IeC {\c c}\IeC {\~a}o dos resultados}{50}{subsection.5.1.2}
 \contentsline {section}{\numberline {5.2}Nova Interface do 2Path}{53}{section.5.2}
 \contentsline {chapter}{\numberline {6}Conclus\IeC {\~a}o e Trabalhos Futuros}{57}{chapter.6}
-\contentsline {chapter}{Refer\^encias}{58}{section*.53}
+\contentsline {chapter}{Refer\^encias}{58}{section*.51}
 \contentsline {chapter}{\numberline {A}Question\IeC {\'a}rios de dados pessoais dos bi\IeC {\'o}logos}{60}{appendix.A}
 \contentsline {chapter}{\numberline {B}Tarefas realizadas pelos bi\IeC {\'o}logos no sistema 2Path}{62}{appendix.B}
 \contentsline {chapter}{\numberline {C}Question\IeC {\'a}rios de interface conforme o M\IeC {\'e}todo de Avalia\IeC {\c c}\IeC {\~a}o de Comunicabilidade}{64}{appendix.C}
