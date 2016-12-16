@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.11)  16 DEC 2016 09:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.11)  16 DEC 2016 10:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1261,7 +1261,7 @@ os de In-te-ra-ção Humano-Computador
 Cap\'{\i }tulo 2.
 [4
 
-] <./figuras/affordance.png, id=499, 288.3272pt x 164.86594pt>
+] <./figuras/affordance.png, id=503, 288.3272pt x 164.86594pt>
 File: ./figuras/affordance.png Graphic file (type png)
 
 <use ./figuras/affordance.png>
@@ -1289,7 +1289,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 139.
  [10] [11]
-<./figuras/mapaDeObjetivosGeral.png, id=564, 695.59875pt x 788.9475pt>
+<./figuras/mapaDeObjetivosGeral.png, id=568, 695.59875pt x 788.9475pt>
 File: ./figuras/mapaDeObjetivosGeral.png Graphic file (type png)
 
 <use ./figuras/mapaDeObjetivosGeral.png>
@@ -1301,7 +1301,7 @@ Package pdftex.def Info: ./figuras/mapaDeObjetivosGeral.png used on input line
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [12] [13 <./figuras/mapaDeObjetivosGeral.png>]
-<./figuras/modelagemDeTarefas.png, id=576, 2559.5625pt x 1614.7828pt>
+<./figuras/modelagemDeTarefas.png, id=580, 2559.5625pt x 1614.7828pt>
 File: ./figuras/modelagemDeTarefas.png Graphic file (type png)
 
 <use ./figuras/modelagemDeTarefas.png>
@@ -1316,14 +1316,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 14.
 [16
 
-] <./figuras/nucleotideo.png, id=609, 52.998pt x 31.317pt>
+] <./figuras/nucleotideo.png, id=613, 52.998pt x 31.317pt>
 File: ./figuras/nucleotideo.png Graphic file (type png)
 
 <use ./figuras/nucleotideo.png>
 Package pdftex.def Info: ./figuras/nucleotideo.png used on input line 24.
 (pdftex.def)             Requested size: 227.62206pt x 134.53809pt.
 
-<./figuras/dnaEstrutura.jpg, id=614, 150.8034pt x 139.4811pt>
+<./figuras/dnaEstrutura.jpg, id=618, 150.8034pt x 139.4811pt>
 File: ./figuras/dnaEstrutura.jpg Graphic file (type jpg)
 
 <use ./figuras/dnaEstrutura.jpg>
@@ -1334,7 +1334,7 @@ Package pdftex.def Info: ./figuras/dnaEstrutura.jpg used on input line 35.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [17 <./figuras/nucleotideo.png>]
-<./figuras/EstruturasDaProteina.png, id=629, 580.3281pt x 265.9536pt>
+<./figuras/EstruturasDaProteina.png, id=633, 580.3281pt x 265.9536pt>
 File: ./figuras/EstruturasDaProteina.png Graphic file (type png)
 
 <use ./figuras/EstruturasDaProteina.png>
@@ -1346,7 +1346,7 @@ Package pdftex.def Info: ./figuras/EstruturasDaProteina.png used on input line
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [18 <./figuras/dnaEstrutura.jpg>]
-<./figuras/sinteseProteina.png, id=643, 186.6975pt x 186.6975pt>
+<./figuras/sinteseProteina.png, id=647, 186.6975pt x 186.6975pt>
 File: ./figuras/sinteseProteina.png Graphic file (type png)
 
 <use ./figuras/sinteseProteina.png>
@@ -1360,21 +1360,21 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: Reference `reacaoBio' on page 21 undefined on input line 124.
 
-<./figuras/reacaoBio.png, id=664, 385.44pt x 120.63531pt>
+<./figuras/reacaoBio.png, id=668, 385.44pt x 120.63531pt>
 File: ./figuras/reacaoBio.png Graphic file (type png)
 
 <use ./figuras/reacaoBio.png>
 Package pdftex.def Info: ./figuras/reacaoBio.png used on input line 128.
 (pdftex.def)             Requested size: 409.71692pt x 128.2336pt.
  [21 <./figuras/reacaoBio.png>]
-<./figuras/bioLuz.png, id=680, 738.76pt x 493.845pt>
+<./figuras/bioLuz.png, id=684, 738.76pt x 493.845pt>
 File: ./figuras/bioLuz.png Graphic file (type png)
 
 <use ./figuras/bioLuz.png>
 Package pdftex.def Info: ./figuras/bioLuz.png used on input line 139.
 (pdftex.def)             Requested size: 341.43307pt x 228.24149pt.
 
-<./figuras/mitoseEmeiose.jpg, id=687, 663.22781pt x 455.45157pt>
+<./figuras/mitoseEmeiose.jpg, id=691, 663.22781pt x 455.45157pt>
 File: ./figuras/mitoseEmeiose.jpg Graphic file (type jpg)
 
 <use ./figuras/mitoseEmeiose.jpg>
@@ -1385,7 +1385,7 @@ Package pdftex.def Info: ./figuras/mitoseEmeiose.jpg used on input line 152.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [22 <./figuras/bioLuz.png>]
-<./figuras/metSecundario.png, id=707, 825.0825pt x 172.39406pt>
+<./figuras/metSecundario.png, id=711, 825.0825pt x 172.39406pt>
 File: ./figuras/metSecundario.png Graphic file (type png)
 
 <use ./figuras/metSecundario.png>
@@ -1405,7 +1405,7 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 207.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-<./figuras/reactomeBrowser_idBW.png, id=741, 998.22937pt x 492.33937pt>
+<./figuras/reactomeBrowser_idBW.png, id=745, 998.22937pt x 492.33937pt>
 File: ./figuras/reactomeBrowser_idBW.png Graphic file (type png)
 
 <use ./figuras/reactomeBrowser_idBW.png>
@@ -1421,7 +1421,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--221
 
  []
 
-<./figuras/orcRemovalViaReactome.png, id=743, 376.40625pt x 534.49687pt>
+<./figuras/orcRemovalViaReactome.png, id=747, 376.40625pt x 534.49687pt>
 File: ./figuras/orcRemovalViaReactome.png Graphic file (type png)
 
 <use ./figuras/orcRemovalViaReactome.png>
@@ -1443,7 +1443,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 250--251
  []
 
 [27 <./figuras/orcRemovalViaReactome.png>]
-<./figuras/terpenoidBackboneKEGG_idBW.png, id=776, 1028.34187pt x 578.16pt>
+<./figuras/terpenoidBackboneKEGG_idBW.png, id=780, 1028.34187pt x 578.16pt>
 File: ./figuras/terpenoidBackboneKEGG_idBW.png Graphic file (type png)
 
 <use ./figuras/terpenoidBackboneKEGG_idBW.png>
@@ -1460,7 +1460,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--284
 
  []
 
-[29] <./figuras/terpenoidViaKEGG.png, id=813, 746.79pt x 950.04938pt>
+[29] <./figuras/terpenoidViaKEGG.png, id=817, 746.79pt x 950.04938pt>
 File: ./figuras/terpenoidViaKEGG.png Graphic file (type png)
 
 <use ./figuras/terpenoidViaKEGG.png>
@@ -1482,7 +1482,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 327--328
 
  []
 
-[31] <./figuras/bioLuz_id.png, id=843, 1182.4175pt x 1432.35126pt>
+[31] <./figuras/bioLuz_id.png, id=847, 1182.4175pt x 1432.35126pt>
 File: ./figuras/bioLuz_id.png Graphic file (type png)
 
 <use ./figuras/bioLuz_id.png>
@@ -1493,7 +1493,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 359--360
 
  []
 
-[33] <./figuras/2PathDB.png, id=862, 706.89093pt x 1109.64563pt>
+[33] <./figuras/2PathDB.png, id=866, 706.89093pt x 1109.64563pt>
 File: ./figuras/2PathDB.png Graphic file (type png)
 
 <use ./figuras/2PathDB.png>
@@ -1501,126 +1501,154 @@ Package pdftex.def Info: ./figuras/2PathDB.png used on input line 363.
 (pdftex.def)             Requested size: 341.43307pt x 535.97635pt.
 ) (./capitulos/capitulo4.tex [34 <./figuras/2PathDB.png>]
 Cap\'{\i }tulo 4.
+
+LaTeX Warning: Float too large for page by 9.71652pt on input line 45.
+
 [35
 
-]
-
-LaTeX Warning: Float too large for page by 9.71652pt on input line 49.
-
-<./figuras/mapaDeObjetivos.png, id=879, 2258.4375pt x 1119.43219pt>
+] [36] <./figuras/mapaDeObjetivos.png, id=886, 2258.4375pt x 1119.43219pt>
 File: ./figuras/mapaDeObjetivos.png Graphic file (type png)
 
 <use ./figuras/mapaDeObjetivos.png>
-Package pdftex.def Info: ./figuras/mapaDeObjetivos.png used on input line 74.
+Package pdftex.def Info: ./figuras/mapaDeObjetivos.png used on input line 70.
 (pdftex.def)             Requested size: 455.24411pt x 225.64183pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[36] [37] <./figuras/objetivo_enzima.png, id=892, 764.8575pt x 545.03625pt>
+<./figuras/objetivo_enzima.png, id=891, 764.8575pt x 545.03625pt>
 File: ./figuras/objetivo_enzima.png Graphic file (type png)
 
 <use ./figuras/objetivo_enzima.png>
-Package pdftex.def Info: ./figuras/objetivo_enzima.png used on input line 87.
+Package pdftex.def Info: ./figuras/objetivo_enzima.png used on input line 83.
 (pdftex.def)             Requested size: 364.19667pt x 259.52696pt.
- [38 <./figuras/mapaDeObjetivos.png> <./figuras/objetivo_enzima.png>]
-<./figuras/objetivo_enzima_organismo.png, id=900, 3252.90282pt x 1446.15282pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[37]
+<./figuras/objetivo_enzima_organismo.png, id=898, 3252.90282pt x 1446.15282pt>
 File: ./figuras/objetivo_enzima_organismo.png Graphic file (type png)
 
 <use ./figuras/objetivo_enzima_organismo.png>
 Package pdftex.def Info: ./figuras/objetivo_enzima_organismo.png used on input 
-line 95.
+line 91.
 (pdftex.def)             Requested size: 455.24411pt x 202.37175pt.
 
-<./figuras/objetivo_pathway.png, id=901, 911.65594pt x 537.50812pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./figuras/objetivo_pathway.png, id=899, 911.65594pt x 537.50812pt>
 File: ./figuras/objetivo_pathway.png Graphic file (type png)
 
 <use ./figuras/objetivo_pathway.png>
-Package pdftex.def Info: ./figuras/objetivo_pathway.png used on input line 102.
-
+Package pdftex.def Info: ./figuras/objetivo_pathway.png used on input line 98.
 (pdftex.def)             Requested size: 455.24411pt x 268.41713pt.
- [39 <./figuras/objetivo_enzima_organismo.png> <./figuras/objetivo_pathway.png>
-]
-<./figuras/objetivo_pathway_organismo.png, id=908, 3586.39874pt x 1472.50125pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<./figuras/objetivo_pathway_organismo.png, id=900, 3586.39874pt x 1472.50125pt>
 File: ./figuras/objetivo_pathway_organismo.png Graphic file (type png)
 <use ./figuras/objetivo_pathway_organismo.png>
 Package pdftex.def Info: ./figuras/objetivo_pathway_organismo.png used on input
- line 109.
+ line 105.
 (pdftex.def)             Requested size: 455.24411pt x 186.89323pt.
 
-Overfull \hbox (16.8593pt too wide) in paragraph at lines 126--139
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[38 <./figuras/mapaDeObjetivos.png> <./figuras/objetivo_enzima.png>]
+Overfull \hbox (16.8593pt too wide) in paragraph at lines 122--135
  [][] 
  []
 
-[40 <./figuras/objetivo_pathway_organismo.png>] [41]
-<./figuras/nodeslinksD3.png, id=923, 705.38531pt x 378.66469pt>
+[39 <./figuras/objetivo_enzima_organismo.png> <./figuras/objetivo_pathway.png>]
+<./figuras/nodeslinksD3.png, id=919, 705.38531pt x 378.66469pt>
 File: ./figuras/nodeslinksD3.png Graphic file (type png)
 
 <use ./figuras/nodeslinksD3.png>
-Package pdftex.def Info: ./figuras/nodeslinksD3.png used on input line 158.
+Package pdftex.def Info: ./figuras/nodeslinksD3.png used on input line 154.
 (pdftex.def)             Requested size: 273.14923pt x 146.63281pt.
- [42 <./figuras/nodeslinksD3.png>]
-<./figuras/2path_home.png, id=934, 913.16156pt x 454.69875pt>
+ [40 <./figuras/objetivo_pathway_organismo.png>] [41] <./figuras/2path_home.png
+, id=934, 913.16156pt x 454.69875pt>
 File: ./figuras/2path_home.png Graphic file (type png)
 
 <use ./figuras/2path_home.png>
-Package pdftex.def Info: ./figuras/2path_home.png used on input line 173.
+Package pdftex.def Info: ./figuras/2path_home.png used on input line 169.
 (pdftex.def)             Requested size: 455.24411pt x 226.68275pt.
 
-<./figuras/2path_search.png, id=935, 931.98187pt x 467.49657pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./figuras/2path_search.png, id=936, 931.98187pt x 467.49657pt>
 File: ./figuras/2path_search.png Graphic file (type png)
 
 <use ./figuras/2path_search.png>
-Package pdftex.def Info: ./figuras/2path_search.png used on input line 180.
+Package pdftex.def Info: ./figuras/2path_search.png used on input line 178.
 (pdftex.def)             Requested size: 455.24411pt x 228.35484pt.
- [43 <./figuras/2path_home.png> <./figuras/2path_search.png>] <./figuras/2path_
-enzyme.png, id=944, 952.30782pt x 463.7325pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./figuras/2path_enzyme.png, id=938, 952.30782pt x 463.7325pt>
 File: ./figuras/2path_enzyme.png Graphic file (type png)
 
 <use ./figuras/2path_enzyme.png>
-Package pdftex.def Info: ./figuras/2path_enzyme.png used on input line 191.
+Package pdftex.def Info: ./figuras/2path_enzyme.png used on input line 187.
 (pdftex.def)             Requested size: 455.24411pt x 221.68333pt.
 
-<./figuras/2path_enzyme_graph.png, id=945, 899.61093pt x 439.6425pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./figuras/2path_enzyme_graph.png, id=940, 899.61093pt x 439.6425pt>
 File: ./figuras/2path_enzyme_graph.png Graphic file (type png)
 
 <use ./figuras/2path_enzyme_graph.png>
 Package pdftex.def Info: ./figuras/2path_enzyme_graph.png used on input line 19
-8.
+6.
 (pdftex.def)             Requested size: 455.24411pt x 222.47723pt.
- [44 <./figuras/2path_enzyme.png> <./figuras/2path_enzyme_graph.png>]
-<./figuras/2path_pathway_org.png, id=955, 923.70094pt x 446.41782pt>
+ [42 <./figuras/nodeslinksD3.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./figuras/2path_pathway_org.png, id=947, 923.70094pt x 446.41782pt>
 File: ./figuras/2path_pathway_org.png Graphic file (type png)
 
 <use ./figuras/2path_pathway_org.png>
-Package pdftex.def Info: ./figuras/2path_pathway_org.png used on input line 207
+Package pdftex.def Info: ./figuras/2path_pathway_org.png used on input line 205
 .
 (pdftex.def)             Requested size: 455.24411pt x 220.01363pt.
 
-<./figuras/2path_pathway_graph.png, id=956, 913.91437pt x 558.58687pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./figuras/2path_pathway_graph.png, id=949, 913.91437pt x 558.58687pt>
 File: ./figuras/2path_pathway_graph.png Graphic file (type png)
 
 <use ./figuras/2path_pathway_graph.png>
 Package pdftex.def Info: ./figuras/2path_pathway_graph.png used on input line 2
 14.
 (pdftex.def)             Requested size: 455.24411pt x 278.24437pt.
- [45 <./figuras/2path_pathway_org.png> <./figuras/2path_pathway_graph.png>]) (.
-/capitulos/capitulo5.tex [46]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[43 <./figuras/2path_home.png> <./figuras/2path_search.png>] [44 <./figuras/2pa
+th_enzyme.png> <./figuras/2path_enzyme_graph.png>] [45 <./figuras/2path_pathway
+_org.png> <./figuras/2path_pathway_graph.png>]) (./capitulos/capitulo5.tex
+[46]
 Cap\'{\i }tulo 5.
 [47
 
 ]
-Overfull \hbox (1.19336pt too wide) in paragraph at lines 30--43
+Overfull \hbox (1.19336pt too wide) in paragraph at lines 28--41
  [][] 
  []
 
 
-Overfull \hbox (4.52179pt too wide) in paragraph at lines 49--63
- [][] 
- []
-
-
-Overfull \hbox (0.79762pt too wide) in paragraph at lines 69--80
+Overfull \hbox (4.52179pt too wide) in paragraph at lines 47--61
  [][] 
  []
 
@@ -1628,50 +1656,50 @@ Overfull \hbox (0.79762pt too wide) in paragraph at lines 69--80
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [48] [49] [50] [51] [52]
-<./figuras/new_search_page.png, id=1009, 930.47626pt x 490.08093pt>
+<./figuras/new_search_page.png, id=1015, 930.47626pt x 490.08093pt>
 File: ./figuras/new_search_page.png Graphic file (type png)
 
 <use ./figuras/new_search_page.png>
-Package pdftex.def Info: ./figuras/new_search_page.png used on input line 190.
+Package pdftex.def Info: ./figuras/new_search_page.png used on input line 188.
 (pdftex.def)             Requested size: 455.24411pt x 239.77533pt.
  [53 <./figuras/new_search_page.png>]
-<./figuras/new_enzyme_4_catalyses.png, id=1016, 901.86937pt x 491.58656pt>
+<./figuras/new_enzyme_4_catalyses.png, id=1022, 1333.98375pt x 815.045pt>
 File: ./figuras/new_enzyme_4_catalyses.png Graphic file (type png)
 
 <use ./figuras/new_enzyme_4_catalyses.png>
 Package pdftex.def Info: ./figuras/new_enzyme_4_catalyses.png used on input lin
-e 201.
-(pdftex.def)             Requested size: 455.24411pt x 248.14798pt.
+e 199.
+(pdftex.def)             Requested size: 455.24411pt x 278.14386pt.
 
-<./figuras/new_message_success.png, id=1018, 945.5325pt x 490.83376pt>
+<./figuras/new_message_success.png, id=1024, 1379.1525pt x 760.8425pt>
 File: ./figuras/new_message_success.png Graphic file (type png)
 
 <use ./figuras/new_message_success.png>
 Package pdftex.def Info: ./figuras/new_message_success.png used on input line 2
-10.
-(pdftex.def)             Requested size: 455.24411pt x 236.324pt.
+08.
+(pdftex.def)             Requested size: 455.24411pt x 251.14845pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./figuras/new_message_error.png, id=1021, 947.03813pt x 487.8225pt>
+<./figuras/new_message_error.png, id=1027, 1375.1375pt x 785.93625pt>
 File: ./figuras/new_message_error.png Graphic file (type png)
 
 <use ./figuras/new_message_error.png>
-Package pdftex.def Info: ./figuras/new_message_error.png used on input line 219
+Package pdftex.def Info: ./figuras/new_message_error.png used on input line 217
 .
-(pdftex.def)             Requested size: 455.24411pt x 234.49454pt.
+(pdftex.def)             Requested size: 455.24411pt x 260.18724pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [54 <./figuras/new_enzyme_4_catalyses.png>]
-<./figuras/new_pathway.png, id=1027, 917.67844pt x 490.83376pt>
+<./figuras/new_pathway.png, id=1033, 1371.1225pt x 794.97pt>
 File: ./figuras/new_pathway.png Graphic file (type png)
 
 <use ./figuras/new_pathway.png>
-Package pdftex.def Info: ./figuras/new_pathway.png used on input line 227.
-(pdftex.def)             Requested size: 455.24411pt x 243.49895pt.
+Package pdftex.def Info: ./figuras/new_pathway.png used on input line 225.
+(pdftex.def)             Requested size: 455.24411pt x 263.94211pt.
 ) (./capitulos/capitulo6.tex [55 <./figuras/new_message_success.png> <./figuras
 /new_message_error.png>] [56 <./figuras/new_pathway.png>]
 Cap\'{\i }tulo 6.
@@ -1765,7 +1793,7 @@ Underfull \hbox (badness 3735) in paragraph at lines 129--129
 ) (./capitulos/questionarios_e_tarefas.tex [59]
 Ap\^endice A.
 
-<capitulos/questionario_dados_pessoais.pdf, id=1138, 597.23125pt x 845.1575pt>
+<capitulos/questionario_dados_pessoais.pdf, id=1144, 597.23125pt x 845.1575pt>
 File: capitulos/questionario_dados_pessoais.pdf Graphic file (type pdf)
 
 <use capitulos/questionario_dados_pessoais.pdf>
@@ -1779,7 +1807,7 @@ Package pdftex.def Info: capitulos/questionario_dados_pessoais.pdf used on inpu
 t line 5.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<capitulos/questionario_dados_pessoais.pdf, id=1141, page=1, 597.23125pt x 845.
+<capitulos/questionario_dados_pessoais.pdf, id=1147, page=1, 597.23125pt x 845.
 1575pt>
 File: capitulos/questionario_dados_pessoais.pdf Graphic file (type pdf)
  <use capitulos/questionario_dados_pessoais.pdf, page 1>
@@ -1815,7 +1843,7 @@ on input line 5.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
  [61 <./capitulos/questionario_dados_pessoais.pdf>]
 Ap\^endice B.
-<capitulos/tarefas_2Path.pdf, id=1176, 597.23125pt x 845.1575pt>
+<capitulos/tarefas_2Path.pdf, id=1182, 597.23125pt x 845.1575pt>
 File: capitulos/tarefas_2Path.pdf Graphic file (type pdf)
 
 <use capitulos/tarefas_2Path.pdf>
@@ -1826,7 +1854,7 @@ File: capitulos/tarefas_2Path.pdf Graphic file (type pdf)
 Package pdftex.def Info: capitulos/tarefas_2Path.pdf used on input line 9.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<capitulos/tarefas_2Path.pdf, id=1179, page=1, 597.23125pt x 845.1575pt>
+<capitulos/tarefas_2Path.pdf, id=1185, page=1, 597.23125pt x 845.1575pt>
 File: capitulos/tarefas_2Path.pdf Graphic file (type pdf)
 
 <use capitulos/tarefas_2Path.pdf, page 1>
@@ -1862,7 +1890,7 @@ Package pdftex.def Info: capitulos/tarefas_2Path.pdf, page1 used on input line
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
  [63 <./capitulos/tarefas_2Path.pdf>]
 Ap\^endice C.
-<capitulos/questionario_interface.pdf, id=1216, 597.23125pt x 845.1575pt>
+<capitulos/questionario_interface.pdf, id=1222, 597.23125pt x 845.1575pt>
 File: capitulos/questionario_interface.pdf Graphic file (type pdf)
 
 <use capitulos/questionario_interface.pdf>
@@ -1876,7 +1904,7 @@ Package pdftex.def Info: capitulos/questionario_interface.pdf used on input lin
 e 13.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-<capitulos/questionario_interface.pdf, id=1219, page=1, 597.23125pt x 845.1575p
+<capitulos/questionario_interface.pdf, id=1225, page=1, 597.23125pt x 845.1575p
 t>
 File: capitulos/questionario_interface.pdf Graphic file (type pdf)
  <use capitulos/questionario_interface.pdf, page 1>
@@ -1919,7 +1947,7 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
 Package rerunfilecheck Info: File `monografia.out' has not changed.
 (rerunfilecheck)             Checksum: 6048844CC4023564CE41D5B194E9B6C6;3594.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
-(rerunfilecheck)             Checksum: 6B7A8DC643718D87FF8773B2359A0294;4134.
+(rerunfilecheck)             Checksum: F95498E000C43F36A234BAD077AA50C3;4146.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1938,10 +1966,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 235.
  )
 (\end occurred when \iffalse on line 462 was incomplete) 
 Here is how much of TeX's memory you used:
- 23052 strings out of 493069
- 421567 string characters out of 6138221
- 507318 words of memory out of 5000000
- 25820 multiletter control sequences out of 15000+600000
+ 23055 strings out of 493069
+ 421599 string characters out of 6138221
+ 507607 words of memory out of 5000000
+ 25821 multiletter control sequences out of 15000+600000
  20553 words of font info for 43 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  55i,19n,92p,1383b,1048s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2060,10 +2088,10 @@ lic/cm-super/sfti1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-
 super/sfti1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/s
 ftt1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sftt1200
 .pfb>
-Output written on monografia.pdf (76 pages, 5912946 bytes).
+Output written on monografia.pdf (76 pages, 6085190 bytes).
 PDF statistics:
- 1388 PDF objects out of 1440 (max. 8388607)
- 1156 compressed objects within 12 object streams
- 266 named destinations out of 1000 (max. 500000)
+ 1394 PDF objects out of 1440 (max. 8388607)
+ 1162 compressed objects within 12 object streams
+ 268 named destinations out of 1000 (max. 500000)
  632 words of extra memory for PDF output out of 10000 (max. 10000000)
 

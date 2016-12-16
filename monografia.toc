@@ -10,10 +10,10 @@
 \contentsline {section}{\numberline {2.1}Conceitos B\IeC {\'a}sicos de IHC}{4}{section.2.1}
 \contentsline {section}{\numberline {2.2}Avalia\IeC {\c c}\IeC {\~a}o Atrav\IeC {\'e}s de Observa\IeC {\c c}\IeC {\~a}o}{6}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}M\IeC {\'e}todo de Avalia\IeC {\c c}\IeC {\~a}o de Comunicabilidade}{7}{subsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.1.1}Prepara\IeC {\c c}\IeC {\~a}o}{7}{subsubsection.2.2.1.1}
+\contentsline {subsubsection}{\numberline {2.2.1.1}Prepara\IeC {\c c}\IeC {\~a}o}{8}{subsubsection.2.2.1.1}
 \contentsline {subsubsection}{\numberline {2.2.1.2}Coleta de Dados}{8}{subsubsection.2.2.1.2}
 \contentsline {subsubsection}{\numberline {2.2.1.3}Interpreta\IeC {\c c}\IeC {\~a}o}{8}{subsubsection.2.2.1.3}
-\contentsline {subsubsection}{\numberline {2.2.1.4}Consolida\IeC {\c c}\IeC {\~a}o dos Resultados}{8}{subsubsection.2.2.1.4}
+\contentsline {subsubsection}{\numberline {2.2.1.4}Consolida\IeC {\c c}\IeC {\~a}o dos Resultados}{10}{subsubsection.2.2.1.4}
 \contentsline {subsubsection}{\numberline {2.2.1.5}Relato dos Resultados}{11}{subsubsection.2.2.1.5}
 \contentsline {section}{\numberline {2.3}Projeto de Interface Centrado na Comunica\IeC {\c c}\IeC {\~a}o}{11}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Tabela de Intera\IeC {\c c}\IeC {\~o}es}{11}{subsection.2.3.1}
@@ -33,14 +33,14 @@
 \contentsline {subsection}{\numberline {3.3.2}2Path}{33}{subsection.3.3.2}
 \contentsline {chapter}{\numberline {4}Interface do 2Path}{35}{chapter.4}
 \contentsline {section}{\numberline {4.1}Projeto de Interfaces}{35}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Tabela de Intera\IeC {\c c}\IeC {\~o}es}{36}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Mapa de Objetivos}{36}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Modelagem de Tarefas}{36}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Tratamento de Rupturas na Comunica\IeC {\c c}\IeC {\~a}o}{40}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.1}Tabela de Intera\IeC {\c c}\IeC {\~o}es}{35}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Mapa de Objetivos}{37}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Modelagem de Tarefas}{37}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Tratamento de Rupturas na Comunica\IeC {\c c}\IeC {\~a}o}{38}{subsection.4.1.4}
 \contentsline {section}{\numberline {4.2}Implementa\IeC {\c c}\IeC {\~a}o da Interface}{40}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Detalhes de Implementa\IeC {\c c}\IeC {\~a}o}{40}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Interface do Sistema}{42}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Projeto de Avalia\IeC {\c c}\IeC {\~a}o}{46}{section.4.3}
+\contentsline {section}{\numberline {4.3}Projeto de Avalia\IeC {\c c}\IeC {\~a}o}{44}{section.4.3}
 \contentsline {chapter}{\numberline {5}Resultados dos testes}{47}{chapter.5}
 \contentsline {section}{\numberline {5.1}Avalia\IeC {\c c}\IeC {\~a}o da Interface}{47}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Interpreta\IeC {\c c}\IeC {\~a}o dos Resultados}{49}{subsection.5.1.1}

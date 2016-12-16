@@ -1,9 +1,9 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: monografia.aux
 The style file: plain.bst
 Database file #1: monografia.bib
-I was expecting a `,' or a `}'---line 407 of file monografia.bib
+I was expecting a `,' or a `}'---line 406 of file monografia.bib
  :    
  :    month = "Julho",
 (Error may have been on previous line)
@@ -19,7 +19,7 @@ Warning--empty booktitle in waldeyr
 Warning--empty chapter and pages in Cap3schomburg
 You've used 25 entries,
             2118 wiz_defined-function locations,
-            646 strings with 9177 characters,
+            646 strings with 9173 characters,
 and the built_in function-call counts, 6476 in all, are:
 = -- 576
 > -- 325
