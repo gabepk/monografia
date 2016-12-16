@@ -2,11 +2,7 @@
 
 \indent Este capítulo apresenta uma interface para o \textit{2Path}, utilizando as informações dos capítulos 2 e 3. São descritos quatro elementos de IHC utilizados para definir o escopo do trabalho. A tabela de interações representa de forma simples a metacomunicação. A partir dela é possível estabelecer os objetivos finais e instrumentais, organizados em um diagrama chamado mapa de objetivos. Uma vez conhecendo os motivos de os usuários utilizarem o sistema, o projetista utiliza os diagramas de modelagem de tarefas para representar de forma abstrata a navegação pelo sistema do ponto de vista de cada tipo de usuário. Por fim, a tabela de tratamento de rupturas na comunicação tem o objetivos de documentar os métodos utilizados para impedir / prevenir / recuperar erros cometidos pelo usuário ao interagir com o sistema.
 
-\indent Na Seção \ref{projeto}, são descritos de maneira geral todas as ferramentas, softwares e linguagens utilizadas na elaboração de uma interface para o \textit{2Path}. De maneira breve, a interface do 2Path foi desenvolvida na IDE Eclipse utilizando a linguagem Java para \textit{Back-end} e XHTML, JSF e Primefaces para \textit{Front-end}. O banco de dados utilizado foi o Neo4j~\cite{waldeyr}, um banco não relacional direcionado a grafos. A visualização das vias metabólicas foi implementada em javascript, com uma biblioteca de grafos e gráficos chamada D3 (Data-Driven Documents);
-
-\indent Na Seção \ref{implementacao}, são descritos o ambiente de desenvolvimento e os detalhes de implementação do \textit{back-end}, e \textit{front-end} do sistema.
-
-\indent Na Seção \ref{avaliacao}, é detalhada a coleta de dados do Método de Avaliação de Comunicabilidade com os três usuários biólogos.
+\indent Na Seção \ref{projeto}, são descritos de maneira geral todas as ferramentas, softwares e linguagens utilizadas na elaboração de uma interface para o \textit{2Path}. Na Seção \ref{implementacao}, são descritos o ambiente de desenvolvimento e os detalhes de implementação do \textit{back-end}, e \textit{front-end} do sistema. Na Seção \ref{avaliacao}, é detalhada a coleta de dados do Método de Avaliação de Comunicabilidade com os três usuários biólogos.
 
 \section{Projeto de Interfaces} \label{projeto}
 
@@ -27,12 +23,12 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
 \specialcell{> Informar dados\\da enzima}	& \specialcell{\textbf{P}: Qual o \textbf{número EC} (\textit{Enzyme Commission})\\da enzima?} \\ 
 				  & \specialcell{\textbf{U}: O número EC é (...).} \\ 
 				  & \specialcell{\textbf{P}: OK. A enzima está no banco de dados e ela catalisa as\\\textbf{reações} (...) cujos \textbf{substratos} são (...) e os \textbf{produtos}\\são (...).} \\ \hline
-\specialcell{Pesquisar enzima\\em organismo} & \specialcell{\textbf{U}: Quero saber se o genoma de um dos meus organismos\\possui sequencia que produz certa enzima.} \\ \hline
+\specialcell{Pesquisar enzima\\em organismo} & \specialcell{\textbf{U}: Quero saber se o genoma de um dos meus organismos\\possui sequência que produz certa enzima.} \\ \hline
 > Informar organismo & \specialcell{\textbf{P}: Em qual dos seus \textbf{organismos} você quer buscar essa\\enzima?} \\
 & \specialcell{\textbf{U}: O organismo é (...).} \\ \hline
 \specialcell{> Informar dados\\da enzima} & \specialcell{\textbf{P}: Qual o \textbf{número EC} da enzima?} \\
 & \specialcell{\textbf{U}: O número EC é (...).} \\ 
-& \specialcell{\textbf{P}: OK. A está no banco de dados e ela catalisa as\\\textbf{reações} (...) cujos \textbf{substratos} são (...) e os \textbf{produtos}\\são (...). O organismo (...) possui as sequências (...) que\\produziram tal enzima.} \\ \hline
+& \specialcell{\textbf{P}: OK. A enzima está no banco de dados e ela catalisa as\\\textbf{reações} (...) cujos \textbf{substratos} são (...) e os \textbf{produtos}\\são (...). O organismo (...) possui as sequências (...) que\\produziram tal enzima.} \\ \hline
 
 \specialcell{Procurar caminho\\entre dois\\metabólitos} & \specialcell{\textbf{U}: Quero saber se um certo metabólito é substrato de\\alguma \textbf{via} \textbf{metabólica} no 2Path cujo produto é um\\outro certo metabólito.} \\ \hline
 \specialcell{> Informar dados\\dos metabólitos} & \specialcell{\textbf{P}: Qual o \textbf{substrato}? Qual o \textbf{produto}?} \\
@@ -53,19 +49,19 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
 \subsection{Mapa de Objetivos}
 
 \indent O 2Path foi desenvolvido considerando que um usuário já fez \textit{login} no sistema e já possui pelo menos um organismo em seu banco de dados particular. Nesse sentido, o usuário possui dois objetivos finais:
-\begin{itemize}
-\item[1]: Verificar se existe uma via metabólica entre dois compostos no banco de dados público do 2Path e/ou em algum de seus organismos privados;
-\item[2]: Verificar se existe uma enzima específica no banco de dados público do 2Path e/ou em algum dos seus organismos privados. 
-\end{itemize}
+\begin{enumerate}
+\item Verificar se existe uma via metabólica entre dois compostos no banco de dados público do 2Path e/ou em algum de seus organismos privados;
+\item Verificar se existe uma enzima específica no banco de dados público do 2Path e/ou em algum dos seus organismos privados. 
+\end{enumerate}
 
-\indent Para atingir tais objetivos, ele precisa realizar certos objetivos instrumentais diretos e indiretos. Observe que a manipulação do grafo na visualização da via metabólica envolve clicar, mover e passar o mouse por cima nos nós e arestas.
-\begin{description}
-\item[Direto]: Informar dois elementos: substrato e produto;
-\item[Direto]: Informar enzima;
-\item[Direto]: Manipular grafo para obter informações sobre os nós e arestas;
-\item[Indireto]: Fazer \textit{login} no sistema (Considerado já feito);
-\item[Indireto]: Fazer \textit{upload} de arquivos FASTA de organismos (Considerado já feito).
-\end{description}
+\indent Para atingir tais objetivos, ele precisa realizar certos objetivos instrumentais diretos e indiretos. Observe que a manipulação do grafo na visualização da via metabólica envolve clicar, mover e passar o \textit{mouse} por cima nos nós e arestas:
+\begin{itemize}
+\item \textbf{Direto}: Informar dois elementos: substrato e produto;
+\item \textbf{Direto}: Informar enzima;
+\item \textbf{Direto}: Manipular grafo para obter informações sobre os nós e arestas;
+\item \textbf{Indireto}: Fazer \textit{login} no sistema (Considerado já feito);
+\item \textbf{Indireto}: Fazer \textit{upload} de arquivos FASTA de organismos (Considerado já feito).
+\end{itemize}
 
 \indent A Figura \ref{fig:mapaDeObjetivos} apresenta o Mapa de Objetivos do sistema 2Path construído com base nos objetivos finais e instrumentais (diretos e indiretos) dos usuários. 
 
@@ -78,9 +74,9 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
 
 \subsection{Modelagem de Tarefas}
 
-\indent A partir do mapa de objetivos, têm-se uma ideia geral da navegação do site, uma vez que foi feito um mapeamento generalizado das sequências de passos para atingi-los. O propósito da modelagem de tarefas é, portanto, formularizar essa sequências de passos de maneira específica para cada objetivo final. 
+\indent A partir do mapa de objetivos, têm-se uma ideia geral da navegação do \textit{site}, uma vez que foi feito um mapeamento generalizado das sequências de passos para atingi-los. O propósito da modelagem de tarefas é, portanto, estabelecer essa sequências de passos de maneira específica para cada objetivo final. 
 
-\indent No caso, foram elaborados dois objetivos finais: Verificar via metabólica entre dois metabólitos no banco de dados; Verificar existência de enzima no banco de dados. Entretanto a pequisa pode ser feita tanto no banco de dados completo do 2Path, quanto na rede metabólica construída para um organismo específico. Assim, esses objetivos finais foram subdivididos em dois na modelagem de tarefas: Verificar se enzima está no banco de dados público do 2Path (Figura \ref{fig:objetivo_enzyma}); Verificar se enzima está no banco de dados privado (Figura \ref{fig:objetivo_enzyma_organismo}); Verificar se há via entre dois metabólitos no banco de dados público (Figura \ref{fig:objetivo_pathway}); Verificar se há via metabólica no banco de dados privado (Figura \ref{fig:objetivo_pathway_organismo});
+\indent No caso, foram elaborados dois objetivos finais: Verificar via metabólica entre dois metabólitos no banco de dados; verificar existência de enzima no banco de dados. Entretanto a pequisa pode ser feita tanto no banco de dados completo do 2Path, quanto na rede metabólica construída para um organismo específico. Assim, esses objetivos finais foram subdivididos em dois na modelagem de tarefas: Verificar se enzima está no banco de dados público do 2Path (Figura \ref{fig:objetivo_enzyma}); verificar se enzima está no banco de dados privado (Figura \ref{fig:objetivo_enzyma_organismo}); verificar se há via entre dois metabólitos no banco de dados público (Figura \ref{fig:objetivo_pathway}); verificar se há via metabólica no banco de dados privado (Figura \ref{fig:objetivo_pathway_organismo});
 
 \begin{figure}[!h]
     \centering
@@ -115,18 +111,18 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
 
 \indent A Tabela \ref{prevencaoRecuperacao:2Path} apresenta as medidas tomadas para prevenção e recuperação de falhas de comunicação na interface do 2Path, assim como especificado no Capítulo 2. Nela, PP significa a prevenção passiva, PA siginifica prevenção ativa e RA significa recuperação apoiada. 
 
-\indent Não houve nenhum tipo de prevenção apoiada, pois não foi observado tipo de interação que o usuário possa fazer que cause dano grave como, por exemplo, excluir um arquivo. Quando este projeto evoluir, esse tipo de prevenção pode ser aplicada, por exemplo, ao se tratar o \textit{upload} de um arquivo FASTA, onde o projetista deverá verificar se existe um organismo com o mesmo nome já no banco de dados privado do usuário. 
+\indent Não houve nenhum tipo de prevenção apoiada, pois não foi observado nenhum tipo de interação que o usuário possa fazer que cause dano grave, por exemplo, excluir um arquivo. Quando este projeto evoluir, esse tipo de prevenção pode ser aplicada, por exemplo, ao se tratar o \textit{upload} de um arquivo FASTA, onde o projetista deverá verificar se existe um organismo com o mesmo nome já no banco de dados privado do usuário. 
 
-\indent Também não foi constatado a necessidade de implementar captura de erro, uma vez que todas as possíveis rupturas observadas são tratáveis por meio de mensagens de erro.
+\indent Também não foi constatada a necessidade de implementar captura de erro, uma vez que todas as possíveis rupturas observadas são tratáveis por meio de mensagens de erro.
 
 \indent 
 \begin{table}
 \centering
-\caption{Campos de entrada e manipulação dos usuários do sistema 2Path} \label{prevencaoRecuperacao:2Path}
+\caption{Campos de entrada e manipulação dos usuários do sistema 2Path. Observe que não houve prevenção nem recuperação da manipulação de vias metabólicas, pois o usuário não entra com dados nem altera dados, apenas visualiza e interage com o grafo utilizando o \textit{mouse}.} \label{prevencaoRecuperacao:2Path}
 \begin{tabular}{|l|c|c|}
 \hline
 {\cellcolor[HTML]{DFDFDF}\textbf{Signo}} &  {\cellcolor[HTML]{DFDFDF}\textbf{Prevenção}} &  {\cellcolor[HTML]{DFDFDF}\textbf{Recuperação}}\\ \hline
-\specialcell{Seleção de\\organismo}  & \specialcell{\textbf{PA}: Campo obrigatório com\\indicador ``*'' para\\ formulários ``\textit{Search Enzyme}\\\textit{in Organism}'' e  ``\textit{Search}\\\textit{Pathway in Organism}''. Caso\\o usuário esqueça de selecionar\\este campo, o organismo\\escolhido será o primeiro e\\ordem alfabética.} & -  \\ \hline
+\specialcell{Seleção de\\organismo}  & \specialcell{\textbf{PA}: Campo obrigatório com\\indicador ``*'' para\\ formulários ``\textit{Search Enzyme}\\\textit{in Organism}'' e  ``\textit{Search}\\\textit{Pathway in Organism}''. Caso\\o usuário esqueça de selecionar\\este campo, o organismo\\escolhido será o primeiro em\\ordem alfabética.} & -  \\ \hline
 
 \specialcell{Seleção de\\enzima} & \specialcell{\textbf{PP}: Campo obrigatório com\\indicador ``*'';\\\textbf{PP}: Campo possui função\\\textit{auto-complete}, que fornece\\ao usuário todos os\\números EC existentes} & \specialcell{\textbf{RA}: Mensagem de texto em vermelho \\aparece acima do formulário informando\\o usuário de que o campo obrigatório\\não foi preenchido: ``\textit{Enzyme: Validation}\\\textit{ Error: Value is required}''.} \\ \hline
 
@@ -151,7 +147,7 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
 
 \indent As páginas da aplicação foram desenvolvidas na linguagem de marcação XHTML, \textit{Extensible Hypertext Markup Language}, e a estilização em CSS, \textit{Cascading Style Sheets}. Para conexão entre \textit{front-end} e \textit{back-end} foram utilizados JSF\footnote{Especificação Java para criação de componentes de interface de aplicação \textit{web}.}, Primefaces\footnote{Biblioteca com uma coleção de componentes de interface voltadas para JSF.}, e Javascript, para a construção do grafo de vias metabólicas.
 
-\indent Em javascript, foi utilizada a bilioteca D3 na apresentação das vias metabólicas na tela. Essa biblioteca permite que a construção de um grafo a partir de um arquivo ou \textit{string} no formato JSON com os vetores \textit{nodes} para os nós e \textit{links} para as arestas. A figura \ref{fig:nodeslinksD3} apresenta as cores escolhidas para cada nó do grafo. Não houve padrão definido para a escolha das cores.
+\indent Em javascript, foi utilizada a bilioteca D3 na apresentação das vias metabólicas na tela. Essa biblioteca permite que a construção de um grafo a partir de um arquivo ou \textit{string} no formato JSON com os vetores \textit{nodes} para os nós e \textit{links} para as arestas. A Figura~\ref{fig:nodeslinksD3} apresenta as cores escolhidas para cada nó do grafo. Não houve padrão definido para a escolha das cores.
 
 \begin{figure}[!h]
     \centering
@@ -160,13 +156,13 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
     \label{fig:nodeslinksD3}
 \end{figure}
 
-\indent O banco de dados em grado Neo4j foi utilizado no sistema, pois o próprio 2Path foi desenvolvido no mesmo. Devido à facilidade de implementação do mesmo em Java e da alta usabilidade de sua interface, foi relativamente simples implementar as \textit{queries} de busca e fazer a conexão em Java. As \textit{queries} foram escritas em \textit{CYPHER}, linguagem nativa do Neo4j. Como o banco não é relacional, essa linguagem não tem a estrutura do SQL, porém foi elaborada para facilitar buscas que realizam travessia em grafos. 
+\indent O banco de dados em grafo Neo4j~\cite{waldeyr} foi utilizado no sistema, pois o próprio 2Path foi desenvolvido no mesmo. Devido à facilidade de implementação do mesmo em Java e da alta usabilidade de sua interface, foi relativamente simples implementar as \textit{queries} de busca e fazer a conexão em Java. As \textit{queries} foram escritas em \textit{CYPHER}, linguagem nativa do Neo4j. Como o banco não é relacional, essa linguagem não tem a estrutura do SQL, porém foi elaborada para facilitar buscas que realizam travessia em grafos. 
 
-\indent O Neo4j, porém, retorna em suas transações uma string em formato JSON que não é compatível com o especificado pelo D3. Nesse caso, foi feito um parser para a construção de uma nova string compatível. Os dados passados de uma página para a outra, inclusive essa string em JSON, são todos armazenados em uma sessão, cujo ciclo de vida é determinado pelo JSF.
+\indent O Neo4j, porém, retorna em suas transações uma \textit{string} em formato JSON que não é compatível com o especificado pelo D3 (Data-Driven Documents). Nesse caso, foi feito um parser para a construção de uma nova string compatível. Os dados passados de uma página para a outra, inclusive essa string em JSON, são todos armazenados em uma sessão, cujo ciclo de vida é determinado pelo JSF.
 
 \subsection{Interface do Sistema}
 
-\indent A implementação do \textit{front-end} resultou nas figuras a seguir. Todos os elementos estão em inglês, pois o sistema criado pode ser utilizado mundialmente. A Figura \ref{fig:2path_home} mostra a página inicial, que possui uma breve explicação sobre terpenoides, sobre o sistema 2Path e sobre as possíveis buscas que o usuário pode realizar. O menu ao topo está em todas as páginas do sistema. Nele é possível navegar até a página inicial (Home), página sobre terpenoides (Terpenoids), página de busca (Search), página sobre o 2Path (About) e, por fim, página de ajuda (Help). A Figura \ref{fig:2path_search} apresenta a página de busca principal, onde a partir dela é possível fazer as quatro tipos de buscas: por enzima no 2Path; por enzima no organismo; por via metabólica no 2Path e por via metabólica no organismo.
+\indent A implementação do \textit{front-end} resultou nas figuras a seguir. Todos os elementos estão em inglês, pois o sistema criado pode ser utilizado mundialmente. A Figura \ref{fig:2path_home} mostra a página inicial, que possui uma breve explicação sobre terpenoides, sobre o sistema 2Path e sobre as possíveis buscas que o usuário pode realizar. O menu ao topo está em todas as páginas do sistema. Nele é possível navegar até a página inicial (Home), página sobre terpenoides (Terpenoids), página de busca (Search), página sobre o 2Path (About) e, por fim, página de ajuda (Help).
 
 \begin{figure}[!h]
     \centering
@@ -175,6 +171,8 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
     \label{fig:2path_home}
 \end{figure}
 
+\indent A Figura \ref{fig:2path_search} apresenta a página de busca principal, onde a partir dela é possível fazer as quatro tipos de buscas: por enzima no 2Path; por enzima no organismo; por via metabólica no 2Path e por via metabólica no organismo.
+
 \begin{figure}[!h]
     \centering
     \includegraphics[width=1\textwidth]{2path_search.png}
@@ -182,9 +180,7 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
     \label{fig:2path_search}
 \end{figure}
 
-\indent Em relação às buscas específicas, decidiu-se apresentar o grafo das vias metabólicas em uma página separada da busca, pois ele poderia ficar extenso e complexo. Nesse sentido, a busca de fato é realizada em uma página intermediária, que apenas responde se a enzima/via foi encontrada ou não. Caso o usuário queira saber detalhes sobre a mesma, ele deve selecionar o botão \textit{View Interactive Data}.
-
-\indent A Figura \ref{fig:2path_enzyme} apresenta um exemplo de busca pela enzima \textit{2.7.7.60} no banco de dados completo do 2Path. Esta enzima foi encontrada e o grafo da Figura \ref{fig:2path_enzyme_graph} apresenta o substrato (\textit{2-C-Methyl-D-erythritol 4-phosphate}) que ela recebe e o produto (\textit{4-(Cytidine 5'-diphospho)-2-C-methyl-D-erythritol}) que ela produz. 
+\indent Em relação às buscas específicas, decidiu-se apresentar o grafo das vias metabólicas em uma página separada da busca, pois ele poderia ficar extenso e complexo. Nesse sentido, a busca de fato é realizada em uma página intermediária, que apenas responde se a enzima/via foi encontrada ou não. Caso o usuário queira saber detalhes sobre a mesma, ele deve selecionar o botão \textit{View Interactive Data}. A Figura \ref{fig:2path_enzyme} apresenta um exemplo de busca pela enzima \textit{2.7.7.60} no banco de dados completo do 2Path.
 
 \begin{figure}[!h]
     \centering
@@ -193,6 +189,8 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
     \label{fig:2path_enzyme}
 \end{figure}
 
+\indent Uma vez que essa enzima foi encontrada, o grafo da Figura \ref{fig:2path_enzyme_graph} apresenta o substrato (\textit{2-C-Methyl-D-erythritol 4-phosphate}) que ela recebe e o produto (\textit{4-(Cytidine 5'-diphospho)-2-C-methyl-D-erythritol}) que ela produz. 
+
 \begin{figure}[!h]
     \centering
     \includegraphics[width=1\textwidth]{2path_enzyme_graph.png}
@@ -200,7 +198,7 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
     \label{fig:2path_enzyme_graph}
 \end{figure}
 
-\indent A Figura \ref{fig:2path_pathway_org} apresenta um exemplo de busca por via metabólica entre os compostos \textit{1-Deoxy-D-xylolose 5-phosphate} e \textit{2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol} no organismo \textit{Arabidopsis thaliana}. O grafo gerado para esta via é representado na Figura \ref{fig:2path_pathway_graph}.
+\indent A Figura \ref{fig:2path_pathway_org} apresenta um exemplo de busca por via metabólica entre os compostos \textit{1-Deoxy-D-xylolose 5-phosphate} e \textit{2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol} no organismo \textit{Arabidopsis thaliana}.
 
 \begin{figure}[!h]
     \centering
@@ -208,6 +206,8 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
     \caption{Página de busca por via metabólica no banco de dados formado para o organismo \textit{Arabidopsis thaliana}.}
     \label{fig:2path_pathway_org}
 \end{figure}
+
+\indent O grafo gerado para esta via é representado na Figura \ref{fig:2path_pathway_graph}.
 
 \begin{figure}[!h]
     \centering
@@ -220,14 +220,14 @@ Pesquisar enzima & \specialcell{\textbf{U}: Quero procurar uma \textit{enzima} n
 
 \indent Os testes serão realizados no Laboratório de Bioinformática do Departamento de Biologia Celular, Instituto de Ciências Biológicas da Universidade de Brasília. Três biólogos foram selecionados para participar do teste descritos pelo Método de Avaliação de Comunicabilidade no capítulo 2. A identidade dos mesmos será preservada por questão de privacidade.
 
-\indent Primeiramente, cada biólogo deverá responder ao questionário do Anexo \ref{questionario_dados_pessoais}. Ele é necessário para analisar se o perfil do usuário tem alguma relação com a facilidade com que o mesmo possui ao realizar um tarefa proposta no sistema. Para isso, é importante conhecer a formação acadêmica do usuário, bem como sua atuação profissional. Além disso, são solicitadas informações sobre a frequência em que ele utiliza ferramentas interativas e o nível de conhecimento a respeito de redes metabólicas. 
+\indent Primeiramente, cada biólogo deverá responder ao questionário do Apêndice \ref{questionario_dados_pessoais}. Ele é necessário para analisar se o perfil do usuário tem alguma relação com a facilidade com que o mesmo possui ao realizar um tarefa proposta no sistema. Para isso, é importante conhecer a formação acadêmica do usuário, bem como sua atuação profissional. Além disso, são solicitadas informações sobre a frequência em que ele utiliza ferramentas interativas e o nível de conhecimento a respeito de redes metabólicas. 
 
 \indent Após responderem o questionário, cada usuário fará o teste separadamente, sem acesso às respostas de outro usuário para que o teste não perca a legitimidade. Apenas um avaliador guiará os usuários e apenas um computador será utilizado para os testes. Assim, serão realizados três testes em sequência. Será utilizado o computador pessoal do avaliador para a realização das tarefas, ao invés de um computador do Laboratório de Bioinformática, uma vez que o ambiente de teste já esta configurado corretamente no computador pessoal. Configurar o ambiente em um outro computador poderia levar em torno de 2 horas, levando em consideração que seria necessário fazer \textit{download} da IDE Eclipse e do banco de dados Neo4j.
 
 \indent Durante a realização das tarefas, serão filmadas a tela do computador, o \textit{mouse} / \textit{mousepad}, o teclado e as mãos do usuários. Serão apresentadas aos usuários, um de cada vez, as 13 etiquetas descritas no capítulo 2 para que eles entendam o propósito do teste. Não haverá comunicação entre avaliador e usuário durante a realização completa da tarefa, ou até que o usuário desista de cumprir o objetivo proposto.
 
-\indent Serão realizadas 5 tarefas, descritas no Anexo \ref{tarefas}. As primeiras três envolvem buscar por enzimas em um organismo. Considerou-se que o organismo já havia sido processado pelo sistema do \textit{2Path} e as sequências de seu arquivo FASTA já haviam sido ligadas às enzimas correspondentes do banco de dados. Assim, o usuário deverá apenas selecionar o organismo listado na página de busca e pesquisar pelas enzimas. As outras duas tarefas envolvem buscar por vias metabólicas no banco de dados inteiro do \textit{2Path}.
+\indent Serão realizadas 5 tarefas, descritas no Apêndice \ref{tarefas}. As primeiras três envolvem buscar por enzimas em um organismo. Considerou-se que o organismo já havia sido processado pelo sistema do \textit{2Path} e as sequências de seu arquivo FASTA já haviam sido ligadas às enzimas correspondentes do banco de dados. Assim, o usuário deverá apenas selecionar o organismo listado na página de busca e pesquisar pelas enzimas. As outras duas tarefas envolvem buscar por vias metabólicas no banco de dados inteiro do \textit{2Path}.
 
-\indent Após a tarefa, o usuários devem responder ao questionário do Anexo \ref{questionario_interface}, que visa coletar a opinião dos usuários a respeito do projeto de interface. Estes dados, juntamente com as etiquetas listadas para cada usuário, fornecem uma base de informação para análise e a re-implementação aperfeiçoada do sistema.
+\indent Após a tarefa, o usuários devem responder ao questionário do Apêndice \ref{questionario_interface}, que visa coletar a opinião dos usuários a respeito do projeto de interface. Estes dados, juntamente com as etiquetas listadas para cada usuário, fornecem uma base de informação para análise e a re-implementação aperfeiçoada do sistema.
 
 \indent Por fim, será apresentado a nova proposta de interface do banco de dados 2Path, de acordo com as necessidades dos usuários e contemplando novos recursos que devem aumentar os quatro critérios de qualidade: usabilidade, experiência de usuário, acessibilidade e comunicabilidade.
