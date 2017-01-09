@@ -117,12 +117,12 @@
 
 \indent A partir das análises dos três biólogos, foram verificados vários pontos fracos no sistema. Como foram observadas várias falhas de comunicação na interface proposta, foi mais adequado apresentá-las em forma de lista do que em forma de resposta às perguntas da fase de consolidação de usuário, do Método de Avaliação de Comunicabilidade.
 
-\indent De maneira geral, os usuários conseguiram realizar seus objetivos, porém de maneira ineficiente e geralmente errando ao tentar pela primeira vez. Vários elementos da interface deixaram os usuários insatisfeitos e desmotivados a continuar a tarefa. Os problemas se manifestam principalmente na área de visualização do grafo que representam as vias metabólicas. Houveram elogios, apesar das barreiras de comunicação. Várias páginas possuiam texto explicativos, que os usuários leram e, além disso, a função de \textit{auto-complete} dos nomes dos compostos químicos foi de grande ajuda. A lista de falhas de comunicabilidade a seguir fornece a base de informação para a criação do perfil semiótico do sistema, assim como descrito no capítulo 2.
+\indent De maneira geral, os usuários conseguiram realizar seus objetivos, porém de maneira ineficiente e geralmente errando ao tentar pela primeira vez. Vários elementos da interface deixaram os usuários insatisfeitos e desmotivados a continuar a tarefa. Os problemas se manifestam principalmente na área de visualização do grafo que representam as vias metabólicas. Houveram elogios, apesar das barreiras de comunicação. Várias páginas possuíam textos explicativos, que os usuários leram e, além disso, a função de \textit{auto-complete} dos nomes dos compostos químicos foi de grande ajuda. A lista de falhas de comunicabilidade a seguir fornece a base de informação para a criação do perfil semiótico do sistema, assim como descrito no capítulo 2.
 
 \begin{itemize}
 \item Busca por enzima / via metabólica
   \begin{itemize}
-  \item[1] O botão de voltar um página, do navegador, não fazia o que o usuário esperava. Ele voltava para a pesquisa anterior em vez de ir para a página central de buscas;
+  \item[1] O botão de voltar uma página, do navegador, não fazia o que o usuário esperava. Ele voltava para a pesquisa anterior em vez de ir para a página central de buscas;
   \item[2] A função \textit{auto-complete} das enzimas não foi uma boa decisão de projeto, pois os usuários ficavam confusos com os números que apareciam;
   \item[3] Resultado de busca não estava sendo inicializado sempre que página é carregada, portanto apresentava um resultado anterior, o que causava confusão;
   \item[4] Botão \textit{View Interative Data}, para visualizar a via metabólica, está sempre ativo. Isso fez com que os usuários não notassem que existe informação extra sobre enzima ou via quando a pesquisa retorna sucesso;
@@ -168,7 +168,7 @@
   \item[1] Representar as reação com a \textit{label} das enzimas não é possível, pois o banco de dados não possui suporte para a obtenção dessa informação. Além disso, uma enzima pode catalisar mais de uma reação. Assim, não teria como representar apenas um nó da enzima recebendo todos os possíveis substratos e produzindo todos os possíveis produtos. Uma solução para esse problema seria solicitar ao administrador do \textit{2Path} a adição de mais uma propriedade no nó da reação que determine a enzima que a catalise;
   \item[2, 3, 4] Para diminuir o tamanho do grafo, foram omitidos os nós referentes ao organismo e às sequências do genoma que ele possui;
   \item[5] O grafo aparece estático, porém o usuário pode clicar nos nós e movê-los como desejar;
-  \item[6] O nós do grafo não se sobrepõem, portanto ele tem a aparência de que está aberto;
+  \item[6] Os nós do grafo não se sobrepõem, portanto ele tem a aparência de que está aberto;
   \item[7] A legenda apresenta apenas informações sobre as cores de três nós: Compostos, Reações e Enzimas.
   \end{itemize}
 \end{itemize}
@@ -194,7 +194,7 @@
 
 \indent A nova interface para busca de enzima sofreu fortes mudanças. Não há mais função de \textit{auto-complete} no campo de entrada de EC, foi adicionado um botão para retornar à página de busca e, principalmente, o grafo aparece na mesma página. Se existe enzima, o grafo aparece, se não existe, não aparece. Os rótulos dos nós, que antes apresentavam seus nomes, agora apresenta seus identificadores no KEGG. Acima do grafo está uma legenda que aparece quando o usuário passa o \textit{mouse} por cima dos nós. Ela possui informações sobre o tipo do nó, seu nome e seu identificador no KEGG. Este nó é destacado por uma cor mais escura que os demais.
 
-\indent A Figura \ref{fig:new_enzyme_4_catalyses}, além de apresentar a nova interface, mostra que não é possível representar as reações como enzimas, pois uma enzima pode catalisar mais de uma reação. Se as próprias reações possuíssem informação sobre qual enzima às catalisam, então essa mudança seria possível. Essa alteração no banco de dados facilitaria bastante a interpretação do grafo, de acordo com os biólogos, que costumaram entender reação como aresta. Por fim, a legenda do grafo ficou mais simples, portanto, mais legível.
+\indent A Figura \ref{fig:new_enzyme_4_catalyses}, além de apresentar a nova interface, mostra que não é possível representar as reações como enzimas, pois uma enzima pode catalisar mais de uma reação. Se as próprias reações possuíssem informação sobre qual enzima as catalisam, então essa mudança seria possível. Essa alteração no banco de dados facilitaria bastante a interpretação do grafo, de acordo com os biólogos, que costumaram entender reação como aresta. Por fim, a legenda do grafo ficou mais simples, portanto, mais legível.
 
 \begin{figure}[!h]
 	\centering
@@ -212,7 +212,7 @@
     \label{fig:new_message_success}
 \end{figure}
 
-\indent As Figuras \ref{fig:new_message_error} e \ref{fig:new_pathway} aprensentam resultados de busca por via metabólica em um organismo. A primeira retornou falso, como visto pela mensagem de erro. A segunda retornou mensagem de sucesso e um grafo estático na tela. Observe que, apesar de a buscar ter sido no organismo, a única informação que interessa para o usuário é da via entre um composto e outro. Portanto não aparecem mais como na interface antiga os nós do organismo, sequências e enzimas. Acredita-se que essa nova decisão de projeto diminui a complexidade da visualização dos dados biológicos.
+\indent As Figuras \ref{fig:new_message_error} e \ref{fig:new_pathway} aprensentam resultados de busca por via metabólica em um organismo. A primeira retornou falso, como visto pela mensagem de erro. A segunda retornou mensagem de sucesso e um grafo estático na tela. Observe que, apesar de a busca ter sido no organismo, a única informação que interessa para o usuário é da via entre um composto e outro. Portanto não aparecem mais como na interface antiga os nós do organismo, sequências e enzimas. Acredita-se que essa nova decisão de projeto diminui a complexidade da visualização dos dados biológicos.
 
 \begin{figure}[!h]
     \centering

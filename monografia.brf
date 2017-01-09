@@ -8,13 +8,11 @@
 \backcite {examplePathway}{{vi}{(document)}{Doc-Start}}
 \backcite {IHCbook}{{viii}{(document)}{Doc-Start}}
 \backcite {setubal97}{{1}{1}{chapter.1}}
-\backcite {setubal97}{{1}{1}{chapter.1}}
-\backcite {mount01}{{1}{1}{chapter.1}}
 \backcite {mount01}{{1}{1}{chapter.1}}
 \backcite {berger13}{{1}{1}{chapter.1}}
 \backcite {berger13}{{1}{1}{chapter.1}}
 \backcite {IHCbook}{{1}{1}{chapter.1}}
-\backcite {IHCbook}{{2}{1}{chapter.1}}
+\backcite {IHCbook}{{1}{1}{chapter.1}}
 \backcite {tics}{{4}{2}{chapter.2}}
 \backcite {IHCbook}{{4}{2}{chapter.2}}
 \backcite {IHCbook}{{4}{2}{chapter.2}}
@@ -41,8 +39,8 @@
 \backcite {setubal97}{{16}{3.1.1}{subsection.3.1.1}}
 \backcite {setubal97}{{17}{3.1.1}{subsection.3.1.1}}
 \backcite {dnadiscovery08}{{17}{3.1}{figure.caption.12}}
+\backcite {LauraProteinas07}{{17}{3.1.2}{subsection.3.1.2}}
 \backcite {dnadiscovery08}{{18}{3.2}{figure.caption.13}}
-\backcite {LauraProteinas07}{{18}{3.1.2}{subsection.3.1.2}}
 \backcite {setubal97}{{18}{3.1.2}{subsection.3.1.2}}
 \backcite {drug09}{{18}{3.1.2}{subsection.3.1.2}}
 \backcite {drug09}{{19}{3.3}{figure.caption.14}}
