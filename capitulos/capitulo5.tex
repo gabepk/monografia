@@ -135,10 +135,10 @@
   \item[1] A reação não deveria ser representada por um nó, pois para os biólogos, ela é uma ação, e não um elemento. Assim, faz mais sentido biológico uma aresta saindo do substrato para a enzima, e saíndo da enzima para o produto. A aresta entre enzima e reação não é necessária. Houve muita confusão, pois pensaram que reação era representada por aresta em vez de por um nó;
   \item[2] Não é necessário apresentar os nós do organismo e sequências que o organismo possui. Ao apresentar a enzima na busca de informações no organismo, já é implícito que aquela enzima é produzida pelo organismo;
   \item[3] Quanto maior o grafo, mais complexo é entendê-lo;
-  \item[4] Grafos muito grades podem ficar cortados e alguns elementos podem sair do campo de visão do usuário;
+  \item[4] Grafos muito grandes podem ficar cortados e alguns elementos podem sair do campo de visão do usuário;
   \item[5] É mais desejável um grafo que apareça primeiramente de maneira estática. Um grafo que aparece se movendo levemente é irritante. Caso o usuário queira mover e clicar nos elementos, ele o faz com mais facilidade com um grafo estático;
   \item[6] É mais agradável um grafo que apareça aberto;
-  \item[7] Os rótulos poderiam apresentar só as bolinhas e explicação a respeito do que elas representam. A informação sobre as arestas já é informação extra desnecessária.
+  \item[7] A legenda poderiam apresentar apenas informação a respeito dos nós, pois informações sobre as arestas são desnecessárias para os biólogos.
   \end{itemize}
 \end{itemize}
 
@@ -190,16 +190,16 @@
     \label{fig:new_search_page}
 \end{figure}
 
-\indent A antiga interface para buscar por enzima possuia duas páginas, nas quais o objetivo da primeira era relatar se a enzima existe no banco de dados e o objetivo da segunda era de apresentar o grafo da enzima e as reações que catalisava, se existisse. Essa interface, porém era bastante confusa, principalmente os \textit{feedbacks} dados na busca, pois não atualizavam corretamente. A função de \textit{auto-complete} do EC das enzimas também diminuiu a usabilidade, pois acredita-se que não seja natural um campo de entrada completar números. Além disso, quando o usuário seguia para a página de visualização dos dados biológicos, eles precisavam clicar e arrastar os nós de maneira forçada, pois os mesmos não paravam de se mexer. O objetivo era apresentar um grafo simples e interativo, porém a experiência de usuário não correspondeu ao esperado.
+\indent A antiga interface para buscar por enzima possuía duas páginas, nas quais o objetivo da primeira era relatar se a enzima existe no banco de dados e o objetivo da segunda era de apresentar o grafo da enzima e as reações que catalisava, se existisse. Essa interface, porém era bastante confusa, principalmente os \textit{feedbacks} dados na busca, pois não atualizavam corretamente. A função de \textit{auto-complete} do EC das enzimas também diminuiu a usabilidade, pois acredita-se que não seja natural um campo de entrada completar números. Além disso, quando o usuário seguia para a página de visualização dos dados biológicos, eles precisavam clicar e arrastar os nós de maneira forçada, pois os mesmos não paravam de se mexer. O objetivo era apresentar um grafo simples e interativo, porém a experiência de usuário não correspondeu ao esperado.
 
-\indent A nova interface para busca de enzima sofreu fortes mudanças. Não há mais função de \textit{auto-complete} no campo de entrada de EC, foi adicionado um botão para retornar à página de busca e, principalmete, o grafo aparece na mesma página. Se existe enzima, o grafo aparece, se não existe, não aparece. Os rótulos dos nós, que antes apresentavam seus nomes, agora apresenta seus identificadores no KEGG. Acima do grafo está uma legenda que aparece quando o usuário passa o \textit{mouse} por cima dos nós. Ela possui informações sobre o tipo do nó, seu nome e seu identificador no KEGG.
+\indent A nova interface para busca de enzima sofreu fortes mudanças. Não há mais função de \textit{auto-complete} no campo de entrada de EC, foi adicionado um botão para retornar à página de busca e, principalmente, o grafo aparece na mesma página. Se existe enzima, o grafo aparece, se não existe, não aparece. Os rótulos dos nós, que antes apresentavam seus nomes, agora apresenta seus identificadores no KEGG. Acima do grafo está uma legenda que aparece quando o usuário passa o \textit{mouse} por cima dos nós. Ela possui informações sobre o tipo do nó, seu nome e seu identificador no KEGG. Este nó é destacado por uma cor mais escura que os demais.
 
-\indent A Figura \ref{fig:new_enzyme_4_catalyses}, além de apresentar a nova interface, mostra que não é possível representar as reações como enzimas, pois uma enzima pode catalizar mais de uma reação. Se as próprias reações possuíssem informação sobre qual enzima às catalisam, então essa mudança seria possível. Essa alteração no banco de dados facilitaria bastante a interpretação do grafo, de acordo com os biólogos, que costumaram entender reação como aresta. Por fim, a legenda do grafo ficou mais simples, portanto, mais legível.
+\indent A Figura \ref{fig:new_enzyme_4_catalyses}, além de apresentar a nova interface, mostra que não é possível representar as reações como enzimas, pois uma enzima pode catalisar mais de uma reação. Se as próprias reações possuíssem informação sobre qual enzima às catalisam, então essa mudança seria possível. Essa alteração no banco de dados facilitaria bastante a interpretação do grafo, de acordo com os biólogos, que costumaram entender reação como aresta. Por fim, a legenda do grafo ficou mais simples, portanto, mais legível.
 
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=1\textwidth]{new_enzyme_4_catalyses.png}
-	\caption{Nova interface da página de busca por enzima, tanto em um organismo quanto no banco de dados completo.}
+	\caption{Nova interface da página de busca por enzima, tanto em um organismo quanto no banco de dados completo. Nesta interface, o usuário passou o mouse por cima do nó \textit{R01945}, que foi destacado de cor escura, e seus detalhes foram exibidos acima do grafo.}
 	\label{fig:new_enzyme_4_catalyses}
 \end{figure}
 
