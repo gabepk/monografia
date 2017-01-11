@@ -4,7 +4,7 @@
 
 \section{Avaliação da Interface} \label{avaliacaoDeInterface}
 
-\indent Os testes foram realizados com 3 biólogos, identificados aqui como Usuário 1, 2 e 3, respectivamente. A Tabela \ref{dados_pessoais} apresenta os dados pessoais de cada um, levando em consideração, principalmente, a experiência que já possuem em redes metabólicas. Isso é necessário, pois quanto mais eles conhecem sobre o conteúdo, mais críticos são a respeito da interface com a qual devem interagir em seu trabalho e pesquisas.
+\indent Os testes foram realizados com 3 biólogos, identificados aqui como Usuário 1, 2 e 3, respectivamente. O fato de a avaliação ser qualitativa, e não quantitativa, explica o baixo número de usuários participantes dos testes. A Tabela \ref{dados_pessoais} apresenta os dados pessoais de cada um, levando em consideração, principalmente, a experiência que já possuem em redes metabólicas. Isso é necessário, pois quanto mais eles conhecem sobre o conteúdo, mais críticos são a respeito da interface com a qual devem interagir em seu trabalho e pesquisas.
 
 \begin{table}[h!]
   \centering
@@ -142,8 +142,34 @@
   \end{itemize}
 \end{itemize}
 
+\indent Alguns ítens lista de falhas de comunicabilidade podem ser verificados nas Figuras \ref{fig:falha_search_page}, \ref{fig:falha_search_enzyme} e \ref{fig:falha_graph}. A primeira apresenta as dificuldades enfrentadas na página geral de buscas. A Figura segunda apresenta as dificuldade enfrentadas na interface de busca por enzimas. Por fim, a terceira figura apresenta as falhas de comunicabilidade em relação à interface da via metabólica e do próprio grafo em si.
 
 \indent Além dessas dificuldades relatadas, foi encontrado um erro de implementação em um dos testes. Uma das tarefas era encontrar uma via metabólica entre dois compostos no grafo completo do 2Path, porém um dos usuários utilizou a busca por via em um organismo. A busca deveria retornar que não há via, porém ela retornou que existia, e apresentou um grafo disjunto\footnote{Dois grafos que não se conectam.}. Um grafo era do organismo com todas as enzimas que ele produzia e o outro grafo representava a via entre os compostos pesquisados.
+
+\newpage
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=1\textwidth]{falha_search_page.png}
+	\caption{Falhas de comunicação na página de buscas gerais.}
+	\label{fig:falha_search_page}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=1\textwidth]{falha_search_enzyme.png}
+	\caption{Falhas de comunicação na página de busca por enzima em organismo.}
+	\label{fig:falha_search_enzyme}
+\end{figure}
+
+\newpage
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=1\textwidth]{falha_graph.png}
+	\caption{Falhas de comunicação na página de visualização de via metabólica em organismo.}
+	\label{fig:falha_graph}
+\end{figure}
 
 \indent Assim sendo, foi criado, a partir da análise completa dos dados, o seguinte perfil semiótico para a proposta de interface para o banco de dados 2path:
 
@@ -174,7 +200,7 @@
 \end{itemize}
  
  
-\newpage
+
 \section{Nova Interface do 2Path} \label{novaInterface}
 
 \indent Na nova proposta de interface para o 2Path, as páginas de \textit{Home}, \textit{Terpenoids} e \textit{About} continuam as mesmas. Na página de \textit{Help} foram trocadas apenas as figuras ilustrativas que auxílio a navegação no sistema. As grandes mudanças ocorreram na página de \textit{Search}, na busca por enzimas e vias metabólicas.
@@ -212,7 +238,9 @@
     \label{fig:new_message_success}
 \end{figure}
 
+
 \indent As Figuras \ref{fig:new_message_error} e \ref{fig:new_pathway} aprensentam resultados de busca por via metabólica em um organismo. A primeira retornou falso, como visto pela mensagem de erro. A segunda retornou mensagem de sucesso e um grafo estático na tela. Observe que, apesar de a busca ter sido no organismo, a única informação que interessa para o usuário é da via entre um composto e outro. Portanto não aparecem mais como na interface antiga os nós do organismo, sequências e enzimas. Acredita-se que essa nova decisão de projeto diminui a complexidade da visualização dos dados biológicos.
+
 
 \begin{figure}[!h]
     \centering
@@ -221,7 +249,7 @@
     \label{fig:new_message_error}
 \end{figure}
 
-\newpage
+
 \begin{figure}[!t]
     \centering
     \includegraphics[width=1\textwidth]{new_pathway.png}
